@@ -127,3 +127,7 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Raw unparsed data
+data/raw
+data/gutenberg/*

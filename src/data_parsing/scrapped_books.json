@@ -1,0 +1,4092 @@
+[
+  {
+    "id": "2814",
+    "title": "Dubliners",
+    "file_url": "https://www.gutenberg.org/files/2814/2814-0.txt"
+  },
+  {
+    "id": "2148",
+    "title": "The Works of Edgar Allan Poe \u2014 Volume 2",
+    "file_url": "https://www.gutenberg.org/files/2148/2148-0.txt"
+  },
+  {
+    "id": "236",
+    "title": "The Jungle Book",
+    "file_url": "https://www.gutenberg.org/files/236/236.txt"
+  },
+  {
+    "id": "375",
+    "title": "An Occurrence at Owl Creek Bridge",
+    "file_url": "https://www.gutenberg.org/files/375/375.txt"
+  },
+  {
+    "id": "21279",
+    "title": "2 B R 0 2 B",
+    "file_url": "https://www.gutenberg.org/files/21279/21279.txt"
+  },
+  {
+    "id": "6133",
+    "title": "The Extraordinary Adventures of Ars\u00e8ne Lupin, Gentleman-Burglar",
+    "file_url": "https://www.gutenberg.org/files/6133/6133-0.txt"
+  },
+  {
+    "id": "31516",
+    "title": "The Eyes Have It",
+    "file_url": "https://www.gutenberg.org/files/31516/31516.txt"
+  },
+  {
+    "id": "932",
+    "title": "The Fall of the House of Usher",
+    "file_url": "https://www.gutenberg.org/files/932/932.txt"
+  },
+  {
+    "id": "13707",
+    "title": "Twice Told Tales",
+    "file_url": "https://www.gutenberg.org/files/13707/13707.txt"
+  },
+  {
+    "id": "23218",
+    "title": "The Red Room",
+    "file_url": "https://www.gutenberg.org/files/23218/23218.txt"
+  },
+  {
+    "id": "67603",
+    "title": "The Man Who Liked Lions",
+    "file_url": "https://www.gutenberg.org/files/67603/67603-0.txt"
+  },
+  {
+    "id": "62940",
+    "title": "Mrs. Spring Fragrance",
+    "file_url": "https://www.gutenberg.org/files/62940/62940-0.txt"
+  },
+  {
+    "id": "7256",
+    "title": "The Gift of the Magi",
+    "file_url": "https://www.gutenberg.org/files/7256/7256-0.txt"
+  },
+  {
+    "id": "67589",
+    "title": "A Message From Our Sponsor",
+    "file_url": "https://www.gutenberg.org/files/67589/67589-0.txt"
+  },
+  {
+    "id": "67173",
+    "title": "The Missing Will",
+    "file_url": "https://www.gutenberg.org/files/67173/67173-0.txt"
+  },
+  {
+    "id": "27200",
+    "title": "Fairy Tales of Hans Christian Andersen",
+    "file_url": "https://www.gutenberg.org/files/27200/27200.txt"
+  },
+  {
+    "id": "1197",
+    "title": "Taras Bulba, and Other Tales",
+    "file_url": "https://www.gutenberg.org/files/1197/1197.txt"
+  },
+  {
+    "id": "25525",
+    "title": "The Works of Edgar Allan Poe, The Raven Edition",
+    "file_url": "https://www.gutenberg.org/files/25525/25525-0.txt"
+  },
+  {
+    "id": "67516",
+    "title": "Object, Matrimony",
+    "file_url": "https://www.gutenberg.org/files/67516/67516-0.txt"
+  },
+  {
+    "id": "30240",
+    "title": "The Big Trip Up Yonder",
+    "file_url": "https://www.gutenberg.org/files/30240/30240.txt"
+  },
+  {
+    "id": "67160",
+    "title": "The Hunter's Lodge Case",
+    "file_url": "https://www.gutenberg.org/files/67160/67160-0.txt"
+  },
+  {
+    "id": "67457",
+    "title": "Death in Transit",
+    "file_url": "https://www.gutenberg.org/files/67457/67457-0.txt"
+  },
+  {
+    "id": "67487",
+    "title": "The Stilled Patter",
+    "file_url": "https://www.gutenberg.org/files/67487/67487-0.txt"
+  },
+  {
+    "id": "67497",
+    "title": "The Fool",
+    "file_url": "https://www.gutenberg.org/files/67497/67497-0.txt"
+  },
+  {
+    "id": "67455",
+    "title": "Rebuttal",
+    "file_url": "https://www.gutenberg.org/files/67455/67455-0.txt"
+  },
+  {
+    "id": "67496",
+    "title": "Over the Wire",
+    "file_url": "https://www.gutenberg.org/files/67496/67496-0.txt"
+  },
+  {
+    "id": "66446",
+    "title": "The Plymouth Express Affair",
+    "file_url": "https://www.gutenberg.org/files/66446/66446-0.txt"
+  },
+  {
+    "id": "15859",
+    "title": "The Piazza Tales",
+    "file_url": "https://www.gutenberg.org/files/15859/15859-0.txt"
+  },
+  {
+    "id": "67464",
+    "title": "Kadjaman",
+    "file_url": "https://www.gutenberg.org/files/67464/67464-0.txt"
+  },
+  {
+    "id": "67498",
+    "title": "Round-Up Time",
+    "file_url": "https://www.gutenberg.org/files/67498/67498-0.txt"
+  },
+  {
+    "id": "28554",
+    "title": "Beyond Lies the Wub",
+    "file_url": "https://www.gutenberg.org/files/28554/28554.txt"
+  },
+  {
+    "id": "10150",
+    "title": "Dracula's Guest",
+    "file_url": "https://www.gutenberg.org/files/10150/10150-0.txt"
+  },
+  {
+    "id": "67506",
+    "title": "The Story of Gombi",
+    "file_url": "https://www.gutenberg.org/files/67506/67506-0.txt"
+  },
+  {
+    "id": "3250",
+    "title": "How to Tell a Story, and Other Essays",
+    "file_url": "https://www.gutenberg.org/files/3250/3250-0.txt"
+  },
+  {
+    "id": "41562",
+    "title": "The Hanging Stranger",
+    "file_url": "https://www.gutenberg.org/files/41562/41562.txt"
+  },
+  {
+    "id": "32046",
+    "title": "Tales from the German, Comprising specimens from the most celebrated authors",
+    "file_url": "https://www.gutenberg.org/files/32046/32046.txt"
+  },
+  {
+    "id": "67489",
+    "title": "The Wreck of the Mail Steamer",
+    "file_url": "https://www.gutenberg.org/files/67489/67489-0.txt"
+  },
+  {
+    "id": "65974",
+    "title": "Carry On, Jeeves",
+    "file_url": "https://www.gutenberg.org/files/65974/65974-0.txt"
+  },
+  {
+    "id": "2150",
+    "title": "The Works of Edgar Allan Poe \u2014 Volume 4",
+    "file_url": "https://www.gutenberg.org/files/2150/2150-0.txt"
+  },
+  {
+    "id": "24811",
+    "title": "Viking Tales",
+    "file_url": "https://www.gutenberg.org/files/24811/24811.txt"
+  },
+  {
+    "id": "23661",
+    "title": "The Book of Dragons",
+    "file_url": "https://www.gutenberg.org/files/23661/23661.txt"
+  },
+  {
+    "id": "67343",
+    "title": "The Engineer",
+    "file_url": "https://www.gutenberg.org/files/67343/67343-0.txt"
+  },
+  {
+    "id": "30123",
+    "title": "Micromegas",
+    "file_url": "https://www.gutenberg.org/files/30123/30123.txt"
+  },
+  {
+    "id": "10135",
+    "title": "The Great English Short-Story Writers, Volume 1",
+    "file_url": "https://www.gutenberg.org/files/10135/10135.txt"
+  },
+  {
+    "id": "23172",
+    "title": "The Damned Thing",
+    "file_url": "https://www.gutenberg.org/files/23172/23172.txt"
+  },
+  {
+    "id": "35997",
+    "title": "The Jungle Book",
+    "file_url": "https://www.gutenberg.org/files/35997/35997-0.txt"
+  },
+  {
+    "id": "6695",
+    "title": "Tales of the Jazz Age",
+    "file_url": "https://www.gutenberg.org/files/6695/6695-0.txt"
+  },
+  {
+    "id": "2715",
+    "title": "The Real Thing and Other Tales",
+    "file_url": "https://www.gutenberg.org/files/2715/2715-0.txt"
+  },
+  {
+    "id": "67362",
+    "title": "Glow Worm",
+    "file_url": "https://www.gutenberg.org/files/67362/67362-0.txt"
+  },
+  {
+    "id": "67421",
+    "title": "Grist",
+    "file_url": "https://www.gutenberg.org/files/67421/67421-0.txt"
+  },
+  {
+    "id": "22893",
+    "title": "Pygmalion's Spectacles",
+    "file_url": "https://www.gutenberg.org/files/22893/22893.txt"
+  },
+  {
+    "id": "2429",
+    "title": "Lost Face",
+    "file_url": "https://www.gutenberg.org/files/2429/2429.txt"
+  },
+  {
+    "id": "51461",
+    "title": "A Pail of Air",
+    "file_url": "https://www.gutenberg.org/files/51461/51461.txt"
+  },
+  {
+    "id": "32633",
+    "title": "Time Enough at Last",
+    "file_url": "https://www.gutenberg.org/files/32633/32633.txt"
+  },
+  {
+    "id": "4357",
+    "title": "American Fairy Tales",
+    "file_url": "https://www.gutenberg.org/files/4357/4357-0.txt"
+  },
+  {
+    "id": "67364",
+    "title": "A Likely Story",
+    "file_url": "https://www.gutenberg.org/files/67364/67364-0.txt"
+  },
+  {
+    "id": "51171",
+    "title": "A Little Journey",
+    "file_url": "https://www.gutenberg.org/files/51171/51171.txt"
+  },
+  {
+    "id": "1916",
+    "title": "The Great Stone Face, and Other Tales of the White Mountains",
+    "file_url": "https://www.gutenberg.org/files/1916/1916.txt"
+  },
+  {
+    "id": "50921",
+    "title": "$1,000 a Plate",
+    "file_url": "https://www.gutenberg.org/files/50921/50921.txt"
+  },
+  {
+    "id": "67317",
+    "title": "King of the Hill",
+    "file_url": "https://www.gutenberg.org/files/67317/67317-0.txt"
+  },
+  {
+    "id": "67323",
+    "title": "The Best of Fences",
+    "file_url": "https://www.gutenberg.org/files/67323/67323-0.txt"
+  },
+  {
+    "id": "28644",
+    "title": "Beyond the Door",
+    "file_url": "https://www.gutenberg.org/files/28644/28644.txt"
+  },
+  {
+    "id": "396",
+    "title": "The Lady, or the Tiger?",
+    "file_url": "https://www.gutenberg.org/files/396/396.txt"
+  },
+  {
+    "id": "21964",
+    "title": "The Short-story",
+    "file_url": "https://www.gutenberg.org/files/21964/21964.txt"
+  },
+  {
+    "id": "2777",
+    "title": "Cabbages and Kings",
+    "file_url": "https://www.gutenberg.org/files/2777/2777-0.txt"
+  },
+  {
+    "id": "19362",
+    "title": "In the Year 2889",
+    "file_url": "https://www.gutenberg.org/files/19362/19362-8.txt"
+  },
+  {
+    "id": "3688",
+    "title": "The Chronicles of Clovis",
+    "file_url": "https://www.gutenberg.org/files/3688/3688.txt"
+  },
+  {
+    "id": "1202",
+    "title": "Tales of Unrest",
+    "file_url": "https://www.gutenberg.org/files/1202/1202.txt"
+  },
+  {
+    "id": "22480",
+    "title": "The Prussian Officer",
+    "file_url": "https://www.gutenberg.org/files/22480/22480-0.txt"
+  },
+  {
+    "id": "28636",
+    "title": "The Grey Woman and other Tales",
+    "file_url": "https://www.gutenberg.org/files/28636/28636.txt"
+  },
+  {
+    "id": "788",
+    "title": "The Red One",
+    "file_url": "https://www.gutenberg.org/files/788/788-0.txt"
+  },
+  {
+    "id": "18713",
+    "title": "Violets and Other Tales",
+    "file_url": "https://www.gutenberg.org/files/18713/18713.txt"
+  },
+  {
+    "id": "4514",
+    "title": "Tales of Men and Ghosts",
+    "file_url": "https://www.gutenberg.org/files/4514/4514.txt"
+  },
+  {
+    "id": "28698",
+    "title": "The Crystal Crypt",
+    "file_url": "https://www.gutenberg.org/files/28698/28698.txt"
+  },
+  {
+    "id": "29019",
+    "title": "All Cats Are Gray",
+    "file_url": "https://www.gutenberg.org/files/29019/29019-0.txt"
+  },
+  {
+    "id": "42232",
+    "title": "A Child's Dream of a Star",
+    "file_url": "https://www.gutenberg.org/files/42232/42232.txt"
+  },
+  {
+    "id": "329",
+    "title": "Island Nights' Entertainments",
+    "file_url": "https://www.gutenberg.org/files/329/329-0.txt"
+  },
+  {
+    "id": "30255",
+    "title": "The Skull",
+    "file_url": "https://www.gutenberg.org/files/30255/30255.txt"
+  },
+  {
+    "id": "163",
+    "title": "Flower Fables",
+    "file_url": "https://www.gutenberg.org/files/163/163-0.txt"
+  },
+  {
+    "id": "1477",
+    "title": "The Toys of Peace, and Other Papers",
+    "file_url": "https://www.gutenberg.org/files/1477/1477.txt"
+  },
+  {
+    "id": "29614",
+    "title": "The Game of Rat and Dragon",
+    "file_url": "https://www.gutenberg.org/files/29614/29614.txt"
+  },
+  {
+    "id": "67071",
+    "title": "The Star",
+    "file_url": "https://www.gutenberg.org/files/67071/67071-0.txt"
+  },
+  {
+    "id": "60384",
+    "title": "The Poors",
+    "file_url": "https://www.gutenberg.org/files/60384/60384.txt"
+  },
+  {
+    "id": "2305",
+    "title": "A Set of Six",
+    "file_url": "https://www.gutenberg.org/files/2305/2305.txt"
+  },
+  {
+    "id": "29559",
+    "title": "They Twinkled Like Jewels",
+    "file_url": "https://www.gutenberg.org/files/29559/29559.txt"
+  },
+  {
+    "id": "67072",
+    "title": "The Curse of Eve",
+    "file_url": "https://www.gutenberg.org/files/67072/67072-0.txt"
+  },
+  {
+    "id": "32832",
+    "title": "Piper in the Woods",
+    "file_url": "https://www.gutenberg.org/files/32832/32832.txt"
+  },
+  {
+    "id": "67365",
+    "title": "A Personal Problem",
+    "file_url": "https://www.gutenberg.org/files/67365/67365-0.txt"
+  },
+  {
+    "id": "67325",
+    "title": "Kid Stuff",
+    "file_url": "https://www.gutenberg.org/files/67325/67325-0.txt"
+  },
+  {
+    "id": "7144",
+    "title": "While the Billy Boils",
+    "file_url": "https://www.gutenberg.org/files/7144/7144.txt"
+  },
+  {
+    "id": "572",
+    "title": "The Great Big Treasury of Beatrix Potter",
+    "file_url": "https://www.gutenberg.org/files/572/572.txt"
+  },
+  {
+    "id": "839",
+    "title": "New Arabian Nights",
+    "file_url": "https://www.gutenberg.org/files/839/839-0.txt"
+  },
+  {
+    "id": "29542",
+    "title": "The Valor of Cappen Varra",
+    "file_url": "https://www.gutenberg.org/files/29542/29542.txt"
+  },
+  {
+    "id": "1338",
+    "title": "Selected Prose of Oscar Wilde",
+    "file_url": "https://www.gutenberg.org/files/1338/1338.txt"
+  },
+  {
+    "id": "29132",
+    "title": "The Gun",
+    "file_url": "https://www.gutenberg.org/files/29132/29132.txt"
+  },
+  {
+    "id": "67334",
+    "title": "Course of Empire",
+    "file_url": "https://www.gutenberg.org/files/67334/67334-0.txt"
+  },
+  {
+    "id": "67341",
+    "title": "Traumerei",
+    "file_url": "https://www.gutenberg.org/files/67341/67341-0.txt"
+  },
+  {
+    "id": "67319",
+    "title": "The Ghost in the Red Shirt",
+    "file_url": "https://www.gutenberg.org/files/67319/67319-0.txt"
+  },
+  {
+    "id": "67306",
+    "title": "The Laughter of Slim Malone",
+    "file_url": "https://www.gutenberg.org/files/67306/67306-0.txt"
+  },
+  {
+    "id": "67324",
+    "title": "Placebo",
+    "file_url": "https://www.gutenberg.org/files/67324/67324-0.txt"
+  },
+  {
+    "id": "67070",
+    "title": "The Last Laugh",
+    "file_url": "https://www.gutenberg.org/files/67070/67070-0.txt"
+  },
+  {
+    "id": "40964",
+    "title": "Tony and the Beetles",
+    "file_url": "https://www.gutenberg.org/files/40964/40964.txt"
+  },
+  {
+    "id": "67335",
+    "title": "The Futile Flight of John Arthur Benn",
+    "file_url": "https://www.gutenberg.org/files/67335/67335-0.txt"
+  },
+  {
+    "id": "9231",
+    "title": "Earth's Holocaust (From \"Mosses from an Old Manse\")",
+    "file_url": "https://www.gutenberg.org/files/9231/9231.txt"
+  },
+  {
+    "id": "51193",
+    "title": "Pictures Don't Lie",
+    "file_url": "https://www.gutenberg.org/files/51193/51193.txt"
+  },
+  {
+    "id": "22662",
+    "title": "The Mummy's Foot",
+    "file_url": "https://www.gutenberg.org/files/22662/22662.txt"
+  },
+  {
+    "id": "924",
+    "title": "To Be Read at Dusk",
+    "file_url": "https://www.gutenberg.org/files/924/924-0.txt"
+  },
+  {
+    "id": "64264",
+    "title": "Zero Hour",
+    "file_url": "https://www.gutenberg.org/files/64264/64264-0.txt"
+  },
+  {
+    "id": "40386",
+    "title": "Wandering Ghosts",
+    "file_url": "https://www.gutenberg.org/files/40386/40386.txt"
+  },
+  {
+    "id": "3181",
+    "title": "The Stolen White Elephant",
+    "file_url": "https://www.gutenberg.org/files/3181/3181-0.txt"
+  },
+  {
+    "id": "1029",
+    "title": "The Night-Born",
+    "file_url": "https://www.gutenberg.org/files/1029/1029.txt"
+  },
+  {
+    "id": "36258",
+    "title": "The Beautiful People",
+    "file_url": "https://www.gutenberg.org/files/36258/36258.txt"
+  },
+  {
+    "id": "29509",
+    "title": "Warm",
+    "file_url": "https://www.gutenberg.org/files/29509/29509.txt"
+  },
+  {
+    "id": "513",
+    "title": "The Snow Image",
+    "file_url": "https://www.gutenberg.org/files/513/513.txt"
+  },
+  {
+    "id": "24350",
+    "title": "Kerfol",
+    "file_url": "https://www.gutenberg.org/files/24350/24350.txt"
+  },
+  {
+    "id": "67316",
+    "title": "The First",
+    "file_url": "https://www.gutenberg.org/files/67316/67316-0.txt"
+  },
+  {
+    "id": "24879",
+    "title": "Curious, if True",
+    "file_url": "https://www.gutenberg.org/files/24879/24879.txt"
+  },
+  {
+    "id": "51082",
+    "title": "Coming Attraction",
+    "file_url": "https://www.gutenberg.org/files/51082/51082.txt"
+  },
+  {
+    "id": "8129",
+    "title": "A Dreamer's Tales",
+    "file_url": "https://www.gutenberg.org/files/8129/8129.txt"
+  },
+  {
+    "id": "33854",
+    "title": "Ask a Foolish Question",
+    "file_url": "https://www.gutenberg.org/files/33854/33854.txt"
+  },
+  {
+    "id": "29948",
+    "title": "Two Timer",
+    "file_url": "https://www.gutenberg.org/files/29948/29948.txt"
+  },
+  {
+    "id": "26606",
+    "title": "Uncanny Tales",
+    "file_url": "https://www.gutenberg.org/files/26606/26606.txt"
+  },
+  {
+    "id": "9243",
+    "title": "The Wives of the Dead",
+    "file_url": "https://www.gutenberg.org/files/9243/9243.txt"
+  },
+  {
+    "id": "63827",
+    "title": "Asleep in Armageddon",
+    "file_url": "https://www.gutenberg.org/files/63827/63827-0.txt"
+  },
+  {
+    "id": "67254",
+    "title": "Out of the Woods",
+    "file_url": "https://www.gutenberg.org/files/67254/67254-0.txt"
+  },
+  {
+    "id": "29579",
+    "title": "Watchbird",
+    "file_url": "https://www.gutenberg.org/files/29579/29579-0.txt"
+  },
+  {
+    "id": "51774",
+    "title": "The Weirdest World",
+    "file_url": "https://www.gutenberg.org/files/51774/51774.txt"
+  },
+  {
+    "id": "701",
+    "title": "The King of the Golden River",
+    "file_url": "https://www.gutenberg.org/files/701/701.txt"
+  },
+  {
+    "id": "18831",
+    "title": "Time and Time Again",
+    "file_url": "https://www.gutenberg.org/files/18831/18831.txt"
+  },
+  {
+    "id": "64181",
+    "title": "Rocket Summer",
+    "file_url": "https://www.gutenberg.org/files/64181/64181-0.txt"
+  },
+  {
+    "id": "63041",
+    "title": "Morgue Ship",
+    "file_url": "https://www.gutenberg.org/files/63041/63041.txt"
+  },
+  {
+    "id": "2163",
+    "title": "The Bridge-Builders",
+    "file_url": "https://www.gutenberg.org/files/2163/2163.txt"
+  },
+  {
+    "id": "67342",
+    "title": "The Marriage of William Durrant",
+    "file_url": "https://www.gutenberg.org/files/67342/67342-0.txt"
+  },
+  {
+    "id": "49897",
+    "title": "The Gravity Business",
+    "file_url": "https://www.gutenberg.org/files/49897/49897-8.txt"
+  },
+  {
+    "id": "26574",
+    "title": "The Extraordinary Adventures of Ars\u00e8ne Lupin, Gentleman-Burglar",
+    "file_url": "https://www.gutenberg.org/files/26574/26574_readme.txt"
+  },
+  {
+    "id": "872",
+    "title": "Reprinted Pieces",
+    "file_url": "https://www.gutenberg.org/files/872/872-0.txt"
+  },
+  {
+    "id": "343",
+    "title": "Fables",
+    "file_url": "https://www.gutenberg.org/files/343/343.txt"
+  },
+  {
+    "id": "42664",
+    "title": "Gods of the North",
+    "file_url": "https://www.gutenberg.org/files/42664/42664.txt"
+  },
+  {
+    "id": "67288",
+    "title": "The Right Thing",
+    "file_url": "https://www.gutenberg.org/files/67288/67288-0.txt"
+  },
+  {
+    "id": "865",
+    "title": "Passing of the Third Floor Back",
+    "file_url": "https://www.gutenberg.org/files/865/865.txt"
+  },
+  {
+    "id": "51596",
+    "title": "Aloys",
+    "file_url": "https://www.gutenberg.org/files/51596/51596.txt"
+  },
+  {
+    "id": "55473",
+    "title": "Kotto: Being Japanese Curios, with Sundry Cobwebs",
+    "file_url": "https://www.gutenberg.org/files/55473/55473-0.txt"
+  },
+  {
+    "id": "22073",
+    "title": "The Repairman",
+    "file_url": "https://www.gutenberg.org/files/22073/22073.txt"
+  },
+  {
+    "id": "38616",
+    "title": "Where Love is There God is Also",
+    "file_url": "https://www.gutenberg.org/files/38616/38616.txt"
+  },
+  {
+    "id": "1208",
+    "title": "South Sea Tales",
+    "file_url": "https://www.gutenberg.org/files/1208/1208.txt"
+  },
+  {
+    "id": "66432",
+    "title": "And All the Girls Were Nude",
+    "file_url": "https://www.gutenberg.org/files/66432/66432-0.txt"
+  },
+  {
+    "id": "67208",
+    "title": "The Light Machine",
+    "file_url": "https://www.gutenberg.org/files/67208/67208-0.txt"
+  },
+  {
+    "id": "67122",
+    "title": "In the Year Ten Thousand",
+    "file_url": "https://www.gutenberg.org/files/67122/67122-0.txt"
+  },
+  {
+    "id": "62569",
+    "title": "The Monster Maker",
+    "file_url": "https://www.gutenberg.org/files/62569/62569-0.txt"
+  },
+  {
+    "id": "27903",
+    "title": "The Magic World",
+    "file_url": "https://www.gutenberg.org/files/27903/27903.txt"
+  },
+  {
+    "id": "23301",
+    "title": "Each Man Kills",
+    "file_url": "https://www.gutenberg.org/files/23301/23301.txt"
+  },
+  {
+    "id": "51603",
+    "title": "All the People",
+    "file_url": "https://www.gutenberg.org/files/51603/51603.txt"
+  },
+  {
+    "id": "66092",
+    "title": "A Gallery of Children",
+    "file_url": "https://www.gutenberg.org/files/66092/66092.txt"
+  },
+  {
+    "id": "61128",
+    "title": "Seven-Day Terror",
+    "file_url": "https://www.gutenberg.org/files/61128/61128.txt"
+  },
+  {
+    "id": "26955",
+    "title": "Advanced Chemistry",
+    "file_url": "https://www.gutenberg.org/files/26955/26955.txt"
+  },
+  {
+    "id": "3815",
+    "title": "Rolling Stones",
+    "file_url": "https://www.gutenberg.org/files/3815/3815-0.txt"
+  },
+  {
+    "id": "66447",
+    "title": "The Aab",
+    "file_url": "https://www.gutenberg.org/files/66447/66447-0.txt"
+  },
+  {
+    "id": "36638",
+    "title": "A Book of Ghosts",
+    "file_url": "https://www.gutenberg.org/files/36638/36638-0.txt"
+  },
+  {
+    "id": "760",
+    "title": "Enoch Soames: A Memory of the Eighteen-Nineties",
+    "file_url": "https://www.gutenberg.org/files/760/760.txt"
+  },
+  {
+    "id": "24716",
+    "title": "The heart of happy hollow",
+    "file_url": "https://www.gutenberg.org/files/24716/24716.txt"
+  },
+  {
+    "id": "24276",
+    "title": "The Coffin Cure",
+    "file_url": "https://www.gutenberg.org/files/24276/24276.txt"
+  },
+  {
+    "id": "39397",
+    "title": "One of Cleopatra's Nights and Other Fantastic Romances",
+    "file_url": "https://www.gutenberg.org/files/39397/39397-0.txt"
+  },
+  {
+    "id": "2004",
+    "title": "Pigs is Pigs",
+    "file_url": "https://www.gutenberg.org/files/2004/2004.txt"
+  },
+  {
+    "id": "49651",
+    "title": "Tedric",
+    "file_url": "https://www.gutenberg.org/files/49651/49651.txt"
+  },
+  {
+    "id": "67229",
+    "title": "An Art Shop in Greenwich Village",
+    "file_url": "https://www.gutenberg.org/files/67229/67229-0.txt"
+  },
+  {
+    "id": "30700",
+    "title": "The Works of Robert Louis Stevenson - Swanston Edition, Vol. 04",
+    "file_url": "https://www.gutenberg.org/files/30700/30700.txt"
+  },
+  {
+    "id": "18342",
+    "title": "The Answer",
+    "file_url": "https://www.gutenberg.org/files/18342/18342.txt"
+  },
+  {
+    "id": "51574",
+    "title": "The Stuff",
+    "file_url": "https://www.gutenberg.org/files/51574/51574.txt"
+  },
+  {
+    "id": "32117",
+    "title": "Eleven Possible Cases",
+    "file_url": "https://www.gutenberg.org/files/32117/32117.txt"
+  },
+  {
+    "id": "29720",
+    "title": "Hall of Mirrors",
+    "file_url": "https://www.gutenberg.org/files/29720/29720.txt"
+  },
+  {
+    "id": "29662",
+    "title": "The Moon is Green",
+    "file_url": "https://www.gutenberg.org/files/29662/29662.txt"
+  },
+  {
+    "id": "22466",
+    "title": "The Ultimate Experiment",
+    "file_url": "https://www.gutenberg.org/files/22466/22466.txt"
+  },
+  {
+    "id": "32078",
+    "title": "Love Story",
+    "file_url": "https://www.gutenberg.org/files/32078/32078.txt"
+  },
+  {
+    "id": "1655",
+    "title": "The God of His Fathers: Tales of the Klondyke",
+    "file_url": "https://www.gutenberg.org/files/1655/1655.txt"
+  },
+  {
+    "id": "51046",
+    "title": "...And It Comes Out Here",
+    "file_url": "https://www.gutenberg.org/files/51046/51046.txt"
+  },
+  {
+    "id": "32360",
+    "title": "The Holes Around Mars",
+    "file_url": "https://www.gutenberg.org/files/32360/32360.txt"
+  },
+  {
+    "id": "8869",
+    "title": "Tales from Bohemia",
+    "file_url": "https://www.gutenberg.org/files/8869/8869.txt"
+  },
+  {
+    "id": "32327",
+    "title": "The Seventh Order",
+    "file_url": "https://www.gutenberg.org/files/32327/32327.txt"
+  },
+  {
+    "id": "647",
+    "title": "The Dynamiter",
+    "file_url": "https://www.gutenberg.org/files/647/647.txt"
+  },
+  {
+    "id": "29504",
+    "title": "What's He Doing in There?",
+    "file_url": "https://www.gutenberg.org/files/29504/29504.txt"
+  },
+  {
+    "id": "508",
+    "title": "Twice-Told Tales",
+    "file_url": "https://www.gutenberg.org/files/508/508.txt"
+  },
+  {
+    "id": "22218",
+    "title": "The Street That Wasn't There",
+    "file_url": "https://www.gutenberg.org/files/22218/22218.txt"
+  },
+  {
+    "id": "63648",
+    "title": "Defense Mech",
+    "file_url": "https://www.gutenberg.org/files/63648/63648-0.txt"
+  },
+  {
+    "id": "51112",
+    "title": "The Other Now",
+    "file_url": "https://www.gutenberg.org/files/51112/51112.txt"
+  },
+  {
+    "id": "51112",
+    "title": "The Other Now",
+    "file_url": "https://www.gutenberg.org/files/51112/51112.txt"
+  },
+  {
+    "id": "29204",
+    "title": "Arm of the Law",
+    "file_url": "https://www.gutenberg.org/files/29204/29204.txt"
+  },
+  {
+    "id": "60283",
+    "title": "The Birds and the Bees",
+    "file_url": "https://www.gutenberg.org/files/60283/60283.txt"
+  },
+  {
+    "id": "60713",
+    "title": "Counterweight",
+    "file_url": "https://www.gutenberg.org/files/60713/60713.txt"
+  },
+  {
+    "id": "1993",
+    "title": "Told After Supper",
+    "file_url": "https://www.gutenberg.org/files/1993/1993.txt"
+  },
+  {
+    "id": "65728",
+    "title": "The Inquisitor",
+    "file_url": "https://www.gutenberg.org/files/65728/65728-0.txt"
+  },
+  {
+    "id": "29458",
+    "title": "Cost of Living",
+    "file_url": "https://www.gutenberg.org/files/29458/29458.txt"
+  },
+  {
+    "id": "26867",
+    "title": "John Jones's Dollar",
+    "file_url": "https://www.gutenberg.org/files/26867/26867.txt"
+  },
+  {
+    "id": "23055",
+    "title": "The Slanderer",
+    "file_url": "https://www.gutenberg.org/files/23055/23055.txt"
+  },
+  {
+    "id": "51650",
+    "title": "Innocent at Large",
+    "file_url": "https://www.gutenberg.org/files/51650/51650.txt"
+  },
+  {
+    "id": "19029",
+    "title": "The Gifts of Asti",
+    "file_url": "https://www.gutenberg.org/files/19029/19029.txt"
+  },
+  {
+    "id": "32654",
+    "title": "Project Hush",
+    "file_url": "https://www.gutenberg.org/files/32654/32654.txt"
+  },
+  {
+    "id": "20049",
+    "title": "Great Big Treasury of Beatrix Potter",
+    "file_url": "https://www.gutenberg.org/files/20049/20049-readme.txt"
+  },
+  {
+    "id": "51668",
+    "title": "Dream World",
+    "file_url": "https://www.gutenberg.org/files/51668/51668.txt"
+  },
+  {
+    "id": "65218",
+    "title": "Hero From Yesterday",
+    "file_url": "https://www.gutenberg.org/files/65218/65218-0.txt"
+  },
+  {
+    "id": "23210",
+    "title": "Missing Link",
+    "file_url": "https://www.gutenberg.org/files/23210/23210.txt"
+  },
+  {
+    "id": "32040",
+    "title": "Diplomatic Immunity",
+    "file_url": "https://www.gutenberg.org/files/32040/32040.txt"
+  },
+  {
+    "id": "62109",
+    "title": "The Star Mouse",
+    "file_url": "https://www.gutenberg.org/files/62109/62109.txt"
+  },
+  {
+    "id": "1458",
+    "title": "Dream Life and Real Life: A Little African Story",
+    "file_url": "https://www.gutenberg.org/files/1458/1458.txt"
+  },
+  {
+    "id": "27053",
+    "title": "The Day Time Stopped Moving",
+    "file_url": "https://www.gutenberg.org/files/27053/27053.txt"
+  },
+  {
+    "id": "22866",
+    "title": "An Ounce of Cure",
+    "file_url": "https://www.gutenberg.org/files/22866/22866.txt"
+  },
+  {
+    "id": "64745",
+    "title": "Flowering Evil",
+    "file_url": "https://www.gutenberg.org/files/64745/64745-0.txt"
+  },
+  {
+    "id": "65691",
+    "title": "The Alien Dies at Dawn",
+    "file_url": "https://www.gutenberg.org/files/65691/65691-0.txt"
+  },
+  {
+    "id": "36998",
+    "title": "Every Man for Himself",
+    "file_url": "https://www.gutenberg.org/files/36998/36998.txt"
+  },
+  {
+    "id": "24189",
+    "title": "Something Will Turn Up",
+    "file_url": "https://www.gutenberg.org/files/24189/24189.txt"
+  },
+  {
+    "id": "60747",
+    "title": "The Little Red Bag",
+    "file_url": "https://www.gutenberg.org/files/60747/60747.txt"
+  },
+  {
+    "id": "63430",
+    "title": "Lazarus Come Forth",
+    "file_url": "https://www.gutenberg.org/files/63430/63430.txt"
+  },
+  {
+    "id": "63965",
+    "title": "Monster",
+    "file_url": "https://www.gutenberg.org/files/63965/63965.txt"
+  },
+  {
+    "id": "40108",
+    "title": "Tales of Secret Egypt",
+    "file_url": "https://www.gutenberg.org/files/40108/40108.txt"
+  },
+  {
+    "id": "50981",
+    "title": "Garrity's Annuities",
+    "file_url": "https://www.gutenberg.org/files/50981/50981.txt"
+  },
+  {
+    "id": "64175",
+    "title": "Distress Signal",
+    "file_url": "https://www.gutenberg.org/files/64175/64175-0.txt"
+  },
+  {
+    "id": "32011",
+    "title": "Special Delivery",
+    "file_url": "https://www.gutenberg.org/files/32011/32011.txt"
+  },
+  {
+    "id": "17732",
+    "title": "Tales Of Hearsay",
+    "file_url": "https://www.gutenberg.org/files/17732/17732.txt"
+  },
+  {
+    "id": "2809",
+    "title": "Main-Travelled Roads",
+    "file_url": "https://www.gutenberg.org/files/2809/2809.txt"
+  },
+  {
+    "id": "42963",
+    "title": "The Weird Orient: Nine Mystic Tales",
+    "file_url": "https://www.gutenberg.org/files/42963/42963.txt"
+  },
+  {
+    "id": "65446",
+    "title": "Six Frightened Men",
+    "file_url": "https://www.gutenberg.org/files/65446/65446-0.txt"
+  },
+  {
+    "id": "61007",
+    "title": "In the Garden",
+    "file_url": "https://www.gutenberg.org/files/61007/61007.txt"
+  },
+  {
+    "id": "32718",
+    "title": "The Trap",
+    "file_url": "https://www.gutenberg.org/files/32718/32718.txt"
+  },
+  {
+    "id": "32946",
+    "title": "Where the Pavement Ends",
+    "file_url": "https://www.gutenberg.org/files/32946/32946.txt"
+  },
+  {
+    "id": "33813",
+    "title": "Rodman the Keeper: Southern Sketches",
+    "file_url": "https://www.gutenberg.org/files/33813/33813.txt"
+  },
+  {
+    "id": "66387",
+    "title": "Pink Ears",
+    "file_url": "https://www.gutenberg.org/files/66387/66387-0.txt"
+  },
+  {
+    "id": "31357",
+    "title": "The Ultroom Error",
+    "file_url": "https://www.gutenberg.org/files/31357/31357.txt"
+  },
+  {
+    "id": "809",
+    "title": "Holiday Romance",
+    "file_url": "https://www.gutenberg.org/files/809/809-0.txt"
+  },
+  {
+    "id": "40953",
+    "title": "A Traveler in Time",
+    "file_url": "https://www.gutenberg.org/files/40953/40953.txt"
+  },
+  {
+    "id": "809",
+    "title": "Holiday Romance",
+    "file_url": "https://www.gutenberg.org/files/809/809-0.txt"
+  },
+  {
+    "id": "40953",
+    "title": "A Traveler in Time",
+    "file_url": "https://www.gutenberg.org/files/40953/40953.txt"
+  },
+  {
+    "id": "67165",
+    "title": "In the Garden of the Gods",
+    "file_url": "https://www.gutenberg.org/files/67165/67165-0.txt"
+  },
+  {
+    "id": "41438",
+    "title": "The Heart of Princess Osra",
+    "file_url": "https://www.gutenberg.org/files/41438/41438.txt"
+  },
+  {
+    "id": "62619",
+    "title": "The Avenger",
+    "file_url": "https://www.gutenberg.org/files/62619/62619.txt"
+  },
+  {
+    "id": "22440",
+    "title": "The Gift of the Magi",
+    "file_url": "https://www.gutenberg.org/files/22440/22440-readme.txt"
+  },
+  {
+    "id": "29193",
+    "title": "Dream Town",
+    "file_url": "https://www.gutenberg.org/files/29193/29193.txt"
+  },
+  {
+    "id": "6991",
+    "title": "Across the Years",
+    "file_url": "https://www.gutenberg.org/files/6991/6991.txt"
+  },
+  {
+    "id": "18109",
+    "title": "Graveyard of Dreams",
+    "file_url": "https://www.gutenberg.org/files/18109/18109.txt"
+  },
+  {
+    "id": "31840",
+    "title": "Ring Once for Death",
+    "file_url": "https://www.gutenberg.org/files/31840/31840.txt"
+  },
+  {
+    "id": "30283",
+    "title": "The Sound of Silence",
+    "file_url": "https://www.gutenberg.org/files/30283/30283.txt"
+  },
+  {
+    "id": "60625",
+    "title": "Uncle Wiggily's Story Book",
+    "file_url": "https://www.gutenberg.org/files/60625/60625.txt"
+  },
+  {
+    "id": "7239",
+    "title": "Men, Women, and Boats",
+    "file_url": "https://www.gutenberg.org/files/7239/7239.txt"
+  },
+  {
+    "id": "3389",
+    "title": "Literature and Life (Complete)",
+    "file_url": "https://www.gutenberg.org/files/3389/3389.txt"
+  },
+  {
+    "id": "55650",
+    "title": "Stray Leaves from Strange Literature; and, Fantastics and Other Fancies",
+    "file_url": "https://www.gutenberg.org/files/55650/55650-8.txt"
+  },
+  {
+    "id": "51752",
+    "title": "If You Was a Moklin",
+    "file_url": "https://www.gutenberg.org/files/51752/51752.txt"
+  },
+  {
+    "id": "61309",
+    "title": "Road Stop",
+    "file_url": "https://www.gutenberg.org/files/61309/61309.txt"
+  },
+  {
+    "id": "5835",
+    "title": "The Story Hour: A Book for the Home and the Kindergarten",
+    "file_url": "https://www.gutenberg.org/files/5835/5835.txt"
+  },
+  {
+    "id": "50753",
+    "title": "Later Than You Think",
+    "file_url": "https://www.gutenberg.org/files/50753/50753.txt"
+  },
+  {
+    "id": "50819",
+    "title": "A Bad Day for Sales",
+    "file_url": "https://www.gutenberg.org/files/50819/50819.txt"
+  },
+  {
+    "id": "29206",
+    "title": "Happy Ending",
+    "file_url": "https://www.gutenberg.org/files/29206/29206.txt"
+  },
+  {
+    "id": "1306",
+    "title": "Seven Men [Excerpts]",
+    "file_url": "https://www.gutenberg.org/files/1306/1306.txt"
+  },
+  {
+    "id": "65659",
+    "title": "The Incomplete Theft",
+    "file_url": "https://www.gutenberg.org/files/65659/65659-0.txt"
+  },
+  {
+    "id": "32819",
+    "title": "Elegy",
+    "file_url": "https://www.gutenberg.org/files/32819/32819.txt"
+  },
+  {
+    "id": "23534",
+    "title": "...Or Your Money Back",
+    "file_url": "https://www.gutenberg.org/files/23534/23534.txt"
+  },
+  {
+    "id": "43048",
+    "title": "The Piebald Hippogriff",
+    "file_url": "https://www.gutenberg.org/files/43048/43048.txt"
+  },
+  {
+    "id": "44818",
+    "title": "Christ Legends",
+    "file_url": "https://www.gutenberg.org/files/44818/44818.txt"
+  },
+  {
+    "id": "2791",
+    "title": "Essays and Tales",
+    "file_url": "https://www.gutenberg.org/files/2791/2791.txt"
+  },
+  {
+    "id": "29548",
+    "title": "Warrior Race",
+    "file_url": "https://www.gutenberg.org/files/29548/29548.txt"
+  },
+  {
+    "id": "31964",
+    "title": "Brknk's Bounty",
+    "file_url": "https://www.gutenberg.org/files/31964/31964.txt"
+  },
+  {
+    "id": "373",
+    "title": "Lay Morals, and Other Papers",
+    "file_url": "https://www.gutenberg.org/files/373/373.txt"
+  },
+  {
+    "id": "65666",
+    "title": "Bleekman's Planet",
+    "file_url": "https://www.gutenberg.org/files/65666/65666-0.txt"
+  },
+  {
+    "id": "868",
+    "title": "The Philosopher's Joke",
+    "file_url": "https://www.gutenberg.org/files/868/868.txt"
+  },
+  {
+    "id": "22966",
+    "title": "Toy Shop",
+    "file_url": "https://www.gutenberg.org/files/22966/22966.txt"
+  },
+  {
+    "id": "27462",
+    "title": "The Last Evolution",
+    "file_url": "https://www.gutenberg.org/files/27462/27462.txt"
+  },
+  {
+    "id": "29142",
+    "title": "Keep Out",
+    "file_url": "https://www.gutenberg.org/files/29142/29142.txt"
+  },
+  {
+    "id": "51759",
+    "title": "Traveling Companion Wanted",
+    "file_url": "https://www.gutenberg.org/files/51759/51759.txt"
+  },
+  {
+    "id": "60940",
+    "title": "McGonigal's Worm",
+    "file_url": "https://www.gutenberg.org/files/60940/60940.txt"
+  },
+  {
+    "id": "23960",
+    "title": "...After a Few Words...",
+    "file_url": "https://www.gutenberg.org/files/23960/23960.txt"
+  },
+  {
+    "id": "26521",
+    "title": "Earthmen Bearing Gifts",
+    "file_url": "https://www.gutenberg.org/files/26521/26521.txt"
+  },
+  {
+    "id": "60940",
+    "title": "McGonigal's Worm",
+    "file_url": "https://www.gutenberg.org/files/60940/60940.txt"
+  },
+  {
+    "id": "66915",
+    "title": "The Spring of a Lion",
+    "file_url": "https://www.gutenberg.org/files/66915/66915-0.txt"
+  },
+  {
+    "id": "32055",
+    "title": "The Hand",
+    "file_url": "https://www.gutenberg.org/files/32055/32055.txt"
+  },
+  {
+    "id": "23960",
+    "title": "...After a Few Words...",
+    "file_url": "https://www.gutenberg.org/files/23960/23960.txt"
+  },
+  {
+    "id": "18632",
+    "title": "Crossroads of Destiny",
+    "file_url": "https://www.gutenberg.org/files/18632/18632.txt"
+  },
+  {
+    "id": "23439",
+    "title": "Attention Saint Patrick",
+    "file_url": "https://www.gutenberg.org/files/23439/23439.txt"
+  },
+  {
+    "id": "29445",
+    "title": "The Hour of Battle",
+    "file_url": "https://www.gutenberg.org/files/29445/29445.txt"
+  },
+  {
+    "id": "51240",
+    "title": "The Addicts",
+    "file_url": "https://www.gutenberg.org/files/51240/51240.txt"
+  },
+  {
+    "id": "57277",
+    "title": "A Dreamer's Tales",
+    "file_url": "https://www.gutenberg.org/files/57277/57277-0.txt"
+  },
+  {
+    "id": "22958",
+    "title": "One-Shot",
+    "file_url": "https://www.gutenberg.org/files/22958/22958.txt"
+  },
+  {
+    "id": "715",
+    "title": "The Moon Endureth: Tales and Fancies",
+    "file_url": "https://www.gutenberg.org/files/715/715.txt"
+  },
+  {
+    "id": "66802",
+    "title": "The Man With the Golden Eyes",
+    "file_url": "https://www.gutenberg.org/files/66802/66802-0.txt"
+  },
+  {
+    "id": "51549",
+    "title": "The Big Engine",
+    "file_url": "https://www.gutenberg.org/files/51549/51549.txt"
+  },
+  {
+    "id": "50766",
+    "title": "The Snowball Effect",
+    "file_url": "https://www.gutenberg.org/files/50766/50766.txt"
+  },
+  {
+    "id": "911",
+    "title": "Tales of the Fish Patrol",
+    "file_url": "https://www.gutenberg.org/files/911/911-0.txt"
+  },
+  {
+    "id": "31648",
+    "title": "My Fair Planet",
+    "file_url": "https://www.gutenberg.org/files/31648/31648.txt"
+  },
+  {
+    "id": "61429",
+    "title": "The Heart of a Dog",
+    "file_url": "https://www.gutenberg.org/files/61429/61429-0.txt"
+  },
+  {
+    "id": "9240",
+    "title": "The Man of Adamant",
+    "file_url": "https://www.gutenberg.org/files/9240/9240.txt"
+  },
+  {
+    "id": "3192",
+    "title": "The Curious Republic of Gondour, and Other Whimsical Sketches",
+    "file_url": "https://www.gutenberg.org/files/3192/3192-0.txt"
+  },
+  {
+    "id": "23059",
+    "title": "My Friend The Murderer",
+    "file_url": "https://www.gutenberg.org/files/23059/23059.txt"
+  },
+  {
+    "id": "29446",
+    "title": "Beside Still Waters",
+    "file_url": "https://www.gutenberg.org/files/29446/29446.txt"
+  },
+  {
+    "id": "23146",
+    "title": "And All the Earth a Grave",
+    "file_url": "https://www.gutenberg.org/files/23146/23146.txt"
+  },
+  {
+    "id": "16257",
+    "title": "The Turtles of Tasman",
+    "file_url": "https://www.gutenberg.org/files/16257/16257.txt"
+  },
+  {
+    "id": "16257",
+    "title": "The Turtles of Tasman",
+    "file_url": "https://www.gutenberg.org/files/16257/16257.txt"
+  },
+  {
+    "id": "65924",
+    "title": "\"Hey Ma, Where's Willie?\"",
+    "file_url": "https://www.gutenberg.org/files/65924/65924-0.txt"
+  },
+  {
+    "id": "28804",
+    "title": "Oswald Bastable and Others",
+    "file_url": "https://www.gutenberg.org/files/28804/28804.txt"
+  },
+  {
+    "id": "64631",
+    "title": "Let the Ants Try",
+    "file_url": "https://www.gutenberg.org/files/64631/64631-0.txt"
+  },
+  {
+    "id": "32346",
+    "title": "Keep Your Shape",
+    "file_url": "https://www.gutenberg.org/files/32346/32346.txt"
+  },
+  {
+    "id": "22579",
+    "title": "Bread Overhead",
+    "file_url": "https://www.gutenberg.org/files/22579/22579.txt"
+  },
+  {
+    "id": "30014",
+    "title": "Native Son",
+    "file_url": "https://www.gutenberg.org/files/30014/30014.txt"
+  },
+  {
+    "id": "60640",
+    "title": "The Wind People",
+    "file_url": "https://www.gutenberg.org/files/60640/60640.txt"
+  },
+  {
+    "id": "61844",
+    "title": "The Stellar Legion",
+    "file_url": "https://www.gutenberg.org/files/61844/61844.txt"
+  },
+  {
+    "id": "28650",
+    "title": "Year of the Big Thaw",
+    "file_url": "https://www.gutenberg.org/files/28650/28650.txt"
+  },
+  {
+    "id": "57402",
+    "title": "The Watcher by the Threshold",
+    "file_url": "https://www.gutenberg.org/files/57402/57402-8.txt"
+  },
+  {
+    "id": "26206",
+    "title": "Pandemic",
+    "file_url": "https://www.gutenberg.org/files/26206/26206.txt"
+  },
+  {
+    "id": "58581",
+    "title": "The Story of the Siren",
+    "file_url": "https://www.gutenberg.org/files/58581/58581.txt"
+  },
+  {
+    "id": "32067",
+    "title": "Atom Drive",
+    "file_url": "https://www.gutenberg.org/files/32067/32067.txt"
+  },
+  {
+    "id": "25086",
+    "title": "The Delegate from Venus",
+    "file_url": "https://www.gutenberg.org/files/25086/25086.txt"
+  },
+  {
+    "id": "877",
+    "title": "Little Britain",
+    "file_url": "https://www.gutenberg.org/files/877/877.txt"
+  },
+  {
+    "id": "50893",
+    "title": "The Great Nebraska Sea",
+    "file_url": "https://www.gutenberg.org/files/50893/50893.txt"
+  },
+  {
+    "id": "51726",
+    "title": "Wall of Crystal, Eye of Night",
+    "file_url": "https://www.gutenberg.org/files/51726/51726.txt"
+  },
+  {
+    "id": "13180",
+    "title": "The Tracer of Lost Persons",
+    "file_url": "https://www.gutenberg.org/files/13180/13180.txt"
+  },
+  {
+    "id": "29317",
+    "title": "There Will Be School Tomorrow",
+    "file_url": "https://www.gutenberg.org/files/29317/29317.txt"
+  },
+  {
+    "id": "24495",
+    "title": "The Golden Judge",
+    "file_url": "https://www.gutenberg.org/files/24495/24495.txt"
+  },
+  {
+    "id": "5982",
+    "title": "Eeldrop and Appleplex",
+    "file_url": "https://www.gutenberg.org/files/5982/5982.txt"
+  },
+  {
+    "id": "65127",
+    "title": "Menace From Vega",
+    "file_url": "https://www.gutenberg.org/files/65127/65127-0.txt"
+  },
+  {
+    "id": "32436",
+    "title": "Duel on Syrtis",
+    "file_url": "https://www.gutenberg.org/files/32436/32436.txt"
+  },
+  {
+    "id": "64596",
+    "title": "The Star Beast",
+    "file_url": "https://www.gutenberg.org/files/64596/64596-0.txt"
+  },
+  {
+    "id": "1603",
+    "title": "The Blue Flower",
+    "file_url": "https://www.gutenberg.org/files/1603/1603.txt"
+  },
+  {
+    "id": "2555",
+    "title": "Under the Redwoods",
+    "file_url": "https://www.gutenberg.org/files/2555/2555.txt"
+  },
+  {
+    "id": "52776",
+    "title": "X Marks the Pedwalk",
+    "file_url": "https://www.gutenberg.org/files/52776/52776.txt"
+  },
+  {
+    "id": "62915",
+    "title": "And the Gods Laughed",
+    "file_url": "https://www.gutenberg.org/files/62915/62915.txt"
+  },
+  {
+    "id": "24152",
+    "title": "The Guardians",
+    "file_url": "https://www.gutenberg.org/files/24152/24152.txt"
+  },
+  {
+    "id": "59373",
+    "title": "Catalysis",
+    "file_url": "https://www.gutenberg.org/files/59373/59373-8.txt"
+  },
+  {
+    "id": "29140",
+    "title": "The Mathematicians",
+    "file_url": "https://www.gutenberg.org/files/29140/29140.txt"
+  },
+  {
+    "id": "30019",
+    "title": "Navy Day",
+    "file_url": "https://www.gutenberg.org/files/30019/30019.txt"
+  },
+  {
+    "id": "32347",
+    "title": "Time Fuze",
+    "file_url": "https://www.gutenberg.org/files/32347/32347.txt"
+  },
+  {
+    "id": "29492",
+    "title": "Old Rambling House",
+    "file_url": "https://www.gutenberg.org/files/29492/29492.txt"
+  },
+  {
+    "id": "19102",
+    "title": "Dearest",
+    "file_url": "https://www.gutenberg.org/files/19102/19102.txt"
+  },
+  {
+    "id": "51101",
+    "title": "Nice Girl with 5 Husbands",
+    "file_url": "https://www.gutenberg.org/files/51101/51101-8.txt"
+  },
+  {
+    "id": "51148",
+    "title": "Common Denominator",
+    "file_url": "https://www.gutenberg.org/files/51148/51148.txt"
+  },
+  {
+    "id": "292",
+    "title": "Beauty and the Beast, and Tales of Home",
+    "file_url": "https://www.gutenberg.org/files/292/292.txt"
+  },
+  {
+    "id": "51258",
+    "title": "A Bad Day for Vermin",
+    "file_url": "https://www.gutenberg.org/files/51258/51258.txt"
+  },
+  {
+    "id": "3723",
+    "title": "A Ride Across Palestine",
+    "file_url": "https://www.gutenberg.org/files/3723/3723-0.txt"
+  },
+  {
+    "id": "30901",
+    "title": "Fee of the Frontier",
+    "file_url": "https://www.gutenberg.org/files/30901/30901.txt"
+  },
+  {
+    "id": "22522",
+    "title": "Artists' Wives",
+    "file_url": "https://www.gutenberg.org/files/22522/22522.txt"
+  },
+  {
+    "id": "28030",
+    "title": "Reluctant Genius",
+    "file_url": "https://www.gutenberg.org/files/28030/28030.txt"
+  },
+  {
+    "id": "30476",
+    "title": "Zero Hour",
+    "file_url": "https://www.gutenberg.org/files/30476/30476.txt"
+  },
+  {
+    "id": "24121",
+    "title": "As Long As You Wish",
+    "file_url": "https://www.gutenberg.org/files/24121/24121.txt"
+  },
+  {
+    "id": "51509",
+    "title": "Doorstep",
+    "file_url": "https://www.gutenberg.org/files/51509/51509.txt"
+  },
+  {
+    "id": "32580",
+    "title": "The Golgotha Dancers",
+    "file_url": "https://www.gutenberg.org/files/32580/32580.txt"
+  },
+  {
+    "id": "25035",
+    "title": "The Happy Unfortunate",
+    "file_url": "https://www.gutenberg.org/files/25035/25035.txt"
+  },
+  {
+    "id": "41458",
+    "title": "The Gay Triangle: The Romance of the First Air Adventurers",
+    "file_url": "https://www.gutenberg.org/files/41458/41458.txt"
+  },
+  {
+    "id": "33212",
+    "title": "The Underpup",
+    "file_url": "https://www.gutenberg.org/files/33212/33212.txt"
+  },
+  {
+    "id": "51530",
+    "title": "The Last Letter",
+    "file_url": "https://www.gutenberg.org/files/51530/51530-8.txt"
+  },
+  {
+    "id": "30827",
+    "title": "The Count's Chauffeur",
+    "file_url": "https://www.gutenberg.org/files/30827/30827.txt"
+  },
+  {
+    "id": "29487",
+    "title": "Forever",
+    "file_url": "https://www.gutenberg.org/files/29487/29487.txt"
+  },
+  {
+    "id": "59498",
+    "title": "What Shall It Profit?",
+    "file_url": "https://www.gutenberg.org/files/59498/59498-8.txt"
+  },
+  {
+    "id": "65671",
+    "title": "The Time Snatcher",
+    "file_url": "https://www.gutenberg.org/files/65671/65671-0.txt"
+  },
+  {
+    "id": "30329",
+    "title": "Black Eyes and the Daily Grind",
+    "file_url": "https://www.gutenberg.org/files/30329/30329.txt"
+  },
+  {
+    "id": "62212",
+    "title": "Prison Planet",
+    "file_url": "https://www.gutenberg.org/files/62212/62212.txt"
+  },
+  {
+    "id": "62168",
+    "title": "Asteroid of the Damned",
+    "file_url": "https://www.gutenberg.org/files/62168/62168.txt"
+  },
+  {
+    "id": "10391",
+    "title": "The Wolf's Long Howl",
+    "file_url": "https://www.gutenberg.org/files/10391/10391.txt"
+  },
+  {
+    "id": "30329",
+    "title": "Black Eyes and the Daily Grind",
+    "file_url": "https://www.gutenberg.org/files/30329/30329.txt"
+  },
+  {
+    "id": "10391",
+    "title": "The Wolf's Long Howl",
+    "file_url": "https://www.gutenberg.org/files/10391/10391.txt"
+  },
+  {
+    "id": "56686",
+    "title": "Tom Temple's Career",
+    "file_url": "https://www.gutenberg.org/files/56686/56686-0.txt"
+  },
+  {
+    "id": "22530",
+    "title": "From Place to Place",
+    "file_url": "https://www.gutenberg.org/files/22530/22530.txt"
+  },
+  {
+    "id": "51353",
+    "title": "Dr. Kometevsky's Day",
+    "file_url": "https://www.gutenberg.org/files/51353/51353.txt"
+  },
+  {
+    "id": "66289",
+    "title": "The Man Who Made the World",
+    "file_url": "https://www.gutenberg.org/files/66289/66289-0.txt"
+  },
+  {
+    "id": "28550",
+    "title": "Song in a Minor Key",
+    "file_url": "https://www.gutenberg.org/files/28550/28550.txt"
+  },
+  {
+    "id": "66976",
+    "title": "Upside Down or Backwards",
+    "file_url": "https://www.gutenberg.org/files/66976/66976-0.txt"
+  },
+  {
+    "id": "51380",
+    "title": "Time In the Round",
+    "file_url": "https://www.gutenberg.org/files/51380/51380.txt"
+  },
+  {
+    "id": "24799",
+    "title": "The Escape of Mr. Trimm",
+    "file_url": "https://www.gutenberg.org/files/24799/24799.txt"
+  },
+  {
+    "id": "29954",
+    "title": "There is a Reaper ...",
+    "file_url": "https://www.gutenberg.org/files/29954/29954.txt"
+  },
+  {
+    "id": "51361",
+    "title": "Birds of a Feather",
+    "file_url": "https://www.gutenberg.org/files/51361/51361.txt"
+  },
+  {
+    "id": "24517",
+    "title": "Accidental Death",
+    "file_url": "https://www.gutenberg.org/files/24517/24517.txt"
+  },
+  {
+    "id": "30063",
+    "title": "Double Take",
+    "file_url": "https://www.gutenberg.org/files/30063/30063.txt"
+  },
+  {
+    "id": "33688",
+    "title": "Tales of the Wonder Club, Volume I",
+    "file_url": "https://www.gutenberg.org/files/33688/33688.txt"
+  },
+  {
+    "id": "21616",
+    "title": "The Ape, the Idiot & Other People",
+    "file_url": "https://www.gutenberg.org/files/21616/21616.txt"
+  },
+  {
+    "id": "18728",
+    "title": "The Well of Saint Clare",
+    "file_url": "https://www.gutenberg.org/files/18728/18728.txt"
+  },
+  {
+    "id": "28119",
+    "title": "My Father, the Cat",
+    "file_url": "https://www.gutenberg.org/files/28119/28119.txt"
+  },
+  {
+    "id": "29750",
+    "title": "Zen",
+    "file_url": "https://www.gutenberg.org/files/29750/29750.txt"
+  },
+  {
+    "id": "1876",
+    "title": "The Shape of Fear",
+    "file_url": "https://www.gutenberg.org/files/1876/1876.txt"
+  },
+  {
+    "id": "65124",
+    "title": "Voyage to Procyon",
+    "file_url": "https://www.gutenberg.org/files/65124/65124-0.txt"
+  },
+  {
+    "id": "18728",
+    "title": "The Well of Saint Clare",
+    "file_url": "https://www.gutenberg.org/files/18728/18728.txt"
+  },
+  {
+    "id": "33688",
+    "title": "Tales of the Wonder Club, Volume I",
+    "file_url": "https://www.gutenberg.org/files/33688/33688.txt"
+  },
+  {
+    "id": "66314",
+    "title": "Beware the Star Gods",
+    "file_url": "https://www.gutenberg.org/files/66314/66314-0.txt"
+  },
+  {
+    "id": "29503",
+    "title": "The Hated",
+    "file_url": "https://www.gutenberg.org/files/29503/29503.txt"
+  },
+  {
+    "id": "9221",
+    "title": "The Old Manse (From \"Mosses from an Old Manse\")",
+    "file_url": "https://www.gutenberg.org/files/9221/9221.txt"
+  },
+  {
+    "id": "65839",
+    "title": "The Stranger",
+    "file_url": "https://www.gutenberg.org/files/65839/65839-0.txt"
+  },
+  {
+    "id": "24132",
+    "title": "Autres Temps...",
+    "file_url": "https://www.gutenberg.org/files/24132/24132.txt"
+  },
+  {
+    "id": "61430",
+    "title": "Manners and Customs of the Thrid",
+    "file_url": "https://www.gutenberg.org/files/61430/61430.txt"
+  },
+  {
+    "id": "24149",
+    "title": "The Ambulance Made Two Trips",
+    "file_url": "https://www.gutenberg.org/files/24149/24149.txt"
+  },
+  {
+    "id": "65838",
+    "title": "Final Examination",
+    "file_url": "https://www.gutenberg.org/files/65838/65838-0.txt"
+  },
+  {
+    "id": "34470",
+    "title": "The Blue Jar Story Book",
+    "file_url": "https://www.gutenberg.org/files/34470/34470.txt"
+  },
+  {
+    "id": "21773",
+    "title": "Four Meetings",
+    "file_url": "https://www.gutenberg.org/files/21773/21773.txt"
+  },
+  {
+    "id": "21627",
+    "title": "Gambler's World",
+    "file_url": "https://www.gutenberg.org/files/21627/21627.txt"
+  },
+  {
+    "id": "24567",
+    "title": "Blind Man's Lantern",
+    "file_url": "https://www.gutenberg.org/files/24567/24567.txt"
+  },
+  {
+    "id": "51321",
+    "title": "Prime Difference",
+    "file_url": "https://www.gutenberg.org/files/51321/51321.txt"
+  },
+  {
+    "id": "65343",
+    "title": "The Ambassador's Pet",
+    "file_url": "https://www.gutenberg.org/files/65343/65343-0.txt"
+  },
+  {
+    "id": "32324",
+    "title": "Sam, This Is You",
+    "file_url": "https://www.gutenberg.org/files/32324/32324.txt"
+  },
+  {
+    "id": "50835",
+    "title": "The Luckiest Man in Denv",
+    "file_url": "https://www.gutenberg.org/files/50835/50835.txt"
+  },
+  {
+    "id": "10928",
+    "title": "Bengal Dacoits and Tigers",
+    "file_url": "https://www.gutenberg.org/files/10928/10928.txt"
+  },
+  {
+    "id": "50835",
+    "title": "The Luckiest Man in Denv",
+    "file_url": "https://www.gutenberg.org/files/50835/50835.txt"
+  },
+  {
+    "id": "37286",
+    "title": "Tales From J\u00f3kai",
+    "file_url": "https://www.gutenberg.org/files/37286/37286.txt"
+  },
+  {
+    "id": "3700",
+    "title": "The Courtship of Susan Bell",
+    "file_url": "https://www.gutenberg.org/files/3700/3700-0.txt"
+  },
+  {
+    "id": "13135",
+    "title": "Pardners",
+    "file_url": "https://www.gutenberg.org/files/13135/13135.txt"
+  },
+  {
+    "id": "2535",
+    "title": "Openings in the Old Trail",
+    "file_url": "https://www.gutenberg.org/files/2535/2535.txt"
+  },
+  {
+    "id": "51493",
+    "title": "Kreativity For Kats",
+    "file_url": "https://www.gutenberg.org/files/51493/51493.txt"
+  },
+  {
+    "id": "17922",
+    "title": "Visionaries",
+    "file_url": "https://www.gutenberg.org/files/17922/17922.txt"
+  },
+  {
+    "id": "59514",
+    "title": "After Some Tomorrow",
+    "file_url": "https://www.gutenberg.org/files/59514/59514.txt"
+  },
+  {
+    "id": "26536",
+    "title": "The Good Neighbors",
+    "file_url": "https://www.gutenberg.org/files/26536/26536.txt"
+  },
+  {
+    "id": "38664",
+    "title": "The Four Corners of the World",
+    "file_url": "https://www.gutenberg.org/files/38664/38664.txt"
+  },
+  {
+    "id": "65231",
+    "title": "House Operator",
+    "file_url": "https://www.gutenberg.org/files/65231/65231-0.txt"
+  },
+  {
+    "id": "32996",
+    "title": "The Ten-foot Chain; or, Can Love Survive the Shackles? A Unique Symposium",
+    "file_url": "https://www.gutenberg.org/files/32996/32996.txt"
+  },
+  {
+    "id": "60871",
+    "title": "Heel",
+    "file_url": "https://www.gutenberg.org/files/60871/60871-8.txt"
+  },
+  {
+    "id": "12100",
+    "title": "Between the Dark and the Daylight",
+    "file_url": "https://www.gutenberg.org/files/12100/12100.txt"
+  },
+  {
+    "id": "65447",
+    "title": "Woman's World",
+    "file_url": "https://www.gutenberg.org/files/65447/65447-0.txt"
+  },
+  {
+    "id": "24966",
+    "title": "Survival Tactics",
+    "file_url": "https://www.gutenberg.org/files/24966/24966.txt"
+  },
+  {
+    "id": "64420",
+    "title": "Jonah of the Jove-Run",
+    "file_url": "https://www.gutenberg.org/files/64420/64420-0.txt"
+  },
+  {
+    "id": "29619",
+    "title": "The Altar at Midnight",
+    "file_url": "https://www.gutenberg.org/files/29619/29619.txt"
+  },
+  {
+    "id": "59415",
+    "title": "To Pay the Piper",
+    "file_url": "https://www.gutenberg.org/files/59415/59415-8.txt"
+  },
+  {
+    "id": "17031",
+    "title": "The Disentanglers",
+    "file_url": "https://www.gutenberg.org/files/17031/17031.txt"
+  },
+  {
+    "id": "66832",
+    "title": "Tied Up for Tombstone",
+    "file_url": "https://www.gutenberg.org/files/66832/66832-0.txt"
+  },
+  {
+    "id": "63828",
+    "title": "The Burnt Planet",
+    "file_url": "https://www.gutenberg.org/files/63828/63828-0.txt"
+  },
+  {
+    "id": "24348",
+    "title": "The Choice",
+    "file_url": "https://www.gutenberg.org/files/24348/24348.txt"
+  },
+  {
+    "id": "66698",
+    "title": "Not in the Script",
+    "file_url": "https://www.gutenberg.org/files/66698/66698-0.txt"
+  },
+  {
+    "id": "30034",
+    "title": "I'll Kill You Tomorrow",
+    "file_url": "https://www.gutenberg.org/files/30034/30034.txt"
+  },
+  {
+    "id": "66832",
+    "title": "Tied Up for Tombstone",
+    "file_url": "https://www.gutenberg.org/files/66832/66832-0.txt"
+  },
+  {
+    "id": "63990",
+    "title": "Palimpsest",
+    "file_url": "https://www.gutenberg.org/files/63990/63990-0.txt"
+  },
+  {
+    "id": "59415",
+    "title": "To Pay the Piper",
+    "file_url": "https://www.gutenberg.org/files/59415/59415-8.txt"
+  },
+  {
+    "id": "31626",
+    "title": "The Vilbar Party",
+    "file_url": "https://www.gutenberg.org/files/31626/31626.txt"
+  },
+  {
+    "id": "66698",
+    "title": "Not in the Script",
+    "file_url": "https://www.gutenberg.org/files/66698/66698-0.txt"
+  },
+  {
+    "id": "17031",
+    "title": "The Disentanglers",
+    "file_url": "https://www.gutenberg.org/files/17031/17031.txt"
+  },
+  {
+    "id": "38302",
+    "title": "The Lonely Ones",
+    "file_url": "https://www.gutenberg.org/files/38302/38302.txt"
+  },
+  {
+    "id": "32619",
+    "title": "Back to Julie",
+    "file_url": "https://www.gutenberg.org/files/32619/32619.txt"
+  },
+  {
+    "id": "19750",
+    "title": "The Waif Woman",
+    "file_url": "https://www.gutenberg.org/files/19750/19750.txt"
+  },
+  {
+    "id": "288",
+    "title": "The Certain Hour (Dizain des Po\u00ebtes)",
+    "file_url": "https://www.gutenberg.org/files/288/288.txt"
+  },
+  {
+    "id": "66601",
+    "title": "A Point of Testimony",
+    "file_url": "https://www.gutenberg.org/files/66601/66601-0.txt"
+  },
+  {
+    "id": "29876",
+    "title": "Death Wish",
+    "file_url": "https://www.gutenberg.org/files/29876/29876.txt"
+  },
+  {
+    "id": "32710",
+    "title": "Doom of the House of Duryea",
+    "file_url": "https://www.gutenberg.org/files/32710/32710.txt"
+  },
+  {
+    "id": "22664",
+    "title": "The Severed Hand",
+    "file_url": "https://www.gutenberg.org/files/22664/22664.txt"
+  },
+  {
+    "id": "61217",
+    "title": "1,492,633 Marlon Brandos",
+    "file_url": "https://www.gutenberg.org/files/61217/61217.txt"
+  },
+  {
+    "id": "64512",
+    "title": "The Third Little Green Man",
+    "file_url": "https://www.gutenberg.org/files/64512/64512-0.txt"
+  },
+  {
+    "id": "50844",
+    "title": "Proof of the Pudding",
+    "file_url": "https://www.gutenberg.org/files/50844/50844.txt"
+  },
+  {
+    "id": "23219",
+    "title": "Putois",
+    "file_url": "https://www.gutenberg.org/files/23219/23219.txt"
+  },
+  {
+    "id": "61146",
+    "title": "Retief of the Red-Tape Mountain",
+    "file_url": "https://www.gutenberg.org/files/61146/61146.txt"
+  },
+  {
+    "id": "66756",
+    "title": "Dalrymple's Equation",
+    "file_url": "https://www.gutenberg.org/files/66756/66756-0.txt"
+  },
+  {
+    "id": "28643",
+    "title": "Belly Laugh",
+    "file_url": "https://www.gutenberg.org/files/28643/28643.txt"
+  },
+  {
+    "id": "65534",
+    "title": "Slaughter on Dornell IV",
+    "file_url": "https://www.gutenberg.org/files/65534/65534-0.txt"
+  },
+  {
+    "id": "32041",
+    "title": "One Man's Poison",
+    "file_url": "https://www.gutenberg.org/files/32041/32041.txt"
+  },
+  {
+    "id": "36118",
+    "title": "A Crime of the Under-seas",
+    "file_url": "https://www.gutenberg.org/files/36118/36118.txt"
+  },
+  {
+    "id": "23056",
+    "title": "The Rendezvous",
+    "file_url": "https://www.gutenberg.org/files/23056/23056.txt"
+  },
+  {
+    "id": "50945",
+    "title": "Point of Departure",
+    "file_url": "https://www.gutenberg.org/files/50945/50945.txt"
+  },
+  {
+    "id": "33380",
+    "title": "Love's Usuries",
+    "file_url": "https://www.gutenberg.org/files/33380/33380.txt"
+  },
+  {
+    "id": "65200",
+    "title": "Perfect Companion",
+    "file_url": "https://www.gutenberg.org/files/65200/65200-0.txt"
+  },
+  {
+    "id": "65100",
+    "title": "The Builders",
+    "file_url": "https://www.gutenberg.org/files/65100/65100-0.txt"
+  },
+  {
+    "id": "67255",
+    "title": "The Story of Zephyr: A Christmas Story",
+    "file_url": "https://www.gutenberg.org/files/67255/67255-0.txt"
+  },
+  {
+    "id": "61285",
+    "title": "The Desert and the Stars",
+    "file_url": "https://www.gutenberg.org/files/61285/61285.txt"
+  },
+  {
+    "id": "29599",
+    "title": "Homesick",
+    "file_url": "https://www.gutenberg.org/files/29599/29599.txt"
+  },
+  {
+    "id": "40832",
+    "title": "The Veiled Man\r",
+    "file_url": "https://www.gutenberg.org/files/40832/40832.txt"
+  },
+  {
+    "id": "29138",
+    "title": "The Doorway",
+    "file_url": "https://www.gutenberg.org/files/29138/29138.txt"
+  },
+  {
+    "id": "38287",
+    "title": "We're Civilized!",
+    "file_url": "https://www.gutenberg.org/files/38287/38287.txt"
+  },
+  {
+    "id": "61243",
+    "title": "The Snowbank Orbit",
+    "file_url": "https://www.gutenberg.org/files/61243/61243.txt"
+  },
+  {
+    "id": "57904",
+    "title": "The Doom of London",
+    "file_url": "https://www.gutenberg.org/files/57904/57904-8.txt"
+  },
+  {
+    "id": "15616",
+    "title": "Hero Tales",
+    "file_url": "https://www.gutenberg.org/files/15616/15616.txt"
+  },
+  {
+    "id": "51037",
+    "title": "Second Childhood",
+    "file_url": "https://www.gutenberg.org/files/51037/51037.txt"
+  },
+  {
+    "id": "30438",
+    "title": "The Eyes Have It",
+    "file_url": "https://www.gutenberg.org/files/30438/30438.txt"
+  },
+  {
+    "id": "23104",
+    "title": "The Blue Tower",
+    "file_url": "https://www.gutenberg.org/files/23104/23104.txt"
+  },
+  {
+    "id": "30044",
+    "title": "The Carnivore",
+    "file_url": "https://www.gutenberg.org/files/30044/30044.txt"
+  },
+  {
+    "id": "40832",
+    "title": "The Veiled Man\r",
+    "file_url": "https://www.gutenberg.org/files/40832/40832.txt"
+  },
+  {
+    "id": "61333",
+    "title": "The Shipshape Miracle",
+    "file_url": "https://www.gutenberg.org/files/61333/61333.txt"
+  },
+  {
+    "id": "24349",
+    "title": "Coming Home",
+    "file_url": "https://www.gutenberg.org/files/24349/24349.txt"
+  },
+  {
+    "id": "49838",
+    "title": "Jack of No Trades",
+    "file_url": "https://www.gutenberg.org/files/49838/49838.txt"
+  },
+  {
+    "id": "61890",
+    "title": "The Dragon-Queen of Jupiter",
+    "file_url": "https://www.gutenberg.org/files/61890/61890.txt"
+  },
+  {
+    "id": "26066",
+    "title": "The Cosmic Express",
+    "file_url": "https://www.gutenberg.org/files/26066/26066.txt"
+  },
+  {
+    "id": "25028",
+    "title": "Heist Job on Thizar",
+    "file_url": "https://www.gutenberg.org/files/25028/25028.txt"
+  },
+  {
+    "id": "31976",
+    "title": "Derelict",
+    "file_url": "https://www.gutenberg.org/files/31976/31976.txt"
+  },
+  {
+    "id": "31611",
+    "title": "Robots of the World! Arise!",
+    "file_url": "https://www.gutenberg.org/files/31611/31611.txt"
+  },
+  {
+    "id": "50948",
+    "title": "Of All Possible Worlds",
+    "file_url": "https://www.gutenberg.org/files/50948/50948.txt"
+  },
+  {
+    "id": "61434",
+    "title": "Mightiest Qorn",
+    "file_url": "https://www.gutenberg.org/files/61434/61434.txt"
+  },
+  {
+    "id": "23612",
+    "title": "The Leader",
+    "file_url": "https://www.gutenberg.org/files/23612/23612.txt"
+  },
+  {
+    "id": "36518",
+    "title": "All Men are Ghosts",
+    "file_url": "https://www.gutenberg.org/files/36518/36518.txt"
+  },
+  {
+    "id": "17669",
+    "title": "The Three Brides, Love in a Cottage, and Other Tales",
+    "file_url": "https://www.gutenberg.org/files/17669/17669.txt"
+  },
+  {
+    "id": "65952",
+    "title": "Writing Class",
+    "file_url": "https://www.gutenberg.org/files/65952/65952-0.txt"
+  },
+  {
+    "id": "66731",
+    "title": "Planet of Doom",
+    "file_url": "https://www.gutenberg.org/files/66731/66731-0.txt"
+  },
+  {
+    "id": "65378",
+    "title": "Reality Unlimited",
+    "file_url": "https://www.gutenberg.org/files/65378/65378-0.txt"
+  },
+  {
+    "id": "332",
+    "title": "The Burial of the Guns",
+    "file_url": "https://www.gutenberg.org/files/332/332.txt"
+  },
+  {
+    "id": "26743",
+    "title": "The Putnam Tradition",
+    "file_url": "https://www.gutenberg.org/files/26743/26743.txt"
+  },
+  {
+    "id": "26741",
+    "title": "I'm a Stranger Here Myself",
+    "file_url": "https://www.gutenberg.org/files/26741/26741.txt"
+  },
+  {
+    "id": "65952",
+    "title": "Writing Class",
+    "file_url": "https://www.gutenberg.org/files/65952/65952-0.txt"
+  },
+  {
+    "id": "65690",
+    "title": "Lair of the Dragonbird",
+    "file_url": "https://www.gutenberg.org/files/65690/65690-0.txt"
+  },
+  {
+    "id": "66448",
+    "title": "The Vegans Were Curious",
+    "file_url": "https://www.gutenberg.org/files/66448/66448-0.txt"
+  },
+  {
+    "id": "60434",
+    "title": "Learning Theory",
+    "file_url": "https://www.gutenberg.org/files/60434/60434.txt"
+  },
+  {
+    "id": "24807",
+    "title": "A Memory of the Southern Seas\r",
+    "file_url": "https://www.gutenberg.org/files/24807/24807.txt"
+  },
+  {
+    "id": "66283",
+    "title": "The Disembodied Man",
+    "file_url": "https://www.gutenberg.org/files/66283/66283-0.txt"
+  },
+  {
+    "id": "50876",
+    "title": "Earthbound",
+    "file_url": "https://www.gutenberg.org/files/50876/50876.txt"
+  },
+  {
+    "id": "66760",
+    "title": "\"Next Stop, Nowhere!\"",
+    "file_url": "https://www.gutenberg.org/files/66760/66760-0.txt"
+  },
+  {
+    "id": "66081",
+    "title": "The Vault",
+    "file_url": "https://www.gutenberg.org/files/66081/66081-0.txt"
+  },
+  {
+    "id": "34829",
+    "title": "The Sick-a-Bed Lady",
+    "file_url": "https://www.gutenberg.org/files/34829/34829.txt"
+  },
+  {
+    "id": "16908",
+    "title": "Once Upon A Time",
+    "file_url": "https://www.gutenberg.org/files/16908/16908.txt"
+  },
+  {
+    "id": "51241",
+    "title": "Bridge Crossing",
+    "file_url": "https://www.gutenberg.org/files/51241/51241.txt"
+  },
+  {
+    "id": "24351",
+    "title": "The Triumph Of Night",
+    "file_url": "https://www.gutenberg.org/files/24351/24351.txt"
+  },
+  {
+    "id": "41573",
+    "title": "South-Sea Idyls",
+    "file_url": "https://www.gutenberg.org/files/41573/41573.txt"
+  },
+  {
+    "id": "24275",
+    "title": "Letter of the Law",
+    "file_url": "https://www.gutenberg.org/files/24275/24275.txt"
+  },
+  {
+    "id": "61263",
+    "title": "Cultural Exchange",
+    "file_url": "https://www.gutenberg.org/files/61263/61263.txt"
+  },
+  {
+    "id": "66760",
+    "title": "\"Next Stop, Nowhere!\"",
+    "file_url": "https://www.gutenberg.org/files/66760/66760-0.txt"
+  },
+  {
+    "id": "16908",
+    "title": "Once Upon A Time",
+    "file_url": "https://www.gutenberg.org/files/16908/16908.txt"
+  },
+  {
+    "id": "2728",
+    "title": "Hunter Quatermain's Story",
+    "file_url": "https://www.gutenberg.org/files/2728/2728.txt"
+  },
+  {
+    "id": "34829",
+    "title": "The Sick-a-Bed Lady",
+    "file_url": "https://www.gutenberg.org/files/34829/34829.txt"
+  },
+  {
+    "id": "26249",
+    "title": "The Light Princess",
+    "file_url": "https://www.gutenberg.org/files/26249/26249-readme.txt"
+  },
+  {
+    "id": "26098",
+    "title": "Happy Days",
+    "file_url": "https://www.gutenberg.org/files/26098/26098.txt"
+  },
+  {
+    "id": "54761",
+    "title": "Children of Men",
+    "file_url": "https://www.gutenberg.org/files/54761/54761-0.txt"
+  },
+  {
+    "id": "66151",
+    "title": "Lesson for Today",
+    "file_url": "https://www.gutenberg.org/files/66151/66151-0.txt"
+  },
+  {
+    "id": "61198",
+    "title": "Aide Memoire",
+    "file_url": "https://www.gutenberg.org/files/61198/61198.txt"
+  },
+  {
+    "id": "24247",
+    "title": "Gun for Hire",
+    "file_url": "https://www.gutenberg.org/files/24247/24247.txt"
+  },
+  {
+    "id": "66714",
+    "title": "The Cosmic Snare",
+    "file_url": "https://www.gutenberg.org/files/66714/66714-0.txt"
+  },
+  {
+    "id": "39706",
+    "title": "Mother West Wind's Animal Friends",
+    "file_url": "https://www.gutenberg.org/files/39706/39706.txt"
+  },
+  {
+    "id": "19336",
+    "title": "The Tangled Threads",
+    "file_url": "https://www.gutenberg.org/files/19336/19336.txt"
+  },
+  {
+    "id": "66526",
+    "title": "No-Risk Planet",
+    "file_url": "https://www.gutenberg.org/files/66526/66526-0.txt"
+  },
+  {
+    "id": "22867",
+    "title": "Meeting of the Board",
+    "file_url": "https://www.gutenberg.org/files/22867/22867.txt"
+  },
+  {
+    "id": "22869",
+    "title": "The Dark Door",
+    "file_url": "https://www.gutenberg.org/files/22869/22869.txt"
+  },
+  {
+    "id": "51337",
+    "title": "The Man Outside",
+    "file_url": "https://www.gutenberg.org/files/51337/51337.txt"
+  },
+  {
+    "id": "64073",
+    "title": "Dateline: Mars",
+    "file_url": "https://www.gutenberg.org/files/64073/64073-0.txt"
+  },
+  {
+    "id": "63656",
+    "title": "The Ultimate World",
+    "file_url": "https://www.gutenberg.org/files/63656/63656.txt"
+  },
+  {
+    "id": "63899",
+    "title": "The Giants Return",
+    "file_url": "https://www.gutenberg.org/files/63899/63899-0.txt"
+  },
+  {
+    "id": "24521",
+    "title": "In Case of Fire",
+    "file_url": "https://www.gutenberg.org/files/24521/24521.txt"
+  },
+  {
+    "id": "65642",
+    "title": "Outcast of the Stars",
+    "file_url": "https://www.gutenberg.org/files/65642/65642-0.txt"
+  },
+  {
+    "id": "50818",
+    "title": "How to Make Friends",
+    "file_url": "https://www.gutenberg.org/files/50818/50818.txt"
+  },
+  {
+    "id": "63899",
+    "title": "The Giants Return",
+    "file_url": "https://www.gutenberg.org/files/63899/63899-0.txt"
+  },
+  {
+    "id": "32665",
+    "title": "The Anglers of Arz",
+    "file_url": "https://www.gutenberg.org/files/32665/32665.txt"
+  },
+  {
+    "id": "66044",
+    "title": "Cinders",
+    "file_url": "https://www.gutenberg.org/files/66044/66044-0.txt"
+  },
+  {
+    "id": "65177",
+    "title": "Come Into My Brain!",
+    "file_url": "https://www.gutenberg.org/files/65177/65177-0.txt"
+  },
+  {
+    "id": "32904",
+    "title": "The Huddlers",
+    "file_url": "https://www.gutenberg.org/files/32904/32904.txt"
+  },
+  {
+    "id": "17398",
+    "title": "The Cabman's Story",
+    "file_url": "https://www.gutenberg.org/files/17398/17398.txt"
+  },
+  {
+    "id": "8434",
+    "title": "\"The Ladies\": A Shining Constellation of Wit and Beauty",
+    "file_url": "https://www.gutenberg.org/files/8434/8434.txt"
+  },
+  {
+    "id": "24965",
+    "title": "The Deadly Daughters",
+    "file_url": "https://www.gutenberg.org/files/24965/24965.txt"
+  },
+  {
+    "id": "65727",
+    "title": "The Most Horrible Story",
+    "file_url": "https://www.gutenberg.org/files/65727/65727-0.txt"
+  },
+  {
+    "id": "65956",
+    "title": "The Beachcomber",
+    "file_url": "https://www.gutenberg.org/files/65956/65956-0.txt"
+  },
+  {
+    "id": "761",
+    "title": "A. V. Laider",
+    "file_url": "https://www.gutenberg.org/files/761/761.txt"
+  },
+  {
+    "id": "37146",
+    "title": "The Leak",
+    "file_url": "https://www.gutenberg.org/files/37146/37146.txt"
+  },
+  {
+    "id": "51414",
+    "title": "...So They Baked a Cake",
+    "file_url": "https://www.gutenberg.org/files/51414/51414.txt"
+  },
+  {
+    "id": "65642",
+    "title": "Outcast of the Stars",
+    "file_url": "https://www.gutenberg.org/files/65642/65642-0.txt"
+  },
+  {
+    "id": "24558",
+    "title": "Watch the Sky",
+    "file_url": "https://www.gutenberg.org/files/24558/24558.txt"
+  },
+  {
+    "id": "51589",
+    "title": "The Rag and Bone Men",
+    "file_url": "https://www.gutenberg.org/files/51589/51589.txt"
+  },
+  {
+    "id": "23057",
+    "title": "How The Redoubt Was Taken",
+    "file_url": "https://www.gutenberg.org/files/23057/23057.txt"
+  },
+  {
+    "id": "51305",
+    "title": "Confidence Game",
+    "file_url": "https://www.gutenberg.org/files/51305/51305.txt"
+  },
+  {
+    "id": "2129",
+    "title": "Murad the Unlucky, and Other Tales",
+    "file_url": "https://www.gutenberg.org/files/2129/2129-0.txt"
+  },
+  {
+    "id": "24382",
+    "title": "Vigorish",
+    "file_url": "https://www.gutenberg.org/files/24382/24382.txt"
+  },
+  {
+    "id": "66183",
+    "title": "Man-Trap",
+    "file_url": "https://www.gutenberg.org/files/66183/66183-0.txt"
+  },
+  {
+    "id": "28063",
+    "title": "The Next Logical Step",
+    "file_url": "https://www.gutenberg.org/files/28063/28063.txt"
+  },
+  {
+    "id": "28063",
+    "title": "The Next Logical Step",
+    "file_url": "https://www.gutenberg.org/files/28063/28063.txt"
+  },
+  {
+    "id": "62249",
+    "title": "Outpost on Io",
+    "file_url": "https://www.gutenberg.org/files/62249/62249.txt"
+  },
+  {
+    "id": "9209",
+    "title": "The Haunted Mind (From \"Twice Told Tales\")",
+    "file_url": "https://www.gutenberg.org/files/9209/9209.txt"
+  },
+  {
+    "id": "24135",
+    "title": "The Measure of a Man",
+    "file_url": "https://www.gutenberg.org/files/24135/24135.txt"
+  },
+  {
+    "id": "22890",
+    "title": "The Worlds of If",
+    "file_url": "https://www.gutenberg.org/files/22890/22890.txt"
+  },
+  {
+    "id": "23920",
+    "title": "A Matter of Proportion",
+    "file_url": "https://www.gutenberg.org/files/23920/23920.txt"
+  },
+  {
+    "id": "32801",
+    "title": "The Plotters",
+    "file_url": "https://www.gutenberg.org/files/32801/32801.txt"
+  },
+  {
+    "id": "66723",
+    "title": "Stop, You're Killing Me!",
+    "file_url": "https://www.gutenberg.org/files/66723/66723-0.txt"
+  },
+  {
+    "id": "32076",
+    "title": "Brown John's Body",
+    "file_url": "https://www.gutenberg.org/files/32076/32076.txt"
+  },
+  {
+    "id": "30234",
+    "title": "Dead Ringer",
+    "file_url": "https://www.gutenberg.org/files/30234/30234.txt"
+  },
+  {
+    "id": "31392",
+    "title": "The Inhabited",
+    "file_url": "https://www.gutenberg.org/files/31392/31392.txt"
+  },
+  {
+    "id": "23057",
+    "title": "How The Redoubt Was Taken",
+    "file_url": "https://www.gutenberg.org/files/23057/23057.txt"
+  },
+  {
+    "id": "24641",
+    "title": "\"Martin of Nitendi\"; and The River of Dreams\r",
+    "file_url": "https://www.gutenberg.org/files/24641/24641.txt"
+  },
+  {
+    "id": "2886",
+    "title": "Tales of the Argonauts",
+    "file_url": "https://www.gutenberg.org/files/2886/2886.txt"
+  },
+  {
+    "id": "66732",
+    "title": "Mystery at Mesa Flat",
+    "file_url": "https://www.gutenberg.org/files/66732/66732-0.txt"
+  },
+  {
+    "id": "29418",
+    "title": "The Man from Time",
+    "file_url": "https://www.gutenberg.org/files/29418/29418.txt"
+  },
+  {
+    "id": "32613",
+    "title": "Tabby",
+    "file_url": "https://www.gutenberg.org/files/32613/32613.txt"
+  },
+  {
+    "id": "51050",
+    "title": "Man's Best Friend",
+    "file_url": "https://www.gutenberg.org/files/51050/51050-8.txt"
+  },
+  {
+    "id": "32579",
+    "title": "Micro-Man",
+    "file_url": "https://www.gutenberg.org/files/32579/32579.txt"
+  },
+  {
+    "id": "41455",
+    "title": "The Lady in the Car",
+    "file_url": "https://www.gutenberg.org/files/41455/41455.txt"
+  },
+  {
+    "id": "65119",
+    "title": "Homecoming Horde",
+    "file_url": "https://www.gutenberg.org/files/65119/65119-0.txt"
+  },
+  {
+    "id": "29561",
+    "title": "In a Little Town",
+    "file_url": "https://www.gutenberg.org/files/29561/29561.txt"
+  },
+  {
+    "id": "936",
+    "title": "The Village Watch-Tower",
+    "file_url": "https://www.gutenberg.org/files/936/936.txt"
+  },
+  {
+    "id": "4348",
+    "title": "Poor, Dear Margaret Kirby",
+    "file_url": "https://www.gutenberg.org/files/4348/4348.txt"
+  },
+  {
+    "id": "489",
+    "title": "One Basket",
+    "file_url": "https://www.gutenberg.org/files/489/489.txt"
+  },
+  {
+    "id": "36731",
+    "title": "Tales of the Wonder Club, Volume III",
+    "file_url": "https://www.gutenberg.org/files/36731/36731.txt"
+  },
+  {
+    "id": "58725",
+    "title": "Quickie",
+    "file_url": "https://www.gutenberg.org/files/58725/58725-8.txt"
+  },
+  {
+    "id": "18859",
+    "title": "Cross Purposes and The Shadows",
+    "file_url": "https://www.gutenberg.org/files/18859/18859.txt"
+  },
+  {
+    "id": "30474",
+    "title": "They Also Serve",
+    "file_url": "https://www.gutenberg.org/files/30474/30474.txt"
+  },
+  {
+    "id": "41455",
+    "title": "The Lady in the Car",
+    "file_url": "https://www.gutenberg.org/files/41455/41455.txt"
+  },
+  {
+    "id": "29931",
+    "title": "The Big Tomorrow",
+    "file_url": "https://www.gutenberg.org/files/29931/29931.txt"
+  },
+  {
+    "id": "29561",
+    "title": "In a Little Town",
+    "file_url": "https://www.gutenberg.org/files/29561/29561.txt"
+  },
+  {
+    "id": "65119",
+    "title": "Homecoming Horde",
+    "file_url": "https://www.gutenberg.org/files/65119/65119-0.txt"
+  },
+  {
+    "id": "32579",
+    "title": "Micro-Man",
+    "file_url": "https://www.gutenberg.org/files/32579/32579.txt"
+  },
+  {
+    "id": "51092",
+    "title": "Rattle OK",
+    "file_url": "https://www.gutenberg.org/files/51092/51092.txt"
+  },
+  {
+    "id": "7955",
+    "title": "Historical Miniatures",
+    "file_url": "https://www.gutenberg.org/files/7955/7955.txt"
+  },
+  {
+    "id": "51687",
+    "title": "The Spy in the Elevator",
+    "file_url": "https://www.gutenberg.org/files/51687/51687.txt"
+  },
+  {
+    "id": "26855",
+    "title": "Hard Guy",
+    "file_url": "https://www.gutenberg.org/files/26855/26855.txt"
+  },
+  {
+    "id": "34852",
+    "title": "Moonshine & Clover",
+    "file_url": "https://www.gutenberg.org/files/34852/34852.txt"
+  },
+  {
+    "id": "32735",
+    "title": "Forsyte's Retreat",
+    "file_url": "https://www.gutenberg.org/files/32735/32735.txt"
+  },
+  {
+    "id": "31364",
+    "title": "B-12's Moon Glow",
+    "file_url": "https://www.gutenberg.org/files/31364/31364.txt"
+  },
+  {
+    "id": "66733",
+    "title": "The Obedient Servant",
+    "file_url": "https://www.gutenberg.org/files/66733/66733-0.txt"
+  },
+  {
+    "id": "64354",
+    "title": "Me, Myself and I",
+    "file_url": "https://www.gutenberg.org/files/64354/64354-0.txt"
+  },
+  {
+    "id": "24166",
+    "title": "The Destroyers",
+    "file_url": "https://www.gutenberg.org/files/24166/24166.txt"
+  },
+  {
+    "id": "18261",
+    "title": "Operation R.S.V.P.",
+    "file_url": "https://www.gutenberg.org/files/18261/18261.txt"
+  },
+  {
+    "id": "25658",
+    "title": "Daisy Ashford: Her Book",
+    "file_url": "https://www.gutenberg.org/files/25658/25658.txt"
+  },
+  {
+    "id": "23764",
+    "title": "The Bramble Bush",
+    "file_url": "https://www.gutenberg.org/files/23764/23764.txt"
+  },
+  {
+    "id": "23791",
+    "title": "Scrimshaw",
+    "file_url": "https://www.gutenberg.org/files/23791/23791.txt"
+  },
+  {
+    "id": "23872",
+    "title": "The Professional Approach",
+    "file_url": "https://www.gutenberg.org/files/23872/23872.txt"
+  },
+  {
+    "id": "34852",
+    "title": "Moonshine & Clover",
+    "file_url": "https://www.gutenberg.org/files/34852/34852.txt"
+  },
+  {
+    "id": "30399",
+    "title": "Pythias",
+    "file_url": "https://www.gutenberg.org/files/30399/30399.txt"
+  },
+  {
+    "id": "7955",
+    "title": "Historical Miniatures",
+    "file_url": "https://www.gutenberg.org/files/7955/7955.txt"
+  },
+  {
+    "id": "51092",
+    "title": "Rattle OK",
+    "file_url": "https://www.gutenberg.org/files/51092/51092.txt"
+  },
+  {
+    "id": "32150",
+    "title": "Prison of a Billion Years",
+    "file_url": "https://www.gutenberg.org/files/32150/32150.txt"
+  },
+  {
+    "id": "32010",
+    "title": "A Feast of Demons",
+    "file_url": "https://www.gutenberg.org/files/32010/32010.txt"
+  },
+  {
+    "id": "22227",
+    "title": "The 4-D Doodler",
+    "file_url": "https://www.gutenberg.org/files/22227/22227.txt"
+  },
+  {
+    "id": "29525",
+    "title": "The Leech",
+    "file_url": "https://www.gutenberg.org/files/29525/29525.txt"
+  },
+  {
+    "id": "30728",
+    "title": "Oneness",
+    "file_url": "https://www.gutenberg.org/files/30728/30728.txt"
+  },
+  {
+    "id": "32077",
+    "title": "Breeder Reaction",
+    "file_url": "https://www.gutenberg.org/files/32077/32077.txt"
+  },
+  {
+    "id": "20267",
+    "title": "At The Bay",
+    "file_url": "https://www.gutenberg.org/files/20267/20267-readme.txt"
+  },
+  {
+    "id": "51460",
+    "title": "A Husband for My Wife",
+    "file_url": "https://www.gutenberg.org/files/51460/51460.txt"
+  },
+  {
+    "id": "40968",
+    "title": "Desire No More",
+    "file_url": "https://www.gutenberg.org/files/40968/40968.txt"
+  },
+  {
+    "id": "32126",
+    "title": "Freudian Slip",
+    "file_url": "https://www.gutenberg.org/files/32126/32126.txt"
+  },
+  {
+    "id": "27609",
+    "title": "The Undersea Tube",
+    "file_url": "https://www.gutenberg.org/files/27609/27609.txt"
+  },
+  {
+    "id": "34817",
+    "title": "Tales of the Wonder Club, Volume II",
+    "file_url": "https://www.gutenberg.org/files/34817/34817.txt"
+  },
+  {
+    "id": "22842",
+    "title": "The Widow's Dog",
+    "file_url": "https://www.gutenberg.org/files/22842/22842.txt"
+  },
+  {
+    "id": "58733",
+    "title": "Spatial Delivery",
+    "file_url": "https://www.gutenberg.org/files/58733/58733.txt"
+  },
+  {
+    "id": "31778",
+    "title": "The Draw",
+    "file_url": "https://www.gutenberg.org/files/31778/31778.txt"
+  },
+  {
+    "id": "21782",
+    "title": "The Yillian Way",
+    "file_url": "https://www.gutenberg.org/files/21782/21782.txt"
+  },
+  {
+    "id": "32395",
+    "title": "No Strings Attached",
+    "file_url": "https://www.gutenberg.org/files/32395/32395.txt"
+  },
+  {
+    "id": "51494",
+    "title": "Beach Scene",
+    "file_url": "https://www.gutenberg.org/files/51494/51494.txt"
+  },
+  {
+    "id": "54254",
+    "title": "The Search After Hapiness [sic]: A Tale",
+    "file_url": "https://www.gutenberg.org/files/54254/54254.txt"
+  },
+  {
+    "id": "22881",
+    "title": "My Friend Bobby",
+    "file_url": "https://www.gutenberg.org/files/22881/22881.txt"
+  },
+  {
+    "id": "31778",
+    "title": "The Draw",
+    "file_url": "https://www.gutenberg.org/files/31778/31778.txt"
+  },
+  {
+    "id": "32126",
+    "title": "Freudian Slip",
+    "file_url": "https://www.gutenberg.org/files/32126/32126.txt"
+  },
+  {
+    "id": "8668",
+    "title": "Revenge!",
+    "file_url": "https://www.gutenberg.org/files/8668/8668.txt"
+  },
+  {
+    "id": "64679",
+    "title": "Who Goes There?",
+    "file_url": "https://www.gutenberg.org/files/64679/64679-0.txt"
+  },
+  {
+    "id": "51460",
+    "title": "A Husband for My Wife",
+    "file_url": "https://www.gutenberg.org/files/51460/51460.txt"
+  },
+  {
+    "id": "24418",
+    "title": "The Quantum Jump",
+    "file_url": "https://www.gutenberg.org/files/24418/24418.txt"
+  },
+  {
+    "id": "64963",
+    "title": "Heir Apparent",
+    "file_url": "https://www.gutenberg.org/files/64963/64963-0.txt"
+  },
+  {
+    "id": "32077",
+    "title": "Breeder Reaction",
+    "file_url": "https://www.gutenberg.org/files/32077/32077.txt"
+  },
+  {
+    "id": "40968",
+    "title": "Desire No More",
+    "file_url": "https://www.gutenberg.org/files/40968/40968.txt"
+  },
+  {
+    "id": "34817",
+    "title": "Tales of the Wonder Club, Volume II",
+    "file_url": "https://www.gutenberg.org/files/34817/34817.txt"
+  },
+  {
+    "id": "61353",
+    "title": "Saline Solution",
+    "file_url": "https://www.gutenberg.org/files/61353/61353.txt"
+  },
+  {
+    "id": "65537",
+    "title": "Harwood's Vortex",
+    "file_url": "https://www.gutenberg.org/files/65537/65537-0.txt"
+  },
+  {
+    "id": "31922",
+    "title": "Felony",
+    "file_url": "https://www.gutenberg.org/files/31922/31922.txt"
+  },
+  {
+    "id": "24192",
+    "title": "The First One",
+    "file_url": "https://www.gutenberg.org/files/24192/24192.txt"
+  },
+  {
+    "id": "31841",
+    "title": "The Water Eater",
+    "file_url": "https://www.gutenberg.org/files/31841/31841.txt"
+  },
+  {
+    "id": "65374",
+    "title": "Overlord of Colony Eight",
+    "file_url": "https://www.gutenberg.org/files/65374/65374-0.txt"
+  },
+  {
+    "id": "35004",
+    "title": "Abb\u00e9 Aubain and Mosaics",
+    "file_url": "https://www.gutenberg.org/files/35004/35004-8.txt"
+  },
+  {
+    "id": "51194",
+    "title": "Made to Measure",
+    "file_url": "https://www.gutenberg.org/files/51194/51194.txt"
+  },
+  {
+    "id": "64799",
+    "title": "Equation for Time",
+    "file_url": "https://www.gutenberg.org/files/64799/64799-0.txt"
+  },
+  {
+    "id": "14273",
+    "title": "Invisible Links",
+    "file_url": "https://www.gutenberg.org/files/14273/14273-0.txt"
+  },
+  {
+    "id": "51121",
+    "title": "Spoken For",
+    "file_url": "https://www.gutenberg.org/files/51121/51121.txt"
+  },
+  {
+    "id": "59904",
+    "title": "Tony, the Hero; Or, A Brave Boy's Adventures with a Tramp",
+    "file_url": "https://www.gutenberg.org/files/59904/59904.txt"
+  },
+  {
+    "id": "50847",
+    "title": "Tea Tray in the Sky",
+    "file_url": "https://www.gutenberg.org/files/50847/50847-8.txt"
+  },
+  {
+    "id": "66753",
+    "title": "Traitor's Choice",
+    "file_url": "https://www.gutenberg.org/files/66753/66753-0.txt"
+  },
+  {
+    "id": "22701",
+    "title": "The Blindman's World",
+    "file_url": "https://www.gutenberg.org/files/22701/22701.txt"
+  },
+  {
+    "id": "35004",
+    "title": "Abb\u00e9 Aubain and Mosaics",
+    "file_url": "https://www.gutenberg.org/files/35004/35004-8.txt"
+  },
+  {
+    "id": "30583",
+    "title": "The Asses of Balaam",
+    "file_url": "https://www.gutenberg.org/files/30583/30583.txt"
+  },
+  {
+    "id": "61353",
+    "title": "Saline Solution",
+    "file_url": "https://www.gutenberg.org/files/61353/61353.txt"
+  },
+  {
+    "id": "65537",
+    "title": "Harwood's Vortex",
+    "file_url": "https://www.gutenberg.org/files/65537/65537-0.txt"
+  },
+  {
+    "id": "51296",
+    "title": "The Sense of Wonder",
+    "file_url": "https://www.gutenberg.org/files/51296/51296.txt"
+  },
+  {
+    "id": "31841",
+    "title": "The Water Eater",
+    "file_url": "https://www.gutenberg.org/files/31841/31841.txt"
+  },
+  {
+    "id": "31922",
+    "title": "Felony",
+    "file_url": "https://www.gutenberg.org/files/31922/31922.txt"
+  },
+  {
+    "id": "24928",
+    "title": "Longevity",
+    "file_url": "https://www.gutenberg.org/files/24928/24928.txt"
+  },
+  {
+    "id": "30199",
+    "title": "McIlvaine's Star",
+    "file_url": "https://www.gutenberg.org/files/30199/30199.txt"
+  },
+  {
+    "id": "51194",
+    "title": "Made to Measure",
+    "file_url": "https://www.gutenberg.org/files/51194/51194.txt"
+  },
+  {
+    "id": "66313",
+    "title": "Journey for the Brave",
+    "file_url": "https://www.gutenberg.org/files/66313/66313-0.txt"
+  },
+  {
+    "id": "14045",
+    "title": "At a Winter's Fire",
+    "file_url": "https://www.gutenberg.org/files/14045/14045.txt"
+  },
+  {
+    "id": "9228",
+    "title": "The Christmas Banquet (From \"Mosses from an Old Manse\")",
+    "file_url": "https://www.gutenberg.org/files/9228/9228.txt"
+  },
+  {
+    "id": "28693",
+    "title": "Tales of the Fish Patrol",
+    "file_url": "https://www.gutenberg.org/files/28693/28693.txt"
+  },
+  {
+    "id": "22524",
+    "title": "The Hunters",
+    "file_url": "https://www.gutenberg.org/files/22524/22524.txt"
+  },
+  {
+    "id": "40056",
+    "title": "Yule Logs: Longmans' Christmas Annual for 1898",
+    "file_url": "https://www.gutenberg.org/files/40056/40056.txt"
+  },
+  {
+    "id": "35148",
+    "title": "Here and Hereafter",
+    "file_url": "https://www.gutenberg.org/files/35148/35148.txt"
+  },
+  {
+    "id": "39132",
+    "title": "Mathieu Ropars: et cetera",
+    "file_url": "https://www.gutenberg.org/files/39132/39132.txt"
+  },
+  {
+    "id": "32820",
+    "title": "World Beyond Pluto",
+    "file_url": "https://www.gutenberg.org/files/32820/32820.txt"
+  },
+  {
+    "id": "22875",
+    "title": "Circus",
+    "file_url": "https://www.gutenberg.org/files/22875/22875.txt"
+  },
+  {
+    "id": "32903",
+    "title": "The Victor",
+    "file_url": "https://www.gutenberg.org/files/32903/32903.txt"
+  },
+  {
+    "id": "65561",
+    "title": "Jungle Tales",
+    "file_url": "https://www.gutenberg.org/files/65561/65561-0.txt"
+  },
+  {
+    "id": "23217",
+    "title": "The Roll-Call Of The Reef",
+    "file_url": "https://www.gutenberg.org/files/23217/23217.txt"
+  },
+  {
+    "id": "23326",
+    "title": "M\u00e8re Giraud's Little Daughter",
+    "file_url": "https://www.gutenberg.org/files/23326/23326.txt"
+  },
+  {
+    "id": "34420",
+    "title": "Riya's Foundling",
+    "file_url": "https://www.gutenberg.org/files/34420/34420.txt"
+  },
+  {
+    "id": "23426",
+    "title": "The Last Place on Earth",
+    "file_url": "https://www.gutenberg.org/files/23426/23426.txt"
+  },
+  {
+    "id": "51234",
+    "title": "Zeritsky's Law",
+    "file_url": "https://www.gutenberg.org/files/51234/51234.txt"
+  },
+  {
+    "id": "21809",
+    "title": "Second Book of Tales",
+    "file_url": "https://www.gutenberg.org/files/21809/21809.txt"
+  },
+  {
+    "id": "32212",
+    "title": "Clean Break",
+    "file_url": "https://www.gutenberg.org/files/32212/32212.txt"
+  },
+  {
+    "id": "27439",
+    "title": "Sundry Accounts",
+    "file_url": "https://www.gutenberg.org/files/27439/27439.txt"
+  },
+  {
+    "id": "4593",
+    "title": "Friends and Neighbors; Or, Two Ways of Living in the World",
+    "file_url": "https://www.gutenberg.org/files/4593/4593.txt"
+  },
+  {
+    "id": "9228",
+    "title": "The Christmas Banquet (From \"Mosses from an Old Manse\")",
+    "file_url": "https://www.gutenberg.org/files/9228/9228.txt"
+  },
+  {
+    "id": "33334",
+    "title": "The Only Woman in the Town, and Other Tales of the American Revolution",
+    "file_url": "https://www.gutenberg.org/files/33334/33334.txt"
+  },
+  {
+    "id": "51268",
+    "title": "The Girls From Earth",
+    "file_url": "https://www.gutenberg.org/files/51268/51268.txt"
+  },
+  {
+    "id": "66313",
+    "title": "Journey for the Brave",
+    "file_url": "https://www.gutenberg.org/files/66313/66313-0.txt"
+  },
+  {
+    "id": "53042",
+    "title": "A Hitch in Space",
+    "file_url": "https://www.gutenberg.org/files/53042/53042-0.txt"
+  },
+  {
+    "id": "66431",
+    "title": "The Missing Disclaimer",
+    "file_url": "https://www.gutenberg.org/files/66431/66431-0.txt"
+  },
+  {
+    "id": "40056",
+    "title": "Yule Logs: Longmans' Christmas Annual for 1898",
+    "file_url": "https://www.gutenberg.org/files/40056/40056.txt"
+  },
+  {
+    "id": "30029",
+    "title": "Lost in Translation",
+    "file_url": "https://www.gutenberg.org/files/30029/30029.txt"
+  },
+  {
+    "id": "29975",
+    "title": "One Martian Afternoon",
+    "file_url": "https://www.gutenberg.org/files/29975/29975.txt"
+  },
+  {
+    "id": "34420",
+    "title": "Riya's Foundling",
+    "file_url": "https://www.gutenberg.org/files/34420/34420.txt"
+  },
+  {
+    "id": "453",
+    "title": "Emma McChesney and Co.",
+    "file_url": "https://www.gutenberg.org/files/453/453.txt"
+  },
+  {
+    "id": "32212",
+    "title": "Clean Break",
+    "file_url": "https://www.gutenberg.org/files/32212/32212.txt"
+  },
+  {
+    "id": "33872",
+    "title": "Nine Men in Time",
+    "file_url": "https://www.gutenberg.org/files/33872/33872.txt"
+  },
+  {
+    "id": "51075",
+    "title": "A Stone and a Spear",
+    "file_url": "https://www.gutenberg.org/files/51075/51075.txt"
+  },
+  {
+    "id": "51699",
+    "title": "The God Next Door",
+    "file_url": "https://www.gutenberg.org/files/51699/51699.txt"
+  },
+  {
+    "id": "66571",
+    "title": "Moonlight and Robots",
+    "file_url": "https://www.gutenberg.org/files/66571/66571-0.txt"
+  },
+  {
+    "id": "66590",
+    "title": "Problem Planet",
+    "file_url": "https://www.gutenberg.org/files/66590/66590-0.txt"
+  },
+  {
+    "id": "13441",
+    "title": "The Sunny Side",
+    "file_url": "https://www.gutenberg.org/files/13441/13441.txt"
+  },
+  {
+    "id": "33118",
+    "title": "Just Around the Corner: Romance en casserole",
+    "file_url": "https://www.gutenberg.org/files/33118/33118.txt"
+  },
+  {
+    "id": "23153",
+    "title": "The Big Bounce",
+    "file_url": "https://www.gutenberg.org/files/23153/23153.txt"
+  },
+  {
+    "id": "20541",
+    "title": "The Rocky Island",
+    "file_url": "https://www.gutenberg.org/files/20541/20541.txt"
+  },
+  {
+    "id": "60761",
+    "title": "The Good Seed",
+    "file_url": "https://www.gutenberg.org/files/60761/60761.txt"
+  },
+  {
+    "id": "66389",
+    "title": "Marty the Martian",
+    "file_url": "https://www.gutenberg.org/files/66389/66389-0.txt"
+  },
+  {
+    "id": "23535",
+    "title": "The Invaders",
+    "file_url": "https://www.gutenberg.org/files/23535/23535.txt"
+  },
+  {
+    "id": "23599",
+    "title": "The Big Fix",
+    "file_url": "https://www.gutenberg.org/files/23599/23599.txt"
+  },
+  {
+    "id": "60671",
+    "title": "The Last Days of L.A.",
+    "file_url": "https://www.gutenberg.org/files/60671/60671.txt"
+  },
+  {
+    "id": "24101",
+    "title": "Egocentric Orbit",
+    "file_url": "https://www.gutenberg.org/files/24101/24101.txt"
+  },
+  {
+    "id": "23535",
+    "title": "The Invaders",
+    "file_url": "https://www.gutenberg.org/files/23535/23535.txt"
+  },
+  {
+    "id": "5320",
+    "title": "Taken Alive",
+    "file_url": "https://www.gutenberg.org/files/5320/5320.txt"
+  },
+  {
+    "id": "23599",
+    "title": "The Big Fix",
+    "file_url": "https://www.gutenberg.org/files/23599/23599.txt"
+  },
+  {
+    "id": "51699",
+    "title": "The God Next Door",
+    "file_url": "https://www.gutenberg.org/files/51699/51699.txt"
+  },
+  {
+    "id": "33872",
+    "title": "Nine Men in Time",
+    "file_url": "https://www.gutenberg.org/files/33872/33872.txt"
+  },
+  {
+    "id": "24101",
+    "title": "Egocentric Orbit",
+    "file_url": "https://www.gutenberg.org/files/24101/24101.txt"
+  },
+  {
+    "id": "32592",
+    "title": "Let There Be Light",
+    "file_url": "https://www.gutenberg.org/files/32592/32592.txt"
+  },
+  {
+    "id": "25644",
+    "title": "The Man Who Hated Mars",
+    "file_url": "https://www.gutenberg.org/files/25644/25644-0.txt"
+  },
+  {
+    "id": "64507",
+    "title": "Ricardo's Virus",
+    "file_url": "https://www.gutenberg.org/files/64507/64507-0.txt"
+  },
+  {
+    "id": "30348",
+    "title": "The Last Supper",
+    "file_url": "https://www.gutenberg.org/files/30348/30348.txt"
+  },
+  {
+    "id": "24949",
+    "title": "Control Group",
+    "file_url": "https://www.gutenberg.org/files/24949/24949.txt"
+  },
+  {
+    "id": "66590",
+    "title": "Problem Planet",
+    "file_url": "https://www.gutenberg.org/files/66590/66590-0.txt"
+  },
+  {
+    "id": "33118",
+    "title": "Just Around the Corner: Romance en casserole",
+    "file_url": "https://www.gutenberg.org/files/33118/33118.txt"
+  },
+  {
+    "id": "66571",
+    "title": "Moonlight and Robots",
+    "file_url": "https://www.gutenberg.org/files/66571/66571-0.txt"
+  },
+  {
+    "id": "29994",
+    "title": "Irresistible Weapon",
+    "file_url": "https://www.gutenberg.org/files/29994/29994.txt"
+  },
+  {
+    "id": "299",
+    "title": "Tales from Two Hemispheres",
+    "file_url": "https://www.gutenberg.org/files/299/299.txt"
+  },
+  {
+    "id": "60761",
+    "title": "The Good Seed",
+    "file_url": "https://www.gutenberg.org/files/60761/60761.txt"
+  },
+  {
+    "id": "3550",
+    "title": "La Mere Bauche\r",
+    "file_url": "https://www.gutenberg.org/files/3550/3550-0.txt"
+  },
+  {
+    "id": "46520",
+    "title": "Secret Service; or, Recollections of a City Detective",
+    "file_url": "https://www.gutenberg.org/files/46520/46520.txt"
+  },
+  {
+    "id": "13441",
+    "title": "The Sunny Side",
+    "file_url": "https://www.gutenberg.org/files/13441/13441.txt"
+  },
+  {
+    "id": "65241",
+    "title": "Rescue Mission",
+    "file_url": "https://www.gutenberg.org/files/65241/65241-0.txt"
+  },
+  {
+    "id": "2550",
+    "title": "Tales of Trail and Town",
+    "file_url": "https://www.gutenberg.org/files/2550/2550.txt"
+  },
+  {
+    "id": "32637",
+    "title": "The Envoy, Her",
+    "file_url": "https://www.gutenberg.org/files/32637/32637.txt"
+  },
+  {
+    "id": "29133",
+    "title": "Shipwreck in the Sky",
+    "file_url": "https://www.gutenberg.org/files/29133/29133.txt"
+  },
+  {
+    "id": "28645",
+    "title": "Lost in the Future",
+    "file_url": "https://www.gutenberg.org/files/28645/28645.txt"
+  },
+  {
+    "id": "33634",
+    "title": "The Night Operator",
+    "file_url": "https://www.gutenberg.org/files/33634/33634.txt"
+  },
+  {
+    "id": "6241",
+    "title": "The Lane That Had No Turning, Complete",
+    "file_url": "https://www.gutenberg.org/files/6241/6241.txt"
+  },
+  {
+    "id": "51185",
+    "title": "All Jackson's Children",
+    "file_url": "https://www.gutenberg.org/files/51185/51185.txt"
+  },
+  {
+    "id": "65521",
+    "title": "Guardians of the Tower",
+    "file_url": "https://www.gutenberg.org/files/65521/65521-0.txt"
+  },
+  {
+    "id": "66713",
+    "title": "Selling Point",
+    "file_url": "https://www.gutenberg.org/files/66713/66713-0.txt"
+  },
+  {
+    "id": "26967",
+    "title": "The Coming of the Ice",
+    "file_url": "https://www.gutenberg.org/files/26967/26967.txt"
+  },
+  {
+    "id": "50924",
+    "title": "Sweet Tooth",
+    "file_url": "https://www.gutenberg.org/files/50924/50924-8.txt"
+  },
+  {
+    "id": "66570",
+    "title": "Hunting License",
+    "file_url": "https://www.gutenberg.org/files/66570/66570-0.txt"
+  },
+  {
+    "id": "32637",
+    "title": "The Envoy, Her",
+    "file_url": "https://www.gutenberg.org/files/32637/32637.txt"
+  },
+  {
+    "id": "48880",
+    "title": "Rough Beast",
+    "file_url": "https://www.gutenberg.org/files/48880/48880-0.txt"
+  },
+  {
+    "id": "32133",
+    "title": "The Graveyard of Space",
+    "file_url": "https://www.gutenberg.org/files/32133/32133.txt"
+  },
+  {
+    "id": "23783",
+    "title": "Eliza",
+    "file_url": "https://www.gutenberg.org/files/23783/23783.txt"
+  },
+  {
+    "id": "50904",
+    "title": "On the Fourth Planet",
+    "file_url": "https://www.gutenberg.org/files/50904/50904.txt"
+  },
+  {
+    "id": "32594",
+    "title": "Stalemate",
+    "file_url": "https://www.gutenberg.org/files/32594/32594.txt"
+  },
+  {
+    "id": "65140",
+    "title": "Not in the Rules",
+    "file_url": "https://www.gutenberg.org/files/65140/65140-0.txt"
+  },
+  {
+    "id": "45198",
+    "title": "Tales of Our Coast",
+    "file_url": "https://www.gutenberg.org/files/45198/45198.txt"
+  },
+  {
+    "id": "33634",
+    "title": "The Night Operator",
+    "file_url": "https://www.gutenberg.org/files/33634/33634.txt"
+  },
+  {
+    "id": "66713",
+    "title": "Selling Point",
+    "file_url": "https://www.gutenberg.org/files/66713/66713-0.txt"
+  },
+  {
+    "id": "45198",
+    "title": "Tales of Our Coast",
+    "file_url": "https://www.gutenberg.org/files/45198/45198.txt"
+  },
+  {
+    "id": "29940",
+    "title": "Dogfight\u20141973",
+    "file_url": "https://www.gutenberg.org/files/29940/29940.txt"
+  },
+  {
+    "id": "29205",
+    "title": "Grove of the Unborn",
+    "file_url": "https://www.gutenberg.org/files/29205/29205.txt"
+  },
+  {
+    "id": "12161",
+    "title": "Night Watches",
+    "file_url": "https://www.gutenberg.org/files/12161/12161-0.txt"
+  },
+  {
+    "id": "51662",
+    "title": "Breakdown",
+    "file_url": "https://www.gutenberg.org/files/51662/51662.txt"
+  },
+  {
+    "id": "65240",
+    "title": "A Madman on Board",
+    "file_url": "https://www.gutenberg.org/files/65240/65240-0.txt"
+  },
+  {
+    "id": "50826",
+    "title": "The Moons of Mars",
+    "file_url": "https://www.gutenberg.org/files/50826/50826.txt"
+  },
+  {
+    "id": "51688",
+    "title": "The Air of Castor Oil",
+    "file_url": "https://www.gutenberg.org/files/51688/51688-8.txt"
+  },
+  {
+    "id": "705",
+    "title": "The Roadmender",
+    "file_url": "https://www.gutenberg.org/files/705/705-0.txt"
+  },
+  {
+    "id": "59561",
+    "title": "War Game",
+    "file_url": "https://www.gutenberg.org/files/59561/59561.txt"
+  },
+  {
+    "id": "22882",
+    "title": "Image of the Gods",
+    "file_url": "https://www.gutenberg.org/files/22882/22882.txt"
+  },
+  {
+    "id": "65053",
+    "title": "Meet Me in Tomorrow",
+    "file_url": "https://www.gutenberg.org/files/65053/65053-0.txt"
+  },
+  {
+    "id": "27392",
+    "title": "Lease to Doomsday",
+    "file_url": "https://www.gutenberg.org/files/27392/27392.txt"
+  },
+  {
+    "id": "64847",
+    "title": "Headhunters of Nuamerica",
+    "file_url": "https://www.gutenberg.org/files/64847/64847-0.txt"
+  },
+  {
+    "id": "51508",
+    "title": "The Chasers",
+    "file_url": "https://www.gutenberg.org/files/51508/51508.txt"
+  },
+  {
+    "id": "19916",
+    "title": "Civilization: Tales of the Orient",
+    "file_url": "https://www.gutenberg.org/files/19916/19916.txt"
+  },
+  {
+    "id": "61540",
+    "title": "Robinc",
+    "file_url": "https://www.gutenberg.org/files/61540/61540.txt"
+  },
+  {
+    "id": "23185",
+    "title": "The Glory of Ippling",
+    "file_url": "https://www.gutenberg.org/files/23185/23185.txt"
+  },
+  {
+    "id": "64880",
+    "title": "The Facts of Life",
+    "file_url": "https://www.gutenberg.org/files/64880/64880-0.txt"
+  },
+  {
+    "id": "23414",
+    "title": "Halima And The Scorpions",
+    "file_url": "https://www.gutenberg.org/files/23414/23414.txt"
+  },
+  {
+    "id": "32321",
+    "title": "The Book",
+    "file_url": "https://www.gutenberg.org/files/32321/32321.txt"
+  },
+  {
+    "id": "51662",
+    "title": "Breakdown",
+    "file_url": "https://www.gutenberg.org/files/51662/51662.txt"
+  },
+  {
+    "id": "65240",
+    "title": "A Madman on Board",
+    "file_url": "https://www.gutenberg.org/files/65240/65240-0.txt"
+  },
+  {
+    "id": "12161",
+    "title": "Night Watches",
+    "file_url": "https://www.gutenberg.org/files/12161/12161-0.txt"
+  },
+  {
+    "id": "60743",
+    "title": "Cultural Exchange",
+    "file_url": "https://www.gutenberg.org/files/60743/60743.txt"
+  },
+  {
+    "id": "51508",
+    "title": "The Chasers",
+    "file_url": "https://www.gutenberg.org/files/51508/51508.txt"
+  },
+  {
+    "id": "51519",
+    "title": "The Drug",
+    "file_url": "https://www.gutenberg.org/files/51519/51519.txt"
+  },
+  {
+    "id": "65053",
+    "title": "Meet Me in Tomorrow",
+    "file_url": "https://www.gutenberg.org/files/65053/65053-0.txt"
+  },
+  {
+    "id": "51688",
+    "title": "The Air of Castor Oil",
+    "file_url": "https://www.gutenberg.org/files/51688/51688-8.txt"
+  },
+  {
+    "id": "705",
+    "title": "The Roadmender",
+    "file_url": "https://www.gutenberg.org/files/705/705-0.txt"
+  },
+  {
+    "id": "30337",
+    "title": "Fifty Per Cent Prophet",
+    "file_url": "https://www.gutenberg.org/files/30337/30337.txt"
+  },
+  {
+    "id": "64880",
+    "title": "The Facts of Life",
+    "file_url": "https://www.gutenberg.org/files/64880/64880-0.txt"
+  },
+  {
+    "id": "24927",
+    "title": "A Matter of Magnitude",
+    "file_url": "https://www.gutenberg.org/files/24927/24927.txt"
+  },
+  {
+    "id": "59561",
+    "title": "War Game",
+    "file_url": "https://www.gutenberg.org/files/59561/59561.txt"
+  },
+  {
+    "id": "61540",
+    "title": "Robinc",
+    "file_url": "https://www.gutenberg.org/files/61540/61540.txt"
+  },
+  {
+    "id": "29698",
+    "title": "Lighter Than You Think",
+    "file_url": "https://www.gutenberg.org/files/29698/29698.txt"
+  },
+  {
+    "id": "29680",
+    "title": "Decision",
+    "file_url": "https://www.gutenberg.org/files/29680/29680.txt"
+  },
+  {
+    "id": "63783",
+    "title": "Savage Galahad",
+    "file_url": "https://www.gutenberg.org/files/63783/63783-0.txt"
+  },
+  {
+    "id": "50826",
+    "title": "The Moons of Mars",
+    "file_url": "https://www.gutenberg.org/files/50826/50826.txt"
+  },
+  {
+    "id": "64847",
+    "title": "Headhunters of Nuamerica",
+    "file_url": "https://www.gutenberg.org/files/64847/64847-0.txt"
+  },
+  {
+    "id": "51256",
+    "title": "The Cool War",
+    "file_url": "https://www.gutenberg.org/files/51256/51256-8.txt"
+  },
+  {
+    "id": "51274",
+    "title": "Ambition",
+    "file_url": "https://www.gutenberg.org/files/51274/51274.txt"
+  },
+  {
+    "id": "2598",
+    "title": "Urban Sketches",
+    "file_url": "https://www.gutenberg.org/files/2598/2598.txt"
+  },
+  {
+    "id": "51518",
+    "title": "The Feeling",
+    "file_url": "https://www.gutenberg.org/files/51518/51518.txt"
+  },
+  {
+    "id": "50889",
+    "title": "Half past Alligator",
+    "file_url": "https://www.gutenberg.org/files/50889/50889.txt"
+  },
+  {
+    "id": "29194",
+    "title": "G-r-r-r...!",
+    "file_url": "https://www.gutenberg.org/files/29194/29194.txt"
+  },
+  {
+    "id": "24290",
+    "title": "PRoblem",
+    "file_url": "https://www.gutenberg.org/files/24290/24290.txt"
+  },
+  {
+    "id": "28437",
+    "title": "It's a Small Solar System",
+    "file_url": "https://www.gutenberg.org/files/28437/28437.txt"
+  },
+  {
+    "id": "61895",
+    "title": "Space-Wolf",
+    "file_url": "https://www.gutenberg.org/files/61895/61895.txt"
+  },
+  {
+    "id": "66394",
+    "title": "The Dangerous Scarecrow",
+    "file_url": "https://www.gutenberg.org/files/66394/66394-0.txt"
+  },
+  {
+    "id": "24187",
+    "title": "A Transmutation of Muddles",
+    "file_url": "https://www.gutenberg.org/files/24187/24187.txt"
+  },
+  {
+    "id": "15156",
+    "title": "Balloons",
+    "file_url": "https://www.gutenberg.org/files/15156/15156.txt"
+  },
+  {
+    "id": "51274",
+    "title": "Ambition",
+    "file_url": "https://www.gutenberg.org/files/51274/51274.txt"
+  },
+  {
+    "id": "61389",
+    "title": "Die, Shadow!",
+    "file_url": "https://www.gutenberg.org/files/61389/61389.txt"
+  },
+  {
+    "id": "38893",
+    "title": "Spiritual Adventures",
+    "file_url": "https://www.gutenberg.org/files/38893/38893.txt"
+  },
+  {
+    "id": "32630",
+    "title": "Tiger Cat",
+    "file_url": "https://www.gutenberg.org/files/32630/32630.txt"
+  },
+  {
+    "id": "64678",
+    "title": "The First Man on the Moon",
+    "file_url": "https://www.gutenberg.org/files/64678/64678-0.txt"
+  },
+  {
+    "id": "25771",
+    "title": "A Nobleman's Nest",
+    "file_url": "https://www.gutenberg.org/files/25771/25771.txt"
+  },
+  {
+    "id": "30911",
+    "title": "The Demi-Urge",
+    "file_url": "https://www.gutenberg.org/files/30911/30911.txt"
+  },
+  {
+    "id": "61895",
+    "title": "Space-Wolf",
+    "file_url": "https://www.gutenberg.org/files/61895/61895.txt"
+  },
+  {
+    "id": "24975",
+    "title": "The Gift Bearer",
+    "file_url": "https://www.gutenberg.org/files/24975/24975.txt"
+  },
+  {
+    "id": "51274",
+    "title": "Ambition",
+    "file_url": "https://www.gutenberg.org/files/51274/51274.txt"
+  },
+  {
+    "id": "24955",
+    "title": "Man Made",
+    "file_url": "https://www.gutenberg.org/files/24955/24955.txt"
+  },
+  {
+    "id": "38893",
+    "title": "Spiritual Adventures",
+    "file_url": "https://www.gutenberg.org/files/38893/38893.txt"
+  },
+  {
+    "id": "64678",
+    "title": "The First Man on the Moon",
+    "file_url": "https://www.gutenberg.org/files/64678/64678-0.txt"
+  },
+  {
+    "id": "16433",
+    "title": "The Gay Cockade",
+    "file_url": "https://www.gutenberg.org/files/16433/16433.txt"
+  },
+  {
+    "id": "30004",
+    "title": "A Bottle of Old Wine",
+    "file_url": "https://www.gutenberg.org/files/30004/30004.txt"
+  },
+  {
+    "id": "61389",
+    "title": "Die, Shadow!",
+    "file_url": "https://www.gutenberg.org/files/61389/61389.txt"
+  },
+  {
+    "id": "32630",
+    "title": "Tiger Cat",
+    "file_url": "https://www.gutenberg.org/files/32630/32630.txt"
+  },
+  {
+    "id": "29791",
+    "title": "The Most Sentimental Man",
+    "file_url": "https://www.gutenberg.org/files/29791/29791.txt"
+  },
+  {
+    "id": "51256",
+    "title": "The Cool War",
+    "file_url": "https://www.gutenberg.org/files/51256/51256-8.txt"
+  },
+  {
+    "id": "2556",
+    "title": "Mr. Jack Hamlin's Mediation",
+    "file_url": "https://www.gutenberg.org/files/2556/2556.txt"
+  },
+  {
+    "id": "12151",
+    "title": "Back to Back",
+    "file_url": "https://www.gutenberg.org/files/12151/12151.txt"
+  },
+  {
+    "id": "43008",
+    "title": "Around the Yule Log",
+    "file_url": "https://www.gutenberg.org/files/43008/43008.txt"
+  },
+  {
+    "id": "37619",
+    "title": "Luck at the Diamond Fields",
+    "file_url": "https://www.gutenberg.org/files/37619/37619.txt"
+  },
+  {
+    "id": "19017",
+    "title": "Tales of Destiny",
+    "file_url": "https://www.gutenberg.org/files/19017/19017.txt"
+  },
+  {
+    "id": "64064",
+    "title": "Blind Play",
+    "file_url": "https://www.gutenberg.org/files/64064/64064-0.txt"
+  },
+  {
+    "id": "28893",
+    "title": "Of Time and Texas",
+    "file_url": "https://www.gutenberg.org/files/28893/28893.txt"
+  },
+  {
+    "id": "978",
+    "title": "The Yates Pride: A Romance",
+    "file_url": "https://www.gutenberg.org/files/978/978.txt"
+  },
+  {
+    "id": "32684",
+    "title": "The Invader",
+    "file_url": "https://www.gutenberg.org/files/32684/32684.txt"
+  }
+]
