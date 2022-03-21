@@ -93,4 +93,4 @@ def get_stories_files():
 
 
 if __name__ == '__main__':
-    get_stories_list()
+    get_stories_files()
