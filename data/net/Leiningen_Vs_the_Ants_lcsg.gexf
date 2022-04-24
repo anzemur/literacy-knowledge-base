@@ -1,0 +1,287 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2022-04-24">
+    <creator>NetworkX 2.5</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <nodes>
+      <node id="1040" label="&#10;" />
+      <node id="1041" label="It" />
+      <node id="1042" label="was" />
+      <node id="1043" label="announced" />
+      <node id="1044" label="by" />
+      <node id="1045" label="a" />
+      <node id="1046" label="stampede" />
+      <node id="1047" label="of" />
+      <node id="1048" label="animals" />
+      <node id="1049" label="," />
+      <node id="1050" label="timid" />
+      <node id="1051" label="and" />
+      <node id="1052" label="savage" />
+      <node id="1053" label="," />
+      <node id="1054" label="hurtling" />
+      <node id="1055" label="past" />
+      <node id="1056" label="each" />
+      <node id="1057" label="&#10;" />
+      <node id="1058" label="other" />
+      <node id="1059" label=";" />
+      <node id="1060" label="jaguars" />
+      <node id="1061" label="and" />
+      <node id="1062" label="pumas" />
+      <node id="1063" label="flashing" />
+      <node id="1064" label="by" />
+      <node id="1065" label="nimble" />
+      <node id="1066" label="stags" />
+      <node id="1067" label="of" />
+      <node id="1068" label="the" />
+      <node id="1069" label="pampas" />
+      <node id="1070" label="," />
+      <node id="1071" label="bulky" />
+      <node id="1072" label="tapirs" />
+      <node id="1073" label="," />
+      <node id="1074" label="no" />
+      <node id="1075" label="longer" />
+      <node id="1076" label="hunters" />
+      <node id="1077" label="," />
+      <node id="1078" label="themselves" />
+      <node id="1079" label="hunted" />
+      <node id="1080" label="," />
+      <node id="1081" label="outpacing" />
+      <node id="1082" label="fleet" />
+      <node id="1083" label="kinkajous" />
+      <node id="1084" label="," />
+      <node id="1085" label="maddened" />
+      <node id="1086" label="herds" />
+      <node id="1087" label="of" />
+      <node id="1088" label="cattle" />
+      <node id="1089" label="," />
+      <node id="1090" label="heads" />
+      <node id="1091" label="lowered" />
+      <node id="1092" label="," />
+      <node id="1093" label="nostrils" />
+      <node id="1094" label="snorting" />
+      <node id="1095" label="," />
+      <node id="1096" label="rushing" />
+      <node id="1097" label="through" />
+      <node id="1098" label="tribes" />
+      <node id="1099" label="of" />
+      <node id="1100" label="loping" />
+      <node id="1101" label="monkeys" />
+      <node id="1102" label="," />
+      <node id="1103" label="chattering" />
+      <node id="1104" label="in" />
+      <node id="1105" label="a" />
+      <node id="1106" label="dementia" />
+      <node id="1107" label="of" />
+      <node id="1108" label="terror" />
+      <node id="1109" label=";" />
+      <node id="1110" label="then" />
+      <node id="1111" label="followed" />
+      <node id="1112" label="the" />
+      <node id="1113" label="creeping" />
+      <node id="1114" label="and" />
+      <node id="1115" label="springing" />
+      <node id="1116" label="denizens" />
+      <node id="1117" label="of" />
+      <node id="1118" label="bush" />
+      <node id="1119" label="and" />
+      <node id="1120" label="steppe" />
+      <node id="1121" label="," />
+      <node id="1122" label="big" />
+      <node id="1123" label="and" />
+      <node id="1124" label="little" />
+      <node id="1125" label="rodents" />
+      <node id="1126" label="," />
+      <node id="1127" label="snakes" />
+      <node id="1128" label="," />
+      <node id="1129" label="and" />
+      <node id="1130" label="lizards" />
+      <node id="1131" label="." />
+    </nodes>
+    <edges>
+      <edge source="1040" target="1040" id="0" />
+      <edge source="1040" target="1043" id="1" />
+      <edge source="1041" target="1041" id="2" />
+      <edge source="1041" target="1043" id="3" />
+      <edge source="1042" target="1042" id="4" />
+      <edge source="1042" target="1043" id="5" />
+      <edge source="1043" target="1043" id="6" />
+      <edge source="1043" target="1079" id="7" />
+      <edge source="1043" target="1044" id="8" />
+      <edge source="1043" target="1053" id="9" />
+      <edge source="1043" target="1054" id="10" />
+      <edge source="1044" target="1044" id="11" />
+      <edge source="1044" target="1046" id="12" />
+      <edge source="1045" target="1045" id="13" />
+      <edge source="1045" target="1046" id="14" />
+      <edge source="1046" target="1046" id="15" />
+      <edge source="1046" target="1047" id="16" />
+      <edge source="1046" target="1049" id="17" />
+      <edge source="1046" target="1050" id="18" />
+      <edge source="1047" target="1047" id="19" />
+      <edge source="1047" target="1048" id="20" />
+      <edge source="1048" target="1048" id="21" />
+      <edge source="1049" target="1049" id="22" />
+      <edge source="1050" target="1050" id="23" />
+      <edge source="1050" target="1051" id="24" />
+      <edge source="1050" target="1052" id="25" />
+      <edge source="1051" target="1051" id="26" />
+      <edge source="1052" target="1052" id="27" />
+      <edge source="1053" target="1053" id="28" />
+      <edge source="1054" target="1054" id="29" />
+      <edge source="1054" target="1055" id="30" />
+      <edge source="1055" target="1055" id="31" />
+      <edge source="1055" target="1058" id="32" />
+      <edge source="1056" target="1056" id="33" />
+      <edge source="1056" target="1058" id="34" />
+      <edge source="1057" target="1057" id="35" />
+      <edge source="1057" target="1058" id="36" />
+      <edge source="1058" target="1058" id="37" />
+      <edge source="1059" target="1059" id="38" />
+      <edge source="1059" target="1079" id="39" />
+      <edge source="1060" target="1060" id="40" />
+      <edge source="1060" target="1079" id="41" />
+      <edge source="1060" target="1061" id="42" />
+      <edge source="1060" target="1062" id="43" />
+      <edge source="1060" target="1063" id="44" />
+      <edge source="1060" target="1073" id="45" />
+      <edge source="1060" target="1076" id="46" />
+      <edge source="1060" target="1077" id="47" />
+      <edge source="1061" target="1061" id="48" />
+      <edge source="1062" target="1062" id="49" />
+      <edge source="1063" target="1063" id="50" />
+      <edge source="1063" target="1064" id="51" />
+      <edge source="1064" target="1064" id="52" />
+      <edge source="1064" target="1066" id="53" />
+      <edge source="1065" target="1065" id="54" />
+      <edge source="1065" target="1066" id="55" />
+      <edge source="1066" target="1066" id="56" />
+      <edge source="1066" target="1067" id="57" />
+      <edge source="1067" target="1067" id="58" />
+      <edge source="1067" target="1069" id="59" />
+      <edge source="1068" target="1068" id="60" />
+      <edge source="1068" target="1069" id="61" />
+      <edge source="1069" target="1069" id="62" />
+      <edge source="1069" target="1070" id="63" />
+      <edge source="1069" target="1072" id="64" />
+      <edge source="1070" target="1070" id="65" />
+      <edge source="1071" target="1071" id="66" />
+      <edge source="1071" target="1072" id="67" />
+      <edge source="1072" target="1072" id="68" />
+      <edge source="1073" target="1073" id="69" />
+      <edge source="1074" target="1074" id="70" />
+      <edge source="1074" target="1075" id="71" />
+      <edge source="1075" target="1075" id="72" />
+      <edge source="1075" target="1076" id="73" />
+      <edge source="1076" target="1076" id="74" />
+      <edge source="1077" target="1077" id="75" />
+      <edge source="1078" target="1078" id="76" />
+      <edge source="1078" target="1079" id="77" />
+      <edge source="1079" target="1079" id="78" />
+      <edge source="1079" target="1111" id="79" />
+      <edge source="1079" target="1080" id="80" />
+      <edge source="1079" target="1081" id="81" />
+      <edge source="1079" target="1085" id="82" />
+      <edge source="1079" target="1089" id="83" />
+      <edge source="1079" target="1091" id="84" />
+      <edge source="1080" target="1080" id="85" />
+      <edge source="1081" target="1081" id="86" />
+      <edge source="1081" target="1083" id="87" />
+      <edge source="1082" target="1082" id="88" />
+      <edge source="1082" target="1083" id="89" />
+      <edge source="1083" target="1083" id="90" />
+      <edge source="1083" target="1084" id="91" />
+      <edge source="1084" target="1084" id="92" />
+      <edge source="1085" target="1085" id="93" />
+      <edge source="1085" target="1086" id="94" />
+      <edge source="1086" target="1086" id="95" />
+      <edge source="1086" target="1087" id="96" />
+      <edge source="1087" target="1087" id="97" />
+      <edge source="1087" target="1088" id="98" />
+      <edge source="1088" target="1088" id="99" />
+      <edge source="1089" target="1089" id="100" />
+      <edge source="1090" target="1090" id="101" />
+      <edge source="1090" target="1091" id="102" />
+      <edge source="1091" target="1091" id="103" />
+      <edge source="1091" target="1092" id="104" />
+      <edge source="1091" target="1094" id="105" />
+      <edge source="1092" target="1092" id="106" />
+      <edge source="1093" target="1093" id="107" />
+      <edge source="1093" target="1094" id="108" />
+      <edge source="1094" target="1094" id="109" />
+      <edge source="1094" target="1095" id="110" />
+      <edge source="1094" target="1096" id="111" />
+      <edge source="1094" target="1102" id="112" />
+      <edge source="1094" target="1103" id="113" />
+      <edge source="1095" target="1095" id="114" />
+      <edge source="1096" target="1096" id="115" />
+      <edge source="1096" target="1097" id="116" />
+      <edge source="1097" target="1097" id="117" />
+      <edge source="1097" target="1098" id="118" />
+      <edge source="1098" target="1098" id="119" />
+      <edge source="1098" target="1099" id="120" />
+      <edge source="1099" target="1099" id="121" />
+      <edge source="1099" target="1101" id="122" />
+      <edge source="1100" target="1100" id="123" />
+      <edge source="1100" target="1101" id="124" />
+      <edge source="1101" target="1101" id="125" />
+      <edge source="1102" target="1102" id="126" />
+      <edge source="1103" target="1103" id="127" />
+      <edge source="1103" target="1104" id="128" />
+      <edge source="1104" target="1104" id="129" />
+      <edge source="1104" target="1106" id="130" />
+      <edge source="1105" target="1105" id="131" />
+      <edge source="1105" target="1106" id="132" />
+      <edge source="1106" target="1106" id="133" />
+      <edge source="1106" target="1107" id="134" />
+      <edge source="1107" target="1107" id="135" />
+      <edge source="1107" target="1108" id="136" />
+      <edge source="1108" target="1108" id="137" />
+      <edge source="1109" target="1109" id="138" />
+      <edge source="1109" target="1111" id="139" />
+      <edge source="1110" target="1110" id="140" />
+      <edge source="1110" target="1111" id="141" />
+      <edge source="1111" target="1111" id="142" />
+      <edge source="1111" target="1116" id="143" />
+      <edge source="1111" target="1131" id="144" />
+      <edge source="1112" target="1112" id="145" />
+      <edge source="1112" target="1116" id="146" />
+      <edge source="1113" target="1113" id="147" />
+      <edge source="1113" target="1116" id="148" />
+      <edge source="1113" target="1114" id="149" />
+      <edge source="1113" target="1115" id="150" />
+      <edge source="1114" target="1114" id="151" />
+      <edge source="1115" target="1115" id="152" />
+      <edge source="1116" target="1116" id="153" />
+      <edge source="1116" target="1117" id="154" />
+      <edge source="1117" target="1117" id="155" />
+      <edge source="1117" target="1118" id="156" />
+      <edge source="1118" target="1118" id="157" />
+      <edge source="1118" target="1119" id="158" />
+      <edge source="1118" target="1120" id="159" />
+      <edge source="1118" target="1121" id="160" />
+      <edge source="1118" target="1125" id="161" />
+      <edge source="1119" target="1119" id="162" />
+      <edge source="1120" target="1120" id="163" />
+      <edge source="1121" target="1121" id="164" />
+      <edge source="1122" target="1122" id="165" />
+      <edge source="1122" target="1125" id="166" />
+      <edge source="1122" target="1123" id="167" />
+      <edge source="1122" target="1124" id="168" />
+      <edge source="1123" target="1123" id="169" />
+      <edge source="1124" target="1124" id="170" />
+      <edge source="1125" target="1125" id="171" />
+      <edge source="1125" target="1126" id="172" />
+      <edge source="1125" target="1127" id="173" />
+      <edge source="1126" target="1126" id="174" />
+      <edge source="1127" target="1127" id="175" />
+      <edge source="1127" target="1128" id="176" />
+      <edge source="1127" target="1129" id="177" />
+      <edge source="1127" target="1130" id="178" />
+      <edge source="1128" target="1128" id="179" />
+      <edge source="1129" target="1129" id="180" />
+      <edge source="1130" target="1130" id="181" />
+      <edge source="1131" target="1131" id="182" />
+    </edges>
+  </graph>
+</gexf>
