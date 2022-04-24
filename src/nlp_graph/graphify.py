@@ -81,7 +81,8 @@ def process_file(filename):
     
     nx_draw_start = time.time()
     f = plt.figure()
-    nx.draw(nx.relabel_nodes(G, labels), ax=f.add_subplot(1, 1, 1), with_labels = True)
+    label_dict = nx.get_node_attributes(G, 'label') 
+    nx.draw(G, labels=label_dict, ax=f.add_subplot(1, 1, 1), with_labels = True)
     f.savefig(f"{target_dir_figures}/{filename}.pdf")
     plt.close(f)
     nx_draw_end = time.time()
@@ -89,7 +90,8 @@ def process_file(filename):
 
     nx_draw_start = time.time()
     f = plt.figure()
-    nx.draw(nx.relabel_nodes(giant, labels), ax=f.add_subplot(1, 1, 1), with_labels = True)
+    label_dict = nx.get_node_attributes(giant, 'label') 
+    nx.draw(giant, labels=label_dict, ax=f.add_subplot(1, 1, 1), with_labels = True)
     f.savefig(f"{target_dir_figures}/{filename}_lcsg.pdf")
     plt.close(f)
     nx_draw_end = time.time()
