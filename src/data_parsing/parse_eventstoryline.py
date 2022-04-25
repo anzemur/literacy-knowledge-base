@@ -4,6 +4,7 @@ import itertools
 file_source = 'data/raw/1_1ecbplus.xml.xml'
 file_destination = 'data/net/1_1ecbplus'
 
+
 def parse_eventstoryline(source, destination):
     tree = ET.parse(source)
     root = tree.getroot()
@@ -11,18 +12,18 @@ def parse_eventstoryline(source, destination):
 
     # print('root elems')
     # for x in root:
-        # print(x)
+    # print(x)
 
     tokens = root.findall('token')
 
     # print('markables')
     # for x in root.findall('Markables')[0]:
-        # print(x)
+    # print(x)
 
     entities = []
 
     # print('people')
-    # people    
+    # people
     for x in root.findall('Markables')[0].findall('HUMAN_PART_PER'):
         # print(x)
         id_text = ''
@@ -54,7 +55,7 @@ def parse_eventstoryline(source, destination):
         entities.append((x.attrib['m_id'], 'ORG', id_text))
 
     # print('locations')
-    # locations    
+    # locations
     for x in root.findall('Markables')[0].findall('LOC_FAC'):
         # print(x)
         id_text = ''
@@ -72,7 +73,7 @@ def parse_eventstoryline(source, destination):
     action_ids = []
     actions = []
     # print('actions')
-    # actions    
+    # actions
     for x in itertools.chain(
         root.findall('Markables')[0].findall('ACTION_ASPECTUAL'),
         root.findall('Markables')[0].findall('ACTION_OCCURRENCE'),
@@ -84,7 +85,7 @@ def parse_eventstoryline(source, destination):
         root.findall('Markables')[0].findall('NEG_ACTION_OCCURRENCE'),
         root.findall('Markables')[0].findall('NEG_ACTION_REPORTING'),
         root.findall('Markables')[0].findall('NEG_ACTION_PERCEPTION')
-        ):
+    ):
         # print(x)
         id_text = ''
         if len(x) == 0:
@@ -110,7 +111,7 @@ def parse_eventstoryline(source, destination):
 
     links = []
     # print('links')
-    # links    
+    # links
     for x in root.findall('Relations')[0].findall('PLOT_LINK'):
         # print(x)
         if len(x) == 0:
@@ -158,9 +159,11 @@ def parse_eventstoryline(source, destination):
 
     print(f'\tfound {len(links)} links')
     for i in range(len(links)):
-        f.write(f'{action_map[links[i][2]]} {action_map[links[i][3]]} {links[i][1]} {links[i][0]}\n')
+        # f.write(f'{action_map[links[i][2]]} {action_map[links[i][3]]} {links[i][1]} {links[i][0]}\n')
+        f.write(f'{action_map[links[i][2]]} {action_map[links[i][3]]}\n')
 
     f.close()
+
 
 # parse_eventstoryline(file_source, file_destination)
 files = [
