@@ -1,3 +1,4 @@
+
 ==========================
 Processing: Henry_Red_Chief
 
@@ -47,6 +48,7 @@ TOP 10:
  There |was| a town down there , as flat as a flannel: 1.3576269151517085e-07
 3036 - you pay the money as demanded , he will be |returned| to you safe and well within three hours . These: 1.3543540732724257e-07
 1895 - red - hot boiled potato down my back , ” |explained| Bill , “and then mashed it with his foot ;: 1.3341180189703012e-07
+
 ==========================
 Processing: Henry_Red_Chief_lcsg
 
@@ -88,6 +90,7 @@ TOP 10:
 2891 - - night at the same spot and in the same |box| as your reply—as hereinafter described .: 0.0004782608228266294
 2886 - be left at midnight to - night at the same |spot| and in the same box as your reply—as hereinafter described: 0.00046442997137667407
 2855 - , the only terms on which you can have him |restored| to you are these : We demand fifteen hundred dollars: 0.0004571005736766365
+
 ==========================
 Processing: Henry_Red_Chief_words
 
@@ -135,6 +138,7 @@ and - and: 7.364490833591826e-06
  - 
 : 6.449813598699158e-06
 in - in: 6.206332924472367e-06
+
 ==========================
 Processing: Henry_Red_Chief_words_lcsg
 
@@ -182,6 +186,7 @@ and - and: 7.3752576330561476e-06
  - 
 : 6.45924315074404e-06
 in - in: 6.215406510619253e-06
+
 ==========================
 Processing: Hills_Like_White_Elephants
 
@@ -255,6 +260,7 @@ TOP 10:
 1508 - . And once they take it away , you never |get| it back . " " But they have n't taken: 6.889897348012858e-07
 702 - , " she said . " They do n't really |look| like white ele . 
  phants . I just meant: 6.849824689227145e-07
+
 ==========================
 Processing: Hills_Like_White_Elephants_lcsg
 
@@ -296,6 +302,7 @@ TOP 10:
 75 - building and a curtain , made of strings of bamboo |beads| , hung across the open door into the bar ,: 0.0007039356790776259
 57 - Close against the side of the |station| there was the warm shadow of the building and a: 0.0006982987242961421
 65 - of the station there was the warm shadow of the |building| and a curtain , made of strings of bamboo beads: 0.0006822410934111449
+
 ==========================
 Processing: Hills_Like_White_Elephants_words
 
@@ -343,6 +350,7 @@ have - have: 2.8771510126541635e-05
 do - do: 2.6709133615825945e-05
 and - and: 2.6428448382711482e-05
 said - said: 2.482393600599585e-05
+
 ==========================
 Processing: Hills_Like_White_Elephants_words_lcsg
 
@@ -390,6 +398,7 @@ have - have: 2.8917558401295636e-05
 do - do: 2.684471297428191e-05
 and - and: 2.6562602943029794e-05
 said - said: 2.4949945833437438e-05
+
 ==========================
 Processing: Leiningen_Vs_the_Ants
 
@@ -435,6 +444,7 @@ TOP 10:
 8884 - no opportunity to alight on him . That they would |get| to him soon , despite the salve on his boots: 3.3937048901054317e-08
 1795 - of hills , as far as eye could see , |crept| a darkening hem , ever longer and broader , until: 3.268753799525812e-08
 2076 - . The planter 's chin jutted ; they had n't |got| him yet , and he 'd see to it they: 3.2596261452644583e-08
+
 ==========================
 Processing: Leiningen_Vs_the_Ants_lcsg
 
@@ -485,6 +495,7 @@ TOP 10:
 1127 - of bush and steppe , big and little rodents , |snakes| , and lizards .: 0.00019652688598202777
 1069 - ; jaguars and pumas flashing by nimble stags of the |pampas| , bulky tapirs , no longer hunters , themselves hunted: 0.00019647532815289583
 1125 - springing denizens of bush and steppe , big and little |rodents| , snakes , and lizards .: 0.00018455041551933139
+
 ==========================
 Processing: Leiningen_Vs_the_Ants_words
 
@@ -530,6 +541,7 @@ a - a: 2.958957864869435e-06
 
  - 
 : 2.3109638033399004e-06
+
 ==========================
 Processing: Leiningen_Vs_the_Ants_words_lcsg
 
@@ -575,6 +587,7 @@ a - a: 2.9641342610045924e-06
 
  - 
 : 2.315006599704837e-06
+
 ==========================
 Processing: The_Gift_of_the_Magic_Henry
 
@@ -638,6 +651,7 @@ TOP 10:
  |look| at the home . Furnished rooms at a cost of: 5.345653375548715e-07
 323 - which to buy 
  Jim a gift . She had |put| aside as much as she could for months , with: 5.322377174466706e-07
+
 ==========================
 Processing: The_Gift_of_the_Magic_Henry_lcsg
 
@@ -708,6 +722,7 @@ TOP 10:
 1257 - he looks at me 
  a second time , he’ll |say| I look like a girl who sings and dances for: 0.0009333617147210636
 1267 - say I look like a girl who sings and dances |for| money .: 0.000814392120862056
+
 ==========================
 Processing: The_Gift_of_the_Magic_Henry_words
 
@@ -755,6 +770,7 @@ of - of: 1.4498587581364399e-05
 and - and: 1.4493762188947265e-05
 a - a: 1.3006766497373384e-05
 had - had: 1.2615967703449027e-05
+
 ==========================
 Processing: The_Gift_of_the_Magic_Henry_words_lcsg
 
@@ -802,6 +818,7 @@ of - of: 1.4498587581364399e-05
 and - and: 1.4493762188947265e-05
 a - a: 1.3006766497373384e-05
 had - had: 1.2615967703449027e-05
+
 ==========================
 Processing: The_Lady_or_the_Tiger
 
@@ -890,6 +907,7 @@ TOP 10:
  surrounded: 3.209312567482988e-07
 1190 - not otherwise have attained . Thus , the masses were |entertained| and 
  pleased , and the thinking part of the: 3.115997659538013e-07
+
 ==========================
 Processing: The_Lady_or_the_Tiger_lcsg
 
@@ -968,6 +986,7 @@ TOP 10:
  when she had: 9.596992070221004e-05
 3102 - her very eyes ; and when she had seen them |walk| 
  away together upon their path of flowers , followed: 9.409995772033814e-05
+
 ==========================
 Processing: The_Lady_or_the_Tiger_words
 
@@ -1015,6 +1034,7 @@ to - to: 1.2541336041149387e-05
 in - in: 1.1478620740091782e-05
 . - .: 7.315921037474157e-06
 had - had: 6.330658562054135e-06
+
 ==========================
 Processing: The_Lady_or_the_Tiger_words_lcsg
 
@@ -1062,6 +1082,7 @@ to - to: 1.2541336041149387e-05
 in - in: 1.1478620740091782e-05
 . - .: 7.315921037474157e-06
 had - had: 6.330658562054135e-06
+
 ==========================
 Processing: The_Most_Dangerous_Game
 
@@ -1161,6 +1182,7 @@ TOP 10:
 3611 - 
  in my preserve on this island , " he |said| in the same slow tone , " I hunt 
 : 3.3515583518776264e-08
+
 ==========================
 Processing: The_Most_Dangerous_Game_lcsg
 
@@ -1249,6 +1271,7 @@ TOP 10:
 9885 - , and he seemed pulled 
  forward by some unseen |force| ; Rainsford knew that Ivan must be holding 
  the: 0.0003318240090037339
+
 ==========================
 Processing: The_Most_Dangerous_Game_words
 
@@ -1296,6 +1319,7 @@ in - in: 4.737692358635514e-06
 a - a: 4.7098066685428315e-06
 to - to: 3.523679109576065e-06
 with - with: 3.3083927114650663e-06
+
 ==========================
 Processing: The_Most_Dangerous_Game_words_lcsg
 
@@ -1343,6 +1367,7 @@ in - in: 4.746818660654021e-06
 a - a: 4.71887925385487e-06
 to - to: 3.5304668360335856e-06
 with - with: 3.3147657278610415e-06
+
 ==========================
 Processing: The_Tell_Tale_Heart
 
@@ -1386,6 +1411,7 @@ TOP 10:
 374 - to see how cunningly I thrust it in ! I |moved| it slowly --very , very slowly , so that I: 4.843326643592381e-07
 2144 - of familiar things . But , ere long , I |felt| myself getting pale and wished them gone . My head: 4.827772400515453e-07
 1080 - a single chirp . " Yes , he had been |trying| to comfort himself with these suppositions : but he had: 4.774661644436879e-07
+
 ==========================
 Processing: The_Tell_Tale_Heart_lcsg
 
@@ -1439,6 +1465,7 @@ TOP 10:
 1301 - ray as if by instinct , precisely upon the damned |spot| . 
 
 : 0.00039632571488852706
+
 ==========================
 Processing: The_Tell_Tale_Heart_words
 
@@ -1480,6 +1507,7 @@ in - in: 1.2992015589749676e-05
 and - and: 1.047035718281142e-05
 to - to: 9.98385107638894e-06
 heard - heard: 9.48581776230981e-06
+
 ==========================
 Processing: The_Tell_Tale_Heart_words_lcsg
 

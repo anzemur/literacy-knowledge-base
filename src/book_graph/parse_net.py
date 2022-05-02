@@ -121,7 +121,7 @@ if __name__ == "__main__":
             split = file.split('.')
             filename = split[0]
             G = nx.Graph(nx.read_gexf(f'./{source_dir}/{filename}.gexf'))
-            report_f.write(f'==========================\n')
+            report_f.write(f'\n==========================\n')
             report_f.write(f'Processing: {filename}\n')
             node_degree(G, report_f)
             # clustering_coefficient(G, report_f)
