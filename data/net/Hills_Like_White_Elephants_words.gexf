@@ -1,0 +1,2001 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2022-05-01">
+    <creator>NetworkX 2.5</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <nodes>
+      <node id="ERNEST" label="ERNEST" />
+      <node id="HEMINGWAY" label="HEMINGWAY" />
+      <node id="&#10;" label="&#10;" />
+      <node id="(" label="(" />
+      <node id="1899" label="1899" />
+      <node id="-" label="-" />
+      <node id="4961" label="4961" />
+      <node id=")" label=")" />
+      <node id="HILLS" label="HILLS" />
+      <node id="LIKE" label="LIKE" />
+      <node id="WHITE" label="WHITE" />
+      <node id="ELEPHANTS" label="ELEPHANTS" />
+      <node id="The" label="The" />
+      <node id="hills" label="hills" />
+      <node id="across" label="across" />
+      <node id="the" label="the" />
+      <node id="valley" label="valley" />
+      <node id="of" label="of" />
+      <node id="Ebro" label="Ebro" />
+      <node id="'" label="'" />
+      <node id="were" label="were" />
+      <node id="long" label="long" />
+      <node id="and" label="and" />
+      <node id="white" label="white" />
+      <node id="." label="." />
+      <node id="On" label="On" />
+      <node id="this" label="this" />
+      <node id="side" label="side" />
+      <node id="there" label="there" />
+      <node id="was" label="was" />
+      <node id="no" label="no" />
+      <node id="shade" label="shade" />
+      <node id="trees" label="trees" />
+      <node id="station" label="station" />
+      <node id="between" label="between" />
+      <node id="two" label="two" />
+      <node id="lines" label="lines" />
+      <node id="rails" label="rails" />
+      <node id="in" label="in" />
+      <node id="sun" label="sun" />
+      <node id="Close" label="Close" />
+      <node id="against" label="against" />
+      <node id="warm" label="warm" />
+      <node id="shadow" label="shadow" />
+      <node id="building" label="building" />
+      <node id="a" label="a" />
+      <node id="curtain" label="curtain" />
+      <node id="," label="," />
+      <node id="made" label="made" />
+      <node id="strings" label="strings" />
+      <node id="bamboo" label="bamboo" />
+      <node id="beads" label="beads" />
+      <node id="hung" label="hung" />
+      <node id="open" label="open" />
+      <node id="door" label="door" />
+      <node id="into" label="into" />
+      <node id="bar" label="bar" />
+      <node id="to" label="to" />
+      <node id="keep" label="keep" />
+      <node id="out" label="out" />
+      <node id="flies" label="flies" />
+      <node id="American" label="American" />
+      <node id="girl" label="girl" />
+      <node id="with" label="with" />
+      <node id="him" label="him" />
+      <node id="sat" label="sat" />
+      <node id="at" label="at" />
+      <node id="table" label="table" />
+      <node id="outside" label="outside" />
+      <node id="It" label="It" />
+      <node id="very" label="very" />
+      <node id="hot" label="hot" />
+      <node id="express" label="express" />
+      <node id="from" label="from" />
+      <node id="Barcelona" label="Barcelona" />
+      <node id="would" label="would" />
+      <node id="come" label="come" />
+      <node id="forty" label="forty" />
+      <node id="minutes" label="minutes" />
+      <node id="stopped" label="stopped" />
+      <node id="junction" label="junction" />
+      <node id="for" label="for" />
+      <node id="went" label="went" />
+      <node id="on" label="on" />
+      <node id="Madrid" label="Madrid" />
+      <node id="&quot;" label="&quot;" />
+      <node id="What" label="What" />
+      <node id="should" label="should" />
+      <node id="we" label="we" />
+      <node id="drink" label="drink" />
+      <node id="?" label="?" />
+      <node id="asked" label="asked" />
+      <node id="She" label="She" />
+      <node id="had" label="had" />
+      <node id="taken" label="taken" />
+      <node id="off" label="off" />
+      <node id="her" label="her" />
+      <node id="hat" label="hat" />
+      <node id="put" label="put" />
+      <node id="it" label="it" />
+      <node id="'s" label="'s" />
+      <node id="pretty" label="pretty" />
+      <node id="man" label="man" />
+      <node id="said" label="said" />
+      <node id="Let" label="Let" />
+      <node id="beer" label="beer" />
+      <node id="Dos" label="Dos" />
+      <node id="cervezas" label="cervezas" />
+      <node id="Big" label="Big" />
+      <node id="ones" label="ones" />
+      <node id="woman" label="woman" />
+      <node id="doorway" label="doorway" />
+      <node id="Yes" label="Yes" />
+      <node id="Two" label="Two" />
+      <node id="big" label="big" />
+      <node id="brought" label="brought" />
+      <node id="glasses" label="glasses" />
+      <node id="felt" label="felt" />
+      <node id="pads" label="pads" />
+      <node id="looked" label="looked" />
+      <node id="looking" label="looking" />
+      <node id="line" label="line" />
+      <node id="They" label="They" />
+      <node id="country" label="country" />
+      <node id="brown" label="brown" />
+      <node id="dry" label="dry" />
+      <node id="look" label="look" />
+      <node id="like" label="like" />
+      <node id="elephants" label="elephants" />
+      <node id="she" label="she" />
+      <node id="I" label="I" />
+      <node id="'ve" label="'ve" />
+      <node id="never" label="never" />
+      <node id="seen" label="seen" />
+      <node id="one" label="one" />
+      <node id="drank" label="drank" />
+      <node id="his" label="his" />
+      <node id="No" label="No" />
+      <node id="you" label="you" />
+      <node id="n't" label="n't" />
+      <node id="have" label="have" />
+      <node id="might" label="might" />
+      <node id="Just" label="Just" />
+      <node id="because" label="because" />
+      <node id="say" label="say" />
+      <node id="does" label="does" />
+      <node id="prove" label="prove" />
+      <node id="anything" label="anything" />
+      <node id="bead" label="bead" />
+      <node id="painted" label="painted" />
+      <node id="something" label="something" />
+      <node id="Anis" label="Anis" />
+      <node id="del" label="del" />
+      <node id="Toro" label="Toro" />
+      <node id="Could" label="Could" />
+      <node id="try" label="try" />
+      <node id="called" label="called" />
+      <node id="Listen" label="Listen" />
+      <node id="through" label="through" />
+      <node id="came" label="came" />
+      <node id="Four" label="Four" />
+      <node id="reales" label="reales" />
+      <node id="We" label="We" />
+      <node id="want" label="want" />
+      <node id="With" label="With" />
+      <node id="water" label="water" />
+      <node id="Do" label="Do" />
+      <node id="do" label="do" />
+      <node id="know" label="know" />
+      <node id="Is" label="Is" />
+      <node id="good" label="good" />
+      <node id="all" label="all" />
+      <node id="right" label="right" />
+      <node id="You" label="You" />
+      <node id="them" label="them" />
+      <node id="1" label="1" />
+      <node id="River" label="River" />
+      <node id="north" label="north" />
+      <node id="Spain" label="Spain" />
+      <node id="Ernest" label="Ernest" />
+      <node id="Hemingway" label="Hemingway" />
+      <node id="229" label="229" />
+      <node id="tastes" label="tastes" />
+      <node id="licorice" label="licorice" />
+      <node id="glass" label="glass" />
+      <node id="down" label="down" />
+      <node id="That" label="That" />
+      <node id="way" label="way" />
+      <node id="everything" label="everything" />
+      <node id="Everything" label="Everything" />
+      <node id="Especially" label="Especially" />
+      <node id="things" label="things" />
+      <node id="waited" label="waited" />
+      <node id="so" label="so" />
+      <node id="absinthe" label="absinthe" />
+      <node id="Oh" label="Oh" />
+      <node id="cut" label="cut" />
+      <node id="started" label="started" />
+      <node id="being" label="being" />
+      <node id="amused" label="amused" />
+      <node id="having" label="having" />
+      <node id="fine" label="fine" />
+      <node id="time" label="time" />
+      <node id="Well" label="Well" />
+      <node id="let" label="let" />
+      <node id="All" label="All" />
+      <node id="trying" label="trying" />
+      <node id="mountains" label="mountains" />
+      <node id="ele.phants" label="ele.phants" />
+      <node id="Was" label="Was" />
+      <node id="that" label="that" />
+      <node id="bright" label="bright" />
+      <node id="wanted" label="wanted" />
+      <node id="new" label="new" />
+      <node id="is" label="is" />
+      <node id="itÑlook" label="itÑlook" />
+      <node id="drinks" label="drinks" />
+      <node id="guess" label="guess" />
+      <node id="'re" label="'re" />
+      <node id="lovely" label="lovely" />
+      <node id="really" label="really" />
+      <node id="ele" label="ele" />
+      <node id="phants" label="phants" />
+      <node id="just" label="just" />
+      <node id="meant" label="meant" />
+      <node id="coloring" label="coloring" />
+      <node id="their" label="their" />
+      <node id="skin" label="skin" />
+      <node id="Should" label="Should" />
+      <node id="another" label="another" />
+      <node id="wind" label="wind" />
+      <node id="blew" label="blew" />
+      <node id="nice" label="nice" />
+      <node id="cool" label="cool" />
+      <node id="an" label="an" />
+      <node id="awfully" label="awfully" />
+      <node id="simple" label="simple" />
+      <node id="operation" label="operation" />
+      <node id="Jig" label="Jig" />
+      <node id="not" label="not" />
+      <node id="ground" label="ground" />
+      <node id="legs" label="legs" />
+      <node id="rested" label="rested" />
+      <node id="mind" label="mind" />
+      <node id="air" label="air" />
+      <node id="did" label="did" />
+      <node id="'ll" label="'ll" />
+      <node id="go" label="go" />
+      <node id="stay" label="stay" />
+      <node id="then" label="then" />
+      <node id="perfectly" label="perfectly" />
+      <node id="natural" label="natural" />
+      <node id="Then" label="Then" />
+      <node id="what" label="what" />
+      <node id="will" label="will" />
+      <node id="afterward" label="afterward" />
+      <node id="be" label="be" />
+      <node id="before" label="before" />
+      <node id="makes" label="makes" />
+      <node id="think" label="think" />
+      <node id="only" label="only" />
+      <node id="thing" label="thing" />
+      <node id="bothers" label="bothers" />
+      <node id="us" label="us" />
+      <node id="unhappy" label="unhappy" />
+      <node id="hand" label="hand" />
+      <node id="took" label="took" />
+      <node id="hold" label="hold" />
+      <node id="And" label="And" />
+      <node id="happy" label="happy" />
+      <node id="afraid" label="afraid" />
+      <node id="known" label="known" />
+      <node id="lots" label="lots" />
+      <node id="people" label="people" />
+      <node id="done" label="done" />
+      <node id="So" label="So" />
+      <node id="they" label="they" />
+      <node id="if" label="if" />
+      <node id="But" label="But" />
+      <node id="&#10;&#10;" label="&#10;&#10;" />
+      <node id="best" label="best" />
+      <node id="love" label="love" />
+      <node id="me" label="me" />
+      <node id="now" label="now" />
+      <node id="again" label="again" />
+      <node id="are" label="are" />
+      <node id="but" label="but" />
+      <node id="ca" label="ca" />
+      <node id="about" label="about" />
+      <node id="how" label="how" />
+      <node id="get" label="get" />
+      <node id="when" label="when" />
+      <node id="worry" label="worry" />
+      <node id="If" label="If" />
+      <node id="wo" label="wo" />
+      <node id="ever" label="ever" />
+      <node id="Because" label="Because" />
+      <node id="care" label="care" />
+      <node id="mean" label="mean" />
+      <node id="yes" label="yes" />
+      <node id="feel" label="feel" />
+      <node id="stood" label="stood" />
+      <node id="up" label="up" />
+      <node id="walked" label="walked" />
+      <node id="end" label="end" />
+      <node id="Across" label="Across" />
+      <node id="other" label="other" />
+      <node id="fields" label="fields" />
+      <node id="grain" label="grain" />
+      <node id="along" label="along" />
+      <node id="banks" label="banks" />
+      <node id="Far" label="Far" />
+      <node id="away" label="away" />
+      <node id="beyond" label="beyond" />
+      <node id="river" label="river" />
+      <node id="cloud" label="cloud" />
+      <node id="moved" label="moved" />
+      <node id="field" label="field" />
+      <node id="saw" label="saw" />
+      <node id="could" label="could" />
+      <node id="every" label="every" />
+      <node id="day" label="day" />
+      <node id="make" label="make" />
+      <node id="more" label="more" />
+      <node id="impossible" label="impossible" />
+      <node id="can" label="can" />
+      <node id="whole" label="whole" />
+      <node id="world" label="world" />
+      <node id="everywhere" label="everywhere" />
+      <node id="ours" label="ours" />
+      <node id="any" label="any" />
+      <node id="once" label="once" />
+      <node id="take" label="take" />
+      <node id="back" label="back" />
+      <node id="wait" label="wait" />
+      <node id="see" label="see" />
+      <node id="Come" label="Come" />
+      <node id="he" label="he" />
+      <node id="must" label="must" />
+      <node id="doÑ" label="doÑ" />
+      <node id="Nor" label="Nor" />
+      <node id="got" label="got" />
+      <node id="realizeÑ" label="realizeÑ" />
+      <node id="realize" label="realize" />
+      <node id="Ca" label="Ca" />
+      <node id="maybe" label="maybe" />
+      <node id="stop" label="stop" />
+      <node id="talking" label="talking" />
+      <node id="'m" label="'m" />
+      <node id="willing" label="willing" />
+      <node id="means" label="means" />
+      <node id="Does" label="Does" />
+      <node id="Of" label="Of" />
+      <node id="course" label="course" />
+      <node id="anybody" label="anybody" />
+      <node id="else" label="else" />
+      <node id="Would" label="Would" />
+      <node id="'d" label="'d" />
+      <node id="please" label="please" />
+      <node id="He" label="He" />
+      <node id="bags" label="bags" />
+      <node id="wall" label="wall" />
+      <node id="There" label="There" />
+      <node id="labels" label="labels" />
+      <node id="hotels" label="hotels" />
+      <node id="where" label="where" />
+      <node id="spent" label="spent" />
+      <node id="nights" label="nights" />
+      <node id="scream" label="scream" />
+      <node id="curtains" label="curtains" />
+      <node id="damp" label="damp" />
+      <node id="train" label="train" />
+      <node id="comes" label="comes" />
+      <node id="five" label="five" />
+      <node id="coming" label="coming" />
+      <node id="smiled" label="smiled" />
+      <node id="brightly" label="brightly" />
+      <node id="thank" label="thank" />
+      <node id="better" label="better" />
+      <node id="over" label="over" />
+      <node id="finish" label="finish" />
+      <node id="picked" label="picked" />
+      <node id="heavy" label="heavy" />
+      <node id="carried" label="carried" />
+      <node id="around" label="around" />
+      <node id="tracks" label="tracks" />
+      <node id="Coming" label="Coming" />
+      <node id="barroom" label="barroom" />
+      <node id="waiting" label="waiting" />
+      <node id="drinking" label="drinking" />
+      <node id="reasonably" label="reasonably" />
+      <node id="sitting" label="sitting" />
+      <node id="nothing" label="nothing" />
+      <node id="wrong" label="wrong" />
+      <node id="1927" label="1927" />
+      <node id="&#10;&#10;&#10;&#10;" label="&#10;&#10;&#10;&#10;" />
+    </nodes>
+    <edges>
+      <edge source="ERNEST" target="ERNEST" id="0" />
+      <edge source="ERNEST" target="&#10;" id="1" />
+      <edge source="HEMINGWAY" target="HEMINGWAY" id="2" />
+      <edge source="HEMINGWAY" target="&#10;" id="3" />
+      <edge source="&#10;" target="&#10;" id="4" />
+      <edge source="&#10;" target="were" id="5" />
+      <edge source="&#10;" target="(" id="6" />
+      <edge source="&#10;" target="1899" id="7" />
+      <edge source="&#10;" target=")" id="8" />
+      <edge source="&#10;" target="hills" id="9" />
+      <edge source="&#10;" target="'" id="10" />
+      <edge source="&#10;" target="LIKE" id="11" />
+      <edge source="&#10;" target="drink" id="12" />
+      <edge source="&#10;" target="said" id="13" />
+      <edge source="&#10;" target="Let" id="14" />
+      <edge source="&#10;" target="cervezas" id="15" />
+      <edge source="&#10;" target="ones" id="16" />
+      <edge source="&#10;" target="Yes" id="17" />
+      <edge source="&#10;" target="brought" id="18" />
+      <edge source="&#10;" target="seen" id="19" />
+      <edge source="&#10;" target="have" id="20" />
+      <edge source="&#10;" target="looked" id="21" />
+      <edge source="&#10;" target="painted" id="22" />
+      <edge source="&#10;" target="Toro" id="23" />
+      <edge source="&#10;" target="try" id="24" />
+      <edge source="&#10;" target="man" id="25" />
+      <edge source="&#10;" target="came" id="26" />
+      <edge source="&#10;" target="reales" id="27" />
+      <edge source="&#10;" target="want" id="28" />
+      <edge source="&#10;" target="&quot;" id="29" />
+      <edge source="&#10;" target="With" id="30" />
+      <edge source="&#10;" target="?" id="31" />
+      <edge source="&#10;" target="'s" id="32" />
+      <edge source="&#10;" target="asked" id="33" />
+      <edge source="&#10;" target="1" id="34" />
+      <edge source="&#10;" target="." id="35" />
+      <edge source="&#10;" target="Hemingway" id="36" />
+      <edge source="&#10;" target="Especially" id="37" />
+      <edge source="&#10;" target="all" id="38" />
+      <edge source="&#10;" target="the" id="39" />
+      <edge source="&#10;" target="things" id="40" />
+      <edge source="&#10;" target="cut" id="41" />
+      <edge source="&#10;" target="let" id="42" />
+      <edge source="&#10;" target="right" id="43" />
+      <edge source="&#10;" target="was" id="44" />
+      <edge source="&#10;" target="wanted" id="45" />
+      <edge source="&#10;" target="guess" id="46" />
+      <edge source="&#10;" target="'re" id="47" />
+      <edge source="&#10;" target="phants" id="48" />
+      <edge source="&#10;" target="blew" id="49" />
+      <edge source="&#10;" target="know" id="50" />
+      <edge source="&#10;" target="say" id="51" />
+      <edge source="&#10;" target="go" id="52" />
+      <edge source="&#10;" target="do" id="53" />
+      <edge source="&#10;" target="be" id="54" />
+      <edge source="&#10;" target="makes" id="55" />
+      <edge source="&#10;" target="think" id="56" />
+      <edge source="&#10;" target="known" id="57" />
+      <edge source="&#10;" target="elephants" id="58" />
+      <edge source="&#10;" target="get" id="59" />
+      <edge source="&#10;" target="everything" id="60" />
+      <edge source="&#10;" target="side" id="61" />
+      <edge source="&#10;" target="beer" id="62" />
+      <edge source="&#10;" target="means" id="63" />
+      <edge source="&#10;" target="thing" id="64" />
+      <edge source="&#10;" target="mean" id="65" />
+      <edge source="&#10;" target="does" id="66" />
+      <edge source="&#10;" target="stop" id="67" />
+      <edge source="&#10;" target="coming" id="68" />
+      <edge source="&#10;" target="smiled" id="69" />
+      <edge source="&#10;" target="picked" id="70" />
+      <edge source="&#10;" target="feel" id="71" />
+      <edge source="&#10;" target="1927" id="72" />
+      <edge source="(" target="(" id="73" />
+      <edge source="1899" target="1899" id="74" />
+      <edge source="1899" target="4961" id="75" />
+      <edge source="-" target="-" id="76" />
+      <edge source="-" target="4961" id="77" />
+      <edge source="-" target="thing" id="78" />
+      <edge source="4961" target="4961" id="79" />
+      <edge source=")" target=")" id="80" />
+      <edge source="HILLS" target="HILLS" id="81" />
+      <edge source="HILLS" target="LIKE" id="82" />
+      <edge source="LIKE" target="LIKE" id="83" />
+      <edge source="LIKE" target="ELEPHANTS" id="84" />
+      <edge source="WHITE" target="WHITE" id="85" />
+      <edge source="WHITE" target="ELEPHANTS" id="86" />
+      <edge source="ELEPHANTS" target="ELEPHANTS" id="87" />
+      <edge source="The" target="The" id="88" />
+      <edge source="The" target="hills" id="89" />
+      <edge source="The" target="American" id="90" />
+      <edge source="The" target="woman" id="91" />
+      <edge source="The" target="girl" id="92" />
+      <edge source="The" target="man" id="93" />
+      <edge source="The" target="wind" id="94" />
+      <edge source="The" target="beer" id="95" />
+      <edge source="The" target="shadow" id="96" />
+      <edge source="The" target="train" id="97" />
+      <edge source="hills" target="hills" id="98" />
+      <edge source="hills" target="across" id="99" />
+      <edge source="hills" target="of" id="100" />
+      <edge source="hills" target="at" id="101" />
+      <edge source="hills" target="the" id="102" />
+      <edge source="hills" target="'re" id="103" />
+      <edge source="hills" target="lovely" id="104" />
+      <edge source="across" target="across" id="105" />
+      <edge source="across" target="valley" id="106" />
+      <edge source="across" target="hung" id="107" />
+      <edge source="across" target="door" id="108" />
+      <edge source="across" target="looked" id="109" />
+      <edge source="across" target="moved" id="110" />
+      <edge source="across" target="field" id="111" />
+      <edge source="the" target="the" id="112" />
+      <edge source="the" target="valley" id="113" />
+      <edge source="the" target="Ebro" id="114" />
+      <edge source="the" target="station" id="115" />
+      <edge source="the" target="sun" id="116" />
+      <edge source="the" target="side" id="117" />
+      <edge source="the" target="shadow" id="118" />
+      <edge source="the" target="building" id="119" />
+      <edge source="the" target="door" id="120" />
+      <edge source="the" target="bar" id="121" />
+      <edge source="the" target="girl" id="122" />
+      <edge source="the" target="shade" id="123" />
+      <edge source="the" target="express" id="124" />
+      <edge source="the" target="table" id="125" />
+      <edge source="the" target="man" id="126" />
+      <edge source="the" target="curtain" id="127" />
+      <edge source="the" target="doorway" id="128" />
+      <edge source="the" target="pads" id="129" />
+      <edge source="the" target="glasses" id="130" />
+      <edge source="the" target="line" id="131" />
+      <edge source="the" target="country" id="132" />
+      <edge source="the" target="woman" id="133" />
+      <edge source="the" target="north" id="134" />
+      <edge source="the" target="glass" id="135" />
+      <edge source="the" target="way" id="136" />
+      <edge source="the" target="mountains" id="137" />
+      <edge source="the" target="coloring" id="138" />
+      <edge source="the" target="trees" id="139" />
+      <edge source="the" target="ground" id="140" />
+      <edge source="the" target="legs" id="141" />
+      <edge source="the" target="air" id="142" />
+      <edge source="the" target="time" id="143" />
+      <edge source="the" target="thing" id="144" />
+      <edge source="the" target="strings" id="145" />
+      <edge source="the" target="end" id="146" />
+      <edge source="the" target="banks" id="147" />
+      <edge source="the" target="river" id="148" />
+      <edge source="the" target="field" id="149" />
+      <edge source="the" target="world" id="150" />
+      <edge source="the" target="bags" id="151" />
+      <edge source="the" target="wall" id="152" />
+      <edge source="the" target="hotels" id="153" />
+      <edge source="the" target="curtains" id="154" />
+      <edge source="the" target="train" id="155" />
+      <edge source="the" target="beer" id="156" />
+      <edge source="the" target="tracks" id="157" />
+      <edge source="the" target="barroom" id="158" />
+      <edge source="the" target="people" id="159" />
+      <edge source="valley" target="valley" id="160" />
+      <edge source="valley" target="of" id="161" />
+      <edge source="of" target="of" id="162" />
+      <edge source="of" target="Ebro" id="163" />
+      <edge source="of" target="lines" id="164" />
+      <edge source="of" target="rails" id="165" />
+      <edge source="of" target="side" id="166" />
+      <edge source="of" target="station" id="167" />
+      <edge source="of" target="shadow" id="168" />
+      <edge source="of" target="building" id="169" />
+      <edge source="of" target="made" id="170" />
+      <edge source="of" target="strings" id="171" />
+      <edge source="of" target="beads" id="172" />
+      <edge source="of" target="glasses" id="173" />
+      <edge source="of" target="beer" id="174" />
+      <edge source="of" target="line" id="175" />
+      <edge source="of" target="north" id="176" />
+      <edge source="of" target="Spain" id="177" />
+      <edge source="of" target="tastes" id="178" />
+      <edge source="of" target="licorice" id="179" />
+      <edge source="of" target="coloring" id="180" />
+      <edge source="of" target="skin" id="181" />
+      <edge source="of" target="hold" id="182" />
+      <edge source="of" target="two" id="183" />
+      <edge source="of" target="lots" id="184" />
+      <edge source="of" target="people" id="185" />
+      <edge source="of" target="end" id="186" />
+      <edge source="of" target="fields" id="187" />
+      <edge source="of" target="grain" id="188" />
+      <edge source="of" target="banks" id="189" />
+      <edge source="of" target="cloud" id="190" />
+      <edge source="of" target="field" id="191" />
+      <edge source="of" target="wall" id="192" />
+      <edge source="Ebro" target="Ebro" id="193" />
+      <edge source="'" target="'" id="194" />
+      <edge source="were" target="were" id="195" />
+      <edge source="were" target="long" id="196" />
+      <edge source="were" target="." id="197" />
+      <edge source="were" target="They" id="198" />
+      <edge source="were" target="white" id="199" />
+      <edge source="were" target="was" id="200" />
+      <edge source="were" target="Just" id="201" />
+      <edge source="were" target="like" id="202" />
+      <edge source="were" target="we" id="203" />
+      <edge source="were" target="before" id="204" />
+      <edge source="were" target="&quot;" id="205" />
+      <edge source="were" target="And" id="206" />
+      <edge source="were" target="afterward" id="207" />
+      <edge source="were" target="they" id="208" />
+      <edge source="were" target="all" id="209" />
+      <edge source="were" target="happy" id="210" />
+      <edge source="were" target="be" id="211" />
+      <edge source="were" target="and" id="212" />
+      <edge source="were" target="Across" id="213" />
+      <edge source="were" target="," id="214" />
+      <edge source="were" target="on" id="215" />
+      <edge source="were" target="fields" id="216" />
+      <edge source="were" target="away" id="217" />
+      <edge source="were" target="beyond" id="218" />
+      <edge source="were" target="mountains" id="219" />
+      <edge source="were" target="There" id="220" />
+      <edge source="were" target="labels" id="221" />
+      <edge source="were" target="drinking" id="222" />
+      <edge source="were" target="waiting" id="223" />
+      <edge source="long" target="long" id="224" />
+      <edge source="long" target="and" id="225" />
+      <edge source="long" target="white" id="226" />
+      <edge source="long" target="waited" id="227" />
+      <edge source="long" target="so" id="228" />
+      <edge source="and" target="and" id="229" />
+      <edge source="and" target="was" id="230" />
+      <edge source="and" target="shade" id="231" />
+      <edge source="and" target="shadow" id="232" />
+      <edge source="and" target="American" id="233" />
+      <edge source="and" target="stopped" id="234" />
+      <edge source="and" target="taken" id="235" />
+      <edge source="and" target="glasses" id="236" />
+      <edge source="and" target="put" id="237" />
+      <edge source="and" target="pads" id="238" />
+      <edge source="and" target="man" id="239" />
+      <edge source="and" target="sun" id="240" />
+      <edge source="and" target="brown" id="241" />
+      <edge source="and" target="said" id="242" />
+      <edge source="and" target="try" id="243" />
+      <edge source="and" target="is" id="244" />
+      <edge source="and" target="nice" id="245" />
+      <edge source="and" target="go" id="246" />
+      <edge source="and" target="'s" id="247" />
+      <edge source="and" target="be" id="248" />
+      <edge source="and" target="do" id="249" />
+      <edge source="and" target="stood" id="250" />
+      <edge source="and" target="grain" id="251" />
+      <edge source="and" target="moved" id="252" />
+      <edge source="and" target="have" id="253" />
+      <edge source="and" target="wait" id="254" />
+      <edge source="and" target="sat" id="255" />
+      <edge source="and" target="looked" id="256" />
+      <edge source="and" target="at" id="257" />
+      <edge source="and" target="came" id="258" />
+      <edge source="and" target="come" id="259" />
+      <edge source="and" target="picked" id="260" />
+      <edge source="and" target="drank" id="261" />
+      <edge source="and" target="sitting" id="262" />
+      <edge source="white" target="white" id="263" />
+      <edge source="white" target="in" id="264" />
+      <edge source="white" target="elephants" id="265" />
+      <edge source="white" target="ele.phants" id="266" />
+      <edge source="white" target="ele" id="267" />
+      <edge source="." target="." id="268" />
+      <edge source="." target="was" id="269" />
+      <edge source="." target="sat" id="270" />
+      <edge source="." target="come" id="271" />
+      <edge source="." target="stopped" id="272" />
+      <edge source="." target="asked" id="273" />
+      <edge source="." target="taken" id="274" />
+      <edge source="." target="said" id="275" />
+      <edge source="." target="Let" id="276" />
+      <edge source="." target="woman" id="277" />
+      <edge source="." target="Yes" id="278" />
+      <edge source="." target="ones" id="279" />
+      <edge source="." target="brought" id="280" />
+      <edge source="." target="put" id="281" />
+      <edge source="." target="looking" id="282" />
+      <edge source="." target="drank" id="283" />
+      <edge source="." target="have" id="284" />
+      <edge source="." target="prove" id="285" />
+      <edge source="." target="looked" id="286" />
+      <edge source="." target="say" id="287" />
+      <edge source="." target="'s" id="288" />
+      <edge source="." target="man" id="289" />
+      <edge source="." target="came" id="290" />
+      <edge source="." target="reales" id="291" />
+      <edge source="." target="want" id="292" />
+      <edge source="." target="River" id="293" />
+      <edge source="." target="Hemingway" id="294" />
+      <edge source="." target="tastes" id="295" />
+      <edge source="." target="things" id="296" />
+      <edge source="." target="cut" id="297" />
+      <edge source="." target="amused" id="298" />
+      <edge source="." target="having" id="299" />
+      <edge source="." target="let" id="300" />
+      <edge source="." target="trying" id="301" />
+      <edge source="." target="wanted" id="302" />
+      <edge source="." target="guess" id="303" />
+      <edge source="." target="look" id="304" />
+      <edge source="." target="meant" id="305" />
+      <edge source="." target="blew" id="306" />
+      <edge source="." target="rested" id="307" />
+      <edge source="." target="know" id="308" />
+      <edge source="." target="stay" id="309" />
+      <edge source="." target="be" id="310" />
+      <edge source="." target="think" id="311" />
+      <edge source="." target="known" id="312" />
+      <edge source="." target="love" id="313" />
+      <edge source="." target="worry" id="314" />
+      <edge source="." target="do" id="315" />
+      <edge source="." target="care" id="316" />
+      <edge source="." target="yes" id="317" />
+      <edge source="." target="stood" id="318" />
+      <edge source="." target="saw" id="319" />
+      <edge source="." target="make" id="320" />
+      <edge source="." target="ca" id="321" />
+      <edge source="." target="go" id="322" />
+      <edge source="." target="is" id="323" />
+      <edge source="." target="get" id="324" />
+      <edge source="." target="wait" id="325" />
+      <edge source="." target="feel" id="326" />
+      <edge source="." target="right" id="327" />
+      <edge source="." target="'m" id="328" />
+      <edge source="." target="does" id="329" />
+      <edge source="." target="coming" id="330" />
+      <edge source="." target="smiled" id="331" />
+      <edge source="." target="finish" id="332" />
+      <edge source="." target="picked" id="333" />
+      <edge source="." target="walked" id="334" />
+      <edge source="." target="waiting" id="335" />
+      <edge source="." target="went" id="336" />
+      <edge source="." target="sitting" id="337" />
+      <edge source="On" target="On" id="338" />
+      <edge source="On" target="was" id="339" />
+      <edge source="On" target="side" id="340" />
+      <edge source="this" target="this" id="341" />
+      <edge source="this" target="side" id="342" />
+      <edge source="this" target="junction" id="343" />
+      <edge source="this" target="drink" id="344" />
+      <edge source="this" target="have" id="345" />
+      <edge source="this" target="all" id="346" />
+      <edge source="side" target="side" id="347" />
+      <edge source="side" target="against" id="348" />
+      <edge source="side" target="on" id="349" />
+      <edge source="side" target="other" id="350" />
+      <edge source="side" target="dry" id="351" />
+      <edge source="side" target="to" id="352" />
+      <edge source="there" target="there" id="353" />
+      <edge source="there" target="was" id="354" />
+      <edge source="was" target="was" id="355" />
+      <edge source="was" target="shade" id="356" />
+      <edge source="was" target="station" id="357" />
+      <edge source="was" target="between" id="358" />
+      <edge source="was" target="Close" id="359" />
+      <edge source="was" target="shadow" id="360" />
+      <edge source="was" target="hung" id="361" />
+      <edge source="was" target="It" id="362" />
+      <edge source="was" target="hot" id="363" />
+      <edge source="was" target="come" id="364" />
+      <edge source="was" target="looking" id="365" />
+      <edge source="was" target="brown" id="366" />
+      <edge source="was" target="amused" id="367" />
+      <edge source="was" target="having" id="368" />
+      <edge source="was" target="trying" id="369" />
+      <edge source="was" target="That" id="370" />
+      <edge source="was" target="bright" id="371" />
+      <edge source="was" target="&quot;" id="372" />
+      <edge source="was" target="sitting" id="373" />
+      <edge source="no" target="no" id="374" />
+      <edge source="no" target="shade" id="375" />
+      <edge source="no" target="trees" id="376" />
+      <edge source="shade" target="shade" id="377" />
+      <edge source="shade" target="trees" id="378" />
+      <edge source="shade" target="in" id="379" />
+      <edge source="trees" target="trees" id="380" />
+      <edge source="trees" target="through" id="381" />
+      <edge source="trees" target="grain" id="382" />
+      <edge source="station" target="station" id="383" />
+      <edge source="station" target="around" id="384" />
+      <edge source="between" target="between" id="385" />
+      <edge source="between" target="lines" id="386" />
+      <edge source="two" target="two" id="387" />
+      <edge source="two" target="lines" id="388" />
+      <edge source="two" target="minutes" id="389" />
+      <edge source="two" target="glasses" id="390" />
+      <edge source="two" target="pads" id="391" />
+      <edge source="two" target="Toro" id="392" />
+      <edge source="two" target="bags" id="393" />
+      <edge source="lines" target="lines" id="394" />
+      <edge source="lines" target="in" id="395" />
+      <edge source="rails" target="rails" id="396" />
+      <edge source="in" target="in" id="397" />
+      <edge source="in" target="sun" id="398" />
+      <edge source="in" target="sat" id="399" />
+      <edge source="in" target="come" id="400" />
+      <edge source="in" target="minutes" id="401" />
+      <edge source="in" target="River" id="402" />
+      <edge source="in" target="north" id="403" />
+      <edge source="in" target="let" id="404" />
+      <edge source="in" target="air" id="405" />
+      <edge source="in" target="back" id="406" />
+      <edge source="in" target="comes" id="407" />
+      <edge source="in" target="coming" id="408" />
+      <edge source="sun" target="sun" id="409" />
+      <edge source="sun" target="country" id="410" />
+      <edge source="Close" target="Close" id="411" />
+      <edge source="Close" target="against" id="412" />
+      <edge source="against" target="against" id="413" />
+      <edge source="against" target="blew" id="414" />
+      <edge source="against" target="table" id="415" />
+      <edge source="against" target="bags" id="416" />
+      <edge source="against" target="wall" id="417" />
+      <edge source="warm" target="warm" id="418" />
+      <edge source="warm" target="shadow" id="419" />
+      <edge source="warm" target="wind" id="420" />
+      <edge source="shadow" target="shadow" id="421" />
+      <edge source="shadow" target="curtain" id="422" />
+      <edge source="shadow" target="moved" id="423" />
+      <edge source="building" target="building" id="424" />
+      <edge source="building" target="outside" id="425" />
+      <edge source="a" target="a" id="426" />
+      <edge source="a" target="curtain" id="427" />
+      <edge source="a" target="table" id="428" />
+      <edge source="a" target="woman" id="429" />
+      <edge source="a" target="drink" id="430" />
+      <edge source="a" target="time" id="431" />
+      <edge source="a" target="cloud" id="432" />
+      <edge source="curtain" target="curtain" id="433" />
+      <edge source="curtain" target="," id="434" />
+      <edge source="curtain" target="made" id="435" />
+      <edge source="curtain" target="into" id="436" />
+      <edge source="curtain" target="at" id="437" />
+      <edge source="curtain" target="bead" id="438" />
+      <edge source="curtain" target="through" id="439" />
+      <edge source="curtain" target="blew" id="440" />
+      <edge source="," target="," id="441" />
+      <edge source="," target="hung" id="442" />
+      <edge source="," target="sat" id="443" />
+      <edge source="," target="said" id="444" />
+      <edge source="," target="drank" id="445" />
+      <edge source="," target="have" id="446" />
+      <edge source="," target="painted" id="447" />
+      <edge source="," target="Hemingway" id="448" />
+      <edge source="," target="for" id="449" />
+      <edge source="," target="cut" id="450" />
+      <edge source="," target="let" id="451" />
+      <edge source="," target="is" id="452" />
+      <edge source="," target="operation" id="453" />
+      <edge source="," target="mind" id="454" />
+      <edge source="," target="looked" id="455" />
+      <edge source="," target="be" id="456" />
+      <edge source="," target="care" id="457" />
+      <edge source="," target="yes" id="458" />
+      <edge source="," target="ca" id="459" />
+      <edge source="," target="get" id="460" />
+      <edge source="," target="know" id="461" />
+      <edge source="," target="'s" id="462" />
+      <edge source="," target="smiled" id="463" />
+      <edge source="," target="walked" id="464" />
+      <edge source="," target="barroom" id="465" />
+      <edge source="made" target="made" id="466" />
+      <edge source="made" target="thing" id="467" />
+      <edge source="made" target="that" id="468" />
+      <edge source="made" target="'s" id="469" />
+      <edge source="made" target="unhappy" id="470" />
+      <edge source="strings" target="strings" id="471" />
+      <edge source="bamboo" target="bamboo" id="472" />
+      <edge source="bamboo" target="beads" id="473" />
+      <edge source="beads" target="beads" id="474" />
+      <edge source="hung" target="hung" id="475" />
+      <edge source="hung" target="into" id="476" />
+      <edge source="hung" target="keep" id="477" />
+      <edge source="open" target="open" id="478" />
+      <edge source="open" target="door" id="479" />
+      <edge source="door" target="door" id="480" />
+      <edge source="into" target="into" id="481" />
+      <edge source="into" target="bar" id="482" />
+      <edge source="into" target="said" id="483" />
+      <edge source="bar" target="bar" id="484" />
+      <edge source="bar" target="from" id="485" />
+      <edge source="bar" target="at" id="486" />
+      <edge source="to" target="to" id="487" />
+      <edge source="to" target="keep" id="488" />
+      <edge source="to" target="went" id="489" />
+      <edge source="to" target="Madrid" id="490" />
+      <edge source="to" target="try" id="491" />
+      <edge source="to" target="let" id="492" />
+      <edge source="to" target="be" id="493" />
+      <edge source="to" target="want" id="494" />
+      <edge source="to" target="have" id="495" />
+      <edge source="to" target="do" id="496" />
+      <edge source="to" target="walked" id="497" />
+      <edge source="to" target="end" id="498" />
+      <edge source="to" target="doÑ" id="499" />
+      <edge source="to" target="got" id="500" />
+      <edge source="to" target="realizeÑ" id="501" />
+      <edge source="to" target="realize" id="502" />
+      <edge source="to" target="go" id="503" />
+      <edge source="to" target="means" id="504" />
+      <edge source="to" target="you" id="505" />
+      <edge source="to" target="mean" id="506" />
+      <edge source="to" target="say" id="507" />
+      <edge source="to" target="thank" id="508" />
+      <edge source="to" target="take" id="509" />
+      <edge source="to" target="carried" id="510" />
+      <edge source="to" target="tracks" id="511" />
+      <edge source="keep" target="keep" id="512" />
+      <edge source="keep" target="out" id="513" />
+      <edge source="keep" target="flies" id="514" />
+      <edge source="out" target="out" id="515" />
+      <edge source="out" target="came" id="516" />
+      <edge source="out" target="cut" id="517" />
+      <edge source="out" target="put" id="518" />
+      <edge source="out" target="went" id="519" />
+      <edge source="flies" target="flies" id="520" />
+      <edge source="American" target="American" id="521" />
+      <edge source="American" target="sat" id="522" />
+      <edge source="American" target="girl" id="523" />
+      <edge source="girl" target="girl" id="524" />
+      <edge source="girl" target="with" id="525" />
+      <edge source="girl" target="asked" id="526" />
+      <edge source="girl" target="man" id="527" />
+      <edge source="girl" target="looking" id="528" />
+      <edge source="girl" target="looked" id="529" />
+      <edge source="girl" target="said" id="530" />
+      <edge source="girl" target="say" id="531" />
+      <edge source="girl" target="stood" id="532" />
+      <edge source="girl" target="smiled" id="533" />
+      <edge source="with" target="with" id="534" />
+      <edge source="with" target="him" id="535" />
+      <edge source="with" target="want" id="536" />
+      <edge source="with" target="water" id="537" />
+      <edge source="with" target="Is" id="538" />
+      <edge source="with" target="Hemingway" id="539" />
+      <edge source="with" target="way" id="540" />
+      <edge source="with" target="everything" id="541" />
+      <edge source="with" target="go" id="542" />
+      <edge source="with" target="you" id="543" />
+      <edge source="with" target="stay" id="544" />
+      <edge source="with" target="it" id="545" />
+      <edge source="with" target="curtains" id="546" />
+      <edge source="with" target="glasses" id="547" />
+      <edge source="with" target="nothing" id="548" />
+      <edge source="with" target="me" id="549" />
+      <edge source="him" target="him" id="550" />
+      <edge source="him" target="at" id="551" />
+      <edge source="sat" target="sat" id="552" />
+      <edge source="sat" target="at" id="553" />
+      <edge source="sat" target="outside" id="554" />
+      <edge source="sat" target="They" id="555" />
+      <edge source="sat" target="down" id="556" />
+      <edge source="sat" target="looked" id="557" />
+      <edge source="at" target="at" id="558" />
+      <edge source="at" target="table" id="559" />
+      <edge source="at" target="stopped" id="560" />
+      <edge source="at" target="junction" id="561" />
+      <edge source="at" target="looked" id="562" />
+      <edge source="at" target="man" id="563" />
+      <edge source="at" target="looking" id="564" />
+      <edge source="at" target="line" id="565" />
+      <edge source="at" target="is" id="566" />
+      <edge source="at" target="things" id="567" />
+      <edge source="at" target="all" id="568" />
+      <edge source="at" target="ground" id="569" />
+      <edge source="at" target="her" id="570" />
+      <edge source="at" target="bags" id="571" />
+      <edge source="at" target="smiled" id="572" />
+      <edge source="at" target="woman" id="573" />
+      <edge source="at" target="drank" id="574" />
+      <edge source="at" target="people" id="575" />
+      <edge source="at" target="sitting" id="576" />
+      <edge source="table" target="table" id="577" />
+      <edge source="table" target="on" id="578" />
+      <edge source="table" target="legs" id="579" />
+      <edge source="outside" target="outside" id="580" />
+      <edge source="It" target="It" id="581" />
+      <edge source="It" target="stopped" id="582" />
+      <edge source="It" target="'s" id="583" />
+      <edge source="It" target="tastes" id="584" />
+      <edge source="It" target="is" id="585" />
+      <edge source="very" target="very" id="586" />
+      <edge source="very" target="hot" id="587" />
+      <edge source="hot" target="hot" id="588" />
+      <edge source="hot" target="'s" id="589" />
+      <edge source="hot" target="pretty" id="590" />
+      <edge source="express" target="express" id="591" />
+      <edge source="express" target="come" id="592" />
+      <edge source="express" target="from" id="593" />
+      <edge source="from" target="from" id="594" />
+      <edge source="from" target="Barcelona" id="595" />
+      <edge source="from" target="asked" id="596" />
+      <edge source="from" target="doorway" id="597" />
+      <edge source="from" target="came" id="598" />
+      <edge source="from" target="labels" id="599" />
+      <edge source="from" target="hotels" id="600" />
+      <edge source="Barcelona" target="Barcelona" id="601" />
+      <edge source="would" target="would" id="602" />
+      <edge source="would" target="come" id="603" />
+      <edge source="would" target="have" id="604" />
+      <edge source="would" target="mind" id="605" />
+      <edge source="come" target="come" id="606" />
+      <edge source="come" target="Then" id="607" />
+      <edge source="come" target="back" id="608" />
+      <edge source="come" target="finish" id="609" />
+      <edge source="forty" target="forty" id="610" />
+      <edge source="forty" target="minutes" id="611" />
+      <edge source="minutes" target="minutes" id="612" />
+      <edge source="minutes" target="for" id="613" />
+      <edge source="minutes" target="five" id="614" />
+      <edge source="stopped" target="stopped" id="615" />
+      <edge source="stopped" target="for" id="616" />
+      <edge source="stopped" target="went" id="617" />
+      <edge source="junction" target="junction" id="618" />
+      <edge source="for" target="for" id="619" />
+      <edge source="for" target="waited" id="620" />
+      <edge source="for" target="like" id="621" />
+      <edge source="for" target="good" id="622" />
+      <edge source="for" target="me" id="623" />
+      <edge source="for" target="say" id="624" />
+      <edge source="for" target="do" id="625" />
+      <edge source="for" target="you" id="626" />
+      <edge source="for" target="waiting" id="627" />
+      <edge source="for" target="train" id="628" />
+      <edge source="went" target="went" id="629" />
+      <edge source="went" target="on" id="630" />
+      <edge source="went" target="He" id="631" />
+      <edge source="went" target="through" id="632" />
+      <edge source="on" target="on" id="633" />
+      <edge source="on" target="put" id="634" />
+      <edge source="on" target="something" id="635" />
+      <edge source="on" target="it" id="636" />
+      <edge source="on" target="rested" id="637" />
+      <edge source="on" target="Come" id="638" />
+      <edge source="on" target="looked" id="639" />
+      <edge source="on" target="labels" id="640" />
+      <edge source="on" target="them" id="641" />
+      <edge source="on" target="pads" id="642" />
+      <edge source="Madrid" target="Madrid" id="643" />
+      <edge source="&quot;" target="&quot;" id="644" />
+      <edge source="&quot;" target="drink" id="645" />
+      <edge source="&quot;" target="'s" id="646" />
+      <edge source="&quot;" target="said" id="647" />
+      <edge source="&quot;" target="Let" id="648" />
+      <edge source="&quot;" target="cervezas" id="649" />
+      <edge source="&quot;" target="ones" id="650" />
+      <edge source="&quot;" target="Yes" id="651" />
+      <edge source="&quot;" target="look" id="652" />
+      <edge source="&quot;" target="seen" id="653" />
+      <edge source="&quot;" target="drank" id="654" />
+      <edge source="&quot;" target="have" id="655" />
+      <edge source="&quot;" target="prove" id="656" />
+      <edge source="&quot;" target="painted" id="657" />
+      <edge source="&quot;" target="say" id="658" />
+      <edge source="&quot;" target="Toro" id="659" />
+      <edge source="&quot;" target="try" id="660" />
+      <edge source="&quot;" target="Listen" id="661" />
+      <edge source="&quot;" target="reales" id="662" />
+      <edge source="&quot;" target="want" id="663" />
+      <edge source="&quot;" target="know" id="664" />
+      <edge source="&quot;" target="Is" id="665" />
+      <edge source="&quot;" target="asked" id="666" />
+      <edge source="&quot;" target="Hemingway" id="667" />
+      <edge source="&quot;" target="tastes" id="668" />
+      <edge source="&quot;" target="things" id="669" />
+      <edge source="&quot;" target="cut" id="670" />
+      <edge source="&quot;" target="started" id="671" />
+      <edge source="&quot;" target="amused" id="672" />
+      <edge source="&quot;" target="having" id="673" />
+      <edge source="&quot;" target="let" id="674" />
+      <edge source="&quot;" target="Was" id="675" />
+      <edge source="&quot;" target="wanted" id="676" />
+      <edge source="&quot;" target="is" id="677" />
+      <edge source="&quot;" target="guess" id="678" />
+      <edge source="&quot;" target="'re" id="679" />
+      <edge source="&quot;" target="meant" id="680" />
+      <edge source="&quot;" target="go" id="681" />
+      <edge source="&quot;" target="do" id="682" />
+      <edge source="&quot;" target="be" id="683" />
+      <edge source="&quot;" target="makes" id="684" />
+      <edge source="&quot;" target="think" id="685" />
+      <edge source="&quot;" target="known" id="686" />
+      <edge source="&quot;" target="love" id="687" />
+      <edge source="&quot;" target="like" id="688" />
+      <edge source="&quot;" target="worry" id="689" />
+      <edge source="&quot;" target="care" id="690" />
+      <edge source="&quot;" target="mean" id="691" />
+      <edge source="&quot;" target="yes" id="692" />
+      <edge source="&quot;" target="make" id="693" />
+      <edge source="&quot;" target="ca" id="694" />
+      <edge source="&quot;" target="get" id="695" />
+      <edge source="&quot;" target="taken" id="696" />
+      <edge source="&quot;" target="wait" id="697" />
+      <edge source="&quot;" target="Come" id="698" />
+      <edge source="&quot;" target="feel" id="699" />
+      <edge source="&quot;" target="right" id="700" />
+      <edge source="&quot;" target="realize" id="701" />
+      <edge source="&quot;" target="stop" id="702" />
+      <edge source="&quot;" target="'m" id="703" />
+      <edge source="&quot;" target="does" id="704" />
+      <edge source="&quot;" target="scream" id="705" />
+      <edge source="&quot;" target="coming" id="706" />
+      <edge source="&quot;" target="take" id="707" />
+      <edge source="&quot;" target="finish" id="708" />
+      <edge source="What" target="What" id="709" />
+      <edge source="What" target="drink" id="710" />
+      <edge source="What" target="say" id="711" />
+      <edge source="What" target="makes" id="712" />
+      <edge source="What" target="mean" id="713" />
+      <edge source="should" target="should" id="714" />
+      <edge source="should" target="drink" id="715" />
+      <edge source="we" target="we" id="716" />
+      <edge source="we" target="drink" id="717" />
+      <edge source="we" target="try" id="718" />
+      <edge source="we" target="do" id="719" />
+      <edge source="we" target="have" id="720" />
+      <edge source="we" target="be" id="721" />
+      <edge source="we" target="will" id="722" />
+      <edge source="we" target="make" id="723" />
+      <edge source="we" target="ca" id="724" />
+      <edge source="we" target="stop" id="725" />
+      <edge source="we" target="finish" id="726" />
+      <edge source="drink" target="drink" id="727" />
+      <edge source="drink" target="?" id="728" />
+      <edge source="drink" target="Let" id="729" />
+      <edge source="drink" target="'s" id="730" />
+      <edge source="drink" target="beer" id="731" />
+      <edge source="drink" target="try" id="732" />
+      <edge source="drink" target="new" id="733" />
+      <edge source="drink" target="have" id="734" />
+      <edge source="drink" target="another" id="735" />
+      <edge source="?" target="?" id="736" />
+      <edge source="?" target="ones" id="737" />
+      <edge source="?" target="say" id="738" />
+      <edge source="?" target="try" id="739" />
+      <edge source="?" target="want" id="740" />
+      <edge source="?" target="Is" id="741" />
+      <edge source="?" target="Was" id="742" />
+      <edge source="?" target="is" id="743" />
+      <edge source="?" target="have" id="744" />
+      <edge source="?" target="do" id="745" />
+      <edge source="?" target="makes" id="746" />
+      <edge source="?" target="love" id="747" />
+      <edge source="?" target="like" id="748" />
+      <edge source="?" target="worry" id="749" />
+      <edge source="?" target="mean" id="750" />
+      <edge source="?" target="stop" id="751" />
+      <edge source="?" target="feel" id="752" />
+      <edge source="asked" target="asked" id="753" />
+      <edge source="asked" target="woman" id="754" />
+      <edge source="asked" target="want" id="755" />
+      <edge source="asked" target="say" id="756" />
+      <edge source="asked" target="feel" id="757" />
+      <edge source="asked" target="he" id="758" />
+      <edge source="She" target="She" id="759" />
+      <edge source="She" target="taken" id="760" />
+      <edge source="She" target="put" id="761" />
+      <edge source="She" target="smiled" id="762" />
+      <edge source="She" target="sitting" id="763" />
+      <edge source="had" target="had" id="764" />
+      <edge source="had" target="taken" id="765" />
+      <edge source="had" target="spent" id="766" />
+      <edge source="taken" target="taken" id="767" />
+      <edge source="taken" target="off" id="768" />
+      <edge source="taken" target="hat" id="769" />
+      <edge source="taken" target="put" id="770" />
+      <edge source="taken" target="But" id="771" />
+      <edge source="taken" target="they" id="772" />
+      <edge source="taken" target="have" id="773" />
+      <edge source="taken" target="n't" id="774" />
+      <edge source="taken" target="it" id="775" />
+      <edge source="taken" target="away" id="776" />
+      <edge source="off" target="off" id="777" />
+      <edge source="off" target="looking" id="778" />
+      <edge source="her" target="her" id="779" />
+      <edge source="her" target="hat" id="780" />
+      <edge source="her" target="hand" id="781" />
+      <edge source="her" target="thank" id="782" />
+      <edge source="hat" target="hat" id="783" />
+      <edge source="put" target="put" id="784" />
+      <edge source="put" target="it" id="785" />
+      <edge source="put" target="pads" id="786" />
+      <edge source="put" target="looked" id="787" />
+      <edge source="put" target="said" id="788" />
+      <edge source="put" target="glass" id="789" />
+      <edge source="put" target="down" id="790" />
+      <edge source="put" target="hand" id="791" />
+      <edge source="put" target="took" id="792" />
+      <edge source="put" target="came" id="793" />
+      <edge source="put" target="them" id="794" />
+      <edge source="it" target="it" id="795" />
+      <edge source="it" target="say" id="796" />
+      <edge source="it" target="try" id="797" />
+      <edge source="it" target="want" id="798" />
+      <edge source="it" target="Is" id="799" />
+      <edge source="it" target="cut" id="800" />
+      <edge source="it" target="started" id="801" />
+      <edge source="it" target="mind" id="802" />
+      <edge source="it" target="'s" id="803" />
+      <edge source="it" target="done" id="804" />
+      <edge source="it" target="do" id="805" />
+      <edge source="it" target="be" id="806" />
+      <edge source="it" target="like" id="807" />
+      <edge source="it" target="love" id="808" />
+      <edge source="it" target="about" id="809" />
+      <edge source="it" target="impossible" id="810" />
+      <edge source="it" target="is" id="811" />
+      <edge source="it" target="take" id="812" />
+      <edge source="it" target="get" id="813" />
+      <edge source="it" target="means" id="814" />
+      <edge source="it" target="mean" id="815" />
+      <edge source="it" target="does" id="816" />
+      <edge source="it" target="know" id="817" />
+      <edge source="'s" target="'s" id="818" />
+      <edge source="'s" target="said" id="819" />
+      <edge source="'s" target="right" id="820" />
+      <edge source="'s" target="That" id="821" />
+      <edge source="'s" target="way" id="822" />
+      <edge source="'s" target="try" id="823" />
+      <edge source="'s" target="is" id="824" />
+      <edge source="'s" target="all" id="825" />
+      <edge source="'s" target="beer" id="826" />
+      <edge source="'s" target="lovely" id="827" />
+      <edge source="'s" target="really" id="828" />
+      <edge source="'s" target="operation" id="829" />
+      <edge source="'s" target="not" id="830" />
+      <edge source="'s" target="anything" id="831" />
+      <edge source="'s" target="let" id="832" />
+      <edge source="'s" target="then" id="833" />
+      <edge source="'s" target="natural" id="834" />
+      <edge source="'s" target="thing" id="835" />
+      <edge source="'s" target="know" id="836" />
+      <edge source="'s" target="simple" id="837" />
+      <edge source="'s" target="think" id="838" />
+      <edge source="'s" target="worry" id="839" />
+      <edge source="'s" target="because" id="840" />
+      <edge source="'s" target="ours" id="841" />
+      <edge source="'s" target="say" id="842" />
+      <edge source="'s" target="but" id="843" />
+      <edge source="'s" target="There" id="844" />
+      <edge source="'s" target="nothing" id="845" />
+      <edge source="pretty" target="pretty" id="846" />
+      <edge source="man" target="man" id="847" />
+      <edge source="man" target="said" id="848" />
+      <edge source="man" target="drank" id="849" />
+      <edge source="man" target="called" id="850" />
+      <edge source="man" target="looked" id="851" />
+      <edge source="said" target="said" id="852" />
+      <edge source="said" target="cervezas" id="853" />
+      <edge source="said" target="look" id="854" />
+      <edge source="said" target="she" id="855" />
+      <edge source="said" target="have" id="856" />
+      <edge source="said" target="painted" id="857" />
+      <edge source="said" target="know" id="858" />
+      <edge source="said" target="tastes" id="859" />
+      <edge source="said" target="Yes" id="860" />
+      <edge source="said" target="started" id="861" />
+      <edge source="said" target="I" id="862" />
+      <edge source="said" target="looked" id="863" />
+      <edge source="said" target="'re" id="864" />
+      <edge source="said" target="beer" id="865" />
+      <edge source="said" target="Well" id="866" />
+      <edge source="said" target="Come" id="867" />
+      <edge source="said" target="he" id="868" />
+      <edge source="said" target="feel" id="869" />
+      <edge source="said" target="want" id="870" />
+      <edge source="said" target="got" id="871" />
+      <edge source="said" target="realize" id="872" />
+      <edge source="said" target="care" id="873" />
+      <edge source="said" target="scream" id="874" />
+      <edge source="said" target="comes" id="875" />
+      <edge source="said" target="take" id="876" />
+      <edge source="Let" target="Let" id="877" />
+      <edge source="beer" target="beer" id="878" />
+      <edge source="beer" target="glasses" id="879" />
+      <edge source="beer" target="drank" id="880" />
+      <edge source="beer" target="his" id="881" />
+      <edge source="beer" target="nice" id="882" />
+      <edge source="beer" target="have" id="883" />
+      <edge source="beer" target="another" id="884" />
+      <edge source="beer" target="finish" id="885" />
+      <edge source="Dos" target="Dos" id="886" />
+      <edge source="Dos" target="cervezas" id="887" />
+      <edge source="cervezas" target="cervezas" id="888" />
+      <edge source="Big" target="Big" id="889" />
+      <edge source="Big" target="ones" id="890" />
+      <edge source="ones" target="ones" id="891" />
+      <edge source="ones" target="Two" id="892" />
+      <edge source="ones" target="big" id="893" />
+      <edge source="woman" target="woman" id="894" />
+      <edge source="woman" target="brought" id="895" />
+      <edge source="woman" target="came" id="896" />
+      <edge source="doorway" target="doorway" id="897" />
+      <edge source="Yes" target="Yes" id="898" />
+      <edge source="Yes" target="Hemingway" id="899" />
+      <edge source="Yes" target="know" id="900" />
+      <edge source="Two" target="Two" id="901" />
+      <edge source="big" target="big" id="902" />
+      <edge source="brought" target="brought" id="903" />
+      <edge source="brought" target="glasses" id="904" />
+      <edge source="glasses" target="glasses" id="905" />
+      <edge source="glasses" target="pads" id="906" />
+      <edge source="felt" target="felt" id="907" />
+      <edge source="felt" target="pads" id="908" />
+      <edge source="felt" target="damp" id="909" />
+      <edge source="pads" target="pads" id="910" />
+      <edge source="looked" target="looked" id="911" />
+      <edge source="looked" target="mountains" id="912" />
+      <edge source="looked" target="like" id="913" />
+      <edge source="looked" target="rested" id="914" />
+      <edge source="looked" target="say" id="915" />
+      <edge source="looked" target="He" id="916" />
+      <edge source="looked" target="up" id="917" />
+      <edge source="looked" target="tracks" id="918" />
+      <edge source="looked" target="but" id="919" />
+      <edge source="looked" target="see" id="920" />
+      <edge source="looked" target="drank" id="921" />
+      <edge source="looking" target="looking" id="922" />
+      <edge source="line" target="line" id="923" />
+      <edge source="They" target="They" id="924" />
+      <edge source="They" target="look" id="925" />
+      <edge source="They" target="painted" id="926" />
+      <edge source="They" target="'re" id="927" />
+      <edge source="They" target="let" id="928" />
+      <edge source="They" target="waiting" id="929" />
+      <edge source="country" target="country" id="930" />
+      <edge source="brown" target="brown" id="931" />
+      <edge source="brown" target="dry" id="932" />
+      <edge source="dry" target="dry" id="933" />
+      <edge source="look" target="look" id="934" />
+      <edge source="look" target="like" id="935" />
+      <edge source="look" target="do" id="936" />
+      <edge source="look" target="n't" id="937" />
+      <edge source="look" target="really" id="938" />
+      <edge source="look" target="phants" id="939" />
+      <edge source="like" target="like" id="940" />
+      <edge source="like" target="elephants" id="941" />
+      <edge source="like" target="tastes" id="942" />
+      <edge source="like" target="licorice" id="943" />
+      <edge source="like" target="absinthe" id="944" />
+      <edge source="like" target="ele.phants" id="945" />
+      <edge source="like" target="ele" id="946" />
+      <edge source="like" target="be" id="947" />
+      <edge source="like" target="are" id="948" />
+      <edge source="like" target="you" id="949" />
+      <edge source="like" target="'ll" id="950" />
+      <edge source="elephants" target="elephants" id="951" />
+      <edge source="she" target="she" id="952" />
+      <edge source="she" target="saw" id="953" />
+      <edge source="she" target="say" id="954" />
+      <edge source="I" target="I" id="955" />
+      <edge source="I" target="seen" id="956" />
+      <edge source="I" target="have" id="957" />
+      <edge source="I" target="know" id="958" />
+      <edge source="I" target="amused" id="959" />
+      <edge source="I" target="having" id="960" />
+      <edge source="I" target="trying" id="961" />
+      <edge source="I" target="wanted" id="962" />
+      <edge source="I" target="guess" id="963" />
+      <edge source="I" target="meant" id="964" />
+      <edge source="I" target="go" id="965" />
+      <edge source="I" target="stay" id="966" />
+      <edge source="I" target="known" id="967" />
+      <edge source="I" target="think" id="968" />
+      <edge source="I" target="want" id="969" />
+      <edge source="I" target="do" id="970" />
+      <edge source="I" target="love" id="971" />
+      <edge source="I" target="say" id="972" />
+      <edge source="I" target="get" id="973" />
+      <edge source="I" target="worry" id="974" />
+      <edge source="I" target="care" id="975" />
+      <edge source="I" target="feel" id="976" />
+      <edge source="I" target="realize" id="977" />
+      <edge source="I" target="'m" id="978" />
+      <edge source="I" target="scream" id="979" />
+      <edge source="I" target="take" id="980" />
+      <edge source="'ve" target="'ve" id="981" />
+      <edge source="'ve" target="seen" id="982" />
+      <edge source="'ve" target="painted" id="983" />
+      <edge source="'ve" target="waited" id="984" />
+      <edge source="'ve" target="known" id="985" />
+      <edge source="'ve" target="got" id="986" />
+      <edge source="never" target="never" id="987" />
+      <edge source="never" target="seen" id="988" />
+      <edge source="never" target="get" id="989" />
+      <edge source="seen" target="seen" id="990" />
+      <edge source="seen" target="drank" id="991" />
+      <edge source="seen" target="one" id="992" />
+      <edge source="one" target="one" id="993" />
+      <edge source="one" target="want" id="994" />
+      <edge source="one" target="any" id="995" />
+      <edge source="one" target="else" id="996" />
+      <edge source="drank" target="drank" id="997" />
+      <edge source="drank" target="He" id="998" />
+      <edge source="drank" target="Anis" id="999" />
+      <edge source="his" target="his" id="1000" />
+      <edge source="No" target="No" id="1001" />
+      <edge source="No" target="have" id="1002" />
+      <edge source="No" target="ca" id="1003" />
+      <edge source="No" target="is" id="1004" />
+      <edge source="you" target="you" id="1005" />
+      <edge source="you" target="have" id="1006" />
+      <edge source="you" target="say" id="1007" />
+      <edge source="you" target="want" id="1008" />
+      <edge source="you" target="waited" id="1009" />
+      <edge source="you" target="mind" id="1010" />
+      <edge source="you" target="think" id="1011" />
+      <edge source="you" target="do" id="1012" />
+      <edge source="you" target="be" id="1013" />
+      <edge source="you" target="love" id="1014" />
+      <edge source="you" target="worry" id="1015" />
+      <edge source="you" target="mean" id="1016" />
+      <edge source="you" target="about" id="1017" />
+      <edge source="you" target="feel" id="1018" />
+      <edge source="you" target="get" id="1019" />
+      <edge source="you" target="got" id="1020" />
+      <edge source="you" target="&#10;&#10;" id="1021" />
+      <edge source="you" target="but" id="1022" />
+      <edge source="you" target="know" id="1023" />
+      <edge source="you" target="stop" id="1024" />
+      <edge source="n't" target="n't" id="1025" />
+      <edge source="n't" target="have" id="1026" />
+      <edge source="n't" target="prove" id="1027" />
+      <edge source="n't" target="know" id="1028" />
+      <edge source="n't" target="Was" id="1029" />
+      <edge source="n't" target="is" id="1030" />
+      <edge source="n't" target="mind" id="1031" />
+      <edge source="n't" target="want" id="1032" />
+      <edge source="n't" target="think" id="1033" />
+      <edge source="n't" target="worry" id="1034" />
+      <edge source="n't" target="care" id="1035" />
+      <edge source="n't" target="ca" id="1036" />
+      <edge source="n't" target="feel" id="1037" />
+      <edge source="n't" target="stop" id="1038" />
+      <edge source="n't" target="mean" id="1039" />
+      <edge source="have" target="have" id="1040" />
+      <edge source="have" target="might" id="1041" />
+      <edge source="have" target="say" id="1042" />
+      <edge source="have" target="try" id="1043" />
+      <edge source="have" target="time" id="1044" />
+      <edge source="have" target="Should" id="1045" />
+      <edge source="have" target="You" id="1046" />
+      <edge source="have" target="do" id="1047" />
+      <edge source="have" target="be" id="1048" />
+      <edge source="have" target="done" id="1049" />
+      <edge source="have" target="So" id="1050" />
+      <edge source="have" target="want" id="1051" />
+      <edge source="have" target="And" id="1052" />
+      <edge source="have" target="could" id="1053" />
+      <edge source="have" target="everything" id="1054" />
+      <edge source="have" target="make" id="1055" />
+      <edge source="have" target="We" id="1056" />
+      <edge source="have" target="can" id="1057" />
+      <edge source="have" target="world" id="1058" />
+      <edge source="have" target="Could" id="1059" />
+      <edge source="might" target="might" id="1060" />
+      <edge source="Just" target="Just" id="1061" />
+      <edge source="Just" target="say" id="1062" />
+      <edge source="because" target="because" id="1063" />
+      <edge source="because" target="say" id="1064" />
+      <edge source="say" target="say" id="1065" />
+      <edge source="say" target="prove" id="1066" />
+      <edge source="say" target="does" id="1067" />
+      <edge source="say" target="Toro" id="1068" />
+      <edge source="say" target="did" id="1069" />
+      <edge source="say" target="not" id="1070" />
+      <edge source="say" target="anything" id="1071" />
+      <edge source="say" target="be" id="1072" />
+      <edge source="say" target="if" id="1073" />
+      <edge source="say" target="are" id="1074" />
+      <edge source="say" target="that" id="1075" />
+      <edge source="say" target="He" id="1076" />
+      <edge source="say" target="but" id="1077" />
+      <edge source="does" target="does" id="1078" />
+      <edge source="does" target="prove" id="1079" />
+      <edge source="does" target="course" id="1080" />
+      <edge source="prove" target="prove" id="1081" />
+      <edge source="prove" target="anything" id="1082" />
+      <edge source="anything" target="anything" id="1083" />
+      <edge source="anything" target="do" id="1084" />
+      <edge source="anything" target="want" id="1085" />
+      <edge source="anything" target="mean" id="1086" />
+      <edge source="anything" target="care" id="1087" />
+      <edge source="bead" target="bead" id="1088" />
+      <edge source="painted" target="painted" id="1089" />
+      <edge source="painted" target="something" id="1090" />
+      <edge source="something" target="something" id="1091" />
+      <edge source="something" target="do" id="1092" />
+      <edge source="Anis" target="Anis" id="1093" />
+      <edge source="Anis" target="Toro" id="1094" />
+      <edge source="Anis" target="an" id="1095" />
+      <edge source="del" target="del" id="1096" />
+      <edge source="del" target="Toro" id="1097" />
+      <edge source="Toro" target="Toro" id="1098" />
+      <edge source="Toro" target="want" id="1099" />
+      <edge source="Could" target="Could" id="1100" />
+      <edge source="Could" target="try" id="1101" />
+      <edge source="try" target="try" id="1102" />
+      <edge source="try" target="let" id="1103" />
+      <edge source="try" target="wanted" id="1104" />
+      <edge source="try" target="is" id="1105" />
+      <edge source="try" target="drinks" id="1106" />
+      <edge source="called" target="called" id="1107" />
+      <edge source="called" target="Listen" id="1108" />
+      <edge source="Listen" target="Listen" id="1109" />
+      <edge source="Listen" target="through" id="1110" />
+      <edge source="through" target="through" id="1111" />
+      <edge source="through" target="meant" id="1112" />
+      <edge source="through" target="saw" id="1113" />
+      <edge source="through" target="go" id="1114" />
+      <edge source="through" target="came" id="1115" />
+      <edge source="through" target="curtains" id="1116" />
+      <edge source="through" target="walked" id="1117" />
+      <edge source="through" target="barroom" id="1118" />
+      <edge source="came" target="came" id="1119" />
+      <edge source="Four" target="Four" id="1120" />
+      <edge source="Four" target="reales" id="1121" />
+      <edge source="reales" target="reales" id="1122" />
+      <edge source="We" target="We" id="1123" />
+      <edge source="We" target="want" id="1124" />
+      <edge source="We" target="be" id="1125" />
+      <edge source="We" target="go" id="1126" />
+      <edge source="We" target="wait" id="1127" />
+      <edge source="We" target="get" id="1128" />
+      <edge source="want" target="want" id="1129" />
+      <edge source="want" target="Do" id="1130" />
+      <edge source="want" target="You" id="1131" />
+      <edge source="want" target="them" id="1132" />
+      <edge source="want" target="if" id="1133" />
+      <edge source="want" target="do" id="1134" />
+      <edge source="want" target="did" id="1135" />
+      <edge source="want" target="And" id="1136" />
+      <edge source="want" target="really" id="1137" />
+      <edge source="want" target="But" id="1138" />
+      <edge source="want" target="is" id="1139" />
+      <edge source="want" target="doÑ" id="1140" />
+      <edge source="want" target="that" id="1141" />
+      <edge source="want" target="anybody" id="1142" />
+      <edge source="With" target="With" id="1143" />
+      <edge source="With" target="water" id="1144" />
+      <edge source="water" target="water" id="1145" />
+      <edge source="Do" target="Do" id="1146" />
+      <edge source="Do" target="feel" id="1147" />
+      <edge source="do" target="do" id="1148" />
+      <edge source="do" target="know" id="1149" />
+      <edge source="do" target="all" id="1150" />
+      <edge source="do" target="Then" id="1151" />
+      <edge source="do" target="what" id="1152" />
+      <edge source="do" target="will" id="1153" />
+      <edge source="do" target="afterward" id="1154" />
+      <edge source="do" target="thing" id="1155" />
+      <edge source="do" target="if" id="1156" />
+      <edge source="do" target="be" id="1157" />
+      <edge source="do" target="If" id="1158" />
+      <edge source="do" target="worry" id="1159" />
+      <edge source="do" target="'ll" id="1160" />
+      <edge source="do" target="care" id="1161" />
+      <edge source="do" target="mean" id="1162" />
+      <edge source="do" target="And" id="1163" />
+      <edge source="do" target="feel" id="1164" />
+      <edge source="do" target="Would" id="1165" />
+      <edge source="do" target="now" id="1166" />
+      <edge source="do" target="'d" id="1167" />
+      <edge source="know" target="know" id="1168" />
+      <edge source="know" target="mind" id="1169" />
+      <edge source="know" target="will" id="1170" />
+      <edge source="know" target="But" id="1171" />
+      <edge source="know" target="You" id="1172" />
+      <edge source="know" target="love" id="1173" />
+      <edge source="know" target="get" id="1174" />
+      <edge source="know" target="just" id="1175" />
+      <edge source="know" target="things" id="1176" />
+      <edge source="know" target="And" id="1177" />
+      <edge source="Is" target="Is" id="1178" />
+      <edge source="Is" target="good" id="1179" />
+      <edge source="good" target="good" id="1180" />
+      <edge source="good" target="is" id="1181" />
+      <edge source="all" target="all" id="1182" />
+      <edge source="all" target="right" id="1183" />
+      <edge source="all" target="operation" id="1184" />
+      <edge source="all" target="time" id="1185" />
+      <edge source="all" target="hotels" id="1186" />
+      <edge source="all" target="waiting" id="1187" />
+      <edge source="right" target="right" id="1188" />
+      <edge source="right" target="All" id="1189" />
+      <edge source="right" target="be" id="1190" />
+      <edge source="You" target="You" id="1191" />
+      <edge source="You" target="started" id="1192" />
+      <edge source="You" target="feel" id="1193" />
+      <edge source="You" target="got" id="1194" />
+      <edge source="them" target="them" id="1195" />
+      <edge source="them" target="carried" id="1196" />
+      <edge source="1" target="1" id="1197" />
+      <edge source="River" target="River" id="1198" />
+      <edge source="north" target="north" id="1199" />
+      <edge source="Spain" target="Spain" id="1200" />
+      <edge source="Ernest" target="Ernest" id="1201" />
+      <edge source="Ernest" target="Hemingway" id="1202" />
+      <edge source="Hemingway" target="Hemingway" id="1203" />
+      <edge source="Hemingway" target="229" id="1204" />
+      <edge source="229" target="229" id="1205" />
+      <edge source="tastes" target="tastes" id="1206" />
+      <edge source="tastes" target="Everything" id="1207" />
+      <edge source="licorice" target="licorice" id="1208" />
+      <edge source="glass" target="glass" id="1209" />
+      <edge source="down" target="down" id="1210" />
+      <edge source="That" target="That" id="1211" />
+      <edge source="That" target="coming" id="1212" />
+      <edge source="way" target="way" id="1213" />
+      <edge source="way" target="feel" id="1214" />
+      <edge source="way" target="that" id="1215" />
+      <edge source="way" target="any" id="1216" />
+      <edge source="everything" target="everything" id="1217" />
+      <edge source="everything" target="be" id="1218" />
+      <edge source="Everything" target="Everything" id="1219" />
+      <edge source="Especially" target="Especially" id="1220" />
+      <edge source="things" target="things" id="1221" />
+      <edge source="things" target="waited" id="1222" />
+      <edge source="things" target="be" id="1223" />
+      <edge source="things" target="are" id="1224" />
+      <edge source="waited" target="waited" id="1225" />
+      <edge source="so" target="so" id="1226" />
+      <edge source="so" target="guess" id="1227" />
+      <edge source="so" target="think" id="1228" />
+      <edge source="so" target="happy" id="1229" />
+      <edge source="absinthe" target="absinthe" id="1230" />
+      <edge source="Oh" target="Oh" id="1231" />
+      <edge source="Oh" target="cut" id="1232" />
+      <edge source="Oh" target="yes" id="1233" />
+      <edge source="cut" target="cut" id="1234" />
+      <edge source="started" target="started" id="1235" />
+      <edge source="being" target="being" id="1236" />
+      <edge source="being" target="amused" id="1237" />
+      <edge source="amused" target="amused" id="1238" />
+      <edge source="having" target="having" id="1239" />
+      <edge source="having" target="time" id="1240" />
+      <edge source="fine" target="fine" id="1241" />
+      <edge source="fine" target="time" id="1242" />
+      <edge source="fine" target="be" id="1243" />
+      <edge source="fine" target="feel" id="1244" />
+      <edge source="time" target="time" id="1245" />
+      <edge source="time" target="stay" id="1246" />
+      <edge source="Well" target="Well" id="1247" />
+      <edge source="Well" target="let" id="1248" />
+      <edge source="Well" target="care" id="1249" />
+      <edge source="let" target="let" id="1250" />
+      <edge source="let" target="just" id="1251" />
+      <edge source="let" target="air" id="1252" />
+      <edge source="All" target="All" id="1253" />
+      <edge source="trying" target="trying" id="1254" />
+      <edge source="mountains" target="mountains" id="1255" />
+      <edge source="ele.phants" target="ele.phants" id="1256" />
+      <edge source="Was" target="Was" id="1257" />
+      <edge source="Was" target="bright" id="1258" />
+      <edge source="that" target="that" id="1259" />
+      <edge source="that" target="bright" id="1260" />
+      <edge source="that" target="bothers" id="1261" />
+      <edge source="that" target="done" id="1262" />
+      <edge source="that" target="about" id="1263" />
+      <edge source="that" target="doÑ" id="1264" />
+      <edge source="that" target="is" id="1265" />
+      <edge source="bright" target="bright" id="1266" />
+      <edge source="wanted" target="wanted" id="1267" />
+      <edge source="new" target="new" id="1268" />
+      <edge source="new" target="drinks" id="1269" />
+      <edge source="is" target="is" id="1270" />
+      <edge source="is" target="itÑlook" id="1271" />
+      <edge source="is" target="ours" id="1272" />
+      <edge source="is" target="more" id="1273" />
+      <edge source="is" target="Nor" id="1274" />
+      <edge source="is" target="coming" id="1275" />
+      <edge source="itÑlook" target="itÑlook" id="1276" />
+      <edge source="drinks" target="drinks" id="1277" />
+      <edge source="guess" target="guess" id="1278" />
+      <edge source="'re" target="'re" id="1279" />
+      <edge source="lovely" target="lovely" id="1280" />
+      <edge source="really" target="really" id="1281" />
+      <edge source="ele" target="ele" id="1282" />
+      <edge source="phants" target="phants" id="1283" />
+      <edge source="just" target="just" id="1284" />
+      <edge source="just" target="meant" id="1285" />
+      <edge source="just" target="think" id="1286" />
+      <edge source="meant" target="meant" id="1287" />
+      <edge source="meant" target="coloring" id="1288" />
+      <edge source="coloring" target="coloring" id="1289" />
+      <edge source="their" target="their" id="1290" />
+      <edge source="their" target="skin" id="1291" />
+      <edge source="skin" target="skin" id="1292" />
+      <edge source="Should" target="Should" id="1293" />
+      <edge source="another" target="another" id="1294" />
+      <edge source="wind" target="wind" id="1295" />
+      <edge source="wind" target="blew" id="1296" />
+      <edge source="blew" target="blew" id="1297" />
+      <edge source="nice" target="nice" id="1298" />
+      <edge source="nice" target="cool" id="1299" />
+      <edge source="nice" target="be" id="1300" />
+      <edge source="cool" target="cool" id="1301" />
+      <edge source="an" target="an" id="1302" />
+      <edge source="an" target="operation" id="1303" />
+      <edge source="awfully" target="awfully" id="1304" />
+      <edge source="awfully" target="simple" id="1305" />
+      <edge source="simple" target="simple" id="1306" />
+      <edge source="simple" target="operation" id="1307" />
+      <edge source="simple" target="perfectly" id="1308" />
+      <edge source="operation" target="operation" id="1309" />
+      <edge source="operation" target="Jig" id="1310" />
+      <edge source="Jig" target="Jig" id="1311" />
+      <edge source="Jig" target="mind" id="1312" />
+      <edge source="not" target="not" id="1313" />
+      <edge source="not" target="see" id="1314" />
+      <edge source="ground" target="ground" id="1315" />
+      <edge source="legs" target="legs" id="1316" />
+      <edge source="legs" target="rested" id="1317" />
+      <edge source="rested" target="rested" id="1318" />
+      <edge source="mind" target="mind" id="1319" />
+      <edge source="air" target="air" id="1320" />
+      <edge source="did" target="did" id="1321" />
+      <edge source="'ll" target="'ll" id="1322" />
+      <edge source="'ll" target="go" id="1323" />
+      <edge source="'ll" target="stay" id="1324" />
+      <edge source="'ll" target="be" id="1325" />
+      <edge source="'ll" target="love" id="1326" />
+      <edge source="'ll" target="wait" id="1327" />
+      <edge source="'ll" target="scream" id="1328" />
+      <edge source="'ll" target="finish" id="1329" />
+      <edge source="go" target="go" id="1330" />
+      <edge source="go" target="stay" id="1331" />
+      <edge source="go" target="can" id="1332" />
+      <edge source="go" target="everywhere" id="1333" />
+      <edge source="go" target="willing" id="1334" />
+      <edge source="stay" target="stay" id="1335" />
+      <edge source="then" target="then" id="1336" />
+      <edge source="then" target="be" id="1337" />
+      <edge source="perfectly" target="perfectly" id="1338" />
+      <edge source="perfectly" target="natural" id="1339" />
+      <edge source="perfectly" target="willing" id="1340" />
+      <edge source="natural" target="natural" id="1341" />
+      <edge source="Then" target="Then" id="1342" />
+      <edge source="what" target="what" id="1343" />
+      <edge source="will" target="will" id="1344" />
+      <edge source="will" target="be" id="1345" />
+      <edge source="afterward" target="afterward" id="1346" />
+      <edge source="afterward" target="be" id="1347" />
+      <edge source="be" target="be" id="1348" />
+      <edge source="be" target="think" id="1349" />
+      <edge source="be" target="happy" id="1350" />
+      <edge source="be" target="afraid" id="1351" />
+      <edge source="be" target="And" id="1352" />
+      <edge source="be" target="love" id="1353" />
+      <edge source="be" target="But" id="1354" />
+      <edge source="be" target="again" id="1355" />
+      <edge source="before" target="before" id="1356" />
+      <edge source="makes" target="makes" id="1357" />
+      <edge source="makes" target="think" id="1358" />
+      <edge source="think" target="think" id="1359" />
+      <edge source="think" target="And" id="1360" />
+      <edge source="think" target="&#10;&#10;" id="1361" />
+      <edge source="think" target="but" id="1362" />
+      <edge source="think" target="ca" id="1363" />
+      <edge source="think" target="about" id="1364" />
+      <edge source="only" target="only" id="1365" />
+      <edge source="only" target="thing" id="1366" />
+      <edge source="thing" target="thing" id="1367" />
+      <edge source="thing" target="bothers" id="1368" />
+      <edge source="thing" target="best" id="1369" />
+      <edge source="thing" target="any" id="1370" />
+      <edge source="bothers" target="bothers" id="1371" />
+      <edge source="bothers" target="us" id="1372" />
+      <edge source="us" target="us" id="1373" />
+      <edge source="us" target="unhappy" id="1374" />
+      <edge source="unhappy" target="unhappy" id="1375" />
+      <edge source="hand" target="hand" id="1376" />
+      <edge source="took" target="took" id="1377" />
+      <edge source="took" target="hold" id="1378" />
+      <edge source="hold" target="hold" id="1379" />
+      <edge source="And" target="And" id="1380" />
+      <edge source="And" target="get" id="1381" />
+      <edge source="happy" target="happy" id="1382" />
+      <edge source="afraid" target="afraid" id="1383" />
+      <edge source="known" target="known" id="1384" />
+      <edge source="known" target="lots" id="1385" />
+      <edge source="lots" target="lots" id="1386" />
+      <edge source="lots" target="done" id="1387" />
+      <edge source="people" target="people" id="1388" />
+      <edge source="people" target="waiting" id="1389" />
+      <edge source="done" target="done" id="1390" />
+      <edge source="So" target="So" id="1391" />
+      <edge source="they" target="they" id="1392" />
+      <edge source="they" target="take" id="1393" />
+      <edge source="they" target="spent" id="1394" />
+      <edge source="if" target="if" id="1395" />
+      <edge source="if" target="feel" id="1396" />
+      <edge source="if" target="means" id="1397" />
+      <edge source="But" target="But" id="1398" />
+      <edge source="But" target="care" id="1399" />
+      <edge source="But" target="got" id="1400" />
+      <edge source="&#10;&#10;" target="&#10;&#10;" id="1401" />
+      <edge source="best" target="best" id="1402" />
+      <edge source="love" target="love" id="1403" />
+      <edge source="love" target="me" id="1404" />
+      <edge source="love" target="now" id="1405" />
+      <edge source="me" target="me" id="1406" />
+      <edge source="me" target="about" id="1407" />
+      <edge source="now" target="now" id="1408" />
+      <edge source="again" target="again" id="1409" />
+      <edge source="are" target="are" id="1410" />
+      <edge source="but" target="but" id="1411" />
+      <edge source="but" target="anybody" id="1412" />
+      <edge source="ca" target="ca" id="1413" />
+      <edge source="about" target="about" id="1414" />
+      <edge source="about" target="worry" id="1415" />
+      <edge source="about" target="care" id="1416" />
+      <edge source="how" target="how" id="1417" />
+      <edge source="how" target="get" id="1418" />
+      <edge source="get" target="get" id="1419" />
+      <edge source="get" target="worry" id="1420" />
+      <edge source="get" target="take" id="1421" />
+      <edge source="get" target="back" id="1422" />
+      <edge source="get" target="could" id="1423" />
+      <edge source="get" target="along" id="1424" />
+      <edge source="when" target="when" id="1425" />
+      <edge source="when" target="worry" id="1426" />
+      <edge source="worry" target="worry" id="1427" />
+      <edge source="worry" target="wo" id="1428" />
+      <edge source="worry" target="ever" id="1429" />
+      <edge source="If" target="If" id="1430" />
+      <edge source="wo" target="wo" id="1431" />
+      <edge source="ever" target="ever" id="1432" />
+      <edge source="Because" target="Because" id="1433" />
+      <edge source="Because" target="care" id="1434" />
+      <edge source="care" target="care" id="1435" />
+      <edge source="mean" target="mean" id="1436" />
+      <edge source="mean" target="Does" id="1437" />
+      <edge source="yes" target="yes" id="1438" />
+      <edge source="feel" target="feel" id="1439" />
+      <edge source="feel" target="must" id="1440" />
+      <edge source="feel" target="better" id="1441" />
+      <edge source="stood" target="stood" id="1442" />
+      <edge source="stood" target="up" id="1443" />
+      <edge source="stood" target="walked" id="1444" />
+      <edge source="up" target="up" id="1445" />
+      <edge source="up" target="picked" id="1446" />
+      <edge source="walked" target="walked" id="1447" />
+      <edge source="walked" target="Coming" id="1448" />
+      <edge source="walked" target="he" id="1449" />
+      <edge source="walked" target="drinking" id="1450" />
+      <edge source="end" target="end" id="1451" />
+      <edge source="Across" target="Across" id="1452" />
+      <edge source="other" target="other" id="1453" />
+      <edge source="other" target="tracks" id="1454" />
+      <edge source="fields" target="fields" id="1455" />
+      <edge source="fields" target="along" id="1456" />
+      <edge source="grain" target="grain" id="1457" />
+      <edge source="along" target="along" id="1458" />
+      <edge source="along" target="banks" id="1459" />
+      <edge source="banks" target="banks" id="1460" />
+      <edge source="Far" target="Far" id="1461" />
+      <edge source="Far" target="away" id="1462" />
+      <edge source="away" target="away" id="1463" />
+      <edge source="away" target="take" id="1464" />
+      <edge source="beyond" target="beyond" id="1465" />
+      <edge source="beyond" target="river" id="1466" />
+      <edge source="river" target="river" id="1467" />
+      <edge source="river" target="saw" id="1468" />
+      <edge source="cloud" target="cloud" id="1469" />
+      <edge source="moved" target="moved" id="1470" />
+      <edge source="moved" target="saw" id="1471" />
+      <edge source="field" target="field" id="1472" />
+      <edge source="saw" target="saw" id="1473" />
+      <edge source="could" target="could" id="1474" />
+      <edge source="could" target="see" id="1475" />
+      <edge source="every" target="every" id="1476" />
+      <edge source="every" target="day" id="1477" />
+      <edge source="day" target="day" id="1478" />
+      <edge source="day" target="make" id="1479" />
+      <edge source="make" target="make" id="1480" />
+      <edge source="make" target="impossible" id="1481" />
+      <edge source="more" target="more" id="1482" />
+      <edge source="more" target="impossible" id="1483" />
+      <edge source="more" target="any" id="1484" />
+      <edge source="impossible" target="impossible" id="1485" />
+      <edge source="can" target="can" id="1486" />
+      <edge source="whole" target="whole" id="1487" />
+      <edge source="whole" target="world" id="1488" />
+      <edge source="world" target="world" id="1489" />
+      <edge source="everywhere" target="everywhere" id="1490" />
+      <edge source="ours" target="ours" id="1491" />
+      <edge source="any" target="any" id="1492" />
+      <edge source="once" target="once" id="1493" />
+      <edge source="once" target="take" id="1494" />
+      <edge source="take" target="take" id="1495" />
+      <edge source="take" target="'d" id="1496" />
+      <edge source="take" target="better" id="1497" />
+      <edge source="take" target="bags" id="1498" />
+      <edge source="take" target="over" id="1499" />
+      <edge source="back" target="back" id="1500" />
+      <edge source="back" target="Come" id="1501" />
+      <edge source="back" target="Coming" id="1502" />
+      <edge source="wait" target="wait" id="1503" />
+      <edge source="wait" target="see" id="1504" />
+      <edge source="see" target="see" id="1505" />
+      <edge source="see" target="train" id="1506" />
+      <edge source="Come" target="Come" id="1507" />
+      <edge source="he" target="he" id="1508" />
+      <edge source="must" target="must" id="1509" />
+      <edge source="doÑ" target="doÑ" id="1510" />
+      <edge source="Nor" target="Nor" id="1511" />
+      <edge source="got" target="got" id="1512" />
+      <edge source="got" target="realize" id="1513" />
+      <edge source="realizeÑ" target="realizeÑ" id="1514" />
+      <edge source="realize" target="realize" id="1515" />
+      <edge source="Ca" target="Ca" id="1516" />
+      <edge source="Ca" target="stop" id="1517" />
+      <edge source="maybe" target="maybe" id="1518" />
+      <edge source="maybe" target="stop" id="1519" />
+      <edge source="stop" target="stop" id="1520" />
+      <edge source="stop" target="talking" id="1521" />
+      <edge source="stop" target="Would" id="1522" />
+      <edge source="stop" target="please" id="1523" />
+      <edge source="talking" target="talking" id="1524" />
+      <edge source="'m" target="'m" id="1525" />
+      <edge source="'m" target="willing" id="1526" />
+      <edge source="'m" target="means" id="1527" />
+      <edge source="willing" target="willing" id="1528" />
+      <edge source="means" target="means" id="1529" />
+      <edge source="Does" target="Does" id="1530" />
+      <edge source="Of" target="Of" id="1531" />
+      <edge source="Of" target="course" id="1532" />
+      <edge source="course" target="course" id="1533" />
+      <edge source="anybody" target="anybody" id="1534" />
+      <edge source="else" target="else" id="1535" />
+      <edge source="Would" target="Would" id="1536" />
+      <edge source="'d" target="'d" id="1537" />
+      <edge source="please" target="please" id="1538" />
+      <edge source="He" target="He" id="1539" />
+      <edge source="He" target="picked" id="1540" />
+      <edge source="bags" target="bags" id="1541" />
+      <edge source="bags" target="picked" id="1542" />
+      <edge source="bags" target="heavy" id="1543" />
+      <edge source="wall" target="wall" id="1544" />
+      <edge source="There" target="There" id="1545" />
+      <edge source="labels" target="labels" id="1546" />
+      <edge source="hotels" target="hotels" id="1547" />
+      <edge source="hotels" target="spent" id="1548" />
+      <edge source="where" target="where" id="1549" />
+      <edge source="where" target="spent" id="1550" />
+      <edge source="where" target="waiting" id="1551" />
+      <edge source="spent" target="spent" id="1552" />
+      <edge source="spent" target="nights" id="1553" />
+      <edge source="nights" target="nights" id="1554" />
+      <edge source="scream" target="scream" id="1555" />
+      <edge source="curtains" target="curtains" id="1556" />
+      <edge source="damp" target="damp" id="1557" />
+      <edge source="train" target="train" id="1558" />
+      <edge source="train" target="comes" id="1559" />
+      <edge source="train" target="coming" id="1560" />
+      <edge source="comes" target="comes" id="1561" />
+      <edge source="five" target="five" id="1562" />
+      <edge source="coming" target="coming" id="1563" />
+      <edge source="smiled" target="smiled" id="1564" />
+      <edge source="smiled" target="brightly" id="1565" />
+      <edge source="smiled" target="thank" id="1566" />
+      <edge source="smiled" target="sitting" id="1567" />
+      <edge source="brightly" target="brightly" id="1568" />
+      <edge source="thank" target="thank" id="1569" />
+      <edge source="better" target="better" id="1570" />
+      <edge source="over" target="over" id="1571" />
+      <edge source="finish" target="finish" id="1572" />
+      <edge source="picked" target="picked" id="1573" />
+      <edge source="picked" target="carried" id="1574" />
+      <edge source="heavy" target="heavy" id="1575" />
+      <edge source="carried" target="carried" id="1576" />
+      <edge source="carried" target="around" id="1577" />
+      <edge source="around" target="around" id="1578" />
+      <edge source="tracks" target="tracks" id="1579" />
+      <edge source="Coming" target="Coming" id="1580" />
+      <edge source="barroom" target="barroom" id="1581" />
+      <edge source="barroom" target="waiting" id="1582" />
+      <edge source="waiting" target="waiting" id="1583" />
+      <edge source="waiting" target="reasonably" id="1584" />
+      <edge source="drinking" target="drinking" id="1585" />
+      <edge source="reasonably" target="reasonably" id="1586" />
+      <edge source="sitting" target="sitting" id="1587" />
+      <edge source="nothing" target="nothing" id="1588" />
+      <edge source="nothing" target="wrong" id="1589" />
+      <edge source="wrong" target="wrong" id="1590" />
+      <edge source="1927" target="1927" id="1591" />
+      <edge source="&#10;&#10;&#10;&#10;" target="&#10;&#10;&#10;&#10;" id="1592" />
+    </edges>
+  </graph>
+</gexf>

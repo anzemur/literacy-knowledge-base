@@ -78,24 +78,34 @@ def process_file(filename):
     print('No. edges in LCSG: ', giant.number_of_edges())
     nx.write_gexf(giant, f'{target_dir_net}/{filename}_lcsg.gexf')
 
-    
-    nx_draw_start = time.time()
-    f = plt.figure()
-    label_dict = nx.get_node_attributes(G, 'label') 
-    nx.draw(G, labels=label_dict, ax=f.add_subplot(1, 1, 1), with_labels = True)
-    f.savefig(f"{target_dir_figures}/{filename}.pdf")
-    plt.close(f)
-    nx_draw_end = time.time()
-    print(f"Full draw took: {nx_draw_end - nx_draw_start:.2f} s")
+    words = nx.relabel_nodes(G, labels)
+    print('No. nodes in words: ', words.number_of_nodes())
+    print('No. edges in words: ', words.number_of_edges())
+    nx.write_gexf(words, f'{target_dir_net}/{filename}_words.gexf')
 
-    nx_draw_start = time.time()
-    f = plt.figure()
-    label_dict = nx.get_node_attributes(giant, 'label') 
-    nx.draw(giant, labels=label_dict, ax=f.add_subplot(1, 1, 1), with_labels = True)
-    f.savefig(f"{target_dir_figures}/{filename}_lcsg.pdf")
-    plt.close(f)
-    nx_draw_end = time.time()
-    print(f"LCSG draw took: {nx_draw_end - nx_draw_start:.2f} s")
+    giant_words = words.subgraph(max(nx.connected_components(words), key=len))
+    print('No. nodes in words LCSG: ', giant_words.number_of_nodes())
+    print('No. edges in words LCSG: ', giant_words.number_of_edges())
+    nx.write_gexf(giant_words, f'{target_dir_net}/{filename}_words_lcsg.gexf')
+
+    
+    # nx_draw_start = time.time()
+    # f = plt.figure()
+    # label_dict = nx.get_node_attributes(G, 'label') 
+    # nx.draw(G, labels=label_dict, ax=f.add_subplot(1, 1, 1), with_labels = True)
+    # f.savefig(f"{target_dir_figures}/{filename}.pdf")
+    # plt.close(f)
+    # nx_draw_end = time.time()
+    # print(f"Full draw took: {nx_draw_end - nx_draw_start:.2f} s")
+
+    # nx_draw_start = time.time()
+    # f = plt.figure()
+    # label_dict = nx.get_node_attributes(giant, 'label') 
+    # nx.draw(giant, labels=label_dict, ax=f.add_subplot(1, 1, 1), with_labels = True)
+    # f.savefig(f"{target_dir_figures}/{filename}_lcsg.pdf")
+    # plt.close(f)
+    # nx_draw_end = time.time()
+    # print(f"LCSG draw took: {nx_draw_end - nx_draw_start:.2f} s")
 
 if __name__ == '__main__':
     for file in os.listdir(source_dir):
