@@ -4,7 +4,7 @@ import networkx as nx
 import os
 
 source_dir = 'data/net'
-neighbour_range = 3
+neighbour_range = 10
 
 def node_degree(G, report_f):
     N = G.number_of_nodes()
