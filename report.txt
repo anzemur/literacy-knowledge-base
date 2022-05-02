@@ -1,26 +1,1318 @@
+==========================
+Processing: Henry_Red_Chief
 
 NODE DEGREE
 TOP 10:
-2400 - send: 0.002826569755703614
-495 - got: 0.0026246719160104987
-529 - drove: 0.0026246719160104987
-4757 - abstracting: 0.0026246719160104987
-68 - was: 0.0024227740763173833
-610 - points: 0.0024227740763173833
-1110 - take: 0.0024227740763173833
-1668 - get: 0.0024227740763173833
-1895 - explained: 0.0024227740763173833
-2796 - acceded: 0.0024227740763173833
+2400 - if you won’t |send| me home ,: 0.002826569755703614
+495 - last , we |got| him down in: 0.0026246719160104987
+529 - After dark I |drove| the buggy to: 0.0026246719160104987
+4757 - should have been |abstracting| the fifteen hundred: 0.0026246719160104987
+68 - . 
+ There |was| a town down: 0.0024227740763173833
+610 - hair . He |points| a stick at: 0.0024227740763173833
+1110 - . You won’t |take| me back home: 0.0024227740763173833
+1668 - and the Chief |get| up and cook: 0.0024227740763173833
+1895 - back , ” |explained| Bill , “and: 0.0024227740763173833
+2796 - Bill , I |acceded| , and we: 0.0024227740763173833
 
 HARMONIC MEAN DISTANCE
 TOP 10:
-4287 - rides: 0.004624394184168009
-2502 - going: 0.0043517770597738285
-2862 - demand: 0.004227248249865376
-2275 - know: 0.0042205169628432935
-2261 - sits: 0.004203688745288097
-2877 - left: 0.004192870605431188
-2494 - took: 0.004150319255327334
-4757 - abstracting: 0.004001750134625741
-2484 - made: 0.003978190630048466
-4308 - slips: 0.003953669513039465
+4287 - - grown boy |rides| up the road: 0.004624394184168009
+2502 - him I was |going| to Poplar Cove: 0.0043517770597738285
+2862 - these : We |demand| fifteen hundred dollars: 0.004227248249865376
+2275 - , do you |know| who my favourite: 0.0042205169628432935
+2261 - by , Bill |sits| up and feels: 0.004203688745288097
+2877 - money to be |left| at midnight to: 0.004192870605431188
+2494 - and then I |took| Bill aside and: 0.004150319255327334
+4757 - should have been |abstracting| the fifteen hundred: 0.004001750134625741
+2484 - ” 
+ I |made| him and Bill: 0.003978190630048466
+4308 - - post , |slips| a folded piece: 0.003953669513039465
+
+PAGERANK
+TOP 10:
+2400 - if you won’t |send| me home ,: 1.612946304099491e-07
+495 - last , we |got| him down in: 1.4697994280969008e-07
+529 - After dark I |drove| the buggy to: 1.4354543336624825e-07
+4757 - should have been |abstracting| the fifteen hundred: 1.431696359139238e-07
+2796 - Bill , I |acceded| , and we: 1.3884627336439186e-07
+610 - hair . He |points| a stick at: 1.3847146885106366e-07
+1668 - and the Chief |get| up and cook: 1.3834694308424658e-07
+68 - . 
+ There |was| a town down: 1.3576269151517085e-07
+3036 - he will be |returned| to you safe: 1.3543540732724257e-07
+1895 - back , ” |explained| Bill , “and: 1.3341180189703012e-07
+==========================
+Processing: Henry_Red_Chief_lcsg
+
+NODE DEGREE
+TOP 10:
+2862 - these : We |demand| fifteen hundred dollars: 0.16666666666666666
+2877 - money to be |left| at midnight to: 0.16666666666666666
+2853 - which you can |have| him restored to: 0.12962962962962962
+2858 - restored to you |are| these : We: 0.12962962962962962
+2848 - , the only |terms| on which you: 0.1111111111111111
+2883 - to - night |at| the same spot: 0.1111111111111111
+2896 - your reply—as hereinafter |described| .: 0.1111111111111111
+2855 - can have him |restored| to you are: 0.09259259259259259
+2868 - dollars in large |bills| for his return: 0.09259259259259259
+2874 - return ; the |money| to be left: 0.09259259259259259
+
+HARMONIC MEAN DISTANCE
+TOP 10:
+2862 - these : We |demand| fifteen hundred dollars: 0.39496855345911963
+2877 - money to be |left| at midnight to: 0.3917565139263253
+2858 - restored to you |are| these : We: 0.3582210242587601
+2874 - return ; the |money| to be left: 0.35772686433063805
+2883 - to - night |at| the same spot: 0.32595088349805323
+2848 - , the only |terms| on which you: 0.32102425876010765
+2896 - your reply—as hereinafter |described| .: 0.3114854746930217
+2853 - which you can |have| him restored to: 0.3017445342917039
+2866 - fifteen hundred dollars |in| large bills for: 0.29928122192273104
+2880 - left at midnight |to| - night at: 0.2941898772087449
+
+PAGERANK
+TOP 10:
+2862 - these : We |demand| fifteen hundred dollars: 0.0008143617189058412
+2877 - money to be |left| at midnight to: 0.000813029208128622
+2853 - which you can |have| him restored to: 0.00064806407781783
+2858 - restored to you |are| these : We: 0.0006293609857185036
+2896 - your reply—as hereinafter |described| .: 0.0005523924280548125
+2848 - , the only |terms| on which you: 0.0005371164421369193
+2883 - to - night |at| the same spot: 0.000529121326511219
+2891 - in the same |box| as your reply—as: 0.0004782608228266294
+2886 - at the same |spot| and in the: 0.00046442997137667407
+2855 - can have him |restored| to you are: 0.0004571005736766365
+==========================
+Processing: Henry_Red_Chief_words
+
+NODE DEGREE
+TOP 10:
+of - of: 0.11313868613138686
+. - .: 0.10583941605839416
+to - to: 0.10291970802919707
+the - the: 0.10291970802919707
+, - ,: 0.09854014598540146
+was - was: 0.09197080291970802
+a - a: 0.08905109489051095
+and - and: 0.08467153284671533
+
+ - 
+: 0.07153284671532846
+in - in: 0.06642335766423357
+
+HARMONIC MEAN DISTANCE
+TOP 10:
+was - was: 0.4675432188945768
+, - ,: 0.466313610908211
+to - to: 0.46521792062333084
+. - .: 0.4649379108838613
+says - says: 0.45003652300949915
+and - and: 0.4493182371560763
+
+ - 
+: 0.4415753591429266
+of - of: 0.43898222546870813
+got - got: 0.4318724129534928
+you - you: 0.43108108108107973
+
+PAGERANK
+TOP 10:
+of - of: 1.2098029624349757e-05
+the - the: 1.0140715573284735e-05
+to - to: 9.162153138496761e-06
+. - .: 8.697192953606006e-06
+a - a: 8.691024855303046e-06
+, - ,: 8.150169850593126e-06
+was - was: 8.080504748893407e-06
+and - and: 7.364490833591826e-06
+
+ - 
+: 6.449813598699158e-06
+in - in: 6.206332924472367e-06
+==========================
+Processing: Henry_Red_Chief_words_lcsg
+
+NODE DEGREE
+TOP 10:
+of - of: 0.11322132943754565
+. - .: 0.10591672753834916
+to - to: 0.10299488677867057
+the - the: 0.10299488677867057
+, - ,: 0.09861212563915267
+was - was: 0.09203798392987582
+a - a: 0.08911614317019723
+and - and: 0.08473338203067933
+
+ - 
+: 0.07158509861212564
+in - in: 0.0664718772826881
+
+HARMONIC MEAN DISTANCE
+TOP 10:
+was - was: 0.46788499025341784
+, - ,: 0.4666544834308047
+to - to: 0.46555799220273386
+. - .: 0.4652777777777823
+says - says: 0.4503654970760266
+and - and: 0.4496466861598454
+
+ - 
+: 0.44189814814814804
+of - of: 0.43930311890837825
+got - got: 0.4321881091617921
+you - you: 0.43139619883040803
+
+PAGERANK
+TOP 10:
+of - of: 1.2115716802163144e-05
+the - the: 1.0155541180848021e-05
+to - to: 9.175548099225558e-06
+. - .: 8.709908147982625e-06
+a - a: 8.703731031992085e-06
+, - ,: 8.162085303591074e-06
+was - was: 8.092318352327462e-06
+and - and: 7.3752576330561476e-06
+
+ - 
+: 6.45924315074404e-06
+in - in: 6.215406510619253e-06
+==========================
+Processing: Hills_Like_White_Elephants
+
+NODE DEGREE
+TOP 10:
+1837 - please please please |stop| talking ? ": 0.007438400743840074
+1162 - then it will |be| nice again if: 0.006508600650860065
+2 - ERNEST HEMINGWAY |
+| ( 1899 -: 0.005578800557880056
+496 - . 
+ Ernest |Hemingway| 229 
+ ": 0.005578800557880056
+312 - you would n't |have| . " 
+: 0.005113900511390051
+659 - we do , |is| n't it—look at: 0.005113900511390051
+702 - do n't really |look| like white ele: 0.005113900511390051
+890 - what will we |do| afterward ? ": 0.005113900511390051
+1047 - you do n't |have| to . I: 0.005113900511390051
+1119 - it you 'll |be| happy and things: 0.005113900511390051
+
+HARMONIC MEAN DISTANCE
+TOP 10:
+1162 - then it will |be| nice again if: 0.008751937984496123
+1652 - and the girl |looked| across at the: 0.007899224806201553
+1576 - I do n't |want| you to do: 0.007821705426356589
+59 - the station there |was| the warm shadow: 0.00763621262458472
+62 - was the warm |shadow| of the building: 0.007629014396456257
+2 - ERNEST HEMINGWAY |
+| ( 1899 -: 0.0074961240310077535
+1685 - , " he |said| , " that: 0.0074961240310077535
+1119 - it you 'll |be| happy and things: 0.0074418604651162795
+1886 - , " he |said| , " I: 0.007286821705426357
+77 - bamboo beads , |hung| across the open: 0.007281469176818014
+
+PAGERANK
+TOP 10:
+1837 - please please please |stop| talking ? ": 1.0290863479637678e-06
+1162 - then it will |be| nice again if: 8.461457831340547e-07
+496 - . 
+ Ernest |Hemingway| 229 
+ ": 7.638331404192381e-07
+312 - you would n't |have| . " 
+: 7.092546250756275e-07
+890 - what will we |do| afterward ? ": 7.092546250756275e-07
+1518 - they have n't |taken| it away .: 7.092546250756275e-07
+2 - ERNEST HEMINGWAY |
+| ( 1899 -: 7.038022592100004e-07
+1809 - " Would you |do| something for me: 6.99671916381357e-07
+1508 - , you never |get| it back .: 6.889897348012858e-07
+702 - do n't really |look| like white ele: 6.849824689227145e-07
+==========================
+Processing: Hills_Like_White_Elephants_lcsg
+
+NODE DEGREE
+TOP 10:
+62 - was the warm |shadow| of the building: 0.2
+59 - the station there |was| the warm shadow: 0.175
+68 - building and a |curtain| , made of: 0.175
+77 - bamboo beads , |hung| across the open: 0.175
+87 - bar , to |keep| out flies .: 0.15
+54 - Close against the |side| of the station: 0.125
+81 - across the open |door| into the bar: 0.125
+51 - |Close| against the side: 0.1
+52 - Close |against| the side of: 0.1
+55 - against the side |of| the station there: 0.1
+
+HARMONIC MEAN DISTANCE
+TOP 10:
+59 - the station there |was| the warm shadow: 0.4209706959706961
+62 - was the warm |shadow| of the building: 0.4205738705738706
+77 - bamboo beads , |hung| across the open: 0.4014143264143264
+68 - building and a |curtain| , made of: 0.36968864468864454
+87 - bar , to |keep| out flies .: 0.32983312983312957
+51 - |Close| against the side: 0.3246743996743995
+63 - the warm shadow |of| the building and: 0.31031746031746
+78 - beads , hung |across| the open door: 0.30846560846560817
+82 - the open door |into| the bar ,: 0.3020553520553518
+70 - a curtain , |made| of strings of: 0.2910358160358157
+
+PAGERANK
+TOP 10:
+62 - was the warm |shadow| of the building: 0.0013405987266136164
+68 - building and a |curtain| , made of: 0.0011910792498867357
+77 - bamboo beads , |hung| across the open: 0.0011367868190162857
+59 - the station there |was| the warm shadow: 0.0011295757371987225
+87 - bar , to |keep| out flies .: 0.0010383428047195668
+81 - across the open |door| into the bar: 0.0008732907680455823
+54 - Close against the |side| of the station: 0.0008413715360224239
+75 - strings of bamboo |beads| , hung across: 0.0007039356790776259
+57 - side of the |station| there was the: 0.0006982987242961421
+65 - shadow of the |building| and a curtain: 0.0006822410934111449
+==========================
+Processing: Hills_Like_White_Elephants_words
+
+NODE DEGREE
+TOP 10:
+. - .: 0.18434343434343434
+
+ - 
+: 0.18181818181818182
+" - ": 0.17424242424242425
+the - the: 0.12878787878787878
+'s - 's: 0.09848484848484848
+have - have: 0.09848484848484848
+and - and: 0.09343434343434344
+do - do: 0.09343434343434344
+said - said: 0.09090909090909091
+of - of: 0.08585858585858586
+
+HARMONIC MEAN DISTANCE
+TOP 10:
+
+ - 
+: 0.552742616033757
+. - .: 0.5443037974683566
+" - ": 0.5325738396624496
+have - have: 0.4704641350211007
+said - said: 0.46919831223629055
+'s - 's: 0.4689873417721556
+and - and: 0.46620253164557285
+the - the: 0.46232067510548797
+do - do: 0.4621940928270075
+be - be: 0.45818565400844197
+
+PAGERANK
+TOP 10:
+
+ - 
+: 5.61714125904359e-05
+. - .: 5.094956879307397e-05
+" - ": 4.816164335318442e-05
+the - the: 4.2501166736566345e-05
+of - of: 3.147301962724015e-05
+'s - 's: 2.961722497229759e-05
+have - have: 2.8771510126541635e-05
+do - do: 2.6709133615825945e-05
+and - and: 2.6428448382711482e-05
+said - said: 2.482393600599585e-05
+==========================
+Processing: Hills_Like_White_Elephants_words_lcsg
+
+NODE DEGREE
+TOP 10:
+. - .: 0.1848101265822785
+
+ - 
+: 0.18227848101265823
+" - ": 0.17468354430379746
+the - the: 0.1291139240506329
+'s - 's: 0.09873417721518987
+have - have: 0.09873417721518987
+and - and: 0.09367088607594937
+do - do: 0.09367088607594937
+said - said: 0.09113924050632911
+of - of: 0.08607594936708861
+
+HARMONIC MEAN DISTANCE
+TOP 10:
+
+ - 
+: 0.5541455160744517
+. - .: 0.5456852791878194
+" - ": 0.5339255499154
+have - have: 0.4716582064297837
+said - said: 0.4703891708967887
+'s - 's: 0.47017766497462304
+and - and: 0.46738578680203374
+the - the: 0.4634940778341821
+do - do: 0.4633671742808832
+be - be: 0.45934856175973243
+
+PAGERANK
+TOP 10:
+
+ - 
+: 5.6456546664499004e-05
+. - .: 5.1208196045830674e-05
+" - ": 4.8406118700154906e-05
+the - the: 4.27169086996961e-05
+of - of: 3.16327811481906e-05
+'s - 's: 2.9767566215811797e-05
+have - have: 2.8917558401295636e-05
+do - do: 2.684471297428191e-05
+and - and: 2.6562602943029794e-05
+said - said: 2.4949945833437438e-05
+==========================
+Processing: Leiningen_Vs_the_Ants
+
+NODE DEGREE
+TOP 10:
+3427 - alone , might |plunge| his men into: 0.0014798737174427782
+617 - , Leiningen had |met| and defeated drought: 0.0013812154696132596
+7641 - shrieking insanely , |fired| their revolvers at: 0.0013812154696132596
+1795 - could see , |crept| a darkening hem: 0.001282557221783741
+2935 - could hardly be |described| as rosy ,: 0.001282557221783741
+4453 - they were merely |gnawing| through the stalks: 0.001282557221783741
+8085 - one could only |get| to the dam: 0.001282557221783741
+8188 - as well be |running| as sitting still: 0.001282557221783741
+8884 - That they would |get| to him soon: 0.001282557221783741
+934 - , that they |received| his curt tidings: 0.0011838989739542227
+
+HARMONIC MEAN DISTANCE
+TOP 10:
+1079 - hunters , themselves |hunted| , outpacing fleet: 0.0033739751450654262
+1795 - could see , |crept| a darkening hem: 0.0032292621044471056
+1808 - until the shadow |spread| across the slope: 0.002896022740620666
+1043 - 
+ It was |announced| by a stampede: 0.0028684975058926704
+1060 - 
+ other ; |jaguars| and pumas flashing: 0.002825467302526997
+1836 - vista was being |mown| as by a: 0.0027899546597129217
+1111 - terror ; then |followed| the creeping and: 0.002764543738890064
+1091 - cattle , heads |lowered| , nostrils snorting: 0.0027092974996280376
+9280 - goggles ; he |managed| to tear it: 0.0027035027133695093
+9303 - nerves ; he |saw| now through circles: 0.0026109427490779223
+
+PAGERANK
+TOP 10:
+3427 - alone , might |plunge| his men into: 3.966510315189068e-08
+617 - , Leiningen had |met| and defeated drought: 3.7099176970770243e-08
+7641 - shrieking insanely , |fired| their revolvers at: 3.639515359945133e-08
+8085 - one could only |get| to the dam: 3.604337479859656e-08
+2935 - could hardly be |described| as rosy ,: 3.519424050190718e-08
+4453 - they were merely |gnawing| through the stalks: 3.467547037439976e-08
+8188 - as well be |running| as sitting still: 3.398361808354332e-08
+8884 - That they would |get| to him soon: 3.3937048901054317e-08
+1795 - could see , |crept| a darkening hem: 3.268753799525812e-08
+2076 - they had n't |got| him yet ,: 3.2596261452644583e-08
+==========================
+Processing: Leiningen_Vs_the_Ants_lcsg
+
+NODE DEGREE
+TOP 10:
+1079 - hunters , themselves |hunted| , outpacing fleet: 0.13043478260869565
+1043 - 
+ It was |announced| by a stampede: 0.09782608695652174
+1060 - 
+ other ; |jaguars| and pumas flashing: 0.09782608695652174
+1094 - lowered , nostrils |snorting| , rushing through: 0.08695652173913043
+1046 - announced by a |stampede| of animals ,: 0.07608695652173914
+1111 - terror ; then |followed| the creeping and: 0.07608695652173914
+1118 - springing denizens of |bush| and steppe ,: 0.07608695652173914
+1069 - stags of the |pampas| , bulky tapirs: 0.06521739130434782
+1091 - cattle , heads |lowered| , nostrils snorting: 0.06521739130434782
+1116 - creeping and springing |denizens| of bush and: 0.06521739130434782
+
+HARMONIC MEAN DISTANCE
+TOP 10:
+1079 - hunters , themselves |hunted| , outpacing fleet: 0.3757718472004186
+1043 - 
+ It was |announced| by a stampede: 0.3194749694749694
+1060 - 
+ other ; |jaguars| and pumas flashing: 0.3146825396825397
+1111 - terror ; then |followed| the creeping and: 0.3078972614686901
+1091 - cattle , heads |lowered| , nostrils snorting: 0.30174428745857323
+1094 - lowered , nostrils |snorting| , rushing through: 0.27337345194488055
+1081 - themselves hunted , |outpacing| fleet kinkajous ,: 0.2709401709401711
+1085 - fleet kinkajous , |maddened| herds of cattle: 0.26965811965811975
+1116 - creeping and springing |denizens| of bush and: 0.2685853828710972
+1059 - each 
+ other |;| jaguars and pumas: 0.2581196581196582
+
+PAGERANK
+TOP 10:
+1079 - hunters , themselves |hunted| , outpacing fleet: 0.00036740179047461437
+1060 - 
+ other ; |jaguars| and pumas flashing: 0.00028354608300771255
+1043 - 
+ It was |announced| by a stampede: 0.0002809147420793731
+1094 - lowered , nostrils |snorting| , rushing through: 0.0002501892237378671
+1046 - announced by a |stampede| of animals ,: 0.00022356199685683988
+1118 - springing denizens of |bush| and steppe ,: 0.00022159388520337665
+1111 - terror ; then |followed| the creeping and: 0.00021426838882057265
+1127 - little rodents , |snakes| , and lizards: 0.00019652688598202777
+1069 - stags of the |pampas| , bulky tapirs: 0.00019647532815289583
+1125 - big and little |rodents| , snakes ,: 0.00018455041551933139
+==========================
+Processing: Leiningen_Vs_the_Ants_words
+
+NODE DEGREE
+TOP 10:
+of - of: 0.1720524017467249
+the - the: 0.1462882096069869
+, - ,: 0.14017467248908297
+. - .: 0.12096069868995633
+to - to: 0.10960698689956332
+was - was: 0.09606986899563319
+and - and: 0.09126637554585153
+in - in: 0.0777292576419214
+a - a: 0.058078602620087336
+
+ - 
+: 0.05502183406113537
+
+HARMONIC MEAN DISTANCE
+TOP 10:
+of - of: 0.5177442842580385
+, - ,: 0.5045216251638236
+was - was: 0.4970656764234697
+and - and: 0.47895005096840504
+. - .: 0.476918596184662
+the - the: 0.4741444590068603
+to - to: 0.4709698558322539
+ants - ants: 0.44851463521189655
+in - in: 0.4467380224261126
+ditch - ditch: 0.4416339012669422
+
+PAGERANK
+TOP 10:
+of - of: 9.094933467523583e-06
+the - the: 7.413771722691545e-06
+, - ,: 6.116659637930772e-06
+to - to: 5.186653710300183e-06
+. - .: 5.094213256759579e-06
+was - was: 4.436475738674182e-06
+and - and: 4.3657655697352175e-06
+in - in: 3.7761676694647474e-06
+a - a: 2.958957864869435e-06
+
+ - 
+: 2.3109638033399004e-06
+==========================
+Processing: Leiningen_Vs_the_Ants_words_lcsg
+
+NODE DEGREE
+TOP 10:
+of - of: 0.17220279720279721
+the - the: 0.1464160839160839
+, - ,: 0.14029720279720279
+. - .: 0.12106643356643357
+to - to: 0.1097027972027972
+was - was: 0.09615384615384616
+and - and: 0.09134615384615384
+in - in: 0.0777972027972028
+a - a: 0.05812937062937063
+
+ - 
+: 0.05506993006993007
+
+HARMONIC MEAN DISTANCE
+TOP 10:
+of - of: 0.5181970558227591
+, - ,: 0.5049628334062056
+was - was: 0.4975003643783656
+and - and: 0.4793688966622996
+. - .: 0.4773356653549153
+the - the: 0.47455910217171104
+to - to: 0.47138172278094853
+ants - ants: 0.4489068648885139
+in - in: 0.44712869844047737
+ditch - ditch: 0.44202011368606503
+
+PAGERANK
+TOP 10:
+of - of: 9.110844129520424e-06
+the - the: 7.426741363032795e-06
+, - ,: 6.127360112474794e-06
+to - to: 5.195727233968483e-06
+. - .: 5.1031250652469695e-06
+was - was: 4.444236902204103e-06
+and - and: 4.373403033009194e-06
+in - in: 3.782773691119195e-06
+a - a: 2.9641342610045924e-06
+
+ - 
+: 2.315006599704837e-06
+==========================
+Processing: The_Gift_of_the_Magic_Henry
+
+NODE DEGREE
+TOP 10:
+701 - And then she |put| it up on: 0.005681818181818182
+596 - Della would have |washed| and dried her: 0.004807692307692308
+642 - Jim would have |looked| at his watch: 0.004807692307692308
+1248 - , “before he |looks| at me 
+: 0.004807692307692308
+1974 - 
+ But she |held| them to her: 0.004807692307692308
+21 - . She had |put| it aside ,: 0.004370629370629371
+102 - we can 
+ |look| at the home: 0.004370629370629371
+189 - Young was being |paid| $ 30 a: 0.004370629370629371
+250 - James Dillingham Young |put| her arms warmly: 0.004370629370629371
+323 - . She had |put| aside as much: 0.004370629370629371
+
+HARMONIC MEAN DISTANCE
+TOP 10:
+1248 - , “before he |looks| at me 
+: 0.007994981989297687
+1242 - , ” she |said| to herself ,: 0.007337712814319724
+642 - Jim would have |looked| at his watch: 0.007068940387698589
+1974 - 
+ But she |held| them to her: 0.006952339309138611
+596 - Della would have |washed| and dried her: 0.006850313365398632
+628 - a king had |lived| in the same: 0.006704562017198661
+1983 - and at last |was| able to look: 0.006668124180148668
+1257 - time , he’ll |say| I look like: 0.006147583650863057
+586 - a queen had |lived| in the rooms: 0.00609969392216878
+189 - Young was being |paid| $ 30 a: 0.005975805276198805
+
+PAGERANK
+TOP 10:
+701 - And then she |put| it up on: 7.149868806836112e-07
+1974 - 
+ But she |held| them to her: 5.805210725393043e-07
+596 - Della would have |washed| and dried her: 5.801145473183091e-07
+642 - Jim would have |looked| at his watch: 5.746767192112416e-07
+1248 - , “before he |looks| at me 
+: 5.692432927697341e-07
+567 - , it had |belonged| to his father’s: 5.460236909188531e-07
+1885 - And then a |cry| of joy ;: 5.425689287497882e-07
+1108 - it had never |had| a fine chain: 5.371804318461207e-07
+102 - we can 
+ |look| at the home: 5.345653375548715e-07
+323 - . She had |put| aside as much: 5.322377174466706e-07
+==========================
+Processing: The_Gift_of_the_Magic_Henry_lcsg
+
+NODE DEGREE
+TOP 10:
+1248 - , “before he |looks| at me 
+: 0.2972972972972973
+1242 - , ” she |said| to herself ,: 0.24324324324324326
+1264 - a girl who |sings| and dances for: 0.16216216216216217
+1236 - 
+ “If Jim |doesn’t| kill me ,: 0.13513513513513514
+1237 - “If Jim doesn’t |kill| me , ”: 0.13513513513513514
+1254 - 
+ a second |time| , he’ll say: 0.13513513513513514
+1257 - time , he’ll |say| I look like: 0.13513513513513514
+1259 - he’ll say I |look| like a girl: 0.13513513513513514
+1262 - look like a |girl| who sings and: 0.13513513513513514
+1234 - 
+ |“If| Jim doesn’t kill: 0.10810810810810811
+
+HARMONIC MEAN DISTANCE
+TOP 10:
+1248 - , “before he |looks| at me 
+: 0.5079034391534392
+1242 - , ” she |said| to herself ,: 0.4661485890652558
+1257 - time , he’ll |say| I look like: 0.3905423280423281
+1237 - “If Jim doesn’t |kill| me , ”: 0.36171737213403876
+1254 - 
+ a second |time| , he’ll say: 0.361518959435626
+1249 - “before he looks |at| me 
+ a: 0.34300044091710746
+1259 - he’ll say I |look| like a girl: 0.34100529100529076
+1243 - ” she said |to| herself , “before: 0.3256062610229275
+1245 - said to herself |,| “before he looks: 0.32448192239858886
+1246 - to herself , |“before| he looks at: 0.32448192239858886
+
+PAGERANK
+TOP 10:
+1248 - , “before he |looks| at me 
+: 0.002242336047761774
+1242 - , ” she |said| to herself ,: 0.001821730466726651
+1264 - a girl who |sings| and dances for: 0.001211060927851131
+1254 - 
+ a second |time| , he’ll say: 0.0009923176634992813
+1236 - 
+ “If Jim |doesn’t| kill me ,: 0.0009920044389779845
+1262 - look like a |girl| who sings and: 0.000962758628713359
+1237 - “If Jim doesn’t |kill| me , ”: 0.0009520549976605763
+1259 - he’ll say I |look| like a girl: 0.0009507454707843663
+1257 - time , he’ll |say| I look like: 0.0009333617147210636
+1267 - sings and dances |for| money .: 0.000814392120862056
+==========================
+Processing: The_Gift_of_the_Magic_Henry_words
+
+NODE DEGREE
+TOP 10:
+. - .: 0.14442700156985872
+
+ - 
+: 0.13500784929356358
+was - was: 0.12401883830455258
+, - ,: 0.08634222919937205
+to - to: 0.07849293563579278
+the - the: 0.07692307692307693
+and - and: 0.07535321821036106
+had - had: 0.06750392464678179
+of - of: 0.06436420722135008
+put - put: 0.061224489795918366
+
+HARMONIC MEAN DISTANCE
+TOP 10:
+
+ - 
+: 0.5195754716981084
+. - .: 0.5178197064989465
+was - was: 0.49226939203353937
+, - ,: 0.45759958071278883
+had - had: 0.447169811320756
+and - and: 0.4444182389937128
+looked - looked: 0.44101153039832475
+put - put: 0.43477463312369263
+look - look: 0.43314989517819996
+it - it: 0.43005765199161744
+
+PAGERANK
+TOP 10:
+. - .: 2.759073541300666e-05
+
+ - 
+: 2.7115523051459197e-05
+was - was: 2.57617677365506e-05
+the - the: 1.655682958665784e-05
+to - to: 1.6415575185272215e-05
+, - ,: 1.628454276832884e-05
+of - of: 1.4498587581364399e-05
+and - and: 1.4493762188947265e-05
+a - a: 1.3006766497373384e-05
+had - had: 1.2615967703449027e-05
+==========================
+Processing: The_Gift_of_the_Magic_Henry_words_lcsg
+
+NODE DEGREE
+TOP 10:
+. - .: 0.14442700156985872
+
+ - 
+: 0.13500784929356358
+was - was: 0.12401883830455258
+, - ,: 0.08634222919937205
+to - to: 0.07849293563579278
+the - the: 0.07692307692307693
+and - and: 0.07535321821036106
+had - had: 0.06750392464678179
+of - of: 0.06436420722135008
+put - put: 0.061224489795918366
+
+HARMONIC MEAN DISTANCE
+TOP 10:
+
+ - 
+: 0.5195754716981084
+. - .: 0.5178197064989465
+was - was: 0.49226939203353937
+, - ,: 0.45759958071278883
+had - had: 0.447169811320756
+and - and: 0.4444182389937128
+looked - looked: 0.44101153039832475
+put - put: 0.43477463312369263
+look - look: 0.43314989517819996
+it - it: 0.43005765199161744
+
+PAGERANK
+TOP 10:
+. - .: 2.759073541300666e-05
+
+ - 
+: 2.7115523051459197e-05
+was - was: 2.57617677365506e-05
+the - the: 1.655682958665784e-05
+to - to: 1.6415575185272215e-05
+, - ,: 1.628454276832884e-05
+of - of: 1.4498587581364399e-05
+and - and: 1.4493762188947265e-05
+a - a: 1.3006766497373384e-05
+had - had: 1.2615967703449027e-05
+==========================
+Processing: The_Lady_or_the_Tiger
+
+NODE DEGREE
+TOP 10:
+693 - , great wails |went| up from the: 0.004546832373446499
+3079 - joyous followers , |advance| to the couple: 0.004546832373446499
+1982 - decree had 
+ |gone| forth that her: 0.004243710215216732
+2175 - only did she |know| in which room: 0.004243710215216732
+2906 - , had she |started| in 
+ wild: 0.004243710215216732
+493 - the people had |assembled| in the galleries: 0.003940588056986966
+869 - other instance , |took| 
+ place immediately: 0.003940588056986966
+1098 - he was 
+ |rewarded| on the spot: 0.003940588056986966
+2861 - semi - barbaric |princess| , her 
+: 0.003940588056986966
+145 - , his nature |was| bland 
+ and: 0.003637465898757199
+
+HARMONIC MEAN DISTANCE
+TOP 10:
+3079 - joyous followers , |advance| to the couple: 0.01537921010328532
+2998 - her soul had |burned| in agony when: 0.01416659447284069
+3069 - when she had |seen| 
+ the priest: 0.012543917910806938
+3112 - of flowers , |followed| by the tremendous: 0.012303873439410142
+3048 - when she had |heard| the glad shouts: 0.01224503547123317
+3085 - couple , and |make| 
+ them man: 0.011523097211393142
+387 - public notice was |given| that on an: 0.011508067769438295
+3004 - when she had |seen| him rush to: 0.011400488030263653
+3027 - when she had |seen| him lead her: 0.011119413401099289
+3036 - his whole frame |kindled| with the 
+: 0.011081150673327766
+
+PAGERANK
+TOP 10:
+693 - , great wails |went| up from the: 3.6354988501277194e-07
+3079 - joyous followers , |advance| to the couple: 3.54241206215927e-07
+2906 - , had she |started| in 
+ wild: 3.5095909017318414e-07
+2175 - only did she |know| in which room: 3.488494304432732e-07
+1982 - decree had 
+ |gone| forth that her: 3.4674142713764024e-07
+869 - other instance , |took| 
+ place immediately: 3.3982851276256285e-07
+1098 - he was 
+ |rewarded| on the spot: 3.274249517571476e-07
+2861 - semi - barbaric |princess| , her 
+: 3.233750534723108e-07
+493 - the people had |assembled| in the galleries: 3.209312567482988e-07
+1190 - the masses were |entertained| and 
+ pleased: 3.115997659538013e-07
+==========================
+Processing: The_Lady_or_the_Tiger_lcsg
+
+NODE DEGREE
+TOP 10:
+3079 - joyous followers , |advance| to the couple: 0.10638297872340426
+2998 - her soul had |burned| in agony when: 0.0851063829787234
+3069 - when she had |seen| 
+ the priest: 0.07801418439716312
+3051 - heard the glad |shouts| from the 
+: 0.06382978723404255
+3100 - when she had |seen| them walk 
+: 0.05673758865248227
+3117 - the tremendous 
+ |shouts| of the hilarious: 0.05673758865248227
+3131 - shriek 
+ was |lost| and drowned !: 0.05673758865248227
+3009 - rush to 
+ |meet| that woman ,: 0.05673758865248227
+3102 - had seen them |walk| 
+ away together: 0.04964539007092199
+3004 - when she had |seen| him rush to: 0.04964539007092199
+
+HARMONIC MEAN DISTANCE
+TOP 10:
+3079 - joyous followers , |advance| to the couple: 0.36229024943310706
+2998 - her soul had |burned| in agony when: 0.33372448979591857
+3069 - when she had |seen| 
+ the priest: 0.295498866213152
+3112 - of flowers , |followed| by the tremendous: 0.2898441043083903
+3048 - when she had |heard| the glad shouts: 0.2884580498866214
+3085 - couple , and |make| 
+ them man: 0.27145124716553276
+3004 - when she had |seen| him rush to: 0.2685629251700681
+3027 - when she had |seen| him lead her: 0.2619416099773247
+3036 - his whole frame |kindled| with the 
+: 0.26104024943310694
+3080 - followers , advance |to| the couple ,: 0.2584750566893427
+
+PAGERANK
+TOP 10:
+3079 - joyous followers , |advance| to the couple: 0.000197399983032644
+2998 - her soul had |burned| in agony when: 0.00015757966960478026
+3069 - when she had |seen| 
+ the priest: 0.0001520609109695248
+3051 - heard the glad |shouts| from the 
+: 0.0001212469273721456
+3009 - rush to 
+ |meet| that woman ,: 0.00010835914685948089
+3131 - shriek 
+ was |lost| and drowned !: 0.00010768935408437448
+3100 - when she had |seen| them walk 
+: 0.0001070829705208486
+3117 - the tremendous 
+ |shouts| of the hilarious: 0.00010447398451577225
+3016 - with her flushing |cheek| and sparkling eye: 9.596992070221004e-05
+3102 - had seen them |walk| 
+ away together: 9.409995772033814e-05
+==========================
+Processing: The_Lady_or_the_Tiger_words
+
+NODE DEGREE
+TOP 10:
+
+ - 
+: 0.214123006833713
+of - of: 0.1947608200455581
+the - the: 0.13325740318906606
+, - ,: 0.12870159453302962
+was - was: 0.11503416856492027
+and - and: 0.1082004555808656
+to - to: 0.09111617312072894
+in - in: 0.08542141230068337
+. - .: 0.06036446469248292
+had - had: 0.05125284738041002
+
+HARMONIC MEAN DISTANCE
+TOP 10:
+
+ - 
+: 0.5748764728240182
+of - of: 0.5329152413530921
+was - was: 0.49984796655263586
+, - ,: 0.4850247054351892
+and - and: 0.4841315089319587
+the - the: 0.4805587229190347
+to - to: 0.45507411630557915
+one - one: 0.4529836564044028
+in - in: 0.44445077917141085
+knew - knew: 0.443158494868864
+
+PAGERANK
+TOP 10:
+
+ - 
+: 2.915628865929964e-05
+of - of: 2.8927049181804607e-05
+the - the: 1.8689098529129378e-05
+, - ,: 1.615451044057039e-05
+was - was: 1.5074136408628342e-05
+and - and: 1.4614732838450686e-05
+to - to: 1.2541336041149387e-05
+in - in: 1.1478620740091782e-05
+. - .: 7.315921037474157e-06
+had - had: 6.330658562054135e-06
+==========================
+Processing: The_Lady_or_the_Tiger_words_lcsg
+
+NODE DEGREE
+TOP 10:
+
+ - 
+: 0.214123006833713
+of - of: 0.1947608200455581
+the - the: 0.13325740318906606
+, - ,: 0.12870159453302962
+was - was: 0.11503416856492027
+and - and: 0.1082004555808656
+to - to: 0.09111617312072894
+in - in: 0.08542141230068337
+. - .: 0.06036446469248292
+had - had: 0.05125284738041002
+
+HARMONIC MEAN DISTANCE
+TOP 10:
+
+ - 
+: 0.5748764728240182
+of - of: 0.5329152413530921
+was - was: 0.49984796655263586
+, - ,: 0.4850247054351892
+and - and: 0.4841315089319587
+the - the: 0.4805587229190347
+to - to: 0.45507411630557915
+one - one: 0.4529836564044028
+in - in: 0.44445077917141085
+knew - knew: 0.443158494868864
+
+PAGERANK
+TOP 10:
+
+ - 
+: 2.915628865929964e-05
+of - of: 2.8927049181804607e-05
+the - the: 1.8689098529129378e-05
+, - ,: 1.615451044057039e-05
+was - was: 1.5074136408628342e-05
+and - and: 1.4614732838450686e-05
+to - to: 1.2541336041149387e-05
+in - in: 1.1478620740091782e-05
+. - .: 7.315921037474157e-06
+had - had: 6.330658562054135e-06
+==========================
+Processing: The_Most_Dangerous_Game
+
+NODE DEGREE
+TOP 10:
+3663 - Oh , it |is| n't here naturally: 0.001590866554370204
+4404 - Doubtless 
+ that |is| why I enjoy: 0.0014972861688190156
+4871 - And the answer |was| , of 
+: 0.0014972861688190156
+5253 - 
+
+ " Life |is| for the strong: 0.0014972861688190156
+7904 - loops ; he |doubled| on his trail: 0.0014972861688190156
+3611 - , " he |said| in the same: 0.0013101253977166386
+5618 - , " he |said| , casually ,: 0.0013101253977166386
+6960 - 've only just |come| . You 've: 0.0013101253977166386
+8195 - come . He |flattened| himself down on: 0.0013101253977166386
+9485 - , could not |see| the general ,: 0.0013101253977166386
+
+HARMONIC MEAN DISTANCE
+TOP 10:
+152 - and I 've |seen| you pick 
+: 0.002843550148182809
+141 - eyes , " |said| Whitney , with: 0.002575484100987141
+4741 - purposes -- there |are| jungles with a: 0.002530917842101743
+5253 - 
+
+ " Life |is| for the strong: 0.002525347059741069
+8899 - tree , delicately |adjusted| to rest on: 0.0025035095928872242
+9841 - eyes , he |saw| the lean figure: 0.002473873030728434
+9871 - weeds ; it |was| the giant Ivan: 0.002473873030728434
+5196 - " 
+
+ " |Thank| you , I: 0.002456715021057555
+4871 - And the answer |was| , of 
+: 0.002428638277959756
+176 - you ca n't |see| four miles or: 0.002413262918644293
+
+PAGERANK
+TOP 10:
+3663 - Oh , it |is| n't here naturally: 4.2080935704591566e-08
+4404 - Doubtless 
+ that |is| why I enjoy: 3.859642608090715e-08
+5253 - 
+
+ " Life |is| for the strong: 3.829893775090488e-08
+7904 - loops ; he |doubled| on his trail: 3.8241194952752076e-08
+4871 - And the answer |was| , of 
+: 3.817679198508288e-08
+5618 - , " he |said| , casually ,: 3.524165466151798e-08
+6960 - 've only just |come| . You 've: 3.4763871476537085e-08
+9485 - , could not |see| the general ,: 3.468621661833441e-08
+8195 - come . He |flattened| himself down on: 3.398310288254324e-08
+3611 - , " he |said| in the same: 3.3515583518776264e-08
+==========================
+Processing: The_Most_Dangerous_Game_lcsg
+
+NODE DEGREE
+TOP 10:
+9871 - weeds ; it |was| the giant Ivan: 0.15384615384615385
+9893 - Ivan must be |holding| 
+ the pack: 0.15384615384615385
+9841 - eyes , he |saw| the lean figure: 0.15384615384615385
+9862 - whose wide shoulders |surged| through 
+ the: 0.1076923076923077
+9888 - force ; Rainsford |knew| that Ivan must: 0.1076923076923077
+9868 - the tall jungle |weeds| ; it was: 0.09230769230769231
+9879 - and he seemed |pulled| 
+ forward by: 0.09230769230769231
+9844 - saw the lean |figure| of General Zaroff: 0.09230769230769231
+9855 - him 
+ Rainsford |made| out another figure: 0.09230769230769231
+9858 - made out another |figure| whose wide shoulders: 0.07692307692307693
+
+HARMONIC MEAN DISTANCE
+TOP 10:
+9871 - weeds ; it |was| the giant Ivan: 0.41302083333333306
+9841 - eyes , he |saw| the lean figure: 0.41302083333333306
+9888 - force ; Rainsford |knew| that Ivan must: 0.35517113095238106
+9855 - him 
+ Rainsford |made| out another figure: 0.3362351190476191
+9893 - Ivan must be |holding| 
+ the pack: 0.3341331845238095
+9844 - saw the lean |figure| of General Zaroff: 0.3195684523809525
+9878 - , and he |seemed| pulled 
+ forward: 0.31923363095238105
+9874 - was the giant |Ivan| , and he: 0.30282738095238104
+9853 - ahead of him |
+| Rainsford made out: 0.3026413690476191
+9835 - |Straining| his 
+ eyes: 0.30055803571428574
+
+PAGERANK
+TOP 10:
+9893 - Ivan must be |holding| 
+ the pack: 0.0006683511473495508
+9871 - weeds ; it |was| the giant Ivan: 0.000626337901580575
+9841 - eyes , he |saw| the lean figure: 0.0006158343462320121
+9862 - whose wide shoulders |surged| through 
+ the: 0.0004438856291623595
+9888 - force ; Rainsford |knew| that Ivan must: 0.0004378107746047278
+9868 - the tall jungle |weeds| ; it was: 0.0003949385047106879
+9879 - and he seemed |pulled| 
+ forward by: 0.0003799267972148952
+9844 - saw the lean |figure| of General Zaroff: 0.00037281802813560834
+9855 - him 
+ Rainsford |made| out another figure: 0.0003640202270361768
+9885 - by some unseen |force| ; Rainsford knew: 0.0003318240090037339
+==========================
+Processing: The_Most_Dangerous_Game_words
+
+NODE DEGREE
+TOP 10:
+
+ - 
+: 0.20096153846153847
+. - .: 0.15144230769230768
+, - ,: 0.13221153846153846
+of - of: 0.1293269230769231
+the - the: 0.11394230769230769
+was - was: 0.11153846153846154
+in - in: 0.08701923076923077
+a - a: 0.08413461538461539
+to - to: 0.07355769230769231
+" - ": 0.07307692307692308
+
+HARMONIC MEAN DISTANCE
+TOP 10:
+
+ - 
+: 0.5738335738335629
+. - .: 0.5151835818502554
+was - was: 0.5091790925124311
+, - ,: 0.5059804393137827
+of - of: 0.49157447490782197
+the - the: 0.4638928972262472
+in - in: 0.4637966971300453
+Rainsford - Rainsford: 0.46293089626424216
+said - said: 0.4563812730479528
+" - ": 0.45557158890493715
+
+PAGERANK
+TOP 10:
+
+ - 
+: 9.981699835614864e-06
+of - of: 7.336189848062935e-06
+. - .: 6.90936521170245e-06
+the - the: 6.149176659202104e-06
+, - ,: 6.120423914781017e-06
+was - was: 5.511385130049856e-06
+in - in: 4.737692358635514e-06
+a - a: 4.7098066685428315e-06
+to - to: 3.523679109576065e-06
+with - with: 3.3083927114650663e-06
+==========================
+Processing: The_Most_Dangerous_Game_words_lcsg
+
+NODE DEGREE
+TOP 10:
+
+ - 
+: 0.20115495668912417
+. - .: 0.15158806544754572
+, - ,: 0.1323387872954764
+of - of: 0.12945139557266602
+the - the: 0.11405197305101059
+was - was: 0.11164581328200192
+in - in: 0.08710298363811357
+a - a: 0.08421559191530317
+to - to: 0.07362848893166506
+" - ": 0.07314725697786333
+
+HARMONIC MEAN DISTANCE
+TOP 10:
+
+ - 
+: 0.5743861338468836
+. - .: 0.5156796661852099
+was - was: 0.5096693949606856
+, - ,: 0.5064676616915523
+of - of: 0.49204782538919684
+the - the: 0.4643395923607934
+in - in: 0.4642432996308927
+Rainsford - Rainsford: 0.4633766650618004
+said - said: 0.456820735034518
+" - ": 0.45601027122453747
+
+PAGERANK
+TOP 10:
+
+ - 
+: 1.000092776357264e-05
+of - of: 7.350321682540635e-06
+. - .: 6.922674846204826e-06
+the - the: 6.1610219288204995e-06
+, - ,: 6.132213797470589e-06
+was - was: 5.522001810372188e-06
+in - in: 4.746818660654021e-06
+a - a: 4.71887925385487e-06
+to - to: 3.5304668360335856e-06
+with - with: 3.3147657278610415e-06
+==========================
+Processing: The_Tell_Tale_Heart
+
+NODE DEGREE
+TOP 10:
+1107 - approaching him had |stalked| with his black: 0.005907837731390311
+536 - broke , I |went| boldly into the: 0.005513981882630957
+944 - , it has |welled| up from my: 0.005513981882630957
+212 - --very gradually --I |made| up my mind: 0.005120126033871603
+23 - nervous I had |been| and am ;: 0.004726270185112249
+844 - He was still |sitting| up in the: 0.004726270185112249
+1503 - house , so |strange| a noise as: 0.004726270185112249
+305 - midnight , I |turned| the latch of: 0.004332414336352895
+333 - head , I |put| in a dark: 0.004332414336352895
+374 - in ! I |moved| it slowly --very: 0.004332414336352895
+
+HARMONIC MEAN DISTANCE
+TOP 10:
+2188 - distinct : I |talked| more freely to: 0.00928552666141318
+1246 - it . I |saw| it with perfect: 0.00924800180119329
+1274 - but I could |see| nothing else of: 0.00914246313182483
+747 - and so I |knew| that he could: 0.008899020601148255
+720 - . His room |was| as black as: 0.008838980824796425
+771 - . 
+
+ I |had| my head in: 0.008787384141994068
+212 - --very gradually --I |made| up my mind: 0.008727344365642233
+1289 - for I had |directed| the ray as: 0.008636502933193242
+333 - head , I |put| in a dark: 0.008320199632256366
+536 - broke , I |went| boldly into the: 0.008320199632256364
+
+PAGERANK
+TOP 10:
+1107 - approaching him had |stalked| with his black: 6.488095575826408e-07
+536 - broke , I |went| boldly into the: 6.013268636152065e-07
+944 - , it has |welled| up from my: 5.913414236855464e-07
+212 - --very gradually --I |made| up my mind: 5.479200840994332e-07
+23 - nervous I had |been| and am ;: 5.278690860021913e-07
+844 - He was still |sitting| up in the: 5.269602799936389e-07
+1503 - house , so |strange| a noise as: 5.06024713189057e-07
+374 - in ! I |moved| it slowly --very: 4.843326643592381e-07
+2144 - long , I |felt| myself getting pale: 4.827772400515453e-07
+1080 - he had been |trying| to comfort himself: 4.774661644436879e-07
+==========================
+Processing: The_Tell_Tale_Heart_lcsg
+
+NODE DEGREE
+TOP 10:
+1246 - I |saw| it with perfect: 0.1864406779661017
+1289 - for I had |directed| the ray as: 0.15254237288135594
+1274 - but I could |see| nothing else of: 0.15254237288135594
+1294 - ray as if |by| instinct , precisely: 0.11864406779661017
+1254 - --all a dull |blue| , with a: 0.11864406779661017
+1259 - with a hideous |veil| over it that: 0.11864406779661017
+1280 - of the old |man| 's face or: 0.1016949152542373
+1282 - old man 's |face| or person :: 0.1016949152542373
+1263 - over it that |chilled| the very marrow: 0.1016949152542373
+1298 - instinct , precisely |upon| the damned spot: 0.0847457627118644
+
+HARMONIC MEAN DISTANCE
+TOP 10:
+1246 - I |saw| it with perfect: 0.40467980295566497
+1274 - but I could |see| nothing else of: 0.4000615763546797
+1289 - for I had |directed| the ray as: 0.37792145593869736
+1254 - --all a dull |blue| , with a: 0.34201559934318554
+1294 - ray as if |by| instinct , precisely: 0.30617816091954014
+1275 - I could see |nothing| else of the: 0.299555281882868
+1259 - with a hideous |veil| over it that: 0.2925492610837437
+1298 - instinct , precisely |upon| the damned spot: 0.2918103448275861
+1256 - dull blue , |with| a hideous veil: 0.28914203612479455
+1248 - I saw it |with| perfect distinctness --all: 0.2889162561576353
+
+PAGERANK
+TOP 10:
+1246 - I |saw| it with perfect: 0.0008715126176081398
+1289 - for I had |directed| the ray as: 0.0006935707762242228
+1274 - but I could |see| nothing else of: 0.0006882393914921874
+1294 - ray as if |by| instinct , precisely: 0.0005623838298310308
+1254 - --all a dull |blue| , with a: 0.000537538935306998
+1259 - with a hideous |veil| over it that: 0.0005361257148690493
+1280 - of the old |man| 's face or: 0.00048787230949032663
+1282 - old man 's |face| or person :: 0.0004701905839261051
+1263 - over it that |chilled| the very marrow: 0.00045189738916144405
+1301 - upon the damned |spot| . 
+
+: 0.00039632571488852706
+==========================
+Processing: The_Tell_Tale_Heart_words
+
+NODE DEGREE
+TOP 10:
+, - ,: 0.12635869565217392
+was - was: 0.12364130434782608
+I - I: 0.11277173913043478
+the - the: 0.11277173913043478
+. - .: 0.10190217391304347
+of - of: 0.09375
+in - in: 0.07201086956521739
+and - and: 0.06521739130434782
+had - had: 0.057065217391304345
+to - to: 0.057065217391304345
+
+HARMONIC MEAN DISTANCE
+TOP 10:
+, - ,: 0.49535147392289636
+was - was: 0.4847392290249362
+I - I: 0.47850340136053787
+. - .: 0.4699773242630331
+had - had: 0.4385714285714262
+and - and: 0.43571428571428417
+in - in: 0.4306575963718815
+the - the: 0.4299319727891169
+heard - heard: 0.424285714285714
+been - been: 0.416485260770976
+
+PAGERANK
+TOP 10:
+was - was: 2.240007343903252e-05
+the - the: 2.17133255571521e-05
+, - ,: 2.079837315747769e-05
+of - of: 1.854610448997368e-05
+I - I: 1.8494510494951144e-05
+. - .: 1.6725309537152718e-05
+in - in: 1.2992015589749676e-05
+and - and: 1.047035718281142e-05
+to - to: 9.98385107638894e-06
+heard - heard: 9.48581776230981e-06
+==========================
+Processing: The_Tell_Tale_Heart_words_lcsg
+
+NODE DEGREE
+TOP 10:
+, - ,: 0.12653061224489795
+was - was: 0.12380952380952381
+I - I: 0.11292517006802721
+the - the: 0.11292517006802721
+. - .: 0.10204081632653061
+of - of: 0.09387755102040816
+in - in: 0.07210884353741497
+and - and: 0.0653061224489796
+had - had: 0.05714285714285714
+to - to: 0.05714285714285714
+
+HARMONIC MEAN DISTANCE
+TOP 10:
+, - ,: 0.4960263396911837
+was - was: 0.4853996366939075
+I - I: 0.47915531335149225
+. - .: 0.4706176203451354
+had - had: 0.4391689373296979
+and - and: 0.4363079019073554
+in - in: 0.4312443233424154
+the - the: 0.4305177111716634
+heard - heard: 0.4248637602179834
+been - been: 0.4170526793823806
+
+PAGERANK
+TOP 10:
+was - was: 2.2461109061482207e-05
+the - the: 2.177248993196722e-05
+, - ,: 2.085504447398308e-05
+of - of: 1.8596638834633013e-05
+I - I: 1.854490425651776e-05
+. - .: 1.677088258766267e-05
+in - in: 1.3027416177187689e-05
+and - and: 1.049888676641581e-05
+to - to: 1.001105503027556e-05
+heard - heard: 9.511664677193487e-06
