@@ -1,0 +1,173 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2022-05-01">
+    <creator>NetworkX 2.5</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <nodes>
+      <node id="2844" label="Absolutely" />
+      <node id="2845" label="," />
+      <node id="2846" label="the" />
+      <node id="2847" label="only" />
+      <node id="2848" label="terms" />
+      <node id="2849" label="on" />
+      <node id="2850" label="which" />
+      <node id="2851" label="you" />
+      <node id="2852" label="can" />
+      <node id="2853" label="have" />
+      <node id="2854" label="him" />
+      <node id="2855" label="restored" />
+      <node id="2856" label="to" />
+      <node id="2857" label="you" />
+      <node id="2858" label="are" />
+      <node id="2859" label="these" />
+      <node id="2860" label=":" />
+      <node id="2861" label="We" />
+      <node id="2862" label="demand" />
+      <node id="2863" label="fifteen" />
+      <node id="2864" label="hundred" />
+      <node id="2865" label="dollars" />
+      <node id="2866" label="in" />
+      <node id="2867" label="large" />
+      <node id="2868" label="bills" />
+      <node id="2869" label="for" />
+      <node id="2870" label="his" />
+      <node id="2871" label="return" />
+      <node id="2872" label=";" />
+      <node id="2873" label="the" />
+      <node id="2874" label="money" />
+      <node id="2875" label="to" />
+      <node id="2876" label="be" />
+      <node id="2877" label="left" />
+      <node id="2878" label="at" />
+      <node id="2879" label="midnight" />
+      <node id="2880" label="to" />
+      <node id="2881" label="-" />
+      <node id="2882" label="night" />
+      <node id="2883" label="at" />
+      <node id="2884" label="the" />
+      <node id="2885" label="same" />
+      <node id="2886" label="spot" />
+      <node id="2887" label="and" />
+      <node id="2888" label="in" />
+      <node id="2889" label="the" />
+      <node id="2890" label="same" />
+      <node id="2891" label="box" />
+      <node id="2892" label="as" />
+      <node id="2893" label="your" />
+      <node id="2894" label="replyÑas" />
+      <node id="2895" label="hereinafter" />
+      <node id="2896" label="described" />
+      <node id="2897" label="." />
+    </nodes>
+    <edges>
+      <edge source="2844" target="2844" id="0" />
+      <edge source="2844" target="2858" id="1" />
+      <edge source="2845" target="2845" id="2" />
+      <edge source="2845" target="2858" id="3" />
+      <edge source="2846" target="2846" id="4" />
+      <edge source="2846" target="2848" id="5" />
+      <edge source="2847" target="2847" id="6" />
+      <edge source="2847" target="2848" id="7" />
+      <edge source="2848" target="2848" id="8" />
+      <edge source="2848" target="2858" id="9" />
+      <edge source="2848" target="2853" id="10" />
+      <edge source="2849" target="2849" id="11" />
+      <edge source="2849" target="2853" id="12" />
+      <edge source="2849" target="2850" id="13" />
+      <edge source="2850" target="2850" id="14" />
+      <edge source="2851" target="2851" id="15" />
+      <edge source="2851" target="2853" id="16" />
+      <edge source="2852" target="2852" id="17" />
+      <edge source="2852" target="2853" id="18" />
+      <edge source="2853" target="2853" id="19" />
+      <edge source="2853" target="2855" id="20" />
+      <edge source="2854" target="2854" id="21" />
+      <edge source="2854" target="2855" id="22" />
+      <edge source="2855" target="2855" id="23" />
+      <edge source="2855" target="2856" id="24" />
+      <edge source="2856" target="2856" id="25" />
+      <edge source="2856" target="2857" id="26" />
+      <edge source="2857" target="2857" id="27" />
+      <edge source="2858" target="2858" id="28" />
+      <edge source="2858" target="2862" id="29" />
+      <edge source="2858" target="2859" id="30" />
+      <edge source="2859" target="2859" id="31" />
+      <edge source="2859" target="2860" id="32" />
+      <edge source="2860" target="2860" id="33" />
+      <edge source="2861" target="2861" id="34" />
+      <edge source="2861" target="2862" id="35" />
+      <edge source="2862" target="2862" id="36" />
+      <edge source="2862" target="2865" id="37" />
+      <edge source="2862" target="2866" id="38" />
+      <edge source="2862" target="2872" id="39" />
+      <edge source="2862" target="2874" id="40" />
+      <edge source="2862" target="2897" id="41" />
+      <edge source="2863" target="2863" id="42" />
+      <edge source="2863" target="2864" id="43" />
+      <edge source="2864" target="2864" id="44" />
+      <edge source="2864" target="2865" id="45" />
+      <edge source="2865" target="2865" id="46" />
+      <edge source="2866" target="2866" id="47" />
+      <edge source="2866" target="2868" id="48" />
+      <edge source="2867" target="2867" id="49" />
+      <edge source="2867" target="2868" id="50" />
+      <edge source="2868" target="2868" id="51" />
+      <edge source="2868" target="2869" id="52" />
+      <edge source="2869" target="2869" id="53" />
+      <edge source="2869" target="2871" id="54" />
+      <edge source="2870" target="2870" id="55" />
+      <edge source="2870" target="2871" id="56" />
+      <edge source="2871" target="2871" id="57" />
+      <edge source="2872" target="2872" id="58" />
+      <edge source="2873" target="2873" id="59" />
+      <edge source="2873" target="2874" id="60" />
+      <edge source="2874" target="2874" id="61" />
+      <edge source="2874" target="2877" id="62" />
+      <edge source="2875" target="2875" id="63" />
+      <edge source="2875" target="2877" id="64" />
+      <edge source="2876" target="2876" id="65" />
+      <edge source="2876" target="2877" id="66" />
+      <edge source="2877" target="2877" id="67" />
+      <edge source="2877" target="2878" id="68" />
+      <edge source="2877" target="2880" id="69" />
+      <edge source="2877" target="2883" id="70" />
+      <edge source="2877" target="2896" id="71" />
+      <edge source="2878" target="2878" id="72" />
+      <edge source="2878" target="2879" id="73" />
+      <edge source="2879" target="2879" id="74" />
+      <edge source="2880" target="2880" id="75" />
+      <edge source="2880" target="2881" id="76" />
+      <edge source="2880" target="2882" id="77" />
+      <edge source="2881" target="2881" id="78" />
+      <edge source="2882" target="2882" id="79" />
+      <edge source="2883" target="2883" id="80" />
+      <edge source="2883" target="2886" id="81" />
+      <edge source="2883" target="2887" id="82" />
+      <edge source="2883" target="2888" id="83" />
+      <edge source="2884" target="2884" id="84" />
+      <edge source="2884" target="2886" id="85" />
+      <edge source="2885" target="2885" id="86" />
+      <edge source="2885" target="2886" id="87" />
+      <edge source="2886" target="2886" id="88" />
+      <edge source="2887" target="2887" id="89" />
+      <edge source="2888" target="2888" id="90" />
+      <edge source="2888" target="2891" id="91" />
+      <edge source="2889" target="2889" id="92" />
+      <edge source="2889" target="2891" id="93" />
+      <edge source="2890" target="2890" id="94" />
+      <edge source="2890" target="2891" id="95" />
+      <edge source="2891" target="2891" id="96" />
+      <edge source="2892" target="2892" id="97" />
+      <edge source="2892" target="2896" id="98" />
+      <edge source="2893" target="2893" id="99" />
+      <edge source="2893" target="2894" id="100" />
+      <edge source="2894" target="2894" id="101" />
+      <edge source="2894" target="2896" id="102" />
+      <edge source="2895" target="2895" id="103" />
+      <edge source="2895" target="2896" id="104" />
+      <edge source="2896" target="2896" id="105" />
+      <edge source="2897" target="2897" id="106" />
+    </edges>
+  </graph>
+</gexf>
