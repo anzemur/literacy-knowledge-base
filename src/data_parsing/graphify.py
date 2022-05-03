@@ -64,7 +64,8 @@ def text_to_nx(text):
 
 def file_to_nx(filename):
     f = open(filename, "r")
-    return text_to_nx(f.read())
+    contents = f.read()
+    return text_to_nx(contents.replace('\r\n', ' ').replace('\n', ' '))
 
 def process_file(filename):
     print(f'Now working on: {filename}')
