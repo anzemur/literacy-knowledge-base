@@ -14,6 +14,8 @@ from afinn import Afinn
 from nltk.tokenize import sent_tokenize
 from sklearn.feature_extraction.text import CountVectorizer
 
+target_dir_net="data/net"
+
 def common_words(path):
     '''
     A function to read-in the top common words from external .txt document.
@@ -195,7 +197,7 @@ def matrix_to_edge_list(matrix, mode, name_list):
     return edge_list
 
 
-def plot_graph(name_list, name_frequency, matrix, plt_name, mode, path=''):
+def plot_graph(name_list, name_frequency, matrix, plt_name, suffix, mode, path=''):
     '''
     Function to plot the network graph (co-occurrence network or sentiment network).
     :param name_list: the list of top character names in the novel.
@@ -220,6 +222,8 @@ def plot_graph(name_list, name_frequency, matrix, plt_name, mode, path=''):
     weights = [G[u][v]['weight'] for u, v in edges]
     colors = [G[u][v]['color'] for u, v in edges]
 
+    nx.write_gexf(G, f'{target_dir_net}/{plt_name}_characters.gexf')
+
     if mode == 'co-occurrence':
         nx.draw(G, pos, node_color='#A0CBE2', node_size=np.sqrt(normalized_frequency) * 4000, edge_cmap=plt.cm.Blues,
                 linewidths=10, font_size=35, labels=label, edge_color=colors, with_labels=True, width=weights)
@@ -230,7 +234,7 @@ def plot_graph(name_list, name_frequency, matrix, plt_name, mode, path=''):
     else:
         raise ValueError("mode should be either 'co-occurrence' or 'sentiment'")
 
-    plt.savefig('characterR/graphs/' + plt_name + '.png')
+    plt.savefig('characterR/graphs/' + plt_name + suffix + '.png')
 
 
 if __name__ == '__main__':
@@ -248,8 +252,8 @@ if __name__ == '__main__':
     name_frequency, name_list = top_names(preliminary_name_list, short_story, 30)
     cooccurrence_matrix, sentiment_matrix = calculate_matrix(name_list, sentence_list, align_rate)
     # plot co-occurrence and sentiment graph
-    plot_graph(name_list, name_frequency, cooccurrence_matrix, name + ' co-occurrence graph', 'co-occurrence')
-    plot_graph(name_list, name_frequency, sentiment_matrix, name + ' sentiment graph', 'sentiment')
+    plot_graph(name_list, name_frequency, cooccurrence_matrix, name, ' co-occurrence graph', 'co-occurrence')
+    plot_graph(name_list, name_frequency, sentiment_matrix, name, ' sentiment graph', 'sentiment')
 
     '''
     # loop over all stories

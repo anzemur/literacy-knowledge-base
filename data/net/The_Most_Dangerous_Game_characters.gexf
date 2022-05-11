@@ -1,0 +1,357 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2022-05-11">
+    <creator>NetworkX 2.5</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="edge">
+      <attribute id="0" title="color" type="float" />
+    </attributes>
+    <nodes>
+      <node id="rainsford" label="rainsford" />
+      <node id="zaroff" label="zaroff" />
+      <node id="ivan" label="ivan" />
+      <node id="whitney" label="whitney" />
+      <node id="cossack" label="cossack" />
+      <node id="sanger" label="sanger" />
+      <node id="czar" label="czar" />
+      <node id="richard" label="richard" />
+      <node id="connell" label="connell" />
+      <node id="veuve" label="veuve" />
+      <node id="clicquot" label="clicquot" />
+      <node id="khaki" label="khaki" />
+    </nodes>
+    <edges>
+      <edge source="rainsford" target="zaroff" id="0" weight="3.386121094509986">
+        <attvalues>
+          <attvalue for="0" value="-250.26068821689262" />
+        </attvalues>
+      </edge>
+      <edge source="rainsford" target="ivan" id="1" weight="3.586109714786981">
+        <attvalues>
+          <attvalue for="0" value="-333.68091762252345" />
+        </attvalues>
+      </edge>
+      <edge source="rainsford" target="whitney" id="2" weight="2.628105039328596">
+        <attvalues>
+          <attvalue for="0" value="-83.42022940563086" />
+        </attvalues>
+      </edge>
+      <edge source="rainsford" target="cossack" id="3" weight="2.628105039328596">
+        <attvalues>
+          <attvalue for="0" value="-83.42022940563086" />
+        </attvalues>
+      </edge>
+      <edge source="rainsford" target="sanger" id="4" weight="4.836128345520654">
+        <attvalues>
+          <attvalue for="0" value="2000.0" />
+        </attvalues>
+      </edge>
+      <edge source="rainsford" target="czar" id="5" weight="0.0">
+        <attvalues>
+          <attvalue for="0" value="0.0" />
+        </attvalues>
+      </edge>
+      <edge source="rainsford" target="richard" id="6" weight="0.0">
+        <attvalues>
+          <attvalue for="0" value="0.0" />
+        </attvalues>
+      </edge>
+      <edge source="rainsford" target="connell" id="7" weight="0.0">
+        <attvalues>
+          <attvalue for="0" value="0.0" />
+        </attvalues>
+      </edge>
+      <edge source="rainsford" target="veuve" id="8" weight="0.0">
+        <attvalues>
+          <attvalue for="0" value="0.0" />
+        </attvalues>
+      </edge>
+      <edge source="rainsford" target="clicquot" id="9" weight="0.0">
+        <attvalues>
+          <attvalue for="0" value="0.0" />
+        </attvalues>
+      </edge>
+      <edge source="rainsford" target="khaki" id="10" weight="0.0">
+        <attvalues>
+          <attvalue for="0" value="0.0" />
+        </attvalues>
+      </edge>
+      <edge source="zaroff" target="ivan" id="11" weight="2.628105039328596">
+        <attvalues>
+          <attvalue for="0" value="-83.42022940563086" />
+        </attvalues>
+      </edge>
+      <edge source="zaroff" target="whitney" id="12" weight="0.0">
+        <attvalues>
+          <attvalue for="0" value="0.0" />
+        </attvalues>
+      </edge>
+      <edge source="zaroff" target="cossack" id="13" weight="0.0">
+        <attvalues>
+          <attvalue for="0" value="0.0" />
+        </attvalues>
+      </edge>
+      <edge source="zaroff" target="sanger" id="14" weight="0.0">
+        <attvalues>
+          <attvalue for="0" value="0.0" />
+        </attvalues>
+      </edge>
+      <edge source="zaroff" target="czar" id="15" weight="0.0">
+        <attvalues>
+          <attvalue for="0" value="0.0" />
+        </attvalues>
+      </edge>
+      <edge source="zaroff" target="richard" id="16" weight="0.0">
+        <attvalues>
+          <attvalue for="0" value="0.0" />
+        </attvalues>
+      </edge>
+      <edge source="zaroff" target="connell" id="17" weight="0.0">
+        <attvalues>
+          <attvalue for="0" value="0.0" />
+        </attvalues>
+      </edge>
+      <edge source="zaroff" target="veuve" id="18" weight="0.0">
+        <attvalues>
+          <attvalue for="0" value="0.0" />
+        </attvalues>
+      </edge>
+      <edge source="zaroff" target="clicquot" id="19" weight="0.0">
+        <attvalues>
+          <attvalue for="0" value="0.0" />
+        </attvalues>
+      </edge>
+      <edge source="zaroff" target="khaki" id="20" weight="0.0">
+        <attvalues>
+          <attvalue for="0" value="0.0" />
+        </attvalues>
+      </edge>
+      <edge source="ivan" target="whitney" id="21" weight="0.0">
+        <attvalues>
+          <attvalue for="0" value="0.0" />
+        </attvalues>
+      </edge>
+      <edge source="ivan" target="cossack" id="22" weight="0.0">
+        <attvalues>
+          <attvalue for="0" value="0.0" />
+        </attvalues>
+      </edge>
+      <edge source="ivan" target="sanger" id="23" weight="0.0">
+        <attvalues>
+          <attvalue for="0" value="0.0" />
+        </attvalues>
+      </edge>
+      <edge source="ivan" target="czar" id="24" weight="4.1799410092928815">
+        <attvalues>
+          <attvalue for="0" value="782.0646506777894" />
+        </attvalues>
+      </edge>
+      <edge source="ivan" target="richard" id="25" weight="0.0">
+        <attvalues>
+          <attvalue for="0" value="0.0" />
+        </attvalues>
+      </edge>
+      <edge source="ivan" target="connell" id="26" weight="0.0">
+        <attvalues>
+          <attvalue for="0" value="0.0" />
+        </attvalues>
+      </edge>
+      <edge source="ivan" target="veuve" id="27" weight="0.0">
+        <attvalues>
+          <attvalue for="0" value="0.0" />
+        </attvalues>
+      </edge>
+      <edge source="ivan" target="clicquot" id="28" weight="0.0">
+        <attvalues>
+          <attvalue for="0" value="0.0" />
+        </attvalues>
+      </edge>
+      <edge source="ivan" target="khaki" id="29" weight="0.0">
+        <attvalues>
+          <attvalue for="0" value="0.0" />
+        </attvalues>
+      </edge>
+      <edge source="whitney" target="cossack" id="30" weight="0.0">
+        <attvalues>
+          <attvalue for="0" value="0.0" />
+        </attvalues>
+      </edge>
+      <edge source="whitney" target="sanger" id="31" weight="0.0">
+        <attvalues>
+          <attvalue for="0" value="0.0" />
+        </attvalues>
+      </edge>
+      <edge source="whitney" target="czar" id="32" weight="0.0">
+        <attvalues>
+          <attvalue for="0" value="0.0" />
+        </attvalues>
+      </edge>
+      <edge source="whitney" target="richard" id="33" weight="3.7620694370792633">
+        <attvalues>
+          <attvalue for="0" value="-429.6141814389989" />
+        </attvalues>
+      </edge>
+      <edge source="whitney" target="connell" id="34" weight="3.7620694370792633">
+        <attvalues>
+          <attvalue for="0" value="-429.6141814389989" />
+        </attvalues>
+      </edge>
+      <edge source="whitney" target="veuve" id="35" weight="0.0">
+        <attvalues>
+          <attvalue for="0" value="0.0" />
+        </attvalues>
+      </edge>
+      <edge source="whitney" target="clicquot" id="36" weight="0.0">
+        <attvalues>
+          <attvalue for="0" value="0.0" />
+        </attvalues>
+      </edge>
+      <edge source="whitney" target="khaki" id="37" weight="0.0">
+        <attvalues>
+          <attvalue for="0" value="0.0" />
+        </attvalues>
+      </edge>
+      <edge source="cossack" target="sanger" id="38" weight="0.0">
+        <attvalues>
+          <attvalue for="0" value="0.0" />
+        </attvalues>
+      </edge>
+      <edge source="cossack" target="czar" id="39" weight="0.0">
+        <attvalues>
+          <attvalue for="0" value="0.0" />
+        </attvalues>
+      </edge>
+      <edge source="cossack" target="richard" id="40" weight="0.0">
+        <attvalues>
+          <attvalue for="0" value="0.0" />
+        </attvalues>
+      </edge>
+      <edge source="cossack" target="connell" id="41" weight="0.0">
+        <attvalues>
+          <attvalue for="0" value="0.0" />
+        </attvalues>
+      </edge>
+      <edge source="cossack" target="veuve" id="42" weight="0.0">
+        <attvalues>
+          <attvalue for="0" value="0.0" />
+        </attvalues>
+      </edge>
+      <edge source="cossack" target="clicquot" id="43" weight="0.0">
+        <attvalues>
+          <attvalue for="0" value="0.0" />
+        </attvalues>
+      </edge>
+      <edge source="cossack" target="khaki" id="44" weight="0.0">
+        <attvalues>
+          <attvalue for="0" value="0.0" />
+        </attvalues>
+      </edge>
+      <edge source="sanger" target="czar" id="45" weight="0.0">
+        <attvalues>
+          <attvalue for="0" value="0.0" />
+        </attvalues>
+      </edge>
+      <edge source="sanger" target="richard" id="46" weight="0.0">
+        <attvalues>
+          <attvalue for="0" value="0.0" />
+        </attvalues>
+      </edge>
+      <edge source="sanger" target="connell" id="47" weight="0.0">
+        <attvalues>
+          <attvalue for="0" value="0.0" />
+        </attvalues>
+      </edge>
+      <edge source="sanger" target="veuve" id="48" weight="0.0">
+        <attvalues>
+          <attvalue for="0" value="0.0" />
+        </attvalues>
+      </edge>
+      <edge source="sanger" target="clicquot" id="49" weight="0.0">
+        <attvalues>
+          <attvalue for="0" value="0.0" />
+        </attvalues>
+      </edge>
+      <edge source="sanger" target="khaki" id="50" weight="0.0">
+        <attvalues>
+          <attvalue for="0" value="0.0" />
+        </attvalues>
+      </edge>
+      <edge source="czar" target="richard" id="51" weight="0.0">
+        <attvalues>
+          <attvalue for="0" value="0.0" />
+        </attvalues>
+      </edge>
+      <edge source="czar" target="connell" id="52" weight="0.0">
+        <attvalues>
+          <attvalue for="0" value="0.0" />
+        </attvalues>
+      </edge>
+      <edge source="czar" target="veuve" id="53" weight="0.0">
+        <attvalues>
+          <attvalue for="0" value="0.0" />
+        </attvalues>
+      </edge>
+      <edge source="czar" target="clicquot" id="54" weight="0.0">
+        <attvalues>
+          <attvalue for="0" value="0.0" />
+        </attvalues>
+      </edge>
+      <edge source="czar" target="khaki" id="55" weight="0.0">
+        <attvalues>
+          <attvalue for="0" value="0.0" />
+        </attvalues>
+      </edge>
+      <edge source="richard" target="connell" id="56" weight="3.7620694370792633">
+        <attvalues>
+          <attvalue for="0" value="-429.6141814389989" />
+        </attvalues>
+      </edge>
+      <edge source="richard" target="veuve" id="57" weight="0.0">
+        <attvalues>
+          <attvalue for="0" value="0.0" />
+        </attvalues>
+      </edge>
+      <edge source="richard" target="clicquot" id="58" weight="0.0">
+        <attvalues>
+          <attvalue for="0" value="0.0" />
+        </attvalues>
+      </edge>
+      <edge source="richard" target="khaki" id="59" weight="0.0">
+        <attvalues>
+          <attvalue for="0" value="0.0" />
+        </attvalues>
+      </edge>
+      <edge source="connell" target="veuve" id="60" weight="0.0">
+        <attvalues>
+          <attvalue for="0" value="0.0" />
+        </attvalues>
+      </edge>
+      <edge source="connell" target="clicquot" id="61" weight="0.0">
+        <attvalues>
+          <attvalue for="0" value="0.0" />
+        </attvalues>
+      </edge>
+      <edge source="connell" target="khaki" id="62" weight="0.0">
+        <attvalues>
+          <attvalue for="0" value="0.0" />
+        </attvalues>
+      </edge>
+      <edge source="veuve" target="clicquot" id="63" weight="2.628105039328596">
+        <attvalues>
+          <attvalue for="0" value="-83.42022940563086" />
+        </attvalues>
+      </edge>
+      <edge source="veuve" target="khaki" id="64" weight="0.0">
+        <attvalues>
+          <attvalue for="0" value="0.0" />
+        </attvalues>
+      </edge>
+      <edge source="clicquot" target="khaki" id="65" weight="0.0">
+        <attvalues>
+          <attvalue for="0" value="0.0" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>
