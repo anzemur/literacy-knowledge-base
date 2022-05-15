@@ -229,6 +229,8 @@ def plot_graph(name_list, name_frequency, matrix, plt_name, suffix, mode, path='
 
     if mode == 'bare':
         nx.write_gexf(G, f'{target_dir_net}/{plt_name}_characters.gexf')
+    elif mode == 'sentiment':
+        nx.write_gexf(G, f'{target_dir_net}/{plt_name}_character_sentiment.gexf')
 
     if mode == 'co-occurrence':
         nx.draw(G, pos, node_color='#A0CBE2', node_size=np.sqrt(normalized_frequency) * 4000, edge_cmap=plt.cm.Blues,
