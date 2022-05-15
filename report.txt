@@ -844,42 +844,84 @@ Processing: The_Most_Dangerous_Game
 
 NODE DEGREE
 TOP 10:
-5015 - . "   " Yes ? "   " Life |is| for the strong , to be lived by the strong: 0.001474056603773585
-3489 -   " Really ? "   " Oh , it |is| n't here naturally , of course . I have to: 0.0013757861635220125
-4646 - attributes of an ideal quarry ? ' And the answer |was| , of course , ` It must have courage ,: 0.0013757861635220125
-4727 - And why not ? "   " I ca n't |believe| you are serious , General Zaroff . This is a: 0.0013757861635220125
-5365 - on it . " Oh , yes , " he |said| , casually , as if in answer to a question: 0.0013757861635220125
-7819 - by the same winding way Rainsford had come . He |flattened| himself down on the limb and , through a screen: 0.0013757861635220125
-534 -   " Yes , even that tough - minded old |Swede| , who 'd go up to the devil himself and: 0.0012775157232704402
-3438 - Here in my preserve on this island , " he |said| in the same slow tone , " I hunt more: 0.0012775157232704402
-4863 - are ! " he said . " One does not |expect| nowadays to find a young man of the educated class: 0.0012775157232704402
-6016 - from the /Folies Bergere/.   " And now , " |said| the general , " I want to show you my: 0.0012775157232704402
+rainsford - rainsford: 0.9166666666666666
+zaroff - zaroff: 0.9166666666666666
+ivan - ivan: 0.9166666666666666
+whitney - whitney: 0.9166666666666666
+cossack - cossack: 0.9166666666666666
+sanger - sanger: 0.9166666666666666
+czar - czar: 0.9166666666666666
+richard - richard: 0.9166666666666666
+connell - connell: 0.9166666666666666
+veuve - veuve: 0.9166666666666666
 
 HARMONIC MEAN DISTANCE
 TOP 10:
-8484 - not quite quick enough ; the dead tree , delicately |adjusted| to rest on the cut living one , crashed down: 0.0024864864864864856
-9402 - wide shoulders surged through the tall jungle weeds ; it |was| the giant Ivan , and he seemed pulled forward by: 0.002447174447174446
-9387 - figure of General Zaroff ; just ahead of him Rainsford |made| out another figure whose wide shoulders surged through the tall: 0.002406224406224405
-146 - Whitney , with a laugh , " and I 've |seen| you pick off a moose moving in the brown fall: 0.002347490347490346
-4646 - attributes of an ideal quarry ? ' And the answer |was| , of course , ` It must have courage ,: 0.002288288288288287
-4521 - . The island is perfect for my purposes -- there |are| jungles with a maze of traits in them , hills: 0.002207324207324207
-135 - yacht .   " You 've good eyes , " |said| Whitney , with a laugh , " and I 've: 0.00219117819117819
-8518 - ; but for his alertness , he must have been |smashed| beneath it . He staggered , but he did not: 0.00219094419094419
-9876 - escaped him ; of course , the American had n't |played| the game -- so thought the general as he tasted: 0.0021769041769041757
-7666 - taking care to leave not the slightest mark , he |climbed| up into the crotch , and , stretching out on: 0.002163800163800163
+rainsford - rainsford: 1.0
+zaroff - zaroff: 1.0
+ivan - ivan: 1.0
+whitney - whitney: 1.0
+cossack - cossack: 1.0
+sanger - sanger: 1.0
+czar - czar: 1.0
+richard - richard: 1.0
+connell - connell: 1.0
+veuve - veuve: 1.0
 
 PAGERANK
 TOP 10:
-5015 - . "   " Yes ? "   " Life |is| for the strong , to be lived by the strong: 3.9776460553873547e-08
-5365 - on it . " Oh , yes , " he |said| , casually , as if in answer to a question: 3.8861027155794246e-08
-3489 -   " Really ? "   " Oh , it |is| n't here naturally , of course . I have to: 3.854904431541285e-08
-4727 - And why not ? "   " I ca n't |believe| you are serious , General Zaroff . This is a: 3.795761619867603e-08
-7819 - by the same winding way Rainsford had come . He |flattened| himself down on the limb and , through a screen: 3.7749795154211634e-08
-4646 - attributes of an ideal quarry ? ' And the answer |was| , of course , ` It must have courage ,: 3.652763498062185e-08
-9037 - by foot . Rainsford , crouching there , could not |see| the general , nor could he see the pit .: 3.5456872662064976e-08
-4863 - are ! " he said . " One does not |expect| nowadays to find a young man of the educated class: 3.4683549575443956e-08
-534 -   " Yes , even that tough - minded old |Swede| , who 'd go up to the devil himself and: 3.4631738730244876e-08
-3438 - Here in my preserve on this island , " he |said| in the same slow tone , " I hunt more: 3.451505001884776e-08
+rainsford - rainsford: 0.017216831158235548
+ivan - ivan: 0.010912443414589336
+whitney - whitney: 0.00988935429006896
+veuve - veuve: 0.008153281695882593
+clicquot - clicquot: 0.008153281695882593
+connell - connell: 0.0075442621279828235
+richard - richard: 0.007544262127982823
+zaroff - zaroff: 0.006472140753447284
+sanger - sanger: 0.005370301198372104
+czar - czar: 0.004953169138680555
+
+==========================
+Processing: The_Most_Dangerous_Game_characters
+
+NODE DEGREE
+TOP 10:
+rainsford - rainsford: 0.9166666666666666
+zaroff - zaroff: 0.9166666666666666
+ivan - ivan: 0.9166666666666666
+whitney - whitney: 0.9166666666666666
+cossack - cossack: 0.9166666666666666
+sanger - sanger: 0.9166666666666666
+czar - czar: 0.9166666666666666
+richard - richard: 0.9166666666666666
+connell - connell: 0.9166666666666666
+veuve - veuve: 0.9166666666666666
+
+HARMONIC MEAN DISTANCE
+TOP 10:
+rainsford - rainsford: 1.0
+zaroff - zaroff: 1.0
+ivan - ivan: 1.0
+whitney - whitney: 1.0
+cossack - cossack: 1.0
+sanger - sanger: 1.0
+czar - czar: 1.0
+richard - richard: 1.0
+connell - connell: 1.0
+veuve - veuve: 1.0
+
+PAGERANK
+TOP 10:
+rainsford - rainsford: 0.017216831158235548
+ivan - ivan: 0.010912443414589336
+whitney - whitney: 0.00988935429006896
+veuve - veuve: 0.008153281695882593
+clicquot - clicquot: 0.008153281695882593
+connell - connell: 0.0075442621279828235
+richard - richard: 0.007544262127982823
+zaroff - zaroff: 0.006472140753447284
+sanger - sanger: 0.005370301198372104
+czar - czar: 0.004953169138680555
 
 ==========================
 Processing: The_Most_Dangerous_Game_lcsg
