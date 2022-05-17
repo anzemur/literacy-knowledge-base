@@ -13,6 +13,12 @@ from pathlib import Path
 from afinn import Afinn
 from nltk.tokenize import sent_tokenize
 from sklearn.feature_extraction.text import CountVectorizer
+import nltk
+from  nltk import word_tokenize, pos_tag
+nltk.download('punkt')
+nltk.download('averaged_perceptron_tagger')
+nltk.download('maxent_ne_chunker')
+nltk.download('words')
 
 target_dir_net="data/net"
 
@@ -63,6 +69,83 @@ def read_novel(story_name, path):
 
     return novel
 
+def named_entities_from_senctence(sentence, model='nlp'):
+    if model == 'nlp':
+        doc = nlp(sentence)
+        return [x for x in doc.ents if x.label_ in ['PERSON']]
+    elif model == 'nltk':
+        entities = []
+        chunks = nltk.ne_chunk(nltk.pos_tag(nltk.word_tokenize(sentence)))
+        for chunk in chunks:
+            if (hasattr(chunk, 'label') and chunk.label() == 'PERSON'):
+                person = ' '.join(c[0] for c in chunk)
+                entities.append(person)
+        return entities
+    else:
+        print('Unknown model')
+        exit(1)
+
+def get_entities(sentence):
+  ## chunk 1
+  ent1 = ""
+  ent2 = ""
+
+  prv_tok_dep = ""    # dependency tag of previous token in the sentence
+  prv_tok_text = ""   # previous token in the sentence
+
+  prefix = ""
+  modifier = ""
+
+  #############################################################
+  
+  for tok in nlp(sentence):
+    ## chunk 2
+    # if token is a punctuation mark then move on to the next token
+    if tok.dep_ != "punct":
+      # check: token is a compound word or not
+      if tok.dep_ == "compound":
+        prefix = tok.text
+        # if the previous word was also a 'compound' then add the current word to it
+        if prv_tok_dep == "compound":
+          prefix = prv_tok_text + " "+ tok.text
+      
+      # check: token is a modifier or not
+      if tok.dep_.endswith("mod") == True:
+        modifier = tok.text
+        # if the previous word was also a 'compound' then add the current word to it
+        if prv_tok_dep == "compound":
+          modifier = prv_tok_text + " "+ tok.text
+      
+      ## chunk 3
+      if tok.dep_.find("subj") == True:
+        # ent1 = modifier +" "+ prefix + " "+ tok.text
+        ent1 = prefix + " "+ tok.text
+        if (tok.tag_ == 'PRP'):
+            # print('entity 1', ent1, tok.tag_, list(tok.ancestors), list(tok.children))
+            # ent1 = tok.text
+            ent1 = ''
+        prefix = ""
+        modifier = ""
+        prv_tok_dep = ""
+        prv_tok_text = ""      
+
+      ## chunk 4
+      if tok.dep_.find("obj") == True:
+        # ent2 = modifier +" "+ prefix +" "+ tok.text
+        ent2 = prefix +" "+ tok.text
+        if (tok.tag_ == 'PRP'):
+            # print('entity 2', ent2, tok.tag_, list(tok.ancestors), list(tok.children))
+            # ent2 = tok.text
+            ent2 = ''
+        
+      ## chunk 5  
+      # update variables
+      prv_tok_dep = tok.dep_
+      prv_tok_text = tok.text
+  #############################################################
+
+  return [ent1.strip(), ent2.strip()]
+
 def name_entity_recognition(sentence):
     '''
     A function to retrieve name entities in a sentence.
@@ -70,9 +153,11 @@ def name_entity_recognition(sentence):
     :return: a name entity list of the sentence.
     '''
 
-    doc = nlp(sentence)
-    # retrieve person from the sentence
-    name_entity = [x for x in doc.ents if x.label_ in ['PERSON']]
+    # doc = nlp(sentence)
+    # # retrieve person from the sentence
+    # name_entity = [x for x in doc.ents if x.label_ in ['PERSON']]
+    entity_pair = get_entities(sentence=sentence)
+    name_entity = named_entities_from_senctence(sentence=sentence, model='nltk')
     # convert all names to lowercase and remove 's in names
     name_entity = [str(x).lower().replace("'s","") for x in name_entity]
     # split names into single words ('Harry Potter' -> ['Harry', 'Potter'])
@@ -84,7 +169,7 @@ def name_entity_recognition(sentence):
     # remove name words that are in the set of 4000 common words
     name_entity = [x for x in name_entity if x not in words]
 
-    return name_entity
+    return (name_entity, entity_pair)
 
 def iterative_NER(sentence_list, threshold_rate=0.0005):
     '''
@@ -95,18 +180,27 @@ def iterative_NER(sentence_list, threshold_rate=0.0005):
     threshold, it would be removed from the list because there might be recognition errors.
     :return: a non-duplicate list of names in the novel.
     '''
-
+    entity_pairs = []
     output = []
     for i in sentence_list:
-        name_list = name_entity_recognition(i)
+        name_list, entity_pair = name_entity_recognition(i)
         if name_list != []:
             output.append(name_list)
+        
+        entity_pairs.append(entity_pair)
+
     output = flatten(output)
     from collections import Counter
     output = Counter(output)
     output = [x for x in output if output[x] >= threshold_rate * len(sentence_list)]
 
-    return output
+    entities = flatten(entity_pairs)
+    entities = filter(lambda p: len(p) > 0, entities)
+    entities = Counter(entities)
+    entities = [x for x in entities if entities[x] > 1]
+
+    # return output
+    return entities
 
 
 def top_names(name_list, novel, top_num=20):
@@ -249,14 +343,16 @@ def plot_graph(name_list, name_frequency, matrix, plt_name, suffix, mode, path='
 
 
 if __name__ == '__main__':
-    nlp = spacy.load('en_core_web_sm')
+    # nlp = spacy.load('en_core_web_sm')
+    nlp = spacy.load('en_core_web_lg')
     words = common_words('characterR/common_words.txt')
-    data_folder = Path(os.getcwd()) / 'data/en'
+    data_folder = Path(os.getcwd()) / 'data/en/grimm'
 
     # try one story
-    name = 'The_Most_Dangerous_Game'
+    name = 'LITTLE_RED_CAP'
 
     short_story = read_novel(name, data_folder)
+
     sentence_list = sent_tokenize(short_story)
     align_rate = calculate_align_rate(sentence_list)
     preliminary_name_list = iterative_NER(sentence_list)
