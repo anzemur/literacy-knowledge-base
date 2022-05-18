@@ -1,0 +1,11 @@
+{
+  "protagonist": "",
+  "antagonist": "",
+  "sentiments": {
+    "john": {
+      "john": 0,
+      "neki": 1,
+      "neki1": -1
+    }
+  }
+}

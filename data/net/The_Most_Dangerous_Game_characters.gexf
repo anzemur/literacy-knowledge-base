@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
-  <meta lastmodifieddate="2022-05-15">
+  <meta lastmodifieddate="2022-05-16">
     <creator>NetworkX 2.5</creator>
   </meta>
   <graph defaultedgetype="undirected" mode="static" name="">
@@ -14,12 +14,20 @@
       <node id="whitney" label="whitney" />
       <node id="cossack" label="cossack" />
       <node id="sanger" label="sanger" />
+      <node id="providence" label="providence" />
+      <node id="revoir" label="revoir" />
+      <node id="dusk" label="dusk" />
       <node id="czar" label="czar" />
-      <node id="richard" label="richard" />
+      <node id="carlo" label="carlo" />
       <node id="connell" label="connell" />
+      <node id="monte" label="monte" />
+      <node id="suzette" label="suzette" />
       <node id="veuve" label="veuve" />
       <node id="clicquot" label="clicquot" />
-      <node id="khaki" label="khaki" />
+      <node id="malacca" label="malacca" />
+      <node id="richard" label="richard" />
+      <node id="smiled--" label="smiled--" />
+      <node id="devil--" label="devil--" />
     </nodes>
     <edges>
       <edge source="rainsford" target="zaroff" id="0" weight="3.386121094509986">
@@ -47,19 +55,19 @@
           <attvalue for="0" value="2000.0" />
         </attvalues>
       </edge>
-      <edge source="zaroff" target="ivan" id="5" weight="2.628105039328596">
+      <edge source="rainsford" target="revoir" id="5" weight="2.628105039328596">
         <attvalues>
           <attvalue for="0" value="-83.42022940563086" />
         </attvalues>
       </edge>
-      <edge source="ivan" target="czar" id="6" weight="4.1799410092928815">
+      <edge source="zaroff" target="ivan" id="6" weight="2.628105039328596">
         <attvalues>
-          <attvalue for="0" value="782.0646506777894" />
+          <attvalue for="0" value="-83.42022940563086" />
         </attvalues>
       </edge>
-      <edge source="whitney" target="richard" id="7" weight="3.7620694370792633">
+      <edge source="ivan" target="czar" id="7" weight="4.1799410092928815">
         <attvalues>
-          <attvalue for="0" value="-429.6141814389989" />
+          <attvalue for="0" value="782.0646506777894" />
         </attvalues>
       </edge>
       <edge source="whitney" target="connell" id="8" weight="3.7620694370792633">
@@ -67,12 +75,22 @@
           <attvalue for="0" value="-429.6141814389989" />
         </attvalues>
       </edge>
-      <edge source="richard" target="connell" id="9" weight="3.7620694370792633">
+      <edge source="whitney" target="richard" id="9" weight="3.7620694370792633">
         <attvalues>
           <attvalue for="0" value="-429.6141814389989" />
         </attvalues>
       </edge>
-      <edge source="veuve" target="clicquot" id="10" weight="2.628105039328596">
+      <edge source="carlo" target="monte" id="10" weight="3.7721435343616436">
+        <attvalues>
+          <attvalue for="0" value="435.8706986444213" />
+        </attvalues>
+      </edge>
+      <edge source="connell" target="richard" id="11" weight="3.7620694370792633">
+        <attvalues>
+          <attvalue for="0" value="-429.6141814389989" />
+        </attvalues>
+      </edge>
+      <edge source="veuve" target="clicquot" id="12" weight="2.628105039328596">
         <attvalues>
           <attvalue for="0" value="-83.42022940563086" />
         </attvalues>

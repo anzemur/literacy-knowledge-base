@@ -8,3 +8,9 @@ Dataset is scrapped from the Project Gutenberg website which provides free eBook
 
 To obtain the dataset run `./src/data_parsing/scrape_gutenberg.py` script.
 
+
+
+# Installation
+
+Run get_punkt.
+python -m spacy download en
