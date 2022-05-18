@@ -280,23 +280,15 @@ if __name__ == '__main__':
     # try one story
     # name = "LITTLE_RED_CAP.txt"
     # short_story = read_story(name, data_folder)
-    short_story = """Belling the Cat
-Long ago, the mice had a general council to consider what
-measures they could take to outwit their common enemy,
-the Cat. Some said this, and some said that; but at last a
-young mouse got up and said he had a proposal to make,
-which he thought would meet the case. 'You will all agree,'
-said he, 'that our chief danger consists in the sly and treacherous manner in which the enemy approaches us. Now, if
-we could receive some signal of her approach, we could easily escape from her. I venture, therefore, to propose that a
-small bell be procured, and attached by a ribbon round the
-neck of the Cat. By this means we should always know when
-she was about, and could easily retire while she was in the
-neighbourhood.'
-This proposal met with general applause, until an old
-mouse got up and said: 'That is all very well, but who is to
-bell the Cat?' The mice looked at one another and nobody
-spoke. Then the old mouse said:
-'It is easy to propose impossible remedies.'"""
+    short_story = """The Cock and the Pearl
+A cock was once strutting up and down the farmyard among the hens when
+suddenly he espied something shinning amid the straw. “Ho! ho!” quoth
+he, “that’s for me,” and soon rooted it out from beneath the straw.
+“What did it turn out to be but a Pearl that by some chance had been
+lost in the yard? “You may be a treasure,” quoth Master Cock, “to men
+that prize you, but for me I would rather have a single barley-corn
+than a peck of pearls.”
+Precious things are for those that can prize them."""
 
     doc = coreference_resolution(short_story, nlp)
     print(doc)
