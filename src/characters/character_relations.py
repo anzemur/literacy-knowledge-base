@@ -15,7 +15,6 @@ from sklearn.feature_extraction.text import CountVectorizer
 
 import spacy
 import stanza
-from allennlp.predictors.predictor import Predictor
 
 from coreference_resolution import coreference_resolution
 
