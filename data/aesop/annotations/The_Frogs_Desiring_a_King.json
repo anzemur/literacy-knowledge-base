@@ -1,0 +1,31 @@
+{
+    "characters": ["frogs", "jove", "log", "stork"],
+    "protagonist": "frogs",
+    "antagonist": "stork",
+    "sentiments": {
+      "frogs": {
+        "frogs": 0,
+        "jove": 1,
+        "log": -1,
+        "stork": -1
+      },
+      "jove": {
+        "frogs": -1,
+        "jove": 0,
+        "log": 1,
+        "stork": 0
+      },
+      "log": {
+        "frogs": 0,
+        "jove": 0,
+        "log": 0,
+        "stork": 0
+      },
+      "stork": {
+        "frogs": -1,
+        "jove": 0,
+        "log": 0,
+        "stork": 0
+      }
+    }
+}

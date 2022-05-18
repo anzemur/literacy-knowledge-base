@@ -1,0 +1,31 @@
+{
+    "characters": ["lion", "boar", "bull", "ass"],
+    "protagonist": "lion",
+    "antagonist": "ass",
+    "sentiments": {
+      "lion": {
+        "lion": 0,
+        "boar": -1,
+        "bull": -1,
+        "ass": -1
+      },
+      "boar": {
+        "lion": -1,
+        "boar": 0,
+        "bull": 0,
+        "ass": 0
+      },
+      "bull": {
+        "lion": -1,
+        "boar": 0,
+        "bull": 0,
+        "ass": 0
+      },
+      "ass": {
+        "lion": -1,
+        "boar": 0,
+        "bull": 0,
+        "ass": 0
+      }
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "characters": ["farmer", "serpent"],
+    "protagonist": "farmer",
+    "antagonist": "serpent",
+    "sentiments": {
+      "farmer": {
+        "farmer": 0,
+        "serpent": -1
+      },
+      "serpent": {
+        "farmer": -1,
+        "serpent": 0
+      }
+    }
+}

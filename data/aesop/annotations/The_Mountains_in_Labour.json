@@ -1,0 +1,15 @@
+{
+    "characters": ["countrymen", "mountains"],
+    "protagonist": "countrymen",
+    "antagonist": "mountains",
+    "sentiments": {
+      "countrymen": {
+        "countrymen": 0,
+        "mountains": -1
+      },
+      "mountains": {
+        "countrymen": 0,
+        "mountains": 0
+      }
+    }
+}
