@@ -1,0 +1,42 @@
+{
+    "characters": ["lion", "fox", "jackal", "wolf", "stag"],
+    "protagonist": "lion",
+    "antagonist": "",
+    "sentiments": {
+      "lion": {
+        "lion": 0,
+        "fox": 1,
+        "jackal": 1,
+        "wolf": 1,
+        "stag": -1
+      },
+      "fox": {
+        "lion": -1,
+        "fox": 0,
+        "jackal": 1,
+        "wolf": 1,
+        "stag": -1
+      },
+      "jackal": {
+        "lion": -1,
+        "fox": 1,
+        "jackal": 0,
+        "wolf": 1,
+        "stag": -1
+      },
+      "wolf": {
+        "lion": -1,
+        "fox": 1,
+        "jackal": 1,
+        "wolf": 0,
+        "stag": -1
+      },
+      "stag": {
+        "lion": 0,
+        "fox": 0,
+        "jackal": 0,
+        "wolf": 0,
+        "stag": 0
+      }
+    }
+}

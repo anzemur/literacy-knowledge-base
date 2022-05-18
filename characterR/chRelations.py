@@ -21,8 +21,8 @@ nltk.download('averaged_perceptron_tagger')
 nltk.download('maxent_ne_chunker')
 nltk.download('words')
 
-target_dir_net = "data/net"
-
+target_dir_net="data/net"
+occurence_threshold = 0
 
 def common_words(path):
     '''
@@ -164,7 +164,7 @@ def name_entity_recognition(sentence):
     # # retrieve person from the sentence
     # name_entity = [x for x in doc.ents if x.label_ in ['PERSON']]
     entity_pair = get_entities(sentence=sentence)
-    name_entity = named_entities_from_senctence(sentence=sentence, model='nltk')
+    name_entity = named_entities_from_senctence(sentence=sentence, model='nlp')
     # convert all names to lowercase and remove 's in names
     name_entity = [str(x).lower().replace("'s", "") for x in name_entity]
     # split names into single words ('Harry Potter' -> ['Harry', 'Potter'])
@@ -177,7 +177,6 @@ def name_entity_recognition(sentence):
     name_entity = [x for x in name_entity if x not in words]
 
     return (name_entity, entity_pair)
-
 
 def iterative_NER(sentence_list, threshold_rate=0.0005):
     '''
@@ -203,9 +202,10 @@ def iterative_NER(sentence_list, threshold_rate=0.0005):
     output = [x for x in output if output[x] >= threshold_rate * len(sentence_list)]
 
     entities = flatten(entity_pairs)
+    entities = [str(x).lower().replace("'s","") for x in entities]
     entities = filter(lambda p: len(p) > 0, entities)
     entities = Counter(entities)
-    entities = [x for x in entities if entities[x] > 1]
+    entities = [x for x in entities if entities[x] > occurence_threshold]
 
     # return output
     return entities
