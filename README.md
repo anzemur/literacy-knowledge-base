@@ -32,4 +32,7 @@ python -m spacy download en_core_web_lg
 ```bash
 pip install allennlp-models
 ```
-python downloads.py
+```bash
+python src/downloads.py
+```
+
