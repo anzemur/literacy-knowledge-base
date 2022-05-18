@@ -1,7 +1,7 @@
 {
     "characters": ["wolf", "crane"],
-    "protagonist": "crane",
-    "antagonist": "wolf",
+    "protagonist": "wolf",
+    "antagonist": "",
     "sentiments": {
       "wolf": {
         "wolf": 0,
