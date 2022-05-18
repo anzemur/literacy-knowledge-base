@@ -1,6 +1,9 @@
 import xml.etree.ElementTree as ET
 import itertools
-import codecs, os, spacy, json
+import codecs
+import os
+import spacy
+import json
 import pandas as pd
 import numpy as np
 import networkx as nx
@@ -19,12 +22,12 @@ tokens = root.findall('token')
 short_story = ""
 for x in tokens:
     short_story += x.text + " "
-#print(short_story)
+# print(short_story)
 
-#people
+# people
 entities = []
 for x in root.findall('Markables')[0].findall('HUMAN_PART_PER'):
-    #print(x)
+    # print(x)
     id_text = ''
     if len(x) == 0:
         #print('\t>>> no tokens, skipped')
@@ -37,9 +40,10 @@ for x in root.findall('Markables')[0].findall('HUMAN_PART_PER'):
     #entities.append((x.attrib['m_id'], 'PER', id_text))
     entities.append(id_text)
 
-#preprocessing
-name_entities = [str(x).lower().replace("'s","") for x in entities]
-name_entities = list(set(name_entities)) # remove duplicates
+# preprocessing
+name_entities = [str(x).lower().replace("'s", "") for x in entities]
+name_entities = list(set(name_entities))  # remove duplicates
+
 
 def top_names(name_list, novel, top_num=20):
     vect = CountVectorizer(vocabulary=name_list, stop_words='english')
@@ -53,6 +57,7 @@ def top_names(name_list, novel, top_num=20):
 
     return name_frequency, names
 
+
 def calculate_align_rate(sentence_list):
     # to calculate the align_rate of the whole novel
     afinn = Afinn()
@@ -60,6 +65,7 @@ def calculate_align_rate(sentence_list):
     align_rate = np.sum(sentiment_score)/len(np.nonzero(sentiment_score)[0]) * -2
 
     return align_rate
+
 
 def calculate_matrix(name_list, sentence_list, align_rate):
     # calculate a sentiment score for each sentence in the novel
@@ -80,6 +86,7 @@ def calculate_matrix(name_list, sentence_list, align_rate):
 
     return cooccurrence_matrix, sentiment_matrix
 
+
 def matrix_to_edge_list(matrix, mode, name_list):
     edge_list = []
     shape = matrix.shape[0]
@@ -95,6 +102,7 @@ def matrix_to_edge_list(matrix, mode, name_list):
         edge_list.append((name_list[i[0]], name_list[i[1]], {'weight': weight[i], 'color': color[i]}))
 
     return edge_list
+
 
 def plot_graph(name_list, name_frequency, matrix, plt_name, mode, path=''):
     label = {i: i for i in name_list}
@@ -122,7 +130,8 @@ def plot_graph(name_list, name_frequency, matrix, plt_name, mode, path=''):
 
     plt.savefig('characterR/graphs/' + plt_name + '.png')
 
-#main
+
+# main
 sentence_list = sent_tokenize(short_story)
 align_rate = calculate_align_rate(sentence_list)
 name_frequency, name_list = top_names(name_entities, short_story, 20)

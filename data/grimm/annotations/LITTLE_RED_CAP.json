@@ -1,0 +1,42 @@
+{
+  "characters": ["grandmother", "mother", "wolf", "red-cap", "huntsman"],
+  "protagonist": "red-cap",
+  "antagonist": "wolf",
+  "sentiments": {
+    "grandmother": {
+      "grandmother": 0,
+      "mother": 0,
+      "wolf": 0,
+      "red-cap": 0,
+      "huntsman": 0
+    },
+    "mother": {
+      "grandmother": 0,
+      "mother": 0,
+      "wolf": 0,
+      "red-cap": 0,
+      "huntsman": 0
+    },
+    "wolf": {
+      "grandmother": 0,
+      "mother": 0,
+      "wolf": 0,
+      "red-cap": 0,
+      "huntsman": 0
+    },
+    "red-cap": {
+      "grandmother": 0,
+      "mother": 0,
+      "wolf": 0,
+      "red-cap": 0,
+      "huntsman": 0
+    },
+    "huntsman": {
+      "grandmother": 0,
+      "mother": 0,
+      "wolf": 0,
+      "red-cap": 0,
+      "huntsman": 0
+    }
+  }
+}

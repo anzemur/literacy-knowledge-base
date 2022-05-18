@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2022-05-16">
+    <creator>NetworkX 2.5</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="edge">
+      <attribute id="0" title="color" type="float" />
+    </attributes>
+    <nodes>
+      <node id="queen" label="queen" />
+      <node id="maiden" label="maiden" />
+      <node id="miller" label="miller" />
+      <node id="fair" label="fair" />
+      <node id="rumpelstiltskin" label="rumpelstiltskin" />
+      <node id="whalebone" label="whalebone" />
+      <node id="hal" label="hal" />
+    </nodes>
+    <edges>
+      <edge source="queen" target="miller" id="0" weight="4.836128345520654">
+        <attvalues>
+          <attvalue for="0" value="2000.0" />
+        </attvalues>
+      </edge>
+      <edge source="queen" target="fair" id="1" weight="4.836128345520654">
+        <attvalues>
+          <attvalue for="0" value="2000.0" />
+        </attvalues>
+      </edge>
+      <edge source="queen" target="whalebone" id="2" weight="2.997820598175109">
+        <attvalues>
+          <attvalue for="0" value="-142.85714285714283" />
+        </attvalues>
+      </edge>
+      <edge source="maiden" target="fair" id="3" weight="3.6997637986906113">
+        <attvalues>
+          <attvalue for="0" value="392.8571428571429" />
+        </attvalues>
+      </edge>
+      <edge source="miller" target="fair" id="4" weight="4.836128345520654">
+        <attvalues>
+          <attvalue for="0" value="2000.0" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

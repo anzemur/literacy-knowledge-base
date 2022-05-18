@@ -3,7 +3,6 @@
 
 import codecs
 import os
-import spacy
 import json
 import pandas as pd
 import numpy as np
@@ -13,16 +12,16 @@ from pathlib import Path
 from afinn import Afinn
 from nltk.tokenize import sent_tokenize
 from sklearn.feature_extraction.text import CountVectorizer
-import nltk
 
-from  nltk import word_tokenize, pos_tag
-nltk.download('punkt')
-nltk.download('averaged_perceptron_tagger')
-nltk.download('maxent_ne_chunker')
-nltk.download('words')
+import spacy
+import stanza
+from allennlp.predictors.predictor import Predictor
 
-target_dir_net="data/net"
-occurence_threshold = 0
+from coreference_resolution import coreference_resolution
+
+
+target_dir_net = "data/net"
+
 
 def common_words(path):
     '''
@@ -55,7 +54,7 @@ def flatten(input_list):
     return flat_list
 
 
-def read_novel(story_name, path):
+def read_story(story_name, path):
     '''
     A function to read-in the novel text from given path.
     :param book_name: The name of the novel.
@@ -73,82 +72,6 @@ def read_novel(story_name, path):
 
     return novel
 
-def named_entities_from_senctence(sentence, model='nlp'):
-    if model == 'nlp':
-        doc = nlp(sentence)
-        return [x for x in doc.ents if x.label_ in ['PERSON']]
-    elif model == 'nltk':
-        entities = []
-        chunks = nltk.ne_chunk(nltk.pos_tag(nltk.word_tokenize(sentence)))
-        for chunk in chunks:
-            if (hasattr(chunk, 'label') and chunk.label() == 'PERSON'):
-                person = ' '.join(c[0] for c in chunk)
-                entities.append(person)
-        return entities
-    else:
-        print('Unknown model')
-        exit(1)
-
-def get_entities(sentence):
-  ## chunk 1
-  ent1 = ""
-  ent2 = ""
-
-  prv_tok_dep = ""    # dependency tag of previous token in the sentence
-  prv_tok_text = ""   # previous token in the sentence
-
-  prefix = ""
-  modifier = ""
-
-  #############################################################
-  
-  for tok in nlp(sentence):
-    ## chunk 2
-    # if token is a punctuation mark then move on to the next token
-    if tok.dep_ != "punct":
-      # check: token is a compound word or not
-      if tok.dep_ == "compound":
-        prefix = tok.text
-        # if the previous word was also a 'compound' then add the current word to it
-        if prv_tok_dep == "compound":
-          prefix = prv_tok_text + " "+ tok.text
-      
-      # check: token is a modifier or not
-      if tok.dep_.endswith("mod") == True:
-        modifier = tok.text
-        # if the previous word was also a 'compound' then add the current word to it
-        if prv_tok_dep == "compound":
-          modifier = prv_tok_text + " "+ tok.text
-      
-      ## chunk 3
-      if tok.dep_.find("subj") == True:
-        # ent1 = modifier +" "+ prefix + " "+ tok.text
-        ent1 = prefix + " "+ tok.text
-        if (tok.tag_ == 'PRP'):
-            # print('entity 1', ent1, tok.tag_, list(tok.ancestors), list(tok.children))
-            # ent1 = tok.text
-            ent1 = ''
-        prefix = ""
-        modifier = ""
-        prv_tok_dep = ""
-        prv_tok_text = ""      
-
-      ## chunk 4
-      if tok.dep_.find("obj") == True:
-        # ent2 = modifier +" "+ prefix +" "+ tok.text
-        ent2 = prefix +" "+ tok.text
-        if (tok.tag_ == 'PRP'):
-            # print('entity 2', ent2, tok.tag_, list(tok.ancestors), list(tok.children))
-            # ent2 = tok.text
-            ent2 = ''
-        
-      ## chunk 5  
-      # update variables
-      prv_tok_dep = tok.dep_
-      prv_tok_text = tok.text
-  #############################################################
-
-  return [ent1.strip(), ent2.strip()]
 
 def name_entity_recognition(sentence):
     '''
@@ -157,23 +80,31 @@ def name_entity_recognition(sentence):
     :return: a name entity list of the sentence.
     '''
 
+    doc = nlp(sentence)  # run annotation over a sentence
+    print(doc.entities)
+
     # doc = nlp(sentence)
     # # retrieve person from the sentence
-    # name_entity = [x for x in doc.ents if x.label_ in ['PERSON']]
-    entity_pair = get_entities(sentence=sentence)
-    name_entity = named_entities_from_senctence(sentence=sentence, model='nlp')
-    # convert all names to lowercase and remove 's in names
-    name_entity = [str(x).lower().replace("'s", "") for x in name_entity]
-    # split names into single words ('Harry Potter' -> ['Harry', 'Potter'])
-    name_entity = [x.split(' ') for x in name_entity]
-    # flatten the name list
-    name_entity = flatten(name_entity)
-    # remove name words that are less than 3 letters to raise recognition accuracy
-    name_entity = [x for x in name_entity if len(x) >= 3]
-    # remove name words that are in the set of 4000 common words
-    name_entity = [x for x in name_entity if x not in words]
+    # for x in doc.ents:
+    #     print("Text: ", x.text)
+    #     print("Label: ", x.label_)
 
-    return (name_entity, entity_pair)
+    # name_entity = [x for x in doc.ents if x.label_ in ['PERSON']]
+    # print(name_entity)
+
+    # # convert all names to lowercase and remove 's in names
+    # name_entity = [str(x).lower().replace("'s", "") for x in name_entity]
+    # # split names into single words ('Harry Potter' -> ['Harry', 'Potter'])
+    # name_entity = [x.split(' ') for x in name_entity]
+    # # flatten the name list
+    # name_entity = flatten(name_entity)
+    # # remove name words that are less than 3 letters to raise recognition accuracy
+    # name_entity = [x for x in name_entity if len(x) >= 3]
+    # # remove name words that are in the set of 4000 common words
+    # name_entity = [x for x in name_entity if x not in words]
+
+    # return name_entity
+
 
 def iterative_NER(sentence_list, threshold_rate=0.0005):
     '''
@@ -184,28 +115,18 @@ def iterative_NER(sentence_list, threshold_rate=0.0005):
     threshold, it would be removed from the list because there might be recognition errors.
     :return: a non-duplicate list of names in the novel.
     '''
-    entity_pairs = []
+
     output = []
     for i in sentence_list:
-        name_list, entity_pair = name_entity_recognition(i)
+        name_list = name_entity_recognition(i)
         if name_list != []:
             output.append(name_list)
-        
-        entity_pairs.append(entity_pair)
-
     output = flatten(output)
     from collections import Counter
     output = Counter(output)
     output = [x for x in output if output[x] >= threshold_rate * len(sentence_list)]
 
-    entities = flatten(entity_pairs)
-    entities = [str(x).lower().replace("'s","") for x in entities]
-    entities = filter(lambda p: len(p) > 0, entities)
-    entities = Counter(entities)
-    entities = [x for x in entities if entities[x] > occurence_threshold]
-
-    # return output
-    return entities
+    return output
 
 
 def top_names(name_list, novel, top_num=20):
@@ -348,28 +269,62 @@ def plot_graph(name_list, name_frequency, matrix, plt_name, suffix, mode, path='
 
 
 if __name__ == '__main__':
-    nltk.download('punkt')
+    nlp = spacy.load('en_core_web_lg')
 
-    nlp = spacy.load('en_core_web_sm')
+    # stanza.download('en')  # download English model
+    # nlp = stanza.Pipeline('en')  # initialize English neural pipeline
+
     words = common_words('characterR/common_words.txt')
-    data_folder = Path(os.getcwd()) / 'data/en/grimm'
+    # data_folder = Path(os.getcwd()) / 'data/en'
+    data_folder = Path(os.getcwd()) / 'data/grimm/original'
 
     # try one story
-    name = 'LITTLE_RED_CAP'
+    # name = "LITTLE_RED_CAP.txt"
+    # short_story = read_story(name, data_folder)
+    short_story = """Belling the Cat
+Long ago, the mice had a general council to consider what
+measures they could take to outwit their common enemy,
+the Cat. Some said this, and some said that; but at last a
+young mouse got up and said he had a proposal to make,
+which he thought would meet the case. 'You will all agree,'
+said he, 'that our chief danger consists in the sly and treacherous manner in which the enemy approaches us. Now, if
+we could receive some signal of her approach, we could easily escape from her. I venture, therefore, to propose that a
+small bell be procured, and attached by a ribbon round the
+neck of the Cat. By this means we should always know when
+she was about, and could easily retire while she was in the
+neighbourhood.'
+This proposal met with general applause, until an old
+mouse got up and said: 'That is all very well, but who is to
+bell the Cat?' The mice looked at one another and nobody
+spoke. Then the old mouse said:
+'It is easy to propose impossible remedies.'"""
 
-    short_story = read_novel(name, data_folder)
+    doc = coreference_resolution(short_story, nlp)
+    print(doc)
+    ner = stanza.Pipeline('en', processors='tokenize,ner')  # initialize English neural pipeline
+    doc = ner(doc)
+    print(*[f'entity: {ent.text}\ttype: {ent.type}' for sent in doc.sentences for ent in sent.ents], sep='\n')
 
-    sentence_list = sent_tokenize(short_story)
-    align_rate = calculate_align_rate(sentence_list)
-    preliminary_name_list = iterative_NER(sentence_list)
-    name_frequency, name_list = top_names(preliminary_name_list, short_story, 30)
-    cooccurrence_matrix, sentiment_matrix = calculate_matrix(name_list, sentence_list, align_rate)
-    # plot co-occurrence and sentiment graph
-    plot_graph(name_list, name_frequency, cooccurrence_matrix, name, ' co-occurrence graph', 'co-occurrence')
-    plot_graph(name_list, name_frequency, sentiment_matrix, name, ' sentiment graph', 'sentiment')
-    plot_graph(name_list, name_frequency, sentiment_matrix, name, ' bare graph', 'bare')
+    # print(prediction['document'][27])
 
-    '''
+    # print('Coref resolved: ', predictor.coref_resolved(short_story))  # resolved text
+
+    # doc = nlp(short_story)  # run annotation over a sentence
+    # print(*[f'token: {token.text}\tner: {token.ner}' for sent in doc.sentences for token in sent.tokens], sep='\n')
+    # print(doc.entities)
+
+# sentence_list = sent_tokenize(short_story)
+# align_rate = calculate_align_rate(sentence_list)
+# preliminary_name_list = iterative_NER(sentence_list)
+# name_frequency, name_list = top_names(preliminary_name_list, short_story, 30)
+# cooccurrence_matrix, sentiment_matrix = calculate_matrix(name_list, sentence_list, align_rate)
+
+# # plot co-occurrence and sentiment graph
+# plot_graph(name_list, name_frequency, cooccurrence_matrix, name, ' co-occurrence graph', 'co-occurrence')
+# plot_graph(name_list, name_frequency, sentiment_matrix, name, ' sentiment graph', 'sentiment')
+# plot_graph(name_list, name_frequency, sentiment_matrix, name, ' bare graph', 'bare')
+
+'''
     # loop over all stories
     short_stories = []
     for filename in os.listdir(data_folder):
@@ -377,7 +332,7 @@ if __name__ == '__main__':
             short_stories.append(filename)
 
     for name in short_stories:
-        short_story = read_novel(name, data_folder)
+        short_story = read_story(name, data_folder)
         sentence_list = sent_tokenize(short_story)
         align_rate = calculate_align_rate(sentence_list)
         preliminary_name_list = iterative_NER(sentence_list)
