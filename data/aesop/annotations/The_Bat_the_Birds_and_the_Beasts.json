@@ -1,0 +1,22 @@
+{
+    "characters": ["birds", "beasts", "bat"],
+    "protagonist": "bat",
+    "antagonist": "",
+    "sentiments": {
+      "birds": {
+        "birds": 0,
+        "beasts": -1,
+        "bat": -1
+      },
+      "beasts": {
+        "birds": -1,
+        "beasts": 0,
+        "bat": -1
+      },
+      "bat": {
+        "birds": 1,
+        "beasts": 0,
+        "bat": 1
+      }
+    }
+}

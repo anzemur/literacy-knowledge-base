@@ -1,0 +1,22 @@
+{
+    "characters": ["avaracious", "envious", "jupiter"],
+    "protagonist": "",
+    "antagonist": "",
+    "sentiments": {
+      "avaracious": {
+        "avaracious": 0,
+        "jupiter": 1,
+        "envious": -1
+      },
+      "envious": {
+        "avaracious": -1,
+        "jupiter": 1,
+        "envious": 0
+      },
+      "jupiter": {
+        "avaracious": 1,
+        "jupiter": 0,
+        "envious": 1
+      }
+    }
+}

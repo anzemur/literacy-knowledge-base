@@ -1,0 +1,22 @@
+{
+    "characters": ["buffoon", "countryman", "spectators"],
+    "protagonist": "countryman",
+    "antagonist": "spectators",
+    "sentiments": {
+      "buffoon": {
+        "buffoon": 0,
+        "countryman": 0,
+        "spectators": 1
+      },
+      "countryman": {
+        "buffoon": -1,
+        "countryman": 0,
+        "spectators": -1
+      },
+      "spectators": {
+        "buffoon": 1,
+        "countryman": -1,
+        "spectators": 0
+      }
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "characters": ["jupyter", "venus", "cat", "maiden"],
+    "protagonist": "",
+    "antagonist": "",
+    "sentiments": {
+      "jupyter": {
+        "jupyter": 0,
+        "venus": -1,
+        "cat": 0,
+        "maiden": 0
+      },
+      "venus": {
+        "jupyter": -1,
+        "venus": 0,
+        "cat": 0,
+        "maiden": 0
+      },
+      "cat": {
+        "jupyter": 0,
+        "venus": 0,
+        "cat": 0,
+        "maiden": 0
+      },
+      "maiden": {
+        "jupyter": 0,
+        "venus": 0,
+        "cat": 0,
+        "maiden": 0
+      }
+    }
+}

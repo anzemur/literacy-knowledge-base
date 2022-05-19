@@ -1,0 +1,15 @@
+{
+    "characters": ["dog", "ox"],
+    "protagonist": "dog",
+    "antagonist": "ox",
+    "sentiments": {
+      "dog": {
+        "dog": 0,
+        "ox": -1
+      },
+      "ox": {
+        "dog": -1,
+        "ox": 0
+      }
+    }
+}

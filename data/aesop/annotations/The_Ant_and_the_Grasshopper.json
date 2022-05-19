@@ -1,0 +1,15 @@
+{
+    "characters": ["grasshopper", "ant"],
+    "protagonist": "grasshopper",
+    "antagonist": "",
+    "sentiments": {
+      "grasshopper": {
+        "grasshopper": 0,
+        "ant": 1
+      },
+      "ant": {
+        "grasshopper": 1,
+        "ant": 0
+      }
+    }
+}

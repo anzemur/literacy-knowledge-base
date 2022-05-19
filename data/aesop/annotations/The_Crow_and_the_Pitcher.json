@@ -1,0 +1,15 @@
+{
+    "characters": ["crow", "pitcher"],
+    "protagonist": "crow",
+    "antagonist": "",
+    "sentiments": {
+      "crow": {
+        "crow": 0,
+        "pitcher": 1
+      },
+      "pitcher": {
+        "crow": 0,
+        "pitcher": 0
+      }
+    }
+}
