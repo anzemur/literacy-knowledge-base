@@ -15,7 +15,7 @@ from nltk.tokenize import sent_tokenize
 from sklearn.feature_extraction.text import CountVectorizer
 import nltk
 
-from  nltk import word_tokenize, pos_tag
+from nltk import word_tokenize, pos_tag
 nltk.download('punkt')
 nltk.download('averaged_perceptron_tagger')
 nltk.download('maxent_ne_chunker')
@@ -73,6 +73,7 @@ def read_novel(story_name, path):
 
     return novel
 
+
 def named_entities_from_senctence(sentence, model='nlp'):
     if model == 'nlp':
         doc = nlp(sentence)
@@ -89,66 +90,68 @@ def named_entities_from_senctence(sentence, model='nlp'):
         print('Unknown model')
         exit(1)
 
+
 def get_entities(sentence):
-  ## chunk 1
-  ent1 = ""
-  ent2 = ""
+    # chunk 1
+    ent1 = ""
+    ent2 = ""
 
-  prv_tok_dep = ""    # dependency tag of previous token in the sentence
-  prv_tok_text = ""   # previous token in the sentence
+    prv_tok_dep = ""    # dependency tag of previous token in the sentence
+    prv_tok_text = ""   # previous token in the sentence
 
-  prefix = ""
-  modifier = ""
+    prefix = ""
+    modifier = ""
 
-  #############################################################
-  
-  for tok in nlp(sentence):
-    ## chunk 2
-    # if token is a punctuation mark then move on to the next token
-    if tok.dep_ != "punct":
-      # check: token is a compound word or not
-      if tok.dep_ == "compound":
-        prefix = tok.text
-        # if the previous word was also a 'compound' then add the current word to it
-        if prv_tok_dep == "compound":
-          prefix = prv_tok_text + " "+ tok.text
-      
-      # check: token is a modifier or not
-      if tok.dep_.endswith("mod") == True:
-        modifier = tok.text
-        # if the previous word was also a 'compound' then add the current word to it
-        if prv_tok_dep == "compound":
-          modifier = prv_tok_text + " "+ tok.text
-      
-      ## chunk 3
-      if tok.dep_.find("subj") == True:
-        # ent1 = modifier +" "+ prefix + " "+ tok.text
-        ent1 = prefix + " "+ tok.text
-        if (tok.tag_ == 'PRP'):
-            # print('entity 1', ent1, tok.tag_, list(tok.ancestors), list(tok.children))
-            # ent1 = tok.text
-            ent1 = ''
-        prefix = ""
-        modifier = ""
-        prv_tok_dep = ""
-        prv_tok_text = ""      
+    #############################################################
 
-      ## chunk 4
-      if tok.dep_.find("obj") == True:
-        # ent2 = modifier +" "+ prefix +" "+ tok.text
-        ent2 = prefix +" "+ tok.text
-        if (tok.tag_ == 'PRP'):
-            # print('entity 2', ent2, tok.tag_, list(tok.ancestors), list(tok.children))
-            # ent2 = tok.text
-            ent2 = ''
-        
-      ## chunk 5  
-      # update variables
-      prv_tok_dep = tok.dep_
-      prv_tok_text = tok.text
-  #############################################################
+    for tok in nlp(sentence):
+        # chunk 2
+        # if token is a punctuation mark then move on to the next token
+        if tok.dep_ != "punct":
+            # check: token is a compound word or not
+            if tok.dep_ == "compound":
+                prefix = tok.text
+                # if the previous word was also a 'compound' then add the current word to it
+                if prv_tok_dep == "compound":
+                    prefix = prv_tok_text + " " + tok.text
 
-  return [ent1.strip(), ent2.strip()]
+            # check: token is a modifier or not
+            if tok.dep_.endswith("mod") == True:
+                modifier = tok.text
+                # if the previous word was also a 'compound' then add the current word to it
+                if prv_tok_dep == "compound":
+                    modifier = prv_tok_text + " " + tok.text
+
+            # chunk 3
+            if tok.dep_.find("subj") == True:
+                # ent1 = modifier +" "+ prefix + " "+ tok.text
+                ent1 = prefix + " " + tok.text
+                if (tok.tag_ == 'PRP'):
+                    # print('entity 1', ent1, tok.tag_, list(tok.ancestors), list(tok.children))
+                    # ent1 = tok.text
+                    ent1 = ''
+                prefix = ""
+                modifier = ""
+                prv_tok_dep = ""
+                prv_tok_text = ""
+
+            # chunk 4
+            if tok.dep_.find("obj") == True:
+                # ent2 = modifier +" "+ prefix +" "+ tok.text
+                ent2 = prefix + " " + tok.text
+                if (tok.tag_ == 'PRP'):
+                    # print('entity 2', ent2, tok.tag_, list(tok.ancestors), list(tok.children))
+                    # ent2 = tok.text
+                    ent2 = ''
+
+            # chunk 5
+            # update variables
+            prv_tok_dep = tok.dep_
+            prv_tok_text = tok.text
+    #############################################################
+
+    return [ent1.strip(), ent2.strip()]
+
 
 def name_entity_recognition(sentence):
     '''
@@ -190,7 +193,7 @@ def iterative_NER(sentence_list, threshold_rate=0.0005):
         name_list, entity_pair = name_entity_recognition(i)
         if name_list != []:
             output.append(name_list)
-        
+
         entity_pairs.append(entity_pair)
 
     output = flatten(output)

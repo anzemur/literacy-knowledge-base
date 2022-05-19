@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2022-05-18">
+    <creator>NetworkX 2.5</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="edge">
+      <attribute id="0" title="color" type="float" />
+    </attributes>
+    <nodes>
+      <node id="mice" label="mice" />
+      <node id="cat" label="cat" />
+      <node id="young_mouse" label="young_mouse" />
+      <node id="old_mouse" label="old_mouse" />
+    </nodes>
+    <edges>
+      <edge source="mice" target="cat" id="0" weight="3.667368604821645">
+        <attvalues>
+          <attvalue for="0" value="374.9999999999998" />
+        </attvalues>
+      </edge>
+      <edge source="mice" target="young_mouse" id="1" weight="4.433917133435881">
+        <attvalues>
+          <attvalue for="0" value="-1125.0" />
+        </attvalues>
+      </edge>
+      <edge source="mice" target="old_mouse" id="2" weight="4.836128345520654">
+        <attvalues>
+          <attvalue for="0" value="2000.0" />
+        </attvalues>
+      </edge>
+      <edge source="cat" target="young_mouse" id="3" weight="3.6673686048216454">
+        <attvalues>
+          <attvalue for="0" value="-375.00000000000006" />
+        </attvalues>
+      </edge>
+      <edge source="cat" target="old_mouse" id="4" weight="4.836128345520654">
+        <attvalues>
+          <attvalue for="0" value="2000.0" />
+        </attvalues>
+      </edge>
+      <edge source="young_mouse" target="old_mouse" id="5" weight="0.0">
+        <attvalues>
+          <attvalue for="0" value="0.0" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

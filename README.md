@@ -13,14 +13,10 @@ To obtain the dataset run `./src/data_parsing/scrape_gutenberg.py` script.
 # Running the code
 
 ## Installation
-1. [Install Anaconda](https://docs.anaconda.com/anaconda/install/index.html) or make sure that your [Python version is 3.8.x](https://www.python.org/downloads/). If you are using Anaconda you can create new environment by running:
+1. [Install Anaconda](https://docs.anaconda.com/anaconda/install/index.html) or make sure that your [Python version is 3.8.x](https://www.python.org/downloads/). If you are using Anaconda you can create and activate new environment by running:
 
 ```bash
-conda create -n nlp python=3.8                                
-```
-
-And activate it by running:
-```bash
+conda create -n nlp python=3.8
 conda activate nlp
 ```
 
@@ -36,7 +32,7 @@ python -m spacy download en_core_web_lg
 ```bash
 pip install allennlp-models
 ```
-
-Run get_punkt.
-python -m spacy download en
+```bash
+python src/downloads.py
+```
 
