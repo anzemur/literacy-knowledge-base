@@ -35,7 +35,7 @@ def is_containing_other_spans(span, all_spans):
 
 def improved_replace_corefs(document, clusters):
     resolved = list(tok.text_with_ws for tok in document)
-    all_spans = [span for cluster in clusters for span in cluster]  # flattened list of all spans
+    all_spans = [span for cluster in clusters for span in cluster]
 
     for cluster in clusters:
         noun_indices = get_span_noun_indices(document, cluster)
