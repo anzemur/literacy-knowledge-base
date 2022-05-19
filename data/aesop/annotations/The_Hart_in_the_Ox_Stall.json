@@ -1,0 +1,31 @@
+{
+    "characters": ["hart", "hunters", "stable boys", "master"],
+    "protagonist": "hart",
+    "antagonist": "hunters",
+    "sentiments": {
+      "hart": {
+        "hart": 0,
+        "hunters": -1,
+        "stable boys": 0,
+        "master": 0
+      },
+      "hunters": {
+        "hart": -1,
+        "hunters": 0,
+        "stable boys": 1,
+        "master": 0
+      },
+      "stable boys": {
+        "hart": -1,
+        "hunters": 0,
+        "stable boys": 0,
+        "master": 1
+      },
+      "master": {
+        "hart": -1,
+        "hunters": 0,
+        "stable boys": 1,
+        "master": 0
+      }
+    }
+}

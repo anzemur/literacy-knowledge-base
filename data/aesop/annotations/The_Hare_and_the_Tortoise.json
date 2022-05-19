@@ -1,0 +1,15 @@
+{
+    "characters": ["hare", "tortoise"],
+    "protagonist": "tortoise",
+    "antagonist": "hare",
+    "sentiments": {
+      "hare": {
+        "hare": 0,
+        "tortoise": -1
+      },
+      "tortoise": {
+        "hare": -1,
+        "tortoise": 0
+      }
+    }
+}
