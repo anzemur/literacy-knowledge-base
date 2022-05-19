@@ -249,7 +249,6 @@ if __name__ == '__main__':
 
     character_sentiments(short_story)
 
-
 '''
     # loop over all stories
     short_stories = []

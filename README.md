@@ -1,12 +1,15 @@
-# Literacy situation models knowledge base creation
+# Fictional character analysis
 
 Building a knowledge base based on situation models from selected English/Slovene short stories. Knowledge base can focus on a subset of the following inference types: Referential, Case structure role  assignment, Causal antecedent, Superordinate goal, Thematic, Character emotional reaction, Causal consequence, Instantiation of noun category, Instrument, Subordinate goal, State, Emotion of reader, Author's intent.
 
 
 ## Dataset
-Dataset is scrapped from the Project Gutenberg website which provides free eBooks, with the focus on older works for which U.S. copyright has expired. We limited our dataset to only english books with a public license so we ended up with 818 short stories.
+Dataset is scrapped from the Project Gutenberg website which provides free eBooks, with the focus on older works for which U.S. copyright has expired. We decided to use a collection of fables by the greek author Aesop called [The Fables of Aesop](https://www.gutenberg.org/cache/epub/28/pg28.txt) collected and translated by Joseph Jacobs. We collected 55 of these fables and annotated them by hand. For each fable we annotated the following things:
+* characters,
+* sentiment relationships between the characters,
+* protagonist and antagonist of the story.
 
-To obtain the dataset run `./src/data_parsing/scrape_gutenberg.py` script.
+You can find the dataset and the annotations in the following directory: `data/aesop/`. Annotations are saved in JSON format.
 
 
 
@@ -36,3 +39,13 @@ pip install allennlp-models
 python src/downloads.py
 ```
 
+
+No coref:
+F1-score: 0.6730355503082776
+Precision: 0.8712121212121212
+Recall: 0.6412554112554114
+
+Coref (first noun, no title):
+F1-score: 0.7302164502164499
+Precision: 0.8812121212121211
+Recall: 0.6992640692640694
