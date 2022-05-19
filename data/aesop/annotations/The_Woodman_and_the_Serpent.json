@@ -1,15 +1,15 @@
 {
-    "characters": ["woodsman", "serpent"],
-    "protagonist": "woodsman",
+    "characters": ["woodman", "serpent"],
+    "protagonist": "woodman",
     "antagonist": "serpent",
     "sentiments": {
       "serpent": {
         "serpent": 0,
-        "woodsman": -1
+        "woodman": -1
       },
-      "woodsman": {
+      "woodman": {
         "serpent": -1,
-        "woodsman": 0
+        "woodman": 0
       }
     }
 }

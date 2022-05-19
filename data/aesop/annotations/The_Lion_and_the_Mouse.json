@@ -1,22 +1,31 @@
 {
-    "characters": ["lion", "mouse", "hunter"],
+    "characters": ["lion", "mouse", "hunters", "king"],
     "protagonist": "lion",
-    "antagonist": "hunter",
+    "antagonist": "hunters",
     "sentiments": {
       "lion": {
         "lion": 0,
         "mouse": 1,
-        "hunter": -1
+        "hunters": -1,
+        "king": 0
       },
       "mouse": {
         "lion": 1,
         "mouse": 0,
-        "hunter": 0
+        "hunters": 0,
+        "king": 0
       },
-      "hunter": {
+      "hunters": {
         "lion": -1,
         "mouse": 0,
-        "hunter": 0
+        "hunters": 0,
+        "king": 0
+      },
+      "king": {
+        "lion": 0,
+        "mouse": 0,
+        "hunters": 0,
+        "king": 0
       }
     }
 }

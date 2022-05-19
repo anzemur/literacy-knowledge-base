@@ -17,9 +17,9 @@ def core_logic_part(document, coref, resolved, mention_span):
     final_token = document[coref[1]]
 
     if final_token.tag_ in ["PRP$", "POS"]:
-        resolved[coref[0]] = mention_span.text.title() + "'s" + final_token.whitespace_
+        resolved[coref[0]] = mention_span.text + "'s" + final_token.whitespace_
     else:
-        resolved[coref[0]] = mention_span.text.title() + final_token.whitespace_
+        resolved[coref[0]] = mention_span.text + final_token.whitespace_
 
     for i in range(coref[0] + 1, coref[1] + 1):
         resolved[i] = ""
@@ -28,6 +28,7 @@ def core_logic_part(document, coref, resolved, mention_span):
 
 
 def get_cluster_head(doc, cluster, noun_indices):
+    # head_idx = noun_indices[0]
     noun_words = []
     for x in noun_indices:
         head_start, head_end = cluster[x]
