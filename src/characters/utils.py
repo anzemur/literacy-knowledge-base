@@ -5,7 +5,7 @@ from collections import Counter
 
 def most_frequent(list):
     occurrence_count = Counter(list)
-    return occurrence_count.most_common(1)[0][0]
+    return occurrence_count.most_common()
 
 
 def read_story(story_name, path):

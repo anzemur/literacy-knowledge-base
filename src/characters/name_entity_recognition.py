@@ -8,23 +8,6 @@ from coreference_resolution import coreference_resolution
 from utils import read_story
 
 
-def flatten(input_list):
-    '''
-    A function to flatten complex list.
-    :param input_list: The list to be flatten
-    :return: the flattened list.
-    '''
-
-    flat_list = []
-    for i in input_list:
-        if type(i) == list:
-            flat_list += flatten(i)
-        else:
-            flat_list += [i]
-
-    return flat_list
-
-
 def NER(sentence, nlp):
     # perform ner
     doc = nlp(sentence)
@@ -58,9 +41,10 @@ def name_entity_recognition(doc, use_cor_res=True):
 if __name__ == '__main__':
     USE_COR_RES = True
 
-    data_folder = Path(os.getcwd()) / 'data/test'
+    data_folder = Path(os.getcwd()) / 'data/aesop/original'
 
-    name = 'Belling_the_Cat'
+    name = 'The_Wolf_and_the_Crane'
     short_story = read_story(name, data_folder)
 
-    name_entity_recognition(short_story)
+    characters, counts, doc = name_entity_recognition(short_story)
+    print(characters)

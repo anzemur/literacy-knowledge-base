@@ -33,12 +33,19 @@ def get_cluster_head(doc, cluster, noun_indices):
         head_start, head_end = cluster[x]
         noun_words.append(doc[head_start:head_end+1].text.lower())
 
-    head_idx = noun_indices[noun_words.index(most_frequent(noun_words))]
+    # occurrences = most_frequent(noun_words)
+    # head_text = None
+    # for occurrence in occurrences:
+    #     if (len(occurrence[0].split(" ")) < 4):
+    #         head_text = occurrence[0]
+
+    # if head_text is None:
+    #     return None, None
+
+    head_text = most_frequent(noun_words)[0][0]
+    head_idx = noun_indices[noun_words.index(head_text)]
     head_start, head_end = cluster[head_idx]
     head_span = doc[head_start:head_end+1]
-
-    print(noun_words)
-    print("##########")
 
     return head_span, [head_start, head_end]
 
@@ -57,9 +64,10 @@ def replace_corefs(document, clusters):
         if noun_indices:
             mention_span, mention = get_cluster_head(document, cluster, noun_indices)
 
-            for coref in cluster:
-                if coref != mention and not is_containing_other_spans(coref, all_spans):
-                    core_logic_part(document, coref, resolved, mention_span)
+            if mention_span is not None:
+                for coref in cluster:
+                    if coref != mention and not is_containing_other_spans(coref, all_spans):
+                        core_logic_part(document, coref, resolved, mention_span)
 
     return "".join(resolved)
 
