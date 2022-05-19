@@ -28,23 +28,23 @@ def core_logic_part(document, coref, resolved, mention_span):
 
 
 def get_cluster_head(doc, cluster, noun_indices):
-    # head_idx = noun_indices[0]
-    noun_words = []
-    for x in noun_indices:
-        head_start, head_end = cluster[x]
-        noun_words.append(doc[head_start:head_end+1].text.lower())
+    head_idx = noun_indices[0]
+    # noun_words = []
+    # for x in noun_indices:
+    #     head_start, head_end = cluster[x]
+    #     noun_words.append(doc[head_start:head_end+1].text.lower())
 
-    # occurrences = most_frequent(noun_words)
-    # head_text = None
-    # for occurrence in occurrences:
-    #     if (len(occurrence[0].split(" ")) < 4):
-    #         head_text = occurrence[0]
+    # # occurrences = most_frequent(noun_words)
+    # # head_text = None
+    # # for occurrence in occurrences:
+    # #     if (len(occurrence[0].split(" ")) < 4):
+    # #         head_text = occurrence[0]
 
-    # if head_text is None:
-    #     return None, None
+    # # if head_text is None:
+    # #     return None, None
 
-    head_text = most_frequent(noun_words)[0][0]
-    head_idx = noun_indices[noun_words.index(head_text)]
+    # head_text = most_frequent(noun_words)[0][0]
+    # head_idx = noun_indices[noun_words.index(head_text)]
     head_start, head_end = cluster[head_idx]
     head_span = doc[head_start:head_end+1]
 

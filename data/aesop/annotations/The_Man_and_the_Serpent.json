@@ -1,14 +1,14 @@
 {
-    "characters": ["farmer", "serpent"],
-    "protagonist": "farmer",
+    "characters": ["countryman", "serpent"],
+    "protagonist": "countryman",
     "antagonist": "serpent",
     "sentiments": {
-      "farmer": {
-        "farmer": 0,
+      "countryman": {
+        "countryman": 0,
         "serpent": -1
       },
       "serpent": {
-        "farmer": -1,
+        "countryman": -1,
         "serpent": 0
       }
     }
