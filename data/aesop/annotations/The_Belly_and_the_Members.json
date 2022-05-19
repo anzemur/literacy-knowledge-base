@@ -1,0 +1,42 @@
+{
+    "characters": ["belly", "hands", "mouth", "teeth", "legs"],
+    "protagonist": "belly",
+    "antagonist": "",
+    "sentiments": {
+      "belly": {
+        "belly": 0,
+        "hands": 0,
+        "mouth": 0,
+        "teeth": 0,
+        "legs": 0
+      },
+      "hands": {
+        "belly": -1,
+        "hands": 0,
+        "mouth": 1,
+        "teeth": 1,
+        "legs": 1
+      },
+      "mouth": {
+        "belly": -1,
+        "hands": 1,
+        "mouth": 0,
+        "teeth": 1,
+        "legs": 1
+      },
+      "teeth": {
+        "belly": -1,
+        "hands": 1,
+        "mouth": 1,
+        "teeth": 0,
+        "legs": 1
+      },
+      "legs": {
+        "belly": -1,
+        "hands": 1,
+        "mouth": 1,
+        "teeth": 1,
+        "legs": 0
+      }
+    }
+}
