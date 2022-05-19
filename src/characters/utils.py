@@ -18,3 +18,32 @@ def read_story(story_name, path):
         novel += ' ' + data
 
     return novel
+
+
+def calculate_metrics(gt, pred):
+    TP = len(set(gt).intersection(set(pred)))
+    FP = len(pred) - TP
+    FN = len(set(gt) - set(pred))
+
+    return TP, FP, FN
+
+
+def precision(TP, FP):
+    if TP == 0 and FP == 0:
+        return 1.0
+
+    return TP / (TP + FP)
+
+
+def recall(TP, FN):
+    if TP == 0 and FN == 0:
+        return 1.0
+
+    return TP / (TP + FN)
+
+
+def f1(precision, recall):
+    if precision == 0 and recall == 0:
+        return 0.0
+
+    return 2 * precision * recall / (precision + recall)

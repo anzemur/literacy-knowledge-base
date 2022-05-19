@@ -26,7 +26,7 @@ if __name__ == '__main__':
 
     for story_name in stories:
         story = read_story(story_name, data_folder)
-        characters, _, _ = name_entity_recognition(story)
+        characters, _, _ = name_entity_recognition(story, USE_COR_RES)
 
         res_file = f'{res_folder}/{story_name}.json'
         with open(res_file, 'w') as file:

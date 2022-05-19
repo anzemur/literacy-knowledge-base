@@ -43,8 +43,9 @@ if __name__ == '__main__':
 
     data_folder = Path(os.getcwd()) / 'data/aesop/original'
 
-    name = 'The_Wolf_and_the_Crane'
+    name = 'The_Cock_and_the_Pearl'
     short_story = read_story(name, data_folder)
 
     characters, counts, doc = name_entity_recognition(short_story)
     print(characters)
+    print(doc)
