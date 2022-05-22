@@ -12,30 +12,60 @@ You can find the dataset and the annotations in the following directory: `data/a
 
 
 
-# Running the code
+# Instructions
 
 ## Installation
 1. [Install Anaconda](https://docs.anaconda.com/anaconda/install/index.html) or make sure that your [Python version is 3.8.x](https://www.python.org/downloads/). If you are using Anaconda you can create and activate new environment by running:
 
 ```bash
-conda create -n nlp python=3.8
-conda activate nlp
+conda create -n <env_name> python=3.8
+conda activate <env_name>
 ```
 
-2. Install dependencies by running:
+
+2. Clone this repository:
+```bash
+git clone https://github.com/anzemur/literacy-knowledge-base.git
+```
+
+3. Install dependencies:
 ```bash
 pip install -r requirements.txt 
 ```
 
-3. Download & Install language models:
+4. Download & install language models:
 ```bash
 python -m spacy download en_core_web_lg
-```
-```bash
 pip install allennlp-models
-```
-```bash
 python src/downloads.py
+```
+
+## Running the code
+
+### 1. Character recognition
+To generate the results of character recognition you should run the following command:
+```bash
+python src/run_ner.py
+```
+And to evaluate the obtain results you should run:
+```bash
+python src/eval_ner.py
+```
+
+### 2. Character sentiments
+To generate the results of character sentiments & protagonist detection you should run the following command:
+```bash
+python src/character_sentiments.py
+```
+And to evaluate the obtain results for character sentiments you should run:
+```bash
+python src/eval_sentiments.py
+```
+
+### 2. Antagonist detection
+To evaluate the obtain results for antagonist detection you should run:
+```bash
+python src/eval_leads.py
 ```
 
 No coref:
