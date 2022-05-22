@@ -11,6 +11,10 @@
         "occurences": {
             "protagonist": "horse",
             "antagonist": "hunter"
+        },
+        "occurences_sentiments": {
+            "protagonist": "stag",
+            "antagonist": null
         }
     }
 }

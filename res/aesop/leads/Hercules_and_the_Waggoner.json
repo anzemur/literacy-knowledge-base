@@ -11,6 +11,10 @@
         "occurences": {
             "protagonist": "waggoner",
             "antagonist": "hercules strong"
+        },
+        "occurences_sentiments": {
+            "protagonist": "waggoner",
+            "antagonist": null
         }
     }
 }

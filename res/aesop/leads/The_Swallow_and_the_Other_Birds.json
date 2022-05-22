@@ -11,6 +11,10 @@
         "occurences": {
             "protagonist": null,
             "antagonist": null
+        },
+        "occurences_sentiments": {
+            "protagonist": "swallow",
+            "antagonist": null
         }
     }
 }

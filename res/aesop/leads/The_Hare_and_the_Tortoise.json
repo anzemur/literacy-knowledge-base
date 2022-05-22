@@ -11,6 +11,10 @@
         "occurences": {
             "protagonist": "hare",
             "antagonist": "tortoise"
+        },
+        "occurences_sentiments": {
+            "protagonist": "plodding",
+            "antagonist": null
         }
     }
 }
