@@ -1,0 +1,16 @@
+{
+    "leads": {
+        "pagerank": {
+            "protagonist": "hare",
+            "antagonist": null
+        },
+        "sentiment": {
+            "protagonist": "tortoise",
+            "antagonist": null
+        },
+        "occurences": {
+            "protagonist": "hare",
+            "antagonist": "tortoise"
+        }
+    }
+}

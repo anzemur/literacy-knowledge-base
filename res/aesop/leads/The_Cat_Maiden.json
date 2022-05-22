@@ -1,0 +1,16 @@
+{
+    "leads": {
+        "pagerank": {
+            "protagonist": null,
+            "antagonist": "maiden"
+        },
+        "sentiment": {
+            "protagonist": null,
+            "antagonist": "maiden"
+        },
+        "occurences": {
+            "protagonist": "maiden",
+            "antagonist": "venus"
+        }
+    }
+}

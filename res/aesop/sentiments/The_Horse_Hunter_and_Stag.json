@@ -1,0 +1,28 @@
+{
+    "sentiments": {
+        "horse": {
+            "horse": 0.0,
+            "hunter": -1.0,
+            "stag": -0.7500000000000001,
+            "horse for horse": 0.0
+        },
+        "hunter": {
+            "horse": -1.0,
+            "hunter": 0.0,
+            "stag": -0.7500000000000001,
+            "horse for horse": 0.0
+        },
+        "stag": {
+            "horse": -0.7500000000000001,
+            "hunter": -0.7500000000000001,
+            "stag": 0.0,
+            "horse for horse": 0.0
+        },
+        "horse for horse": {
+            "horse": 0.0,
+            "hunter": 0.0,
+            "stag": 0.0,
+            "horse for horse": 0.0
+        }
+    }
+}

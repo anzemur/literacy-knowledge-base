@@ -1,0 +1,16 @@
+{
+    "leads": {
+        "pagerank": {
+            "protagonist": "ant",
+            "antagonist": "grasshopper"
+        },
+        "sentiment": {
+            "protagonist": "ant",
+            "antagonist": "grasshopper"
+        },
+        "occurences": {
+            "protagonist": "grasshopper",
+            "antagonist": null
+        }
+    }
+}

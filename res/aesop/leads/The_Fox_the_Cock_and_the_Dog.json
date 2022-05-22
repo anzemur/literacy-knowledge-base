@@ -1,0 +1,16 @@
+{
+    "leads": {
+        "pagerank": {
+            "protagonist": "fox",
+            "antagonist": "cock"
+        },
+        "sentiment": {
+            "protagonist": "king lion",
+            "antagonist": "cock"
+        },
+        "occurences": {
+            "protagonist": "cock",
+            "antagonist": "fox"
+        }
+    }
+}

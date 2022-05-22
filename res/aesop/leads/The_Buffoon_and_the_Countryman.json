@@ -1,0 +1,16 @@
+{
+    "leads": {
+        "pagerank": {
+            "protagonist": null,
+            "antagonist": null
+        },
+        "sentiment": {
+            "protagonist": "buffoon",
+            "antagonist": "countryman"
+        },
+        "occurences": {
+            "protagonist": "countryman",
+            "antagonist": null
+        }
+    }
+}

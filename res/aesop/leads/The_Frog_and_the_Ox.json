@@ -1,0 +1,16 @@
+{
+    "leads": {
+        "pagerank": {
+            "protagonist": "farmer white",
+            "antagonist": null
+        },
+        "sentiment": {
+            "protagonist": "farmer white",
+            "antagonist": null
+        },
+        "occurences": {
+            "protagonist": "farmer white",
+            "antagonist": "ox"
+        }
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "leads": {
+        "pagerank": {
+            "protagonist": "fisher",
+            "antagonist": null
+        },
+        "sentiment": {
+            "protagonist": "fish",
+            "antagonist": null
+        },
+        "occurences": {
+            "protagonist": "fish",
+            "antagonist": null
+        }
+    }
+}
