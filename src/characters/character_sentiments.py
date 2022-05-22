@@ -225,7 +225,6 @@ def get_sentiment_leads(character_sentiments, spaced_characters):
 
     return protagonist, antagonist
 
-
 def get_occurence_leads(character_occurences, spaced_characters):
     protagonist = None
     antagonist = None
@@ -245,6 +244,23 @@ def get_occurence_leads(character_occurences, spaced_characters):
 
     return protagonist, antagonist
 
+def get_occurence_sentiment_leads(character_occurences, character_sentiments, spaced_characters):
+    protagonist = None
+    antagonist = None
+
+    for _ in range(len(character_sentiments)):
+        candidate_idx = np.argmax(character_occurences)
+        if (candidate_idx >= 0):
+            character_occurences[candidate_idx] = -1
+            if (protagonist is None and character_sentiments[candidate_idx] > 0):
+                protagonist = spaced_characters[candidate_idx]
+            if (antagonist is None and character_sentiments[candidate_idx] < 0):
+                antagonist = spaced_characters[candidate_idx]
+            
+        if protagonist is not None and antagonist is not None:
+            break
+
+    return protagonist, antagonist
 
 def save_character_sentiments(name, sentiment_matrix, spaced_characters):
     divisor = 0
@@ -306,13 +322,16 @@ def character_sentiments(name, doc):
     pr_protagonist, pr_antagonist = get_pagerank_leads(sentiment_graph, character_sentiments, spaced_characters)
     sent_protagonist, sent_antagonist = get_sentiment_leads(character_sentiments, spaced_characters)
     occur_protagonist, occur_antagonist = get_occurence_leads(character_occurences, spaced_characters)
+    occur_sent_protagonist, occur_sent_antagonist = get_occurence_sentiment_leads(character_occurences, character_sentiments, spaced_characters)
     print(f'PageRank leads: protagonist = "{pr_protagonist}", antagonist = "{pr_antagonist}"')
     print(f'Sentiment leads: protagonist = "{sent_protagonist}", antagonist = "{sent_antagonist}"')
     print(f'Occurence leads: protagonist = "{occur_protagonist}", antagonist = "{occur_antagonist}"')
+    print(f'Occurence sentiments leads: protagonist = "{occur_sent_protagonist}", antagonist = "{occur_sent_antagonist}"')
     save_leads(name, [
         ('pagerank', pr_protagonist, pr_antagonist),
         ('sentiment', sent_protagonist, sent_antagonist),
-        ('occurences', occur_protagonist, occur_antagonist)
+        ('occurences', occur_protagonist, occur_antagonist),
+        ('occurences_sentiments', occur_sent_protagonist, occur_sent_antagonist)
     ])
 
 

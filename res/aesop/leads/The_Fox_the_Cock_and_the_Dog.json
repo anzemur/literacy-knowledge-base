@@ -11,6 +11,10 @@
         "occurences": {
             "protagonist": "cock",
             "antagonist": "fox"
+        },
+        "occurences_sentiments": {
+            "protagonist": "king lion",
+            "antagonist": null
         }
     }
 }

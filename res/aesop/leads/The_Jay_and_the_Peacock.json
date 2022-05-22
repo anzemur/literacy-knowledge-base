@@ -11,6 +11,10 @@
         "occurences": {
             "protagonist": "jay",
             "antagonist": null
+        },
+        "occurences_sentiments": {
+            "protagonist": "jays",
+            "antagonist": "jay"
         }
     }
 }

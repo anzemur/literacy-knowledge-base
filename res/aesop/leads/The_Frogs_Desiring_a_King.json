@@ -11,6 +11,10 @@
         "occurences": {
             "protagonist": "frogs",
             "antagonist": "jove"
+        },
+        "occurences_sentiments": {
+            "protagonist": "frogs",
+            "antagonist": "stork"
         }
     }
 }

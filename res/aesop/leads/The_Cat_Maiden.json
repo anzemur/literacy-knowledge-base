@@ -11,6 +11,10 @@
         "occurences": {
             "protagonist": "maiden",
             "antagonist": "venus"
+        },
+        "occurences_sentiments": {
+            "protagonist": null,
+            "antagonist": null
         }
     }
 }
