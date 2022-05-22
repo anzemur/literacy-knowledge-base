@@ -11,6 +11,10 @@
         "occurences": {
             "protagonist": "farmer white",
             "antagonist": "ox"
+        },
+        "occurences_sentiments": {
+            "protagonist": "tush",
+            "antagonist": null
         }
     }
 }

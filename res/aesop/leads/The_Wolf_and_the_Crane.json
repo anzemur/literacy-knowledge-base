@@ -11,6 +11,10 @@
         "occurences": {
             "protagonist": "wolf",
             "antagonist": null
+        },
+        "occurences_sentiments": {
+            "protagonist": "crane",
+            "antagonist": "wolf"
         }
     }
 }
