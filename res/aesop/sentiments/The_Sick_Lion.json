@@ -1,0 +1,28 @@
+{
+    "sentiments": {
+        "lion": {
+            "lion": 0.0,
+            "boar": -1.0,
+            "bull": -1.0,
+            "ass": -1.0
+        },
+        "boar": {
+            "lion": -1.0,
+            "boar": 0.0,
+            "bull": -1.0,
+            "ass": -1.0
+        },
+        "bull": {
+            "lion": -1.0,
+            "boar": -1.0,
+            "bull": 0.0,
+            "ass": -1.0
+        },
+        "ass": {
+            "lion": -1.0,
+            "boar": -1.0,
+            "bull": -1.0,
+            "ass": 0.0
+        }
+    }
+}

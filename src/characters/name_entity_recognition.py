@@ -7,6 +7,7 @@ import stanza
 from coreference_resolution import coreference_resolution
 from utils import read_story
 
+nlp = stanza.Pipeline('en', processors='tokenize,ner')
 
 def NER(sentence, nlp):
     # perform ner
@@ -25,8 +26,6 @@ def NER(sentence, nlp):
 
 
 def name_entity_recognition(doc, use_cor_res=True):
-    nlp = stanza.Pipeline('en', processors='tokenize,ner')
-
     if use_cor_res:
         doc = coreference_resolution(doc)
 
