@@ -92,6 +92,7 @@ def calculate_matrix(name_list, sentences, cor_res_sentences, align_rate):
 
     return co_occurrence_matrix, sentiment_matrix, character_sentiments, character_occurences
 
+
 def matrix_to_edge_list(matrix, mode, name_list):
     '''
     Function to convert matrix (co-occurrence/sentiment) to edge list of the network graph. It determines the
@@ -124,6 +125,7 @@ def matrix_to_edge_list(matrix, mode, name_list):
             edge_list.append((name_list[i[0]], name_list[i[1]], {'weight': weight[i], 'color': color[i]}))
 
     return edge_list
+
 
 def plot_graph(name_list, name_frequency, matrix, plt_name, suffix, mode, path=''):
     '''
@@ -171,9 +173,10 @@ def plot_graph(name_list, name_frequency, matrix, plt_name, suffix, mode, path='
     else:
         raise ValueError("mode should be either 'bare', 'co-occurrence', or 'sentiment'")
 
-    plt.savefig('characterR/graphs/' + plt_name + suffix + '.png')
+    plt.savefig('res/graphs/' + plt_name + suffix + '.png')
 
     return G
+
 
 def get_top_10_pagerank(G):
     N = G.number_of_nodes()
@@ -187,6 +190,7 @@ def get_top_10_pagerank(G):
 
     sorted_pgrnk = sorted(pgrnk.items(), key=lambda item: item[1], reverse=True)[:10]
     return sorted_pgrnk
+
 
 def get_pagerank_leads(G, character_sentiments, spaced_characters):
     top_10_pagerank = get_top_10_pagerank(G)
@@ -202,8 +206,9 @@ def get_pagerank_leads(G, character_sentiments, spaced_characters):
             antagonist = name
         if protagonist is not None and antagonist is not None:
             break
-    
+
     return protagonist, antagonist
+
 
 def get_sentiment_leads(character_sentiments, spaced_characters):
     protagonist = None
@@ -233,12 +238,13 @@ def get_occurence_leads(character_occurences, spaced_characters):
 
         if (len(character_occurences) > 2):
             antagonist_idx = np.argmax(character_occurences)
-    
+
             if (antagonist_idx >= 0 and protagonist_idx != antagonist_idx):
                 character_occurences[antagonist_idx] = -1
                 antagonist = spaced_characters[antagonist_idx]
 
     return protagonist, antagonist
+
 
 def save_character_sentiments(name, sentiment_matrix, spaced_characters):
     divisor = 0
@@ -260,6 +266,7 @@ def save_character_sentiments(name, sentiment_matrix, spaced_characters):
         json.dump({
             'sentiments': sentiments
         }, file, indent=4)
+
 
 def save_leads(name, lead_pairs):
     true_name = name.split('.')[0]
