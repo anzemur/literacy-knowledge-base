@@ -38,7 +38,6 @@ pip install allennlp-models
 python src/downloads.py
 ```
 
-
 No coref:
 F1-score: 0.6730355503082776
 Precision: 0.8712121212121212
