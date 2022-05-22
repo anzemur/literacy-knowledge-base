@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2022-05-22">
+    <creator>NetworkX 2.5</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="edge">
+      <attribute id="0" title="color" type="float" />
+    </attributes>
+    <nodes>
+      <node id="frogs" label="frogs" />
+      <node id="jove" label="jove" />
+      <node id="stork" label="stork" />
+    </nodes>
+    <edges>
+      <edge source="frogs" target="jove" id="0" weight="4.600877444292242">
+        <attvalues>
+          <attvalue for="0" value="-1428.5714285714287" />
+        </attvalues>
+      </edge>
+      <edge source="frogs" target="stork" id="1" weight="4.836128345520654">
+        <attvalues>
+          <attvalue for="0" value="-2000.0" />
+        </attvalues>
+      </edge>
+      <edge source="jove" target="stork" id="2" weight="4.836128345520654">
+        <attvalues>
+          <attvalue for="0" value="-2000.0" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

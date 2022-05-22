@@ -1,0 +1,16 @@
+{
+    "leads": {
+        "pagerank": {
+            "protagonist": "frogs",
+            "antagonist": "stork"
+        },
+        "sentiment": {
+            "protagonist": "frogs",
+            "antagonist": "stork"
+        },
+        "occurences": {
+            "protagonist": "frogs",
+            "antagonist": "jove"
+        }
+    }
+}

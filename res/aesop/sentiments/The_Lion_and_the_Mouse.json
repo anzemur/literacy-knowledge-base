@@ -1,0 +1,19 @@
+{
+    "sentiments": {
+        "lion": {
+            "lion": 0.0,
+            "mouse": -1.0,
+            "king": -0.125
+        },
+        "mouse": {
+            "lion": -1.0,
+            "mouse": 0.0,
+            "king": 0.0
+        },
+        "king": {
+            "lion": -0.125,
+            "mouse": 0.0,
+            "king": 0.0
+        }
+    }
+}

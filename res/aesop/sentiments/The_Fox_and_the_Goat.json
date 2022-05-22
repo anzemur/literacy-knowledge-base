@@ -1,0 +1,19 @@
+{
+    "sentiments": {
+        "fox": {
+            "fox": 0.0,
+            "goat": -1.0,
+            "good-bye": 0.0
+        },
+        "goat": {
+            "fox": -1.0,
+            "goat": 0.0,
+            "good-bye": 0.0
+        },
+        "good-bye": {
+            "fox": 0.0,
+            "goat": 0.0,
+            "good-bye": 0.0
+        }
+    }
+}

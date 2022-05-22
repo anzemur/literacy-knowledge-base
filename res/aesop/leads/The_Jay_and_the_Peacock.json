@@ -1,0 +1,16 @@
+{
+    "leads": {
+        "pagerank": {
+            "protagonist": "jays",
+            "antagonist": "jay"
+        },
+        "sentiment": {
+            "protagonist": "jays",
+            "antagonist": "jay"
+        },
+        "occurences": {
+            "protagonist": "jay",
+            "antagonist": null
+        }
+    }
+}

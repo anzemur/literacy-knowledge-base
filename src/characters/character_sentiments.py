@@ -13,8 +13,13 @@ from sklearn.feature_extraction.text import CountVectorizer
 
 from name_entity_recognition import name_entity_recognition
 from utils import read_story
+import json
+
+data_folder = Path(os.getcwd()) / 'data/aesop/original'
 
 target_dir_net = "data/net"
+target_sentiment_dir = 'res/aesop/sentiments'
+target_leads_dir = 'res/aesop/leads'
 
 
 def calculate_align_rate(sentence_list):
@@ -60,7 +65,10 @@ def calculate_matrix(name_list, sentences, cor_res_sentences, align_rate):
     name_vec = CountVectorizer(vocabulary=name_list, binary=True)
 
     # calculate occurrence matrix and sentiment matrix among the top characters
-    occurrence_each_sentence = name_vec.fit_transform(cor_res_sentences).toarray()
+    if (len(name_list) == 0):
+        return np.array([]), np.array([]), np.array([]), np.array([])
+    else:
+        occurrence_each_sentence = name_vec.fit_transform(cor_res_sentences).toarray()
     co_occurrence_matrix = np.dot(occurrence_each_sentence.T, occurrence_each_sentence)
     sentiment_matrix = np.dot(occurrence_each_sentence.T, (occurrence_each_sentence.T * sentiment_score).T)
     sentiment_matrix += align_rate * co_occurrence_matrix
@@ -72,8 +80,17 @@ def calculate_matrix(name_list, sentences, cor_res_sentences, align_rate):
     co_occurrence_matrix[[range(shape)], [range(shape)]] = 0
     sentiment_matrix[[range(shape)], [range(shape)]] = 0
 
-    return co_occurrence_matrix, sentiment_matrix
+    # get character sentiments
+    character_sentiments = (np.sum(occurrence_each_sentence.T * sentiment_score, axis=1)).T
+    character_occurences = (np.sum(occurrence_each_sentence.T, axis=1)).T
 
+    # normalize
+    divisor = np.abs(character_sentiments).max()
+    if divisor == 0:
+        divisor = 1
+    character_sentiments = character_sentiments / divisor
+
+    return co_occurrence_matrix, sentiment_matrix, character_sentiments, character_occurences
 
 def matrix_to_edge_list(matrix, mode, name_list):
     '''
@@ -87,7 +104,10 @@ def matrix_to_edge_list(matrix, mode, name_list):
     edge_list = []
     shape = matrix.shape[0]
     lower_tri_loc = list(zip(*np.where(np.triu(np.ones([shape, shape])) == 0)))
-    normalized_matrix = matrix / np.max(np.abs(matrix))
+    if (shape > 1):
+        normalized_matrix = matrix / np.max(np.abs(matrix))
+    else:
+        normalized_matrix = matrix
 
     if mode == 'co-occurrence':
         weight = np.log(2000 * normalized_matrix + 1) * 0.7
@@ -105,7 +125,6 @@ def matrix_to_edge_list(matrix, mode, name_list):
 
     return edge_list
 
-
 def plot_graph(name_list, name_frequency, matrix, plt_name, suffix, mode, path=''):
     '''
     Function to plot the network graph (co-occurrence network or sentiment network).
@@ -120,7 +139,10 @@ def plot_graph(name_list, name_frequency, matrix, plt_name, suffix, mode, path='
 
     label = {i: i for i in name_list}
     edge_list = matrix_to_edge_list(matrix, mode, name_list)
-    normalized_frequency = np.array(name_frequency) / np.max(name_frequency)
+    if (len(name_list) > 1):
+        normalized_frequency = np.array(name_frequency) / np.max(name_frequency)
+    else:
+        normalized_frequency = name_frequency
 
     plt.figure(figsize=(20, 20))
     G = nx.Graph()
@@ -151,29 +173,155 @@ def plot_graph(name_list, name_frequency, matrix, plt_name, suffix, mode, path='
 
     plt.savefig('characterR/graphs/' + plt_name + suffix + '.png')
 
+    return G
 
-def character_sentiments(doc):
+def get_top_10_pagerank(G):
+    N = G.number_of_nodes()
+    if (N <= 1):
+        return []
+    try:
+        pgrnk = nx.pagerank(G)
+    except:
+        return []
+    pgrnk.update((key, value / (N - 1)) for key, value in pgrnk.items())
+
+    sorted_pgrnk = sorted(pgrnk.items(), key=lambda item: item[1], reverse=True)[:10]
+    return sorted_pgrnk
+
+def get_pagerank_leads(G, character_sentiments, spaced_characters):
+    top_10_pagerank = get_top_10_pagerank(G)
+
+    protagonist = None
+    antagonist = None
+    for name, rank in top_10_pagerank:
+        name_idx = spaced_characters.index(name)
+        sentiment = rank * character_sentiments[name_idx]
+        if protagonist is None and sentiment > 0:
+            protagonist = name
+        if antagonist is None and sentiment < 0:
+            antagonist = name
+        if protagonist is not None and antagonist is not None:
+            break
+    
+    return protagonist, antagonist
+
+def get_sentiment_leads(character_sentiments, spaced_characters):
+    protagonist = None
+    antagonist = None
+
+    if (len(character_sentiments) > 1):
+        protagonist_idx = np.argmax(character_sentiments)
+        antagonist_idx = np.argmin(character_sentiments)
+
+        if (protagonist_idx >= 0 and character_sentiments[protagonist_idx] > 0):
+            protagonist = spaced_characters[protagonist_idx]
+        if (antagonist_idx >= 0 and character_sentiments[antagonist_idx] < 0):
+            antagonist = spaced_characters[antagonist_idx]
+
+    return protagonist, antagonist
+
+
+def get_occurence_leads(character_occurences, spaced_characters):
+    protagonist = None
+    antagonist = None
+
+    if (len(character_occurences) > 1):
+        protagonist_idx = np.argmax(character_occurences)
+        if (protagonist_idx >= 0):
+            character_occurences[protagonist_idx] = -1
+            protagonist = spaced_characters[protagonist_idx]
+
+        if (len(character_occurences) > 2):
+            antagonist_idx = np.argmax(character_occurences)
+    
+            if (antagonist_idx >= 0 and protagonist_idx != antagonist_idx):
+                character_occurences[antagonist_idx] = -1
+                antagonist = spaced_characters[antagonist_idx]
+
+    return protagonist, antagonist
+
+def save_character_sentiments(name, sentiment_matrix, spaced_characters):
+    divisor = 0
+    if (len(spaced_characters) > 1):
+        divisor = np.abs(sentiment_matrix).max()
+    if (divisor == 0):
+        divisor = 1
+
+    sentiments = {}
+    for i in range(len(spaced_characters)):
+        sentiments[spaced_characters[i]] = {}
+        for j in range(len(spaced_characters)):
+            sentiments[spaced_characters[i]][spaced_characters[j]] = sentiment_matrix[i, j] / divisor
+
+    true_name = name.split('.')[0]
+
+    res_file = f'{target_sentiment_dir}/{true_name}.json'
+    with open(res_file, 'w') as file:
+        json.dump({
+            'sentiments': sentiments
+        }, file, indent=4)
+
+def save_leads(name, lead_pairs):
+    true_name = name.split('.')[0]
+
+    obj = {}
+    for (type, protagonist, antagonist) in lead_pairs:
+        obj[type] = {
+            'protagonist': protagonist,
+            'antagonist': antagonist
+        }
+
+    res_file = f'{target_leads_dir}/{true_name}.json'
+    with open(res_file, 'w') as file:
+        json.dump({
+            'leads': obj
+        }, file, indent=4)
+
+
+def character_sentiments(name, doc):
     characters, character_counts, cor_res_doc = name_entity_recognition(doc)
 
     sentences = sent_tokenize(doc)
     cor_res_sentences = sent_tokenize(cor_res_doc)
     align_rate = calculate_align_rate(sentences)
 
-    co_occurrence_matrix, sentiment_matrix = calculate_matrix(characters, sentences, cor_res_sentences, align_rate)
+    co_occurrence_matrix, sentiment_matrix, character_sentiments, character_occurences = calculate_matrix(characters, sentences, cor_res_sentences, align_rate)
+
+    spaced_characters = [' '.join(x.split('_')) for x in characters]
 
     # plot co-occurrence and sentiment graph
-    plot_graph(characters, character_counts, co_occurrence_matrix, name, ' co-occurrence graph', 'co-occurrence')
-    plot_graph(characters, character_counts, sentiment_matrix, name, ' sentiment graph', 'sentiment')
-    plot_graph(characters, character_counts, sentiment_matrix, name, ' bare graph', 'bare')
+    plot_graph(spaced_characters, character_counts, co_occurrence_matrix, name, ' co-occurrence graph', 'co-occurrence')
+    sentiment_graph = plot_graph(spaced_characters, character_counts, sentiment_matrix, name, ' sentiment graph', 'sentiment')
+    plot_graph(spaced_characters, character_counts, sentiment_matrix, name, ' bare graph', 'bare')
+
+    save_character_sentiments(name, sentiment_matrix + sentiment_matrix.T, spaced_characters)
+
+    pr_protagonist, pr_antagonist = get_pagerank_leads(sentiment_graph, character_sentiments, spaced_characters)
+    sent_protagonist, sent_antagonist = get_sentiment_leads(character_sentiments, spaced_characters)
+    occur_protagonist, occur_antagonist = get_occurence_leads(character_occurences, spaced_characters)
+    print(f'PageRank leads: protagonist = "{pr_protagonist}", antagonist = "{pr_antagonist}"')
+    print(f'Sentiment leads: protagonist = "{sent_protagonist}", antagonist = "{sent_antagonist}"')
+    print(f'Occurence leads: protagonist = "{occur_protagonist}", antagonist = "{occur_antagonist}"')
+    save_leads(name, [
+        ('pagerank', pr_protagonist, pr_antagonist),
+        ('sentiment', sent_protagonist, sent_antagonist),
+        ('occurences', occur_protagonist, occur_antagonist)
+    ])
 
 
 if __name__ == '__main__':
-    data_folder = Path(os.getcwd()) / 'data/grimm/original'
+    # name = 'The_Sick_Lion'
+    story_folder = Path(os.getcwd()) / 'data/aesop/original'
+    stories = []
+    for filename in os.listdir(story_folder):
+        if filename.endswith('.txt'):
+            stories.append(filename)
 
-    name = 'LITTLE_RED_CAP'
-    short_story = read_story(name, data_folder)
+    for story_name in stories:
+        print(f'Processing story: "{story_name}"')
+        short_story = read_story(story_name, story_folder)
 
-    character_sentiments(short_story)
+        character_sentiments(story_name, short_story)
 
 '''
     # loop over all stories
@@ -188,7 +336,7 @@ if __name__ == '__main__':
         align_rate = calculate_align_rate(sentence_list)
         preliminary_name_list = iterative_NER(sentence_list)
         name_frequency, name_list = top_names(preliminary_name_list, short_story, 20)
-        co_occurrence_matrix, sentiment_matrix = calculate_matrix(name_list, sentence_list, align_rate)
+        co_occurrence_matrix, sentiment_matrix, _ = calculate_matrix(name_list, sentence_list, align_rate)
         # plot co-occurrence and sentiment graph
         plot_graph(name_list, name_frequency, co_occurrence_matrix, name + ' co-occurrence graph', 'co-occurrence')
         plot_graph(name_list, name_frequency, sentiment_matrix, name + ' sentiment graph', 'sentiment')

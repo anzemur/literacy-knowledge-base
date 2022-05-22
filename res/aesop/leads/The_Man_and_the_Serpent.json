@@ -1,0 +1,16 @@
+{
+    "leads": {
+        "pagerank": {
+            "protagonist": null,
+            "antagonist": "countryman"
+        },
+        "sentiment": {
+            "protagonist": null,
+            "antagonist": "countryman"
+        },
+        "occurences": {
+            "protagonist": "countryman",
+            "antagonist": null
+        }
+    }
+}

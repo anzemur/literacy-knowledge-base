@@ -1,0 +1,16 @@
+{
+    "leads": {
+        "pagerank": {
+            "protagonist": "fox",
+            "antagonist": "flatter"
+        },
+        "sentiment": {
+            "protagonist": "crow",
+            "antagonist": "flatter"
+        },
+        "occurences": {
+            "protagonist": "fox",
+            "antagonist": "crow"
+        }
+    }
+}

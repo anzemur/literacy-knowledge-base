@@ -1,0 +1,16 @@
+{
+    "leads": {
+        "pagerank": {
+            "protagonist": null,
+            "antagonist": null
+        },
+        "sentiment": {
+            "protagonist": null,
+            "antagonist": null
+        },
+        "occurences": {
+            "protagonist": null,
+            "antagonist": null
+        }
+    }
+}
