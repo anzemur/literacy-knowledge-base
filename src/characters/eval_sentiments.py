@@ -4,7 +4,6 @@ from pathlib import Path
 from sklearn.metrics import f1_score, precision_recall_fscore_support
 
 
-
 if __name__ == '__main__':
     USE_COR_RES = True
 
@@ -54,7 +53,7 @@ if __name__ == '__main__':
                 gt_sentiments.append(gt_sents[key][subkey])
                 pred_sentiments.append(pred_sents[key][subkey])
 
-        pred_sentiments_clean = [] # we need rounding for score computation
+        pred_sentiments_clean = []  # we need rounding for score computation
 
         for pred_sent in pred_sentiments:
             if pred_sent < -0.33:

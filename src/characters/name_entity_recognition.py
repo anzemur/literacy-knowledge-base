@@ -9,6 +9,7 @@ from utils import read_story
 
 nlp = stanza.Pipeline('en', processors='tokenize,ner')
 
+
 def NER(sentence, nlp):
     # perform ner
     doc = nlp(sentence)

@@ -1,6 +1,7 @@
 # with helper functions from
 # https://github.com/hzjken/character-network
 
+import json
 import os
 from pathlib import Path
 
@@ -13,7 +14,6 @@ from sklearn.feature_extraction.text import CountVectorizer
 
 from name_entity_recognition import name_entity_recognition
 from utils import read_story
-import json
 
 data_folder = Path(os.getcwd()) / 'data/aesop/original'
 
@@ -225,6 +225,7 @@ def get_sentiment_leads(character_sentiments, spaced_characters):
 
     return protagonist, antagonist
 
+
 def get_occurence_leads(character_occurences, spaced_characters):
     protagonist = None
     antagonist = None
@@ -244,6 +245,7 @@ def get_occurence_leads(character_occurences, spaced_characters):
 
     return protagonist, antagonist
 
+
 def get_occurence_sentiment_leads(character_occurences, character_sentiments, spaced_characters):
     protagonist = None
     antagonist = None
@@ -256,11 +258,12 @@ def get_occurence_sentiment_leads(character_occurences, character_sentiments, sp
                 protagonist = spaced_characters[candidate_idx]
             if (antagonist is None and character_sentiments[candidate_idx] < 0):
                 antagonist = spaced_characters[candidate_idx]
-            
+
         if protagonist is not None and antagonist is not None:
             break
 
     return protagonist, antagonist
+
 
 def save_character_sentiments(name, sentiment_matrix, spaced_characters):
     divisor = 0

@@ -1,9 +1,8 @@
 import json
 import os
 from pathlib import Path
+
 from sklearn.metrics import accuracy_score
-
-
 
 if __name__ == '__main__':
     USE_COR_RES = True
@@ -62,12 +61,9 @@ if __name__ == '__main__':
             preds[key]['protagonists'].append(prot)
             preds[key]['antagonists'].append(ant)
 
-
-
     for key in preds.keys():
         print(f'Now displaying results for "{key}"')
         prot_acc = accuracy_score(protagonists, preds[key]['protagonists'])
         print(f'\tProtagonist accuracy: {prot_acc}')
         ant_acc = accuracy_score(antagonists, preds[key]['antagonists'])
         print(f'\tAntagonist accuracy: {ant_acc}')
-

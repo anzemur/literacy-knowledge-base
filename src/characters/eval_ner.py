@@ -4,7 +4,6 @@ from pathlib import Path
 
 from utils import calculate_metrics, f1, precision, recall
 
-
 if __name__ == '__main__':
     USE_COR_RES = True
 
