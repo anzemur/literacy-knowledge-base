@@ -1,0 +1,19 @@
+{
+    "sentiments": {
+        "belly": {
+            "belly": NaN,
+            "mouth": NaN,
+            "legs": NaN
+        },
+        "mouth": {
+            "belly": NaN,
+            "mouth": NaN,
+            "legs": NaN
+        },
+        "legs": {
+            "belly": NaN,
+            "mouth": NaN,
+            "legs": NaN
+        }
+    }
+}

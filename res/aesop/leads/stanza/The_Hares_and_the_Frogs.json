@@ -1,0 +1,20 @@
+{
+    "leads": {
+        "pagerank": {
+            "protagonist": "hares",
+            "antagonist": null
+        },
+        "sentiment": {
+            "protagonist": "hares",
+            "antagonist": null
+        },
+        "occurences": {
+            "protagonist": "hares",
+            "antagonist": null
+        },
+        "occurences_sentiments": {
+            "protagonist": "hares",
+            "antagonist": null
+        }
+    }
+}

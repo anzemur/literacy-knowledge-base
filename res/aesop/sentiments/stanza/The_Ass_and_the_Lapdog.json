@@ -1,0 +1,19 @@
+{
+    "sentiments": {
+        "farmer": {
+            "farmer": 0.0,
+            "lapdog": -1.0,
+            "ass": -1.0
+        },
+        "lapdog": {
+            "farmer": -1.0,
+            "lapdog": 0.0,
+            "ass": -0.4
+        },
+        "ass": {
+            "farmer": -1.0,
+            "lapdog": -0.4,
+            "ass": 0.0
+        }
+    }
+}

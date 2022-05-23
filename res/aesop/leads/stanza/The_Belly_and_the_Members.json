@@ -1,0 +1,20 @@
+{
+    "leads": {
+        "pagerank": {
+            "protagonist": null,
+            "antagonist": null
+        },
+        "sentiment": {
+            "protagonist": null,
+            "antagonist": null
+        },
+        "occurences": {
+            "protagonist": "belly",
+            "antagonist": "mouth"
+        },
+        "occurences_sentiments": {
+            "protagonist": null,
+            "antagonist": null
+        }
+    }
+}

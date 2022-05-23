@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2022-05-23">
+    <creator>NetworkX 2.5</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="edge">
+      <attribute id="0" title="color" type="float" />
+    </attributes>
+    <nodes>
+      <node id="waggoner" label="waggoner" />
+      <node id="hercules strong" label="hercules strong" />
+      <node id="this waggoner" label="this waggoner" />
+    </nodes>
+    <edges>
+      <edge source="waggoner" target="hercules strong" id="0" weight="nan">
+        <attvalues>
+          <attvalue for="0" value="nan" />
+        </attvalues>
+      </edge>
+      <edge source="waggoner" target="this waggoner" id="1" weight="nan">
+        <attvalues>
+          <attvalue for="0" value="nan" />
+        </attvalues>
+      </edge>
+      <edge source="hercules strong" target="this waggoner" id="2" weight="nan">
+        <attvalues>
+          <attvalue for="0" value="nan" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

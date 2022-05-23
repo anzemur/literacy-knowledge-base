@@ -8,29 +8,44 @@ from pathlib import Path
 import matplotlib.pyplot as plt
 import networkx as nx
 import numpy as np
+import stanza
 from afinn import Afinn
 from nltk.tokenize import sent_tokenize
 from sklearn.feature_extraction.text import CountVectorizer
+from tqdm import tqdm
 
 from name_entity_recognition import name_entity_recognition
 from utils import read_story
 
 data_folder = Path(os.getcwd()) / 'data/aesop/original'
 
-target_dir_net = "data/net"
-target_sentiment_dir = 'res/aesop/sentiments'
-target_leads_dir = 'res/aesop/leads'
+
+sentiment_method = 'stanza'  # 'afinn', 'stanza'
+if sentiment_method == 'stanza':
+    sentiments_processor = stanza.Pipeline(lang='en', processors='tokenize,sentiment', tokenize_pretokenized=True)
+else:
+    sentiments_processor = Afinn()
+
+target_dir_net = f'data/net/{sentiment_method}'
+target_sentiment_dir = f'res/aesop/sentiments/{sentiment_method}'
+target_leads_dir = f'res/aesop/leads/{sentiment_method}'
 
 
 def calculate_align_rate(sentence_list):
     '''
     Function to calculate the align_rate of the whole novel
-    :param sentence_list: the list of sentence of the whole novel.
-    :return: the align rate of the novel.
     '''
-    afinn = Afinn()
-    sentiment_score = [afinn.score(x) for x in sentence_list]
+    if sentiment_method == 'stanza':
+        sentiment_score = []
+        for sentence in sentence_list:
+            doc = sentiments_processor(sentence)
+            for doc_sentence in doc.sentences:
+                sentiment_score.append(float(doc_sentence.sentiment))
+    else:
+        sentiment_score = [sentiments_processor.score(x) for x in sentence_list]
+
     align_rate = np.sum(sentiment_score) / len(np.nonzero(sentiment_score)[0]) * -2
+    print(align_rate)
 
     return align_rate
 
@@ -46,8 +61,17 @@ def calculate_matrix(name_list, sentences, cor_res_sentences, align_rate):
     '''
 
     # calculate a sentiment score for each sentence in the novel
-    afinn = Afinn()
-    sentiment_score = [afinn.score(x) for x in sentences]
+    # afinn = Afinn()
+    # sentiment_score = [afinn.score(x) for x in sentences]
+
+    if sentiment_method == 'stanza':
+        sentiment_score = []
+        for sentence in sentences:
+            doc = sentiments_processor(sentence)
+            for doc_sentence in doc.sentences:
+                sentiment_score.append(float(doc_sentence.sentiment))
+    else:
+        sentiment_score = [sentiments_processor.score(x) for x in sentences]
 
     # replace name occurrences with names that can be vectorized
     for i in range(len(cor_res_sentences)):
@@ -69,6 +93,7 @@ def calculate_matrix(name_list, sentences, cor_res_sentences, align_rate):
         return np.array([]), np.array([]), np.array([]), np.array([])
     else:
         occurrence_each_sentence = name_vec.fit_transform(cor_res_sentences).toarray()
+
     co_occurrence_matrix = np.dot(occurrence_each_sentence.T, occurrence_each_sentence)
     sentiment_matrix = np.dot(occurrence_each_sentence.T, (occurrence_each_sentence.T * sentiment_score).T)
     sentiment_matrix += align_rate * co_occurrence_matrix
@@ -173,7 +198,7 @@ def plot_graph(name_list, name_frequency, matrix, plt_name, suffix, mode, path='
     else:
         raise ValueError("mode should be either 'bare', 'co-occurrence', or 'sentiment'")
 
-    plt.savefig('res/graphs/' + plt_name + suffix + '.png')
+    # plt.savefig('res/graphs/' + plt_name + suffix + '.png')
 
     return G
 
@@ -348,7 +373,7 @@ if __name__ == '__main__':
         if filename.endswith('.txt'):
             stories.append(filename)
 
-    for story_name in stories:
+    for story_name in tqdm(stories):
         print(f'Processing story: "{story_name}"')
         short_story = read_story(story_name, story_folder)
         character_sentiments(story_name, short_story)

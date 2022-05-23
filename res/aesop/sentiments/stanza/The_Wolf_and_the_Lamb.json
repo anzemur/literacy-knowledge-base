@@ -1,0 +1,19 @@
+{
+    "sentiments": {
+        "wolf": {
+            "wolf": NaN,
+            "lamb": NaN,
+            "nay": NaN
+        },
+        "lamb": {
+            "wolf": NaN,
+            "lamb": NaN,
+            "nay": NaN
+        },
+        "nay": {
+            "wolf": NaN,
+            "lamb": NaN,
+            "nay": NaN
+        }
+    }
+}

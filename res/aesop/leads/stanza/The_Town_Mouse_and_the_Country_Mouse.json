@@ -1,0 +1,20 @@
+{
+    "leads": {
+        "pagerank": {
+            "protagonist": null,
+            "antagonist": null
+        },
+        "sentiment": {
+            "protagonist": "town mouse",
+            "antagonist": null
+        },
+        "occurences": {
+            "protagonist": "town mouse",
+            "antagonist": null
+        },
+        "occurences_sentiments": {
+            "protagonist": "town mouse",
+            "antagonist": null
+        }
+    }
+}

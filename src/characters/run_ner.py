@@ -2,6 +2,8 @@ import json
 import os
 from pathlib import Path
 
+from tqdm import tqdm
+
 from name_entity_recognition import name_entity_recognition
 from utils import read_story
 
@@ -17,14 +19,12 @@ if __name__ == '__main__':
     if not os.path.exists(res_folder):
         os.makedirs(res_folder)
 
-    print(res_folder)
-
     stories = []
     for filename in os.listdir(data_folder):
         if filename.endswith(".txt"):
             stories.append(filename.split(".")[0])
 
-    for story_name in stories:
+    for story_name in tqdm(stories):
         story = read_story(story_name, data_folder)
         characters, _, _ = name_entity_recognition(story, USE_COR_RES)
 

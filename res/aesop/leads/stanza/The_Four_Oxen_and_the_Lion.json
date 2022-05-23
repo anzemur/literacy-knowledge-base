@@ -1,0 +1,20 @@
+{
+    "leads": {
+        "pagerank": {
+            "protagonist": "lion",
+            "antagonist": null
+        },
+        "sentiment": {
+            "protagonist": "lion",
+            "antagonist": null
+        },
+        "occurences": {
+            "protagonist": "oxen",
+            "antagonist": null
+        },
+        "occurences_sentiments": {
+            "protagonist": "lion",
+            "antagonist": null
+        }
+    }
+}

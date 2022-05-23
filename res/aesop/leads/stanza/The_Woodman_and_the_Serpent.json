@@ -1,0 +1,20 @@
+{
+    "leads": {
+        "pagerank": {
+            "protagonist": "woodman",
+            "antagonist": null
+        },
+        "sentiment": {
+            "protagonist": "woodman",
+            "antagonist": null
+        },
+        "occurences": {
+            "protagonist": "serpent",
+            "antagonist": null
+        },
+        "occurences_sentiments": {
+            "protagonist": "woodman",
+            "antagonist": null
+        }
+    }
+}

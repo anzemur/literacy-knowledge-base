@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2022-05-23">
+    <creator>NetworkX 2.5</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="edge">
+      <attribute id="0" title="color" type="float" />
+    </attributes>
+    <nodes>
+      <node id="frog" label="frog" />
+      <node id="tush" label="tush" />
+      <node id="farmer white" label="farmer white" />
+      <node id="ox" label="ox" />
+    </nodes>
+    <edges>
+      <edge source="frog" target="tush" id="0" weight="3.7857174512351">
+        <attvalues>
+          <attvalue for="0" value="-444.4444444444444" />
+        </attvalues>
+      </edge>
+      <edge source="frog" target="farmer white" id="1" weight="4.269350774714401">
+        <attvalues>
+          <attvalue for="0" value="-888.8888888888888" />
+        </attvalues>
+      </edge>
+      <edge source="frog" target="ox" id="2" weight="4.269350774714401">
+        <attvalues>
+          <attvalue for="0" value="-888.8888888888888" />
+        </attvalues>
+      </edge>
+      <edge source="tush" target="farmer white" id="3" weight="3.7857174512351">
+        <attvalues>
+          <attvalue for="0" value="-444.4444444444444" />
+        </attvalues>
+      </edge>
+      <edge source="tush" target="ox" id="4" weight="3.7857174512351">
+        <attvalues>
+          <attvalue for="0" value="-444.4444444444444" />
+        </attvalues>
+      </edge>
+      <edge source="farmer white" target="ox" id="5" weight="4.836128345520654">
+        <attvalues>
+          <attvalue for="0" value="-2000.0" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

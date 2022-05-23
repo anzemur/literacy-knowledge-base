@@ -9,7 +9,7 @@ if __name__ == '__main__':
 
     annotations_folder = Path(os.getcwd()) / 'data/aesop/annotations'
     res_folder = Path(os.getcwd()) / 'res/aesop/ner'
-    sent_folder = Path(os.getcwd()) / 'res/aesop/sentiments'
+    sent_folder = Path(os.getcwd()) / 'res/aesop/sentiments/stanza'
 
     if USE_COR_RES:
         res_folder = f'{res_folder}/cor_res_55'
@@ -54,7 +54,6 @@ if __name__ == '__main__':
                 pred_sentiments.append(pred_sents[key][subkey])
 
         pred_sentiments_clean = []  # we need rounding for score computation
-
         for pred_sent in pred_sentiments:
             if pred_sent < -0.33:
                 pred_sentiments_clean.append(-1)

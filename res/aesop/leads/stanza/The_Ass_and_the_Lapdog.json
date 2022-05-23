@@ -1,0 +1,20 @@
+{
+    "leads": {
+        "pagerank": {
+            "protagonist": "farmer",
+            "antagonist": null
+        },
+        "sentiment": {
+            "protagonist": "farmer",
+            "antagonist": null
+        },
+        "occurences": {
+            "protagonist": "farmer",
+            "antagonist": "lapdog"
+        },
+        "occurences_sentiments": {
+            "protagonist": "ass",
+            "antagonist": null
+        }
+    }
+}

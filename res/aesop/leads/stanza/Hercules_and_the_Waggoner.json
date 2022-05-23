@@ -1,0 +1,20 @@
+{
+    "leads": {
+        "pagerank": {
+            "protagonist": null,
+            "antagonist": null
+        },
+        "sentiment": {
+            "protagonist": "waggoner",
+            "antagonist": null
+        },
+        "occurences": {
+            "protagonist": "waggoner",
+            "antagonist": "hercules strong"
+        },
+        "occurences_sentiments": {
+            "protagonist": "waggoner",
+            "antagonist": null
+        }
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "sentiments": {
+        "wolf": {
+            "wolf": 0.0,
+            "crane": -1.0
+        },
+        "crane": {
+            "wolf": -1.0,
+            "crane": 0.0
+        }
+    }
+}

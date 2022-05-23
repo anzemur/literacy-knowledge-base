@@ -1,0 +1,19 @@
+{
+    "sentiments": {
+        "frogs": {
+            "frogs": 0.0,
+            "jove": -1.0,
+            "stork": -0.5
+        },
+        "jove": {
+            "frogs": -1.0,
+            "jove": 0.0,
+            "stork": -0.5
+        },
+        "stork": {
+            "frogs": -0.5,
+            "jove": -0.5,
+            "stork": 0.0
+        }
+    }
+}

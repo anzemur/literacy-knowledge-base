@@ -45,7 +45,7 @@ python src/downloads.py
 ### 1. Character recognition
 To generate the results of character recognition you should run the following command:
 ```bash
-python src/run_ner.py
+python src/characters/run_ner.py
 ```
 And to evaluate the obtain results you should run:
 ```bash
@@ -55,17 +55,17 @@ python src/eval_ner.py
 ### 2. Character sentiments
 To generate the results of character sentiments & protagonist detection you should run the following command:
 ```bash
-python src/character_sentiments.py
+python src/characters/character_sentiments.py
 ```
 And to evaluate the obtain results for character sentiments you should run:
 ```bash
-python src/eval_sentiments.py
+python src/characters/eval_sentiments.py
 ```
 
 ### 2. Antagonist detection
 To evaluate the obtain results for antagonist detection you should run:
 ```bash
-python src/eval_leads.py
+python src/characters/eval_leads.py
 ```
 
 No coref:
@@ -92,3 +92,5 @@ Coref (First noun, title)
 F1-score: 0.686646383919111
 Precision: 0.7754545454545454
 Recall: 0.7035930735930737
+
+TODO: Regenerate reqs, try spacy for NER

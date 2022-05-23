@@ -1,0 +1,12 @@
+{
+    "sentiments": {
+        "androcles": {
+            "androcles": 0.0,
+            "lion": -1.0
+        },
+        "lion": {
+            "androcles": -1.0,
+            "lion": 0.0
+        }
+    }
+}

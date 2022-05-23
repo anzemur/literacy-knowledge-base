@@ -1,0 +1,20 @@
+{
+    "leads": {
+        "pagerank": {
+            "protagonist": "tortoise",
+            "antagonist": null
+        },
+        "sentiment": {
+            "protagonist": "hare",
+            "antagonist": null
+        },
+        "occurences": {
+            "protagonist": "hare",
+            "antagonist": "tortoise"
+        },
+        "occurences_sentiments": {
+            "protagonist": "plodding",
+            "antagonist": null
+        }
+    }
+}
