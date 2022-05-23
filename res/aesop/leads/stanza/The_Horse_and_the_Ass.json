@@ -1,7 +1,7 @@
 {
     "leads": {
         "pagerank": {
-            "protagonist": "horse",
+            "protagonist": "ass",
             "antagonist": null
         },
         "sentiment": {
@@ -13,7 +13,7 @@
             "antagonist": null
         },
         "occurences_sentiments": {
-            "protagonist": "horse",
+            "protagonist": null,
             "antagonist": null
         }
     }

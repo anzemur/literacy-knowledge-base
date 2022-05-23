@@ -18,14 +18,14 @@
           <attvalue for="0" value="-2000.0" />
         </attvalues>
       </edge>
-      <edge source="lion" target="ass" id="1" weight="4.8063670191454415">
+      <edge source="lion" target="ass" id="1" weight="4.775283951532148">
         <attvalues>
-          <attvalue for="0" value="-1916.6666666666667" />
+          <attvalue for="0" value="-1833.3333333333333" />
         </attvalues>
       </edge>
-      <edge source="fox" target="ass" id="2" weight="4.634983956234894">
+      <edge source="fox" target="ass" id="2" weight="4.608601575365317">
         <attvalues>
-          <attvalue for="0" value="-1500.0" />
+          <attvalue for="0" value="-1444.4444444444443" />
         </attvalues>
       </edge>
     </edges>

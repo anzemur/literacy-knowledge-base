@@ -21,44 +21,44 @@
           <attvalue for="0" value="-2000.0" />
         </attvalues>
       </edge>
-      <edge source="fox" target="king lion" id="1" weight="4.278027137651875">
+      <edge source="fox" target="king lion" id="1" weight="4.21273598739731">
         <attvalues>
-          <attvalue for="0" value="-899.9999999999999" />
+          <attvalue for="0" value="-819.6721311475409" />
         </attvalues>
       </edge>
-      <edge source="fox" target="dog" id="2" weight="4.278027137651875">
+      <edge source="fox" target="dog" id="2" weight="4.21273598739731">
         <attvalues>
-          <attvalue for="0" value="-899.9999999999999" />
+          <attvalue for="0" value="-819.6721311475409" />
         </attvalues>
       </edge>
-      <edge source="fox" target="cunning" id="3" weight="4.278027137651875">
+      <edge source="fox" target="cunning" id="3" weight="4.21273598739731">
         <attvalues>
-          <attvalue for="0" value="-899.9999999999999" />
+          <attvalue for="0" value="-819.6721311475409" />
         </attvalues>
       </edge>
-      <edge source="cock" target="king lion" id="4" weight="3.2305843617888814">
+      <edge source="cock" target="king lion" id="4" weight="3.64021477591026">
         <attvalues>
-          <attvalue for="0" value="-200.00000000000003" />
+          <attvalue for="0" value="-360.65573770491807" />
         </attvalues>
       </edge>
-      <edge source="cock" target="dog" id="5" weight="3.9342806060020044">
+      <edge source="cock" target="dog" id="5" weight="3.9834454325752464">
         <attvalues>
-          <attvalue for="0" value="-549.9999999999999" />
+          <attvalue for="0" value="-590.1639344262295" />
         </attvalues>
       </edge>
-      <edge source="king lion" target="dog" id="6" weight="4.278027137651875">
+      <edge source="king lion" target="dog" id="6" weight="4.21273598739731">
         <attvalues>
-          <attvalue for="0" value="-899.9999999999999" />
+          <attvalue for="0" value="-819.6721311475409" />
         </attvalues>
       </edge>
-      <edge source="king lion" target="cunning" id="7" weight="4.278027137651875">
+      <edge source="king lion" target="cunning" id="7" weight="4.21273598739731">
         <attvalues>
-          <attvalue for="0" value="-899.9999999999999" />
+          <attvalue for="0" value="-819.6721311475409" />
         </attvalues>
       </edge>
-      <edge source="dog" target="cunning" id="8" weight="4.278027137651875">
+      <edge source="dog" target="cunning" id="8" weight="4.21273598739731">
         <attvalues>
-          <attvalue for="0" value="-899.9999999999999" />
+          <attvalue for="0" value="-819.6721311475409" />
         </attvalues>
       </edge>
     </edges>

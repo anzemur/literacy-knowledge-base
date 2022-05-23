@@ -1,20 +1,20 @@
 {
     "leads": {
         "pagerank": {
-            "protagonist": "farmer white",
-            "antagonist": null
+            "protagonist": null,
+            "antagonist": "farmer white"
         },
         "sentiment": {
-            "protagonist": "frog",
-            "antagonist": null
+            "protagonist": null,
+            "antagonist": "farmer white"
         },
         "occurences": {
             "protagonist": "farmer white",
             "antagonist": "ox"
         },
         "occurences_sentiments": {
-            "protagonist": "frog",
-            "antagonist": null
+            "protagonist": null,
+            "antagonist": "frog"
         }
     }
 }

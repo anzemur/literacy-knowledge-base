@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2022-05-23">
+    <creator>NetworkX 2.5</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="edge">
+      <attribute id="0" title="color" type="float" />
+    </attributes>
+    <nodes>
+      <node id="lion" label="lion" />
+      <node id="fox" label="fox" />
+      <node id="ass" label="ass" />
+    </nodes>
+    <edges>
+      <edge source="lion" target="fox" id="0" weight="4.836128345520654">
+        <attvalues>
+          <attvalue for="0" value="2000.0" />
+        </attvalues>
+      </edge>
+      <edge source="lion" target="ass" id="1" weight="4.410369765866957">
+        <attvalues>
+          <attvalue for="0" value="1087.7192982456143" />
+        </attvalues>
+      </edge>
+      <edge source="fox" target="ass" id="2" weight="4.201871395485444">
+        <attvalues>
+          <attvalue for="0" value="807.0175438596493" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

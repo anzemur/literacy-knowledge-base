@@ -20,7 +20,7 @@ from utils import read_story
 data_folder = Path(os.getcwd()) / 'data/aesop/original'
 
 
-sentiment_method = 'stanza'  # 'afinn', 'stanza'
+sentiment_method = 'afinn'  # 'afinn', 'stanza'
 if sentiment_method == 'stanza':
     sentiments_processor = stanza.Pipeline(lang='en', processors='tokenize,sentiment', tokenize_pretokenized=True)
 else:
@@ -69,7 +69,7 @@ def calculate_matrix(name_list, sentences, cor_res_sentences, align_rate):
         for sentence in sentences:
             doc = sentiments_processor(sentence)
             for doc_sentence in doc.sentences:
-                sentiment_score.append(float(doc_sentence.sentiment))
+                sentiment_score.append(float(doc_sentence.sentiment) - 1)
     else:
         sentiment_score = [sentiments_processor.score(x) for x in sentences]
 

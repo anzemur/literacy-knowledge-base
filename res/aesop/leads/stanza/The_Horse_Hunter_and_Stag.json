@@ -1,11 +1,11 @@
 {
     "leads": {
         "pagerank": {
-            "protagonist": "horse",
+            "protagonist": null,
             "antagonist": null
         },
         "sentiment": {
-            "protagonist": "horse",
+            "protagonist": null,
             "antagonist": null
         },
         "occurences": {
@@ -13,7 +13,7 @@
             "antagonist": "hunter"
         },
         "occurences_sentiments": {
-            "protagonist": "stag",
+            "protagonist": null,
             "antagonist": null
         }
     }

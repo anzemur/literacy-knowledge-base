@@ -13,8 +13,8 @@
             "antagonist": null
         },
         "occurences_sentiments": {
-            "protagonist": "hart",
-            "antagonist": null
+            "protagonist": null,
+            "antagonist": "hart"
         }
     }
 }

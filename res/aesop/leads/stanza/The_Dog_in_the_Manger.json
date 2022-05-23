@@ -13,8 +13,8 @@
             "antagonist": null
         },
         "occurences_sentiments": {
-            "protagonist": "ox",
-            "antagonist": null
+            "protagonist": null,
+            "antagonist": "ox"
         }
     }
 }
