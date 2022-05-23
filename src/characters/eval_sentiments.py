@@ -1,7 +1,7 @@
 import json
 import os
 from pathlib import Path
-from sklearn.metrics import f1_score, precision_recall_fscore_support
+from sklearn.metrics import precision_recall_fscore_support
 
 
 if __name__ == '__main__':

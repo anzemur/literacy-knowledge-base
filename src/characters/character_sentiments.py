@@ -198,7 +198,7 @@ def plot_graph(name_list, name_frequency, matrix, plt_name, suffix, mode, path='
     else:
         raise ValueError("mode should be either 'bare', 'co-occurrence', or 'sentiment'")
 
-    # plt.savefig('res/graphs/' + plt_name + suffix + '.png')
+    plt.savefig('res/graphs/' + plt_name + suffix + '.png')
 
     return G
 
