@@ -13,8 +13,8 @@
             "antagonist": null
         },
         "occurences_sentiments": {
-            "protagonist": "swallow",
-            "antagonist": null
+            "protagonist": null,
+            "antagonist": "swallow"
         }
     }
 }

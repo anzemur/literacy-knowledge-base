@@ -1,0 +1,12 @@
+{
+    "sentiments": {
+        "buffoon": {
+            "buffoon": 0.0,
+            "countryman": 0.0
+        },
+        "countryman": {
+            "buffoon": 0.0,
+            "countryman": 0.0
+        }
+    }
+}

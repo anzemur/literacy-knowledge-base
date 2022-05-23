@@ -5,8 +5,8 @@
             "antagonist": null
         },
         "sentiment": {
-            "protagonist": "countryman",
-            "antagonist": null
+            "protagonist": null,
+            "antagonist": "buffoon"
         },
         "occurences": {
             "protagonist": "countryman",
@@ -14,7 +14,7 @@
         },
         "occurences_sentiments": {
             "protagonist": null,
-            "antagonist": null
+            "antagonist": "buffoon"
         }
     }
 }

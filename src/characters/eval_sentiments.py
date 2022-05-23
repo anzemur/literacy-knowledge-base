@@ -9,7 +9,7 @@ if __name__ == '__main__':
 
     annotations_folder = Path(os.getcwd()) / 'data/aesop/annotations'
     res_folder = Path(os.getcwd()) / 'res/aesop/ner'
-    sent_folder = Path(os.getcwd()) / 'res/aesop/sentiments/stanza'
+    sent_folder = Path(os.getcwd()) / 'res/aesop/sentiments/afinn'
 
     if USE_COR_RES:
         res_folder = f'{res_folder}/cor_res_55'

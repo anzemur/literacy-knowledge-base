@@ -13,8 +13,8 @@
             "antagonist": null
         },
         "occurences_sentiments": {
-            "protagonist": "dog",
-            "antagonist": null
+            "protagonist": null,
+            "antagonist": "dog"
         }
     }
 }

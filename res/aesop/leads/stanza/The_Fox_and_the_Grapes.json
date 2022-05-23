@@ -13,8 +13,8 @@
             "antagonist": null
         },
         "occurences_sentiments": {
-            "protagonist": "fox",
-            "antagonist": null
+            "protagonist": null,
+            "antagonist": "fox"
         }
     }
 }

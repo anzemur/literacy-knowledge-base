@@ -1,0 +1,20 @@
+{
+    "leads": {
+        "pagerank": {
+            "protagonist": "hart",
+            "antagonist": null
+        },
+        "sentiment": {
+            "protagonist": "hart",
+            "antagonist": null
+        },
+        "occurences": {
+            "protagonist": "hart",
+            "antagonist": null
+        },
+        "occurences_sentiments": {
+            "protagonist": "hunter",
+            "antagonist": null
+        }
+    }
+}

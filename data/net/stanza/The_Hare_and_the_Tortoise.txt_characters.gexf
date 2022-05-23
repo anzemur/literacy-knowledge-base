@@ -18,9 +18,9 @@
           <attvalue for="0" value="-2000.0" />
         </attvalues>
       </edge>
-      <edge source="tortoise" target="plodding" id="1" weight="3.9753240134769046">
+      <edge source="tortoise" target="plodding" id="1" weight="4.001989164221393">
         <attvalues>
-          <attvalue for="0" value="-583.3333333333334" />
+          <attvalue for="0" value="-606.0606060606061" />
         </attvalues>
       </edge>
     </edges>

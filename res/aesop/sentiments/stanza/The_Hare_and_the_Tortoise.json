@@ -8,11 +8,11 @@
         "tortoise": {
             "hare": -1.0,
             "tortoise": 0.0,
-            "plodding": -0.2916666666666667
+            "plodding": -0.30303030303030304
         },
         "plodding": {
             "hare": 0.0,
-            "tortoise": -0.2916666666666667,
+            "tortoise": -0.30303030303030304,
             "plodding": 0.0
         }
     }

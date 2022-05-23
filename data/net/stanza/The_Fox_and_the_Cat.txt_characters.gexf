@@ -18,9 +18,9 @@
           <attvalue for="0" value="-2000.0" />
         </attvalues>
       </edge>
-      <edge source="fox" target="puss" id="1" weight="4.634983956234894">
+      <edge source="fox" target="puss" id="1" weight="4.552652332898395">
         <attvalues>
-          <attvalue for="0" value="-1500.0" />
+          <attvalue for="0" value="-1333.3333333333333" />
         </attvalues>
       </edge>
     </edges>

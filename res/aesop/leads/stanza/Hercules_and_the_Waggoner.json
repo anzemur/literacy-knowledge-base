@@ -5,16 +5,16 @@
             "antagonist": null
         },
         "sentiment": {
-            "protagonist": "waggoner",
-            "antagonist": null
+            "protagonist": null,
+            "antagonist": "waggoner"
         },
         "occurences": {
             "protagonist": "waggoner",
             "antagonist": "hercules strong"
         },
         "occurences_sentiments": {
-            "protagonist": "waggoner",
-            "antagonist": null
+            "protagonist": null,
+            "antagonist": "waggoner"
         }
     }
 }

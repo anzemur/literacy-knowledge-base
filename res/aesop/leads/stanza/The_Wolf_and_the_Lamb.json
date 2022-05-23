@@ -6,7 +6,7 @@
         },
         "sentiment": {
             "protagonist": null,
-            "antagonist": null
+            "antagonist": "wolf"
         },
         "occurences": {
             "protagonist": "wolf",
@@ -14,7 +14,7 @@
         },
         "occurences_sentiments": {
             "protagonist": null,
-            "antagonist": null
+            "antagonist": "nay"
         }
     }
 }
