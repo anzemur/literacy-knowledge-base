@@ -2,19 +2,19 @@
     "leads": {
         "pagerank": {
             "protagonist": "ass",
-            "antagonist": null
+            "antagonist": "lion"
         },
         "sentiment": {
             "protagonist": "ass",
-            "antagonist": null
+            "antagonist": "lion"
         },
         "occurences": {
             "protagonist": "ass",
             "antagonist": "lion"
         },
         "occurences_sentiments": {
-            "protagonist": "fox",
-            "antagonist": null
+            "protagonist": null,
+            "antagonist": "lion"
         }
     }
 }

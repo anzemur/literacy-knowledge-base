@@ -2,17 +2,17 @@
     "sentiments": {
         "bat": {
             "bat": 0.0,
-            "bird": -0.5,
+            "bird": -1.0,
             "birds": -1.0
         },
         "bird": {
-            "bat": -0.5,
+            "bat": -1.0,
             "bird": 0.0,
-            "birds": -0.5
+            "birds": -1.0
         },
         "birds": {
             "bat": -1.0,
-            "bird": -0.5,
+            "bird": -1.0,
             "birds": 0.0
         }
     }

@@ -1,20 +1,20 @@
 {
     "leads": {
         "pagerank": {
-            "protagonist": "fox",
-            "antagonist": null
+            "protagonist": null,
+            "antagonist": "fox"
         },
         "sentiment": {
-            "protagonist": "fox",
-            "antagonist": null
+            "protagonist": null,
+            "antagonist": "stork"
         },
         "occurences": {
             "protagonist": "stork",
             "antagonist": null
         },
         "occurences_sentiments": {
-            "protagonist": "fox",
-            "antagonist": null
+            "protagonist": null,
+            "antagonist": "fox"
         }
     }
 }

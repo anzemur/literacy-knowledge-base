@@ -1,0 +1,20 @@
+{
+    "leads": {
+        "pagerank": {
+            "protagonist": "bat",
+            "antagonist": null
+        },
+        "sentiment": {
+            "protagonist": "birds",
+            "antagonist": null
+        },
+        "occurences": {
+            "protagonist": "bat",
+            "antagonist": "birds"
+        },
+        "occurences_sentiments": {
+            "protagonist": "bird",
+            "antagonist": null
+        }
+    }
+}

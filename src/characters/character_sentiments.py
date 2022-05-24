@@ -20,7 +20,7 @@ from utils import read_story
 data_folder = Path(os.getcwd()) / 'data/aesop/original'
 
 
-sentiment_method = 'stanza'  # 'afinn', 'stanza'
+sentiment_method = 'afinn'  # 'afinn', 'stanza'
 if sentiment_method == 'stanza':
     sentiments_processor = stanza.Pipeline(lang='en', processors='tokenize,sentiment', tokenize_pretokenized=True)
 else:
@@ -29,6 +29,7 @@ else:
 target_dir_net = f'data/net/{sentiment_method}'
 target_sentiment_dir = f'res/aesop/sentiments/{sentiment_method}'
 target_leads_dir = f'res/aesop/leads/{sentiment_method}'
+target_graphs_dir = f'res/aesop/graphs/{sentiment_method}'
 
 
 def calculate_align_rate(sentence_list):
@@ -69,7 +70,7 @@ def calculate_matrix(name_list, sentences, cor_res_sentences, align_rate):
         for sentence in sentences:
             doc = sentiments_processor(sentence)
             for doc_sentence in doc.sentences:
-                sentiment_score.append(float(doc_sentence.sentiment))
+                sentiment_score.append(float(doc_sentence.sentiment) - 1)
     else:
         sentiment_score = [sentiments_processor.score(x) for x in sentences]
 
@@ -198,7 +199,7 @@ def plot_graph(name_list, name_frequency, matrix, plt_name, suffix, mode, path='
     else:
         raise ValueError("mode should be either 'bare', 'co-occurrence', or 'sentiment'")
 
-    plt.savefig('res/graphs/' + plt_name + suffix + '.png')
+    plt.savefig(target_graphs_dir + plt_name + suffix + '.pdf')
 
     return G
 

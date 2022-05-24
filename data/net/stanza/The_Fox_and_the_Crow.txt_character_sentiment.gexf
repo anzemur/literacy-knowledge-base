@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
-  <meta lastmodifieddate="2022-05-23">
+  <meta lastmodifieddate="2022-05-24">
     <creator>NetworkX 2.5</creator>
   </meta>
   <graph defaultedgetype="undirected" mode="static" name="">
@@ -18,14 +18,14 @@
           <attvalue for="0" value="-2000.0" />
         </attvalues>
       </edge>
-      <edge source="fox" target="flatter" id="1" weight="4.1166523643720865">
+      <edge source="fox" target="flatter" id="1" weight="4.036032632359043">
         <attvalues>
-          <attvalue for="0" value="-714.2857142857143" />
+          <attvalue for="0" value="-636.3636363636364" />
         </attvalues>
       </edge>
-      <edge source="crow" target="flatter" id="2" weight="4.1166523643720865">
+      <edge source="crow" target="flatter" id="2" weight="4.036032632359043">
         <attvalues>
-          <attvalue for="0" value="-714.2857142857143" />
+          <attvalue for="0" value="-636.3636363636364" />
         </attvalues>
       </edge>
     </edges>
