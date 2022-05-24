@@ -357,10 +357,10 @@ def character_sentiments(name, doc):
     occur_protagonist, occur_antagonist = get_occurence_leads(character_occurences, spaced_characters)
     occur_sent_protagonist, occur_sent_antagonist = get_occurence_sentiment_leads(character_occurences, character_sentiments, spaced_characters)
 
-    print(f'PageRank leads: protagonist = "{pr_protagonist}", antagonist = "{pr_antagonist}"')
-    print(f'Sentiment leads: protagonist = "{sent_protagonist}", antagonist = "{sent_antagonist}"')
-    print(f'Occurence leads: protagonist = "{occur_protagonist}", antagonist = "{occur_antagonist}"')
-    print(f'Occurence sentiments leads: protagonist = "{occur_sent_protagonist}", antagonist = "{occur_sent_antagonist}"')
+    # print(f'PageRank leads: protagonist = "{pr_protagonist}", antagonist = "{pr_antagonist}"')
+    # print(f'Sentiment leads: protagonist = "{sent_protagonist}", antagonist = "{sent_antagonist}"')
+    # print(f'Occurence leads: protagonist = "{occur_protagonist}", antagonist = "{occur_antagonist}"')
+    # print(f'Occurence sentiments leads: protagonist = "{occur_sent_protagonist}", antagonist = "{occur_sent_antagonist}"')
 
     save_leads(name, [
         ('pagerank', pr_protagonist, pr_antagonist),
@@ -379,6 +379,6 @@ if __name__ == '__main__':
             stories.append(filename)
 
     for story_name in tqdm(stories):
-        print(f'Processing story: "{story_name}"')
+        # print(f'Processing story: "{story_name}"')
         short_story = read_story(story_name, story_folder)
         character_sentiments(story_name, short_story)
