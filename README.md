@@ -52,7 +52,7 @@ python src/characters/eval_ner.py
 ```
 
 ### 2. Character sentiments
-To generate the results of character sentiments & protagonist detection you should run the following command:
+To generate the results of character sentiments & protagonist/antagonist detection you should run the following command:
 ```bash
 python src/characters/character_sentiments.py
 ```
@@ -62,7 +62,7 @@ python src/characters/eval_sentiments.py
 ```
 
 ### 2. Antagonist detection
-To evaluate the obtain results for antagonist detection you should run:
+To evaluate the obtain results for protagonist/antagonist detection you should run:
 ```bash
 python src/characters/eval_leads.py
 ```
