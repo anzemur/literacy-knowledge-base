@@ -1,0 +1,12 @@
+{
+    "sentiments": {
+        "jay": {
+            "jay": 0.0,
+            "jays": 1.0
+        },
+        "jays": {
+            "jay": 1.0,
+            "jays": 0.0
+        }
+    }
+}

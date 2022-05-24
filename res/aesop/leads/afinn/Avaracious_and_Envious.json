@@ -1,0 +1,20 @@
+{
+    "leads": {
+        "pagerank": {
+            "protagonist": null,
+            "antagonist": null
+        },
+        "sentiment": {
+            "protagonist": "avaricious",
+            "antagonist": null
+        },
+        "occurences": {
+            "protagonist": "avaricious",
+            "antagonist": null
+        },
+        "occurences_sentiments": {
+            "protagonist": "avaricious",
+            "antagonist": null
+        }
+    }
+}
