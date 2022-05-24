@@ -1,6 +1,6 @@
 # Fictional characters analysis
 
-Building a knowledge base based on situation models from selected English/Slovene short stories. Knowledge base can focus on a subset of the following inference types: Referential, Case structure role  assignment, Causal antecedent, Superordinate goal, Thematic, Character emotional reaction, Causal consequence, Instantiation of noun category, Instrument, Subordinate goal, State, Emotion of reader, Author's intent.
+While analysis of literary works and their content is a commonly taught and often simple skill used by people, it is a challenge for machines. They lack human knowledge, common sense, and contextual awareness, which is very important when analyzing literary works. Many researchers have tackled these problems, some more successfully than others. In our work, we approach the problems of character extraction, sentiment analysis of character relationships, and protagonist and antagonist detection. All of these tasks are performed on our newly created and annotated corpus of fables.
 
 ## Dataset
 Dataset is scrapped from the Project Gutenberg website which provides free eBooks, with the focus on older works for which U.S. copyright has expired. We decided to use a collection of fables by the greek author Aesop called [The Fables of Aesop](https://www.gutenberg.org/cache/epub/28/pg28.txt) collected and translated by Joseph Jacobs. We collected 55 of these fables and annotated them by hand. For each fable we annotated the following things:
@@ -67,44 +67,3 @@ To evaluate the obtain results for antagonist detection you should run:
 ```bash
 python src/characters/eval_leads.py
 ```
-
-No coref:
-F1-score: 0.6730355503082776
-Precision: 0.8712121212121212
-Recall: 0.6412554112554114
-
-Coref (first noun, no title):
-F1-score: 0.7317316017316015
-Precision: 0.8830303030303029
-Recall: 0.6992640692640694
-
-Coref (most common, no title)
-F1-score: 0.7276623376623373
-Precision: 0.8615151515151512
-Recall: 0.7068398268398269
-
-Coref (most common, title)
-F1-score: 0.7021009293736563
-Precision: 0.7557575757575757
-Recall: 0.7232900432900432
-
-Coref (First noun, title)
-F1-score: 0.686646383919111
-Precision: 0.7754545454545454
-Recall: 0.7035930735930737
-
-
-SPACY + coref
-F1-score: 0.4287878787878789
-Precision: 0.8954545454545455
-Recall: 0.3444155844155844
-
-SPACY
-F1-score: 0.41272727272727283
-Precision: 0.9575757575757575
-Recall: 0.3581818181818182
-
-SPACY + coref
-F1-score: 0.45935064935064945
-Precision: 0.9575757575757575
-Recall: 0.39199134199134206
