@@ -10,7 +10,7 @@
         },
         "occurences": {
             "protagonist": "serpent",
-            "antagonist": null
+            "antagonist": "woodman"
         },
         "occurences_sentiments": {
             "protagonist": null,

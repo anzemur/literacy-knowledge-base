@@ -6,15 +6,15 @@
         },
         "sentiment": {
             "protagonist": null,
-            "antagonist": "fox"
+            "antagonist": null
         },
         "occurences": {
             "protagonist": "fox",
-            "antagonist": null
+            "antagonist": "lion"
         },
         "occurences_sentiments": {
             "protagonist": null,
-            "antagonist": "lion"
+            "antagonist": "fox"
         }
     }
 }

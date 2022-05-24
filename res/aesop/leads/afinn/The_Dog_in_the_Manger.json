@@ -1,15 +1,15 @@
 {
     "leads": {
         "pagerank": {
-            "protagonist": null,
+            "protagonist": "ox",
             "antagonist": null
         },
         "sentiment": {
-            "protagonist": null,
+            "protagonist": "ox",
             "antagonist": null
         },
         "occurences": {
-            "protagonist": null,
+            "protagonist": "ox",
             "antagonist": null
         },
         "occurences_sentiments": {

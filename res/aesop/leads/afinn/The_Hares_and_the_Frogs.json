@@ -10,11 +10,11 @@
         },
         "occurences": {
             "protagonist": "hares",
-            "antagonist": null
+            "antagonist": "frogs"
         },
         "occurences_sentiments": {
             "protagonist": null,
-            "antagonist": "frogs"
+            "antagonist": "hares"
         }
     }
 }

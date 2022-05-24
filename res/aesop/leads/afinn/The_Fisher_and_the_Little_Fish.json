@@ -1,15 +1,15 @@
 {
     "leads": {
         "pagerank": {
-            "protagonist": null,
+            "protagonist": "fisher",
             "antagonist": null
         },
         "sentiment": {
-            "protagonist": null,
+            "protagonist": "fisher",
             "antagonist": null
         },
         "occurences": {
-            "protagonist": null,
+            "protagonist": "fisher",
             "antagonist": null
         },
         "occurences_sentiments": {
