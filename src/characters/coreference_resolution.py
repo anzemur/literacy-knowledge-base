@@ -68,7 +68,7 @@ def replace_corefs(document, clusters):
 
 
 def coreference_resolution(short_story):
-    nlp = spacy.load('en_core_web_lg')
+    nlp = spacy.load('en_core_web_trf')
     predictor = Predictor.from_path(MODEL_URL)
 
     clusters = predictor.predict(short_story)['clusters']
