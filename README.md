@@ -47,6 +47,8 @@ python src/downloads.py
 
 ## Running the code
 
+While running the code you may encounter some CUDA related warnings that can be ignored.
+
 ### 1. Character recognition
 To generate the results of character recognition you should run the following command:
 ```bash
