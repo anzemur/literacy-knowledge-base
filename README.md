@@ -27,12 +27,17 @@ conda activate <env_name>
 git clone https://github.com/anzemur/literacy-knowledge-base.git
 ```
 
-3. Install dependencies:
+3. Move inside the project repository:
+```
+cd literacy-knowledge-base
+```
+
+4. Install dependencies:
 ```bash
 pip install -r requirements.txt 
 ```
 
-4. Download & install language models:
+5. Download & install language models:
 ```bash
 python -m spacy download en_core_web_trf
 pip install allennlp-models
