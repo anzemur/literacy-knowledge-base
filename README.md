@@ -46,6 +46,8 @@ python src/downloads.py
 
 ## Running the code
 
+On the first run a couple of additional models will be downloaded.
+
 ### 1. Character recognition
 To generate the results of character recognition you should run the following command:
 ```bash
