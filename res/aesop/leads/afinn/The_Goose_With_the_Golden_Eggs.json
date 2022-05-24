@@ -2,14 +2,14 @@
     "leads": {
         "pagerank": {
             "protagonist": null,
-            "antagonist": null
+            "antagonist": "goose"
         },
         "sentiment": {
             "protagonist": null,
             "antagonist": null
         },
         "occurences": {
-            "protagonist": null,
+            "protagonist": "goose",
             "antagonist": null
         },
         "occurences_sentiments": {

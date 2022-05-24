@@ -68,11 +68,11 @@ if __name__ == '__main__':
         precision_scores.append(p)
         recall_scores.append(r)
 
-        print('scores:', p, r, f1)
+        # print('scores:', p, r, f1)
 
-        print(gt_sents)
-        print(pred_sents)
-        print('############')
+        # print(gt_sents)
+        # print(pred_sents)
+        # print('############')
 
     print(f'Eligible files: {len(f1_scores)}')
     print(f'F1-score: {sum(f1_scores) / len(f1_scores)}')

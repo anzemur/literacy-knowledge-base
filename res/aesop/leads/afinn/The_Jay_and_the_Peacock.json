@@ -10,10 +10,10 @@
         },
         "occurences": {
             "protagonist": "jay",
-            "antagonist": null
+            "antagonist": "jays"
         },
         "occurences_sentiments": {
-            "protagonist": "jays",
+            "protagonist": null,
             "antagonist": "jay"
         }
     }

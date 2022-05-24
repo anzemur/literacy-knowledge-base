@@ -2,14 +2,14 @@
     "leads": {
         "pagerank": {
             "protagonist": null,
-            "antagonist": null
+            "antagonist": "bald man"
         },
         "sentiment": {
             "protagonist": null,
             "antagonist": null
         },
         "occurences": {
-            "protagonist": null,
+            "protagonist": "bald man",
             "antagonist": null
         },
         "occurences_sentiments": {

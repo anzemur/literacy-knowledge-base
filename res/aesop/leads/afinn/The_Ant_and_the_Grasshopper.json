@@ -10,10 +10,10 @@
         },
         "occurences": {
             "protagonist": "grasshopper",
-            "antagonist": null
+            "antagonist": "ant"
         },
         "occurences_sentiments": {
-            "protagonist": "ant",
+            "protagonist": null,
             "antagonist": "grasshopper"
         }
     }

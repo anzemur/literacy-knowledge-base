@@ -10,10 +10,10 @@
         },
         "occurences": {
             "protagonist": "hart",
-            "antagonist": null
+            "antagonist": "hunter"
         },
         "occurences_sentiments": {
-            "protagonist": "hunter",
+            "protagonist": "hart",
             "antagonist": null
         }
     }

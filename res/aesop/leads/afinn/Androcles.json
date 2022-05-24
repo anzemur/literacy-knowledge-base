@@ -10,11 +10,11 @@
         },
         "occurences": {
             "protagonist": "androcles",
-            "antagonist": null
+            "antagonist": "lion"
         },
         "occurences_sentiments": {
             "protagonist": null,
-            "antagonist": "lion"
+            "antagonist": "androcles"
         }
     }
 }

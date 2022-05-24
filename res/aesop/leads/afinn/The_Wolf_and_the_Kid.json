@@ -10,7 +10,7 @@
         },
         "occurences": {
             "protagonist": "kid",
-            "antagonist": null
+            "antagonist": "wolf"
         },
         "occurences_sentiments": {
             "protagonist": "wolf",
