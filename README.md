@@ -47,7 +47,7 @@ python src/downloads.py
 
 ## Running the code
 
-While running the code you may encounter some CUDA related warnings that can be ignored.
+While running the code you may encounter some CUDA related warnings that can be ignored. The whole code shoudl be executed in about 1-2 hours.
 
 ### 1. Character recognition
 To generate the results of character recognition you should run the following command:
