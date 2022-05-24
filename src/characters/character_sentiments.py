@@ -210,13 +210,13 @@ def plot_graph(name_list, name_frequency, matrix, plt_name, suffix, mode, path='
 
 def get_top_10_pagerank(G):
     N = G.number_of_nodes()
-    if (N <= 1):
+    if (N < 1):
         return []
     try:
         pgrnk = nx.pagerank(G)
     except:
         return []
-    pgrnk.update((key, value / (N - 1)) for key, value in pgrnk.items())
+    pgrnk.update((key, value / (N)) for key, value in pgrnk.items())
 
     sorted_pgrnk = sorted(pgrnk.items(), key=lambda item: item[1], reverse=True)[:10]
     return sorted_pgrnk
@@ -244,14 +244,16 @@ def get_sentiment_leads(character_sentiments, spaced_characters):
     protagonist = None
     antagonist = None
 
-    if (len(character_sentiments) > 1):
+    if (len(character_sentiments) > 0):
         protagonist_idx = np.argmax(character_sentiments)
-        antagonist_idx = np.argmin(character_sentiments)
 
         if (protagonist_idx >= 0 and character_sentiments[protagonist_idx] > 0):
             protagonist = spaced_characters[protagonist_idx]
-        if (antagonist_idx >= 0 and character_sentiments[antagonist_idx] < 0):
-            antagonist = spaced_characters[antagonist_idx]
+
+        if (len(character_sentiments) > 1):
+            antagonist_idx = np.argmin(character_sentiments)
+            if (antagonist_idx >= 0 and antagonist_idx != protagonist_idx and character_sentiments[antagonist_idx] < 0):
+                antagonist = spaced_characters[antagonist_idx]
 
     return protagonist, antagonist
 
@@ -260,13 +262,13 @@ def get_occurence_leads(character_occurences, spaced_characters):
     protagonist = None
     antagonist = None
 
-    if (len(character_occurences) > 1):
+    if (len(character_occurences) > 0):
         protagonist_idx = np.argmax(character_occurences)
         if (protagonist_idx >= 0):
             character_occurences[protagonist_idx] = -1
             protagonist = spaced_characters[protagonist_idx]
 
-        if (len(character_occurences) > 2):
+        if (len(character_occurences) > 1):
             antagonist_idx = np.argmax(character_occurences)
 
             if (antagonist_idx >= 0 and protagonist_idx != antagonist_idx):
@@ -357,10 +359,10 @@ def character_sentiments(name, doc):
     occur_protagonist, occur_antagonist = get_occurence_leads(character_occurences, spaced_characters)
     occur_sent_protagonist, occur_sent_antagonist = get_occurence_sentiment_leads(character_occurences, character_sentiments, spaced_characters)
 
-    print(f'PageRank leads: protagonist = "{pr_protagonist}", antagonist = "{pr_antagonist}"')
-    print(f'Sentiment leads: protagonist = "{sent_protagonist}", antagonist = "{sent_antagonist}"')
-    print(f'Occurence leads: protagonist = "{occur_protagonist}", antagonist = "{occur_antagonist}"')
-    print(f'Occurence sentiments leads: protagonist = "{occur_sent_protagonist}", antagonist = "{occur_sent_antagonist}"')
+    # print(f'PageRank leads: protagonist = "{pr_protagonist}", antagonist = "{pr_antagonist}"')
+    # print(f'Sentiment leads: protagonist = "{sent_protagonist}", antagonist = "{sent_antagonist}"')
+    # print(f'Occurence leads: protagonist = "{occur_protagonist}", antagonist = "{occur_antagonist}"')
+    # print(f'Occurence sentiments leads: protagonist = "{occur_sent_protagonist}", antagonist = "{occur_sent_antagonist}"')
 
     save_leads(name, [
         ('pagerank', pr_protagonist, pr_antagonist),

@@ -10,7 +10,7 @@
         },
         "occurences": {
             "protagonist": "stork",
-            "antagonist": null
+            "antagonist": "fox"
         },
         "occurences_sentiments": {
             "protagonist": "fox",

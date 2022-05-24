@@ -2,14 +2,14 @@
     "leads": {
         "pagerank": {
             "protagonist": null,
-            "antagonist": null
+            "antagonist": "wolf"
         },
         "sentiment": {
             "protagonist": null,
             "antagonist": null
         },
         "occurences": {
-            "protagonist": null,
+            "protagonist": "wolf",
             "antagonist": null
         },
         "occurences_sentiments": {

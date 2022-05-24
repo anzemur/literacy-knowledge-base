@@ -2,14 +2,14 @@
     "leads": {
         "pagerank": {
             "protagonist": null,
-            "antagonist": null
+            "antagonist": "countrymen"
         },
         "sentiment": {
             "protagonist": null,
             "antagonist": null
         },
         "occurences": {
-            "protagonist": null,
+            "protagonist": "countrymen",
             "antagonist": null
         },
         "occurences_sentiments": {

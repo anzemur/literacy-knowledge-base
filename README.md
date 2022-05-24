@@ -27,19 +27,27 @@ conda activate <env_name>
 git clone https://github.com/anzemur/literacy-knowledge-base.git
 ```
 
-3. Install dependencies:
+3. Move inside the project repository:
+```
+cd literacy-knowledge-base
+```
+
+4. Install dependencies:
 ```bash
 pip install -r requirements.txt 
 ```
 
-4. Download & install language models:
+5. Download & install language models:
 ```bash
 python -m spacy download en_core_web_trf
+python -m spacy download en_core_web_sm
 pip install allennlp-models
 python src/downloads.py
 ```
 
 ## Running the code
+
+While running the code you may encounter some CUDA related warnings that can be ignored. The whole code should be executed in about 1-2 hours.
 
 ### 1. Character recognition
 To generate the results of character recognition you should run the following command:
@@ -61,7 +69,7 @@ And to evaluate the obtain results for character sentiments you should run:
 python src/characters/eval_sentiments.py
 ```
 
-### 2. Antagonist detection
+### 2. Protagonist/antagonist detection
 To evaluate the obtain results for protagonist/antagonist detection you should run:
 ```bash
 python src/characters/eval_leads.py

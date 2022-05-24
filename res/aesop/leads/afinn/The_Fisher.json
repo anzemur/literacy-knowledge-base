@@ -10,7 +10,7 @@
         },
         "occurences": {
             "protagonist": "fish",
-            "antagonist": null
+            "antagonist": "fisher"
         },
         "occurences_sentiments": {
             "protagonist": "fisher",

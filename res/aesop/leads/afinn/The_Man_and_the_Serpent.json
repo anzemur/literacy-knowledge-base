@@ -6,15 +6,15 @@
         },
         "sentiment": {
             "protagonist": null,
-            "antagonist": "countryman"
+            "antagonist": null
         },
         "occurences": {
             "protagonist": "countryman",
-            "antagonist": null
+            "antagonist": "serpent"
         },
         "occurences_sentiments": {
             "protagonist": null,
-            "antagonist": "serpent"
+            "antagonist": "countryman"
         }
     }
 }
