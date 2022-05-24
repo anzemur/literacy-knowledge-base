@@ -8,11 +8,11 @@ if __name__ == '__main__':
     USE_COR_RES = True
 
     annotations_folder = Path(os.getcwd()) / 'data/aesop/annotations'
-    res_folder = Path(os.getcwd()) / 'res/aesop/ner'
+    char_folder = Path(os.getcwd()) / 'res/aesop/ner'
     sent_folder = Path(os.getcwd()) / 'res/aesop/sentiments/afinn'
 
     if USE_COR_RES:
-        res_folder = f'{res_folder}/cor_res_55'
+        char_folder = f'{char_folder}/cor_res'
 
     stories = []
     for filename in os.listdir(annotations_folder):
@@ -30,7 +30,7 @@ if __name__ == '__main__':
             gt_sents = j_file['sentiments']
             gt_chars = j_file['characters']
 
-        with open(f'{res_folder}/{story_name}', 'r') as f:
+        with open(f'{char_folder}/{story_name}', 'r') as f:
             j_file = json.load(f)
             pred_chars = j_file['characters']
 

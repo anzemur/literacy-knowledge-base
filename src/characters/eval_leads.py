@@ -12,7 +12,7 @@ if __name__ == '__main__':
     leads_folder = Path(os.getcwd()) / 'res/aesop/leads/afinn'
 
     if USE_COR_RES:
-        res_folder = f'{res_folder}/cor_res_55'
+        res_folder = f'{res_folder}/cor_res'
 
     stories = []
     for filename in os.listdir(annotations_folder):

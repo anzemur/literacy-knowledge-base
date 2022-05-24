@@ -8,7 +8,7 @@ from name_entity_recognition import name_entity_recognition
 from utils import read_story
 
 if __name__ == '__main__':
-    USE_COR_RES = False
+    USE_COR_RES = True
 
     data_folder = Path(os.getcwd()) / 'data/aesop/original'
     res_folder = Path(os.getcwd()) / 'res/aesop/ner'

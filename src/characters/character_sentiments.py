@@ -15,9 +15,7 @@ from sklearn.feature_extraction.text import CountVectorizer
 from tqdm import tqdm
 
 from name_entity_recognition import name_entity_recognition
-from utils import read_story
-
-data_folder = Path(os.getcwd()) / 'data/aesop/original'
+from utils import read_story, create_folder
 
 
 sentiment_method = 'afinn'  # 'afinn', 'stanza'
@@ -26,10 +24,16 @@ if sentiment_method == 'stanza':
 else:
     sentiments_processor = Afinn()
 
-target_dir_net = f'data/net/{sentiment_method}'
+data_folder = Path(os.getcwd()) / 'data/aesop/original'
+target_dir_net = f'res/aesop/net/{sentiment_method}'
 target_sentiment_dir = f'res/aesop/sentiments/{sentiment_method}'
 target_leads_dir = f'res/aesop/leads/{sentiment_method}'
 target_graphs_dir = f'res/aesop/graphs/{sentiment_method}'
+
+create_folder(target_dir_net)
+create_folder(target_sentiment_dir)
+create_folder(target_leads_dir)
+create_folder(target_graphs_dir)
 
 
 def calculate_align_rate(sentence_list):

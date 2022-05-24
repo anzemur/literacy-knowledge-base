@@ -48,7 +48,7 @@ python src/characters/run_ner.py
 ```
 And to evaluate the obtain results you should run:
 ```bash
-python src/eval_ner.py
+python src/characters/eval_ner.py
 ```
 
 ### 2. Character sentiments

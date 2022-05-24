@@ -3,6 +3,11 @@ import os
 from collections import Counter
 
 
+def create_folder(path):
+    if not os.path.exists(path):
+        os.makedirs(path)
+
+
 def most_frequent(list):
     occurrence_count = Counter(list)
     return occurrence_count.most_common()

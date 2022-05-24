@@ -5,7 +5,7 @@ from pathlib import Path
 from utils import calculate_metrics, f1, precision, recall
 
 if __name__ == '__main__':
-    USE_COR_RES = False
+    USE_COR_RES = True
 
     annotations_folder = Path(os.getcwd()) / 'data/aesop/annotations'
     res_folder = Path(os.getcwd()) / 'res/aesop/ner'
