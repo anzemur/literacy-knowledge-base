@@ -1,0 +1,12 @@
+{
+    "sentiments": {
+        "avaricious": {
+            "avaricious": 0.0,
+            "vices": 0.0
+        },
+        "vices": {
+            "avaricious": 0.0,
+            "vices": 0.0
+        }
+    }
+}
