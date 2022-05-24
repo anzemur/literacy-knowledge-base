@@ -61,7 +61,7 @@ And to evaluate the obtain results for character sentiments you should run:
 python src/characters/eval_sentiments.py
 ```
 
-### 2. Antagonist detection
+### 2. Protagonist/antagonist detection
 To evaluate the obtain results for protagonist/antagonist detection you should run:
 ```bash
 python src/characters/eval_leads.py
