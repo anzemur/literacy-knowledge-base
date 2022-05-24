@@ -22,7 +22,6 @@ conda create -n <env_name> python=3.8
 conda activate <env_name>
 ```
 
-
 2. Clone this repository:
 ```bash
 git clone https://github.com/anzemur/literacy-knowledge-base.git
@@ -35,7 +34,7 @@ pip install -r requirements.txt
 
 4. Download & install language models:
 ```bash
-python -m spacy download en_core_web_lg
+python -m spacy download en_core_web_trf
 pip install allennlp-models
 python src/downloads.py
 ```
